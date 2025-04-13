@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Codrops",
+    "feedUrl": "https://tympanus.net/codrops/feed/"
+  },
+  {
+    "title": "Smashing Magazine",
+    "feedUrl": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Overreacted",
+    "feedUrl": "https://overreacted.io/rss.xml"
+  },
+  {
+    "title": "Matthias Endler",
+    "feedUrl": "https://endler.dev/rss.xml"
+  },
+  {
+    "title": "Elevate",
+    "feedUrl": "https://addyo.substack.com/feed"
+  }
+]

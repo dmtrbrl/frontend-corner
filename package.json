@@ -1,0 +1,21 @@
+{
+  "name": "frontend-corner",
+  "version": "1.0.0",
+  "author": "Dmytro Barylo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev --dir frontend",
+    "build": "next build --dir frontend",
+    "start": "next start --dir frontend",
+    "crawl": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "tsup": "^7.3.0",
+    "typescript": "^5.8.3"
+  },
+  "type": "module"
+}
