@@ -1,13 +1,8 @@
-import fs from "fs/promises";
-import path from "path";
 import styles from "./page.module.css";
-import { SourcesSchema } from "@shared/schemas";
+import { getSources } from "@shared/services";
 
 export default async function Home() {
-  const filePath = path.resolve(process.cwd(), "data/sources.json");
-  const raw = await fs.readFile(filePath, "utf-8");
-  const parsed = JSON.parse(raw);
-  const sources = SourcesSchema.parse(parsed);
+  const sources = await getSources();
 
   return (
     <div className={styles.page}>

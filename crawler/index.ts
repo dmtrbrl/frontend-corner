@@ -1,12 +1,9 @@
-import fs from "fs";
-import path from "path";
-import { SourcesSchema } from "@shared/schemas";
+import { getSources } from "@shared/services";
 
-const sourcesPath = path.resolve("data/sources.json");
-const raw = fs.readFileSync(sourcesPath, "utf-8");
-const json = JSON.parse(raw);
-const sources = SourcesSchema.parse(json);
+const run = async () => {
+  const sources = await getSources();
 
-const parsedSources = SourcesSchema.parse(sources);
+  console.log(sources);
+};
 
-console.log(parsedSources);
+run();
