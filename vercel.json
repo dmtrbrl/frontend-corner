@@ -1,5 +1,7 @@
 {
-  "buildCommand": "pnpm run build",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm run frontend:build",
+  "devCommand": "pnpm run frontend:dev",
   "outputDirectory": "frontend/.next",
   "framework": "nextjs"
 }

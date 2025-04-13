@@ -4,10 +4,10 @@
   "author": "Dmytro Barylo",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev frontend --turbopack",
-    "build": "next build frontend",
-    "start": "next start frontend",
-    "lint": "cd frontend && next lint",
+    "frontend:dev": "next dev frontend --turbopack",
+    "frontend:build": "next build frontend",
+    "frontend:start": "next start frontend",
+    "frontend:lint": "cd frontend && next lint",
     "crawler:start": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
   },
   "dependencies": {
