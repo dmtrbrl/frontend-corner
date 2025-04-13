@@ -4,18 +4,27 @@
   "author": "Dmytro Barylo",
   "license": "MIT",
   "scripts": {
-    "dev": "next dev --dir frontend",
-    "build": "next build --dir frontend",
-    "start": "next start --dir frontend",
-    "crawl": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
+    "dev": "cd frontend && next dev --turbopack",
+    "build": "cd frontend && next build",
+    "start": "cd frontend && next start",
+    "lint": "cd frontend && next lint",
+    "crawler": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
   },
   "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "15.3.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
     "@types/node": "^20.17.30",
     "tsup": "^7.3.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.0",
+    "@eslint/eslintrc": "^3"
   },
   "type": "module"
 }

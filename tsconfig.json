@@ -8,10 +8,10 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@shared/*": ["shared/*"],
-      "@data/*": ["data/*"]
+      "@shared/*": ["shared/*"]
     },
     "types": ["node"]
   },
-  "include": ["crawler", "frontend", "shared"]
+  "include": ["crawler", "shared"],
+  "exclude": ["node_modules"]
 }
