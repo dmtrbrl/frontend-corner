@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import { SourcesSchema } from "@shared/schemas";
 
 export default async function Home() {
-  const filePath = path.resolve(process.cwd(), "../data/sources.json");
+  const filePath = path.resolve(process.cwd(), "data/sources.json");
   const raw = await fs.readFile(filePath, "utf-8");
   const parsed = JSON.parse(raw);
   const sources = SourcesSchema.parse(parsed);
