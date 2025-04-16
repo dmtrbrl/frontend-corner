@@ -1,22 +1,82 @@
 [
-  "https://tympanus.net/codrops/feed/",
-  "https://www.smashingmagazine.com/feed/",
-  "https://overreacted.io/rss.xml",
-  "https://www.aleksandrhovhannisyan.com/feed.xml",
-  "https://alexharri.com/rss.xml",
-  "https://developer.mozilla.org/en-US/blog/rss.xml",
-  "https://nerdy.dev/rss.xml",
-  "https://tsev.dev/feed.xml",
-  "https://cloudfour.com/feed/",
-  "https://css-tricks.com/feed/",
-  "https://feeds.feedburner.com/kizuruen",
-  "https://developer.chrome.com/static/blog/feed.xml",
-  "https://chenhuijing.com/feed.xml",
-  "https://eduardoboucas.com/feeds/rss.xml",
-  "https://paulstamatiou.com/posts.xml",
-  "https://piccalil.li/articles.xml",
-  "https://yuanchuan.dev/feed.xml",
-  "https://ishadeed.com/feed.xml",
-  "https://willybrauner.com/rss.xml",
-  "https://www.debugbear.com/blog/rss.xml"
+  {
+    "title": "Codrops",
+    "feedUrl": "https://tympanus.net/codrops/feed/"
+  },
+  {
+    "title": "Smashing Magazine",
+    "feedUrl": "https://www.smashingmagazine.com/feed/"
+  },
+  {
+    "title": "Overreacted",
+    "feedUrl": "https://overreacted.io/rss.xml"
+  },
+  {
+    "title": "Aleksandr Hovhannisyan",
+    "feedUrl": "https://www.aleksandrhovhannisyan.com/feed.xml"
+  },
+  {
+    "title": "Alex Harri",
+    "feedUrl": "https://alexharri.com/rss.xml"
+  },
+  {
+    "title": "MDN",
+    "feedUrl": "https://developer.mozilla.org/en-US/blog/rss.xml"
+  },
+  {
+    "title": "Adam Argyle",
+    "feedUrl": "https://nerdy.dev/rss.xml"
+  },
+  {
+    "title": "Tim Severien",
+    "feedUrl": "https://tsev.dev/feed.xml"
+  },
+  {
+    "title": "Cloud Four",
+    "feedUrl": "https://cloudfour.com/feed/"
+  },
+  {
+    "title": "CSS-Tricks",
+    "feedUrl": "https://css-tricks.com/feed/"
+  },
+  {
+    "title": "Roman Komarov",
+    "feedUrl": "https://feeds.feedburner.com/kizuruen"
+  },
+  {
+    "title": "developer.chrome.com",
+    "feedUrl": "https://developer.chrome.com/static/blog/feed.xml"
+  },
+  {
+    "title": "Chen Hui Jing",
+    "feedUrl": "https://chenhuijing.com/feed.xml"
+  },
+  {
+    "title": "Eduardo Bouças",
+    "feedUrl": "https://eduardoboucas.com/feeds/rss.xml"
+  },
+  {
+    "title": "Paul Stamatiou",
+    "feedUrl": "https://paulstamatiou.com/posts.xml"
+  },
+  {
+    "title": "Piccalilli",
+    "feedUrl": "https://piccalil.li/articles.xml"
+  },
+  {
+    "title": "Yuan Chuan",
+    "feedUrl": "https://yuanchuan.dev/feed.xml"
+  },
+  {
+    "title": "Ahmad Shadeed",
+    "feedUrl": "https://ishadeed.com/feed.xml"
+  },
+  {
+    "title": "Willy Brauner",
+    "feedUrl": "https://willybrauner.com/rss.xml"
+  },
+  {
+    "title": "DebugBear",
+    "feedUrl": "https://www.debugbear.com/blog/rss.xml}"
+  }
 ]

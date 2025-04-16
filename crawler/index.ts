@@ -1,7 +1,11 @@
 import { getSources } from "@shared/services";
 import Parser from "rss-parser";
 
-const parser = new Parser();
+const parser = new Parser({
+  customFields: {
+    item: ["description"],
+  },
+});
 
 const getLastWeekRange = () => {
   const now = new Date();
@@ -21,10 +25,10 @@ const getLastWeekRange = () => {
   return { start, end };
 };
 
-const parseFeed = async (feedUrl: string) => {
+const parseFeed = async (title: string, feedUrl: string) => {
   try {
     const feed = await parser.parseURL(feedUrl);
-    console.log(`\n🔗 Feed: ${feed.title}`);
+    console.log(`🔗 Feed: ${title}`);
 
     const { start, end } = getLastWeekRange();
 
@@ -32,8 +36,14 @@ const parseFeed = async (feedUrl: string) => {
       if (!item.pubDate) return;
 
       const pubDate = new Date(item.pubDate);
+      const preview = item.enclosure?.type?.includes("image")
+        ? item.enclosure?.url
+        : undefined;
+
       if (pubDate >= start && pubDate <= end) {
-        console.log(`✅ ${item.title} : ${item.link}`);
+        console.log(
+          `✅ ${item.title} : ${item.link} : ${item.categories} : ${preview}`
+        );
       }
     });
   } catch (error) {
@@ -51,7 +61,7 @@ const run = async () => {
     console.log(`🗓️ Crawling from ${formatDate(start)} to ${formatDate(end)}`);
 
     const results = await Promise.allSettled(
-      sources.map((url) => parseFeed(url))
+      sources.map(({ title, feedUrl }) => parseFeed(title, feedUrl))
     );
     const failed = results.filter((r) => r.status === "rejected");
     if (failed.length > 0) {

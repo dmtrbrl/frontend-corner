@@ -9,8 +9,8 @@ export default async function Home() {
       <main className={styles.main}>
         <h1>Sources:</h1>
         <ol>
-          {sources.map((s) => (
-            <li key={s}>{s}</li>
+          {sources.map(({ title }) => (
+            <li key={title}>{title}</li>
           ))}
         </ol>
       </main>

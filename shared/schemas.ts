@@ -1,6 +1,11 @@
 import { z } from "zod";
 
-export const SourcesSchema = z.array(z.string().url());
+export const SourcesSchema = z.array(
+  z.object({
+    title: z.string(),
+    feedUrl: z.string().url(),
+  })
+);
 
 export const ArticleSchema = z.object({
   title: z.string(),
