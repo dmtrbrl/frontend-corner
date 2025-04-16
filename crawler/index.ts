@@ -1,29 +1,13 @@
 import { getSources } from "@shared/services";
 import Parser from "rss-parser";
+import getLastWeekRange from "./utils/getLastWeekRange";
+import cleanAuthor from "./utils/cleanAuthor";
 
 const parser = new Parser({
   customFields: {
-    item: ["description"],
+    item: ["author", "description"],
   },
 });
-
-const getLastWeekRange = () => {
-  const now = new Date();
-  const day = now.getDay(); // Sunday = 0, Monday = 1, ..., Saturday = 6
-
-  // End = this Sunday 23:59:59
-  const end = new Date(now);
-  const daysToAdd = (7 - day) % 7; // how many days to add to get to Sunday
-  end.setDate(end.getDate() + daysToAdd);
-  end.setHours(23, 59, 59, 999);
-
-  // Start = previous Monday 00:00:00
-  const start = new Date(end);
-  start.setDate(end.getDate() - 6); // Go back to Monday
-  start.setHours(0, 0, 0, 0);
-
-  return { start, end };
-};
 
 const parseFeed = async (title: string, feedUrl: string) => {
   try {
@@ -39,10 +23,11 @@ const parseFeed = async (title: string, feedUrl: string) => {
       const preview = item.enclosure?.type?.includes("image")
         ? item.enclosure?.url
         : undefined;
+      const author = cleanAuthor(item.author) || title;
 
       if (pubDate >= start && pubDate <= end) {
         console.log(
-          `✅ ${item.title} : ${item.link} : ${item.categories} : ${preview}`
+          `✅ ${item.title} : ${item.link} : ${item.categories} : ${preview} : ${author}`
         );
       }
     });
