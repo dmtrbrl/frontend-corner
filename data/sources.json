@@ -1,22 +1,22 @@
 [
-  {
-    "title": "Codrops",
-    "feedUrl": "https://tympanus.net/codrops/feed/"
-  },
-  {
-    "title": "Smashing Magazine",
-    "feedUrl": "https://www.smashingmagazine.com/feed/"
-  },
-  {
-    "title": "Overreacted",
-    "feedUrl": "https://overreacted.io/rss.xml"
-  },
-  {
-    "title": "Matthias Endler",
-    "feedUrl": "https://endler.dev/rss.xml"
-  },
-  {
-    "title": "Elevate",
-    "feedUrl": "https://addyo.substack.com/feed"
-  }
+  "https://tympanus.net/codrops/feed/",
+  "https://www.smashingmagazine.com/feed/",
+  "https://overreacted.io/rss.xml",
+  "https://www.aleksandrhovhannisyan.com/feed.xml",
+  "https://alexharri.com/rss.xml",
+  "https://developer.mozilla.org/en-US/blog/rss.xml",
+  "https://nerdy.dev/rss.xml",
+  "https://tsev.dev/feed.xml",
+  "https://cloudfour.com/feed/",
+  "https://css-tricks.com/feed/",
+  "https://feeds.feedburner.com/kizuruen",
+  "https://developer.chrome.com/static/blog/feed.xml",
+  "https://chenhuijing.com/feed.xml",
+  "https://eduardoboucas.com/feeds/rss.xml",
+  "https://paulstamatiou.com/posts.xml",
+  "https://piccalil.li/articles.xml",
+  "https://yuanchuan.dev/feed.xml",
+  "https://ishadeed.com/feed.xml",
+  "https://willybrauner.com/rss.xml",
+  "https://www.debugbear.com/blog/rss.xml"
 ]

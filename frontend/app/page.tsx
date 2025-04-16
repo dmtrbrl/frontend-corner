@@ -10,7 +10,7 @@ export default async function Home() {
         <h1>Sources:</h1>
         <ol>
           {sources.map((s) => (
-            <li key={s.feedUrl}>{s.title}</li>
+            <li key={s}>{s}</li>
           ))}
         </ol>
       </main>
