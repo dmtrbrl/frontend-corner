@@ -1,23 +1,25 @@
 import { z } from "zod";
 
-export const SourcesSchema = z.array(
-  z.object({
-    title: z.string(),
-    feedUrl: z.string().url(),
-  })
-);
+export const SourceSchema = z.object({
+  title: z.string(),
+  feedUrl: z.string().url(),
+});
+
+export const SourcesSchema = z.array(SourceSchema);
 
 export const ArticleSchema = z.object({
   title: z.string(),
-  description: z.string(),
-  author: z.string(),
-  date: z.string().date(),
   url: z.string().url(),
-  tags: z.array(z.string()),
+  author: z.string(),
+  pubDate: z.string().date(),
+  description: z.string().optional(),
+  categories: z.array(z.string()).optional(),
+  img: z.string().url().optional(),
 });
 
 export const IssueSchema = z.object({
-  title: z.string(),
-  date: z.string(),
+  no: z.number(),
+  title: z.string().optional(),
+  pubDate: z.string(),
   articles: z.array(ArticleSchema),
 });
