@@ -2,7 +2,7 @@ name: Weekly RSS Crawler
 
 on:
   schedule:
-    - cron: '0 6 * * 1' # Every Monday at 06:00 UTC
+    - cron: '15 13 * * 2' # Every Monday at 06:00 UTC
   workflow_dispatch:     # (Optional) Allows manual runs
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
           git config user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add .
-          git diff --cached --quiet || git commit -m "chore: weekly JSON update"
+          git diff --cached --quiet || git commit -m "chore: weekly preview publish"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
