@@ -1,0 +1,36 @@
+name: Weekly RSS Crawler
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Every Monday at 06:00 UTC
+  workflow_dispatch:     # (Optional) Allows manual runs
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run crawler
+        run: npm run crawl
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "chore: update weekly JSON data"
+          git push
+        env:
+          # Use a personal access token if using `GITHUB_TOKEN` fails due to permission
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
