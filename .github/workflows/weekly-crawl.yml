@@ -5,6 +5,9 @@ on:
     - cron: '0 6 * * 1' # Every Monday at 06:00 UTC
   workflow_dispatch:     # (Optional) Allows manual runs
 
+permissions:
+  contents: write
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
@@ -24,13 +27,13 @@ jobs:
       - name: Run crawler
         run: npm run crawl
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add .
-          git diff --cached --quiet || git commit -m "chore: update weekly JSON data"
+          git diff --cached --quiet || git commit -m "chore: weekly JSON update"
           git push
         env:
-          # Use a personal access token if using `GITHUB_TOKEN` fails due to permission
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
