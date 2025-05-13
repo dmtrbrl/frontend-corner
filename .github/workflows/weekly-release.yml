@@ -1,15 +1,15 @@
-name: Weekly Preview Publish
+name: Weekly Preview Release
 
 on:
   schedule:
-    - cron: '45 13 * * 2' # Every Monday at 06:00 UTC
+    - cron: '55 13 * * 2' # Every Tuesday at 06:00 UTC
   workflow_dispatch:     # Allows manual triggering
 
 permissions:
   contents: write
 
 jobs:
-  crawl:
+  release:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,19 +21,21 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Rename latest preview to final release
+        run: |
+          cd data/issues
+          preview_file=$(ls *.preview.json | sort | tail -n 1)
+          release_file=$(echo "$preview_file" | sed 's/\.preview//')
+          echo "Renaming $preview_file to $release_file"
+          mv "$preview_file" "$release_file"
 
-      - name: Run crawler
-        run: npm run crawl
-
-      - name: Commit and push changes
+      - name: Commit and push release
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add .
-          git diff --cached --quiet || git commit -m "chore: weekly preview publish"
+          git diff --cached --quiet || git commit -m "chore: weekly preview release"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
