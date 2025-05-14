@@ -5,7 +5,7 @@ export default (author: string): string | undefined => {
   author = author.replace(/\S+@\S+\.\S+/, "").trim();
 
   // Extract name from parentheses if available
-  const match = author.match(/\(([^)]+)\)/);
+  const match = RegExp(/\(([^)]+)\)/).exec(author);
   if (match) return match[1].trim();
 
   // Fallback: return whatever remains after stripping

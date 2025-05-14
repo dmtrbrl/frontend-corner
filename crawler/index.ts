@@ -1,5 +1,6 @@
 import { weeksAgo, isPreview } from "./config";
 import extractArticles from "./lib/feed/extractArticles";
+import { getNextIssueNo } from "./lib/issue/getNextIssueNo";
 import { getWeekRange } from "./lib/issue/getWeekRange";
 import { readSources } from "./storage/readSources";
 import { writeIssue } from "./storage/writeIssue";
@@ -22,8 +23,10 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
       .filter((r): r is PromiseFulfilledResult<any> => r.status === "fulfilled")
       .flatMap((r) => r.value);
 
+    const nextIssueNo = await getNextIssueNo("data/issues");
+
     const issue: Issue = {
-      no: 1,
+      no: nextIssueNo,
       pubDate: end.toISOString(),
       title: `Weekly Digest – ${formatDate(start)} → ${formatDate(end)}`,
       articles,

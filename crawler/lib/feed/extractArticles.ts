@@ -31,7 +31,7 @@ export default async (
         {
           title: item.title,
           url: item.link,
-          author: cleanAuthor(item.author) || source.title,
+          author: cleanAuthor(item.author) ?? source.title,
           pubDate: pubDate.toISOString(),
           description: item.description,
           categories: item.categories || [],
