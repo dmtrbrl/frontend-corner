@@ -5,7 +5,7 @@ import { cleanAndLimit } from "./cleanAndLimit";
 
 const parser = new Parser({
   customFields: {
-    item: ["author", "description", "content"],
+    item: ["author", "description", "summary", "content"],
   },
 });
 
@@ -28,7 +28,9 @@ export const parseFeed = async (
           ? item.enclosure.url
           : undefined;
 
-      const description = cleanAndLimit(item.description ?? item.content ?? "");
+      const description = cleanAndLimit(
+        item.description ?? item.summary ?? item.content ?? ""
+      );
 
       return [
         {
@@ -47,7 +49,7 @@ export const parseFeed = async (
       `📝 Found ${articles.length} article(s) from "${source.title}"`
     );
 
-    return articles;
+    return articles.filter((a) => a.description?.trim());
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     console.error(`❌ Failed to parse feed: ${source.feedUrl}`, message);
