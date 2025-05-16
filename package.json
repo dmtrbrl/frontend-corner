@@ -8,7 +8,7 @@
     "frontend:build": "next build frontend",
     "frontend:start": "next start frontend",
     "frontend:lint": "cd frontend && next lint",
-    "crawl": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
+    "crawler:start": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
