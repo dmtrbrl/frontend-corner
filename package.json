@@ -11,7 +11,10 @@
     "crawl": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
   },
   "dependencies": {
+    "dotenv": "^16.5.0",
+    "html-to-text": "^9.0.5",
     "next": "15.3.0",
+    "openai": "^4.98.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "rss-parser": "^3.13.0",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/html-to-text": "^9.0.4",
     "@types/node": "^20.17.30",
     "@types/react": "^19",
     "@types/react-dom": "^19",

@@ -1,4 +1,4 @@
-export default (author: string): string | undefined => {
+export const cleanAuthor = (author: string): string | undefined => {
   if (!author) return undefined;
 
   // Remove email addresses

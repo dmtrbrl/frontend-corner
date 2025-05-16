@@ -1,14 +1,15 @@
 import Parser from "rss-parser";
 import { Article, Source } from "crawler/types";
-import cleanAuthor from "./cleanAuthor";
+import { cleanAuthor } from "./cleanAuthor";
+import { cleanAndLimit } from "./cleanAndLimit";
 
 const parser = new Parser({
   customFields: {
-    item: ["author", "description"],
+    item: ["author", "description", "content"],
   },
 });
 
-export default async (
+export const parseFeed = async (
   source: Source,
   startDate: Date,
   endDate: Date
@@ -27,13 +28,15 @@ export default async (
           ? item.enclosure.url
           : undefined;
 
+      const description = cleanAndLimit(item.description ?? item.content ?? "");
+
       return [
         {
           title: item.title,
           url: item.link,
           author: cleanAuthor(item.author) ?? source.title,
           pubDate: pubDate.toISOString(),
-          description: item.description,
+          description,
           categories: item.categories || [],
           img,
         },
