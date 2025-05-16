@@ -1,10 +1,10 @@
 import dotenv from "dotenv";
+import { getSources } from "@shared/services";
 import { weeksAgo, isPreview } from "./config";
 import { parseFeed } from "./lib/parseFeed";
 import { generateDescriptions } from "./lib/aiGenerateDescription";
-import { getNextIssueNo } from "./lib/getNextIssueNo";
+import { getLastPublishedIssue } from "./lib/getLastPublishedIssue";
 import { getWeekRange } from "./lib/getWeekRange";
-import { readSources } from "./storage/readSources";
 import { writeIssue } from "./storage/writeIssue";
 import { Article, Issue } from "./types";
 
@@ -14,7 +14,7 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
 
 (async () => {
   try {
-    const sources = await readSources();
+    const sources = await getSources();
     const { start, end } = getWeekRange(weeksAgo);
 
     console.log(`🗓️ Crawling from ${formatDate(start)} to ${formatDate(end)}`);
@@ -33,12 +33,13 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
 
     articles.forEach((a, i) => (a.description = descriptions[i]));
 
-    const nextIssueNo = await getNextIssueNo("data/issues");
+    const lastPublishedIssue = await getLastPublishedIssue("data/issues");
+    const issueNo = lastPublishedIssue ? lastPublishedIssue.no + 1 : 1;
 
     const issue: Issue = {
-      no: nextIssueNo,
+      no: issueNo,
       pubDate: end.toISOString(),
-      title: `Weekly Digest #${nextIssueNo}`,
+      title: `Issue #${issueNo}`,
       articles,
     };
 

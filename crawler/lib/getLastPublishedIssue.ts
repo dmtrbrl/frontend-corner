@@ -1,12 +1,17 @@
+import { Issue } from "crawler/types";
 import { readdir, readFile } from "fs/promises";
 import path from "path";
 
-export async function getNextIssueNo(issuesDir: string): Promise<number> {
+export async function getLastPublishedIssue(
+  issuesDir: string
+): Promise<Issue | null> {
   try {
     const files = await readdir(issuesDir);
-    const jsonFiles = files.filter((file) => file.endsWith(".json"));
+    const jsonFiles = files.filter(
+      (file) => file.endsWith(".json") && !file.endsWith(".preview.json")
+    );
 
-    let maxNo = 0;
+    let lastIssue: Issue | null = null;
 
     for (const file of jsonFiles) {
       try {
@@ -15,7 +20,9 @@ export async function getNextIssueNo(issuesDir: string): Promise<number> {
         const data = JSON.parse(content);
 
         if (typeof data.no === "number") {
-          maxNo = Math.max(maxNo, data.no);
+          if (!lastIssue || data.no > lastIssue.no) {
+            lastIssue = data;
+          }
         }
       } catch (err) {
         console.warn(
@@ -26,15 +33,13 @@ export async function getNextIssueNo(issuesDir: string): Promise<number> {
       }
     }
 
-    // If no valid "no" values found, fallback to 1
-    return maxNo > 0 ? maxNo + 1 : 1;
+    return lastIssue;
   } catch (err) {
-    console.error(
+    console.warn(
       `Failed to read issues directory: ${
         err instanceof Error ? err.message : String(err)
       }`
     );
-    // If directory doesn't exist or unreadable, start from 1
-    return 1;
+    return null;
   }
 }
