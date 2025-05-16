@@ -38,11 +38,49 @@ const buildReviewOrGeneratePrompt = (batch: string[]): string => {
     - Allow sentence fragments, questions, or verbs at the start for variety — e.g., “Exploring…”, “What happens when…”, “CSS tricks for…”
     - Avoid sounding robotic, dry, or overly formal
     - Aim for a friendly, readable tone for a modern web dev audience
-    - If the provided item is empty, return “No description“
 
     Here are the items:\n\n
     ` + batch.map((text, idx) => `${idx + 1}. ${text}`).join("\n\n")
   );
+};
+
+const generateBatchWithRetry = async (
+  openai: OpenAI,
+  batch: string[],
+  model: string,
+  attempt = 1
+): Promise<string[]> => {
+  const prompt = buildReviewOrGeneratePrompt(batch);
+
+  const response = await openai.chat.completions.create({
+    model,
+    temperature: 0.3,
+    messages: [
+      {
+        role: "system",
+        content:
+          "You are an assistant that reviews or generates article descriptions for a frontend development newsletter.",
+      },
+      {
+        role: "user",
+        content: prompt,
+      },
+    ],
+  });
+
+  const text = response.choices[0].message.content ?? "";
+  const parsed = parseDescriptions(text, batch.length);
+
+  const hasEmpty = parsed.some((desc) => !desc.trim());
+
+  if (hasEmpty && attempt < 3) {
+    console.warn(
+      `Retrying batch (attempt ${attempt + 1}) due to empty description.`
+    );
+    return generateBatchWithRetry(openai, batch, model, attempt + 1);
+  }
+
+  return parsed;
 };
 
 export const generateDescriptions = async (
@@ -58,26 +96,8 @@ export const generateDescriptions = async (
 
   for (let i = 0; i < rawDescriptions.length; i += maxBatchSize) {
     const batch = rawDescriptions.slice(i, i + maxBatchSize);
-    const prompt = buildReviewOrGeneratePrompt(batch);
-
-    const response = await openai.chat.completions.create({
-      model,
-      temperature: 0.3,
-      messages: [
-        {
-          role: "system",
-          content:
-            "You are an assistant that reviews or generates article descriptions for a frontend development newsletter.",
-        },
-        {
-          role: "user",
-          content: prompt,
-        },
-      ],
-    });
-
-    const text = response.choices[0].message.content ?? "";
-    descriptions.push(...parseDescriptions(text, batch.length));
+    const generated = await generateBatchWithRetry(openai, batch, model);
+    descriptions.push(...generated);
   }
 
   return descriptions;
