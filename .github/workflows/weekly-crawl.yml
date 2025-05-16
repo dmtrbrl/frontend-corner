@@ -25,6 +25,8 @@ jobs:
         run: pnpm install
 
       - name: Run crawler
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: pnpm run crawler:start
 
       - name: Commit and push changes
