@@ -1,0 +1,197 @@
+{
+  "no": 1,
+  "pubDate": "2025-05-18T23:59:59.999Z",
+  "title": "Issue #1",
+  "articles": [
+    {
+      "title": "Developer Spotlight: Andrew Woan",
+      "url": "https://tympanus.net/codrops/2025/05/15/developer-spotlight-andrew-woan/",
+      "author": "Codrops",
+      "pubDate": "2025-05-15T12:43:39.000Z",
+      "description": "An honest, humorous reflection on creativity, code, and humanity—offering a refreshing perspective beyond typical developer stories.",
+      "categories": [
+        "Articles",
+        "Developer Spotlight"
+      ]
+    },
+    {
+      "title": "From SplitText to MorphSVG: 5 Creative Demos Using Free GSAP Plugins",
+      "url": "https://tympanus.net/codrops/2025/05/14/from-splittext-to-morphsvg-5-creative-demos-using-free-gsap-plugins/",
+      "author": "Codrops",
+      "pubDate": "2025-05-14T12:18:49.000Z",
+      "description": "Discover how free GSAP premium plugins unlock creative potential through five engaging animation demos.",
+      "categories": [
+        "Tutorials",
+        "GSAP",
+        "morphing",
+        "svg",
+        "typography"
+      ]
+    },
+    {
+      "title": "Integrating Rive into a React Project: Behind the Scenes of Valley Adventures",
+      "url": "https://tympanus.net/codrops/2025/05/12/integrating-rive-into-a-react-project-behind-the-scenes-of-valley-adventures/",
+      "author": "Codrops",
+      "pubDate": "2025-05-12T12:30:00.000Z",
+      "description": "A practical guide to integrating Rive with React, combining seamless interactivity and playful animation in Chumbi Valley’s Adventures.",
+      "categories": [
+        "Tutorials",
+        "react",
+        "rive"
+      ]
+    },
+    {
+      "title": "Motion Highlights #6",
+      "url": "https://tympanus.net/codrops/2025/05/12/motion-highlights-6/",
+      "author": "Codrops",
+      "pubDate": "2025-05-12T10:04:55.000Z",
+      "description": "Curated showcase of recent motion design work by innovative creators pushing visual boundaries.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "motion-design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Building A Practical UX Strategy Framework",
+      "url": "https://smashingmagazine.com/2025/05/building-practical-ux-strategy-framework/",
+      "author": "Paul Boag",
+      "pubDate": "2025-05-16T11:00:00.000Z",
+      "description": "Master the creation of a UX strategy framework that guides design decisions and delivers measurable business impact.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/building-practical-ux-strategy-framework/building-practical-ux-strategy-framework.jpg"
+    },
+    {
+      "title": "Fewer Ideas: An Unconventional Approach To Creativity",
+      "url": "https://smashingmagazine.com/2025/05/fewer-ideas-unconventional-approach-creativity/",
+      "author": "Eric Olive",
+      "pubDate": "2025-05-15T10:00:00.000Z",
+      "description": "Challenging traditional brainstorming, this article explores more effective methods to spark creativity and improve user experience.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/fewer-ideas-unconventional-approach-creativity/fewer-ideas-unconventional-approach-creativity.jpg"
+    },
+    {
+      "title": "Smashing Animations Part 2: How CSS Masking Can Add An Extra Dimension",
+      "url": "https://smashingmagazine.com/2025/05/smashing-animations-part-2-css-masking-add-extra-dimension/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-05-14T13:00:00.000Z",
+      "description": "Unlock new dimensions in CSS animations with masking techniques, adding fluidity, layers, and cinematic effects inspired by Andy Clarke.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-2-css-masking-add-extra-dimension/smashing-animations-part-2-css-masking-add-extra-dimension.jpg"
+    },
+    {
+      "title": "Integrating Localization Into Design Systems",
+      "url": "https://smashingmagazine.com/2025/05/integrating-localization-into-design-systems/",
+      "author": "Rebecca Hemstad & Mark Malek",
+      "pubDate": "2025-05-12T10:00:00.000Z",
+      "description": "A case study on building a localization-ready design system using Figma Variables and tokens to handle multilingual challenges.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/integrating-localization-into-design-systems/integrating-localization-into-design-systems.jpg"
+    },
+    {
+      "title": "Tag, I'm It",
+      "url": "https://nerdy.dev/blogging-about-blogging?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-05-12T15:21:30.000Z",
+      "description": "Exploring the origins of blogging, personal motivations, platform choices, and evolving approaches to sharing development and design insights.",
+      "categories": [
+        "blog"
+      ]
+    },
+    {
+      "title": "HTML Email Accessibility Report 2025",
+      "url": "https://css-tricks.com/html-email-accessibility-report-2025/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-16T14:38:19.000Z",
+      "description": "Weekend reading on HTML email accessibility, highlighting the 2025 EMC study and ongoing efforts to improve email inclusivity.",
+      "categories": [
+        "Links",
+        "accessibility",
+        "html email"
+      ]
+    },
+    {
+      "title": "Scroll-Driven Animations Inside a CSS Carousel",
+      "url": "https://css-tricks.com/scroll-driven-animations-inside-a-css-carousel/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-15T12:30:59.000Z",
+      "description": "1. Exploring scroll-driven animations within CSS carousels, leveraging new CSS features for scroll regions. Discover how to trigger animations seamlessly as users scroll through carousel items, enhancing interactivity and visual engagement.",
+      "categories": [
+        "Articles",
+        "carousel"
+      ]
+    },
+    {
+      "title": "This Isn’t Supposed to Happen: Troubleshooting the Impossible",
+      "url": "https://css-tricks.com/this-isnt-supposed-to-happen-troubleshooting-the-impossible/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-14T14:01:42.000Z",
+      "description": "2. Troubleshooting seemingly impossible issues often reveals unexpected causes. This article shares insights into diagnosing tricky bugs that turn out to be something entirely different from what you initially suspected.",
+      "categories": [
+        "Articles",
+        "Case Studies",
+        "SVG"
+      ]
+    },
+    {
+      "title": "Using Pages CMS for Static Site Content Management",
+      "url": "https://css-tricks.com/using-pages-cms-for-static-site-content-management/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-12T12:42:10.000Z",
+      "description": "3. Navigating the maze of content management systems, from pricing quirks to customization challenges. Learn about the potential of Pages CMS for managing static site content efficiently and simply.",
+      "categories": [
+        "Articles",
+        "CMS",
+        "static sites"
+      ]
+    },
+    {
+      "title": "Enhancements to the <permission> element",
+      "url": "https://developer.chrome.com/blog/enhancements-to-permission-element?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-12T07:00:00.000Z",
+      "description": "4. The HTML permission element is no longer void and now supports icons, opening new possibilities for accessible, visually rich permission prompts in web interfaces.",
+      "categories": []
+    },
+    {
+      "title": "We need your support to do free projects for good causes and publish free high quality education",
+      "url": "https://piccalil.li/blog/we-need-your-support-to-do-free-projects-for-good-causes-and-publish-free-high-quality-education/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-05-13T11:55:00.000Z",
+      "description": "5. Piccalilli is shifting gears—sharing real client projects openly to provide high-quality, practical education. This business model aims to give back to the community and focus on projects that make a positive impact.",
+      "categories": []
+    },
+    {
+      "title": "How To Optimize Document Request Latency",
+      "url": "https://www.debugbear.com/blog/document-request-latency",
+      "author": "DebugBear",
+      "pubDate": "2025-05-12T00:00:00.000Z",
+      "description": "6. Understanding the importance of the HTML document request for page speed. Discover practical tips to optimize this fundamental step and improve overall website performance.",
+      "categories": []
+    },
+    {
+      "title": "Open Up, Episode 2: Fundamentals, Principles, Navigating an Imperfect World, Collaboration, and Old Friends",
+      "url": "https://bradfrost.com/blog/post/open-up-episode-2-fundamentals-principles-navigating-an-imperfect-world-collaboration-and-old-friends/",
+      "author": "Brad Frost",
+      "pubDate": "2025-05-14T13:52:44.000Z",
+      "description": "7. Episode 2 of the \"Open Up\" show is here! Covering topics like design focus, AI's impact on jobs, collaboration, and maintaining values—plus reflections on working relationships and future episodes.",
+      "categories": []
+    },
+    {
+      "title": "Work hard. Don&#8217;t be an asshole. Share what you know.",
+      "url": "https://bradfrost.com/blog/post/work-hard-dont-be-an-asshole-share-what-you-know/",
+      "author": "Brad Frost",
+      "pubDate": "2025-05-13T19:33:35.000Z",
+      "description": "9. Demystifying CSS percentage heights: uncover why “height: 100%” sometimes fails and how understanding parent element context can resolve these common layout puzzles.",
+      "categories": []
+    },
+    {
+      "title": "The Height Enigma",
+      "url": "https://www.joshwcomeau.com/css/height-enigma/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-05-12T11:30:00.000Z",
+      "categories": []
+    }
+  ]
+}
