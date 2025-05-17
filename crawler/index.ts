@@ -2,11 +2,13 @@ import dotenv from "dotenv";
 import { getSources } from "@shared/services";
 import { weeksAgo, isPreview } from "./config";
 import { parseFeed } from "./lib/parseFeed";
-import { generateDescriptions } from "./lib/aiGenerateDescription";
 import { getLastPublishedIssue } from "./lib/getLastPublishedIssue";
 import { getWeekRange } from "./lib/getWeekRange";
 import { writeIssue } from "./storage/writeIssue";
 import { Article, Issue } from "./types";
+import { filterArticles } from "./lib/ai/filterArticles";
+import { generateDescriptions } from "./lib/ai/generateDescription";
+import { generateExtras } from "./lib/ai/generateExtras";
 
 dotenv.config();
 
@@ -27,11 +29,32 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
       .filter((r): r is PromiseFulfilledResult<any> => r.status === "fulfilled")
       .flatMap((r) => r.value);
 
-    // Generate descriptions
-    const rawDescriptions = articles.map((a) => a.description ?? "");
-    const descriptions = await generateDescriptions(rawDescriptions);
+    console.log(`🔎 Fetched ${articles.length} articles from all feeds`);
 
-    articles.forEach((a, i) => (a.description = descriptions[i]));
+    // Filter articles
+    const keep = await filterArticles(
+      articles.map((a) => ({ title: a.title, description: a.description }))
+    );
+    const selecteddArticles = articles.filter((_, i) => keep[i]);
+    console.log(
+      `🟢 Filtered: ${selecteddArticles.length} relevant articles selected`
+    );
+
+    // Generate descriptions
+    const rawDescriptions = selecteddArticles.map((a) => a.description ?? "");
+    const descriptions = await generateDescriptions(rawDescriptions);
+    selecteddArticles.forEach((a, i) => (a.description = descriptions[i]));
+    console.log(
+      `✍️  Descriptions generated for ${descriptions.length} articles`
+    );
+
+    const { description, joke, challenge } = await generateExtras(
+      selecteddArticles.map((a) => a.description)
+    );
+
+    console.log("📢 Issue Description:\n", description);
+    console.log("😄 Joke of the Week:\n", joke);
+    console.log("🎯 Challenge of the Week:\n", challenge);
 
     const lastPublishedIssue = await getLastPublishedIssue("data/issues");
     const issueNo = lastPublishedIssue ? lastPublishedIssue.no + 1 : 1;
@@ -39,11 +62,14 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
     const issue: Issue = {
       no: issueNo,
       pubDate: end.toISOString(),
-      title: `Issue #${issueNo}`,
-      articles,
+      articles: selecteddArticles,
+      description,
+      joke,
+      challenge,
     };
 
-    await writeIssue(issue, isPreview);
+    const filePath = await writeIssue(issue, isPreview);
+    console.log(`💾 Issue saved: ${filePath}`);
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     console.error("🚨 Error running crawler:", message);

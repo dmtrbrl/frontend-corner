@@ -12,14 +12,16 @@ export const ArticleSchema = z.object({
   url: z.string().url(),
   author: z.string(),
   pubDate: z.string().date(),
-  description: z.string().optional(),
+  description: z.string(),
   categories: z.array(z.string()).optional(),
   img: z.string().url().optional(),
 });
 
 export const IssueSchema = z.object({
   no: z.number(),
-  title: z.string().optional(),
   pubDate: z.string(),
   articles: z.array(ArticleSchema),
+  description: z.string().optional(),
+  joke: z.string().optional(),
+  challenge: z.string().optional(),
 });

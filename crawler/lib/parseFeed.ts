@@ -46,7 +46,7 @@ export const parseFeed = async (
     });
 
     console.log(
-      `📝 Found ${articles.length} article(s) from "${source.title}"`
+      `🔍 Found ${articles.length} article(s) from "${source.title}"`
     );
 
     return articles.filter((a) => a.description?.trim());

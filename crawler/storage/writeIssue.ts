@@ -14,5 +14,5 @@ export const writeIssue = async (issue: Issue, isPreview: boolean) => {
   const filePath = path.join(outputDir, filename);
   await writeFile(filePath, JSON.stringify(issue, null, 2), "utf-8");
 
-  console.log(`✅ Issue saved to ${filePath}`);
+  return filePath;
 };
