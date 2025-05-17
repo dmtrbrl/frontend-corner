@@ -114,5 +114,45 @@
   {
     "title": "Nikita Hlopov",
     "feedUrl": "https://nikitahl.com/feed.xml"
+  },
+  {
+    "title": "Roman Liutikov",
+    "feedUrl": "https://romanliutikov.com/blog/rss.xml"
+  },
+  {
+    "title": "Dmitri Pavlutin",
+    "feedUrl": "https://dmitripavlutin.com/rss.xml"
+  },
+  {
+    "title": "Jeremy Keith",
+    "feedUrl": "https://adactio.com/articles/rss"
+  },
+  {
+    "title": "Frontend Masters",
+    "feedUrl": "https://frontendmasters.com/blog/feed/"
+  },
+  {
+    "title": "Bogdan Cerovac",
+    "feedUrl": "https://cerovac.com/a11y/feed/"
+  },
+  {
+    "title": "Always Twisted",
+    "feedUrl": "https://www.alwaystwisted.com/feed.xml"
+  },
+  {
+    "title": "Trys Mudford",
+    "feedUrl": "https://www.trysmudford.com/blog/index.xml"
+  },
+  {
+    "title": "Sia Karamalegos",
+    "feedUrl": "https://sia.codes/feed/feed.xml"
+  },
+  {
+    "title": "Addy Osmani",
+    "feedUrl": "https://addyosmani.com/rss.xml"
+  },
+  {
+    "title": "David Bushell",
+    "feedUrl": "https://dbushell.com/rss.xml"
   }
 ]
