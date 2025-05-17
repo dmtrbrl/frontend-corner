@@ -8,7 +8,9 @@
     "frontend:build": "next build frontend",
     "frontend:start": "next start frontend",
     "frontend:lint": "cd frontend && next lint",
-    "crawler:start": "tsup crawler/index.ts --format esm --out-dir crawler/dist && node crawler/dist/index.js"
+    "crawler:build": "tsup crawler/index.ts --format esm --out-dir crawler/dist",
+    "crawler:lint": "cd crawler && npx eslint",
+    "crawler:start": "pnpm run crawler:build && node crawler/dist/index.js"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
@@ -22,14 +24,16 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.27.0",
     "@types/html-to-text": "^9.0.4",
     "@types/node": "^20.17.30",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
+    "eslint": "^9.24.0",
     "eslint-config-next": "15.3.0",
     "tsup": "^7.3.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1"
   },
   "type": "module"
 }
