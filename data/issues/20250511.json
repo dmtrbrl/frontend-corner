@@ -1,0 +1,202 @@
+{
+  "no": 4,
+  "pubDate": "2025-05-11T21:59:59.999Z",
+  "articles": [
+    {
+      "title": "On-Scroll 3D Carousel",
+      "url": "https://tympanus.net/codrops/2025/05/07/on-scroll-3d-carousel/",
+      "author": "Codrops",
+      "pubDate": "2025-05-07T13:03:33.000Z",
+      "description": "Exploring a 3D carousel animation that rotates as you scroll, creating an engaging and immersive visual experience.",
+      "categories": [
+        "Playground",
+        "3D",
+        "carousel",
+        "GSAP",
+        "page-transition"
+      ]
+    },
+    {
+      "title": "Matrix Sentinels: Building Dynamic Particle Trails with TSL",
+      "url": "https://tympanus.net/codrops/2025/05/05/matrix-sentinels-building-dynamic-particle-trails-with-tsl/",
+      "author": "Codrops",
+      "pubDate": "2025-05-05T12:59:15.000Z",
+      "description": "Step-by-step tutorial on building particle trails with Three.js Shader Language, simulating dynamic 3D movement.",
+      "categories": [
+        "Tutorials",
+        "particles",
+        "Three.js",
+        "TSL",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Integrating Design And Code With Native Design Tokens In Penpot",
+      "url": "https://smashingmagazine.com/2025/05/integrating-design-code-native-design-tokens-penpot/",
+      "author": "Mikołaj Dobrucki",
+      "pubDate": "2025-05-08T10:00:00.000Z",
+      "description": "Penpot introduces native design tokens in its latest release, enhancing integration with code and modern development workflows.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/integrating-design-code-native-design-tokens-penpot/integrating-design-code-native-design-tokens-penpot.jpg"
+    },
+    {
+      "title": "Smashing Animations Part 1: How Classic Cartoons Inspire Modern CSS",
+      "url": "https://smashingmagazine.com/2025/05/smashing-animations-part-1-classic-cartoons-inspire-css/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-05-07T08:00:00.000Z",
+      "description": "Discover how retro cartoon animation techniques inspired modern CSS animations, bringing websites to life with minimal frame changes and looping backgrounds.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-1-classic-cartoons-inspire-css/smashing-animations-part-1-classic-cartoons-inspire-css.jpg"
+    },
+    {
+      "title": "Masonry In CSS: Should Grid Evolve Or Stand Aside For A New Module?",
+      "url": "https://smashingmagazine.com/2025/05/masonry-css-should-grid-evolve-stand-aside-new-module/",
+      "author": "Gabriel Shoyombo",
+      "pubDate": "2025-05-06T13:00:00.000Z",
+      "description": "An overview of recent proposals for CSS masonry layouts, including extensions to CSS Grid, standalone modules, and the new Apple WebKit “Item Flow” approach.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/masonry-css-should-grid-evolve-stand-aside-new-module/masonry-css-should-grid-evolve-stand-aside-new-module.jpg"
+    },
+    {
+      "title": "RSC for Astro Developers",
+      "url": "https://overreacted.io/rsc-for-astro-developers/",
+      "author": "Overreacted",
+      "pubDate": "2025-05-06T00:00:00.000Z",
+      "description": "Visualize intricate fractal islands—complex, self-similar structures that captivate with their recursive beauty.",
+      "categories": []
+    },
+    {
+      "title": "Color models for humans and devices",
+      "url": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices/",
+      "author": "polina-gurtovaia",
+      "pubDate": "2025-05-06T00:00:00.000Z",
+      "description": "Understanding how images are perceived across devices and color spaces, with insights into human vision and color theory.",
+      "categories": [],
+      "img": "https://developer.mozilla.org/en-US/blog/color-models-humans-devices/featured.png"
+    },
+    {
+      "title": "Orbital Mechanics (or How I Optimized a CSS Keyframes Animation)",
+      "url": "https://css-tricks.com/orbital-mechanics-or-how-i-optimized-a-css-keyframes-animation/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-08T12:33:29.000Z",
+      "description": "A deep dive into refactoring CSS animations, showcasing the thought process behind optimizing and improving code efficiency.",
+      "categories": [
+        "Articles",
+        "animation"
+      ]
+    },
+    {
+      "title": "Why is Nobody Using the hwb() Color Function?",
+      "url": "https://css-tricks.com/why-is-nobody-using-the-hwb-color-function/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-07T12:25:19.000Z",
+      "description": "Investigating the decline of the hwb() color function in CSS and exploring possible reasons behind its reduced usage.",
+      "categories": [
+        "Articles",
+        "color"
+      ]
+    },
+    {
+      "title": "GSAP is Now Completely Free, Even for Commercial Use!",
+      "url": "https://css-tricks.com/gsap-is-now-completely-free-even-for-commercial-use/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-06T14:14:41.000Z",
+      "description": "GSAP and its plugins are now completely free for everyone, making powerful animation tools accessible for all projects.",
+      "categories": [
+        "Links",
+        "animation",
+        "resource"
+      ]
+    },
+    {
+      "title": "Modern Scroll Shadows Using Scroll-Driven Animations",
+      "url": "https://css-tricks.com/modern-scroll-shadows-using-scroll-driven-animations/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-05T13:01:43.000Z",
+      "description": "Exploring a new approach to creating scroll shadows on mobile devices using scroll-driven animations, enhancing subtle UX cues. Originally published on CSS-Tricks, part of the DigitalOcean family—definitely worth checking out.",
+      "categories": [
+        "Articles",
+        "Scroll Driven Animation"
+      ]
+    },
+    {
+      "title": "JavaScript, what is this?",
+      "url": "https://piccalil.li/blog/javascript-what-is-this/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-05-08T10:56:00.000Z",
+      "description": "Delving into JavaScript's `this` binding, global scope, and arrow functions—clarifying how and when objects are bound during execution. A detailed breakdown for understanding scope and context in JS.",
+      "categories": []
+    },
+    {
+      "title": "Are 'CSS Carousels' accessible?",
+      "url": "https://sarasoueidan.com/blog/css-carousels-accessibility/",
+      "author": "Sara Soueidan",
+      "pubDate": "2025-05-06T00:00:00.000Z",
+      "description": "An objective look at CSS Carousels, their accessibility challenges, and browser-handled best practices. Aiming to raise awareness and improve assistive technology experiences with CSS-only widgets.",
+      "categories": []
+    },
+    {
+      "title": "Towards React Server Components in Clojure, Part 1",
+      "url": "https://romanliutikov.com/blog/towards-react-server-components-in-clojure-part-1",
+      "author": "Roman Liutikov",
+      "pubDate": "2025-05-06T17:35:12.000Z",
+      "description": "Documenting the journey of integrating React Server Components into Clojure JVM via the UIx library—bridging React's server-side rendering with Clojure's ecosystem.",
+      "categories": []
+    },
+    {
+      "title": "Easier layout with margin-trim",
+      "url": "https://frontendmasters.com/blog/easier-layout-with-margin-trim/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-08T18:06:48.000Z",
+      "description": "Simplify margin management with the `margin-trim` property—avoiding hacks like `:last-child { margin-block-end: 0; }` to prevent margin collapsing issues. A handy CSS enhancement.",
+      "categories": [
+        "The Beat",
+        "CSS",
+        "Margin"
+      ]
+    },
+    {
+      "title": "shape(): A New Powerful Drawing Syntax in CSS",
+      "url": "https://frontendmasters.com/blog/shape-a-new-powerful-drawing-syntax-in-css/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-07T14:20:49.000Z",
+      "description": "Don't overlook `shape()`—the CSS feature that brings SVG-like shape capabilities into CSS, opening new possibilities for creative styling.",
+      "categories": [
+        "Blog Post"
+      ]
+    },
+    {
+      "title": "Using Container Query Units Relative to an Outer Container",
+      "url": "https://frontendmasters.com/blog/using-container-query-units-relative-to-an-outer-container/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-06T23:53:28.000Z",
+      "description": "Container units (e.g., `cqi`) reference the nearest container, but registering custom properties higher up allows access to other container units—expanding layout flexibility.",
+      "categories": [
+        "Blog Post",
+        "Container Queries",
+        "Container Units",
+        "CSS",
+        "Custom Properties"
+      ]
+    },
+    {
+      "title": "The Static Site Churns!",
+      "url": "https://dbushell.com/2025/05/11/the-static-site-churns/",
+      "author": "David Bushell",
+      "pubDate": "2025-05-11T10:00:00.000Z",
+      "description": "A peek into my eclectic static site generator—built from scripts, GitHub snippets, and now including Hono. The ongoing JavaScript refactoring adventure continues!",
+      "categories": []
+    },
+    {
+      "title": "Glossary Web Component",
+      "url": "https://dbushell.com/2025/05/07/glossary-web-component/",
+      "author": "David Bushell",
+      "pubDate": "2025-05-07T10:00:00.000Z",
+      "description": "Hidden gem: a secret glossary on my blog, accessible via hover-over links. A fun Easter egg—styled subtly to keep the focus on content.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the realm of 3D animations and design integration this week. Discover how a 3D carousel adds flair to your scrolls, and explore the power of particle trails using Three.js. Penpot's new design tokens promise better code synergy, while CSS animations take a nod from retro cartoons, offering a minimalist yet lively approach. Learn about CSS masonry layouts and their innovative proposals, including Apple's new WebKit approach. From fractal islands to the intricacies of JS scope, this week's digest is a treasure trove of inspiration and technical insights.",
+  "joke": "Why do JavaScript developers prefer using 'let' when they throw a party? Because it allows for block-level scope!",
+  "challenge": "Create a mesmerizing 3D particle trail animation using Three.js. Your task is to simulate a dynamic movement that responds to user interactions, such as mouse movements or scroll events. Feel free to use a combination of HTML, CSS, and JavaScript, with the option to integrate WebGL for added depth. Aim to create a visually stunning and fluid experience that captivates users and showcases your creativity in 3D environments."
+}

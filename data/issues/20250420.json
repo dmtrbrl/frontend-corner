@@ -1,0 +1,112 @@
+{
+  "no": 1,
+  "pubDate": "2025-04-20T21:59:59.999Z",
+  "articles": [
+    {
+      "title": "What Does It Really Mean For A Site To Be Keyboard Navigable",
+      "url": "https://smashingmagazine.com/2025/04/what-mean-site-be-keyboard-navigable/",
+      "author": "Eleanor Hecks",
+      "pubDate": "2025-04-18T13:00:00.000Z",
+      "description": "Emphasizes the importance of keyboard navigation in accessible web design, highlighting its role in creating an inclusive user experience for diverse audiences.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/what-mean-site-be-keyboard-navigable/what-mean-site-be-keyboard-navigable.jpg"
+    },
+    {
+      "title": "Fostering An Accessibility Culture",
+      "url": "https://smashingmagazine.com/2025/04/fostering-accessibility-culture/",
+      "author": "Daniel Devesa Derksen-Staats",
+      "pubDate": "2025-04-17T08:00:00.000Z",
+      "description": "Shares lessons on cultivating an accessibility culture through habit formation rather than strict mandates, based on practical experience.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/fostering-accessibility-culture/fostering-accessibility-culture.jpg"
+    },
+    {
+      "title": "Inclusive Dark Mode: Designing Accessible Dark Themes For All Users",
+      "url": "https://smashingmagazine.com/2025/04/inclusive-dark-mode-designing-accessible-dark-themes/",
+      "author": "Alex Williams",
+      "pubDate": "2025-04-15T13:00:00.000Z",
+      "description": "Explores how thoughtful dark mode design enhances inclusivity, benefiting users with light sensitivity and supporting machine learning applications.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/inclusive-dark-mode-designing-accessible-dark-themes/inclusive-dark-mode-designing-accessible-dark-themes.jpg"
+    },
+    {
+      "title": "Designing in the Browser: Five Tips for Beginners",
+      "url": "https://cloudfour.com/thinks/designing-in-the-browser-five-tips-for-beginners/",
+      "author": "Cloud Four",
+      "pubDate": "2025-04-17T15:30:11.000Z",
+      "description": "Provides a starting point for designers interested in experimenting with in-browser mockups to streamline their creative process.",
+      "categories": [
+        "Design",
+        "Process"
+      ]
+    },
+    {
+      "title": "“Pretty” is in the eye of the beholder",
+      "url": "https://css-tricks.com/pretty-is-in-the-eye-of-the-beholder/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-04-18T12:12:35.000Z",
+      "description": "Celebrates the new CSS feature for text wrapping in Safari Technology Preview, noting differences from Chromium browsers.",
+      "categories": [
+        "Articles",
+        "browser",
+        "typography"
+      ]
+    },
+    {
+      "title": "How to write error messages that actually help users rather than frustrate them",
+      "url": "https://piccalil.li/blog/how-to-write-error-messages-that-actually-help-users-rather-than-frustrate-them/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-04-17T10:55:00.000Z",
+      "description": "Highlights the often-overlooked importance of well-crafted error handling, offering strategies to create helpful, user-friendly error messages across digital products.",
+      "categories": []
+    },
+    {
+      "title": "How To Improve Website Performance In 2025",
+      "url": "https://www.debugbear.com/blog/improve-website-performance",
+      "author": "DebugBear",
+      "pubDate": "2025-04-16T00:00:00.000Z",
+      "description": "Guides on testing and optimizing website performance, identifying common speed bottlenecks, and implementing effective improvements.",
+      "categories": []
+    },
+    {
+      "title": "Design Tokens + Atomic Design = ❤️",
+      "url": "https://bradfrost.com/blog/post/design-tokens-atomic-design-%e2%9d%a4%ef%b8%8f/",
+      "author": "Brad Frost",
+      "pubDate": "2025-04-14T14:39:21.000Z",
+      "description": "Advocates for integrating design tokens into Atomic Design, emphasizing their role as fundamental building blocks in UI consistency.",
+      "categories": []
+    },
+    {
+      "title": "Shopping apps are, unsurprisingly, very inaccessible as well",
+      "url": "https://cerovac.com/a11y/2025/04/shopping-apps-are-unsurprisingly-very-inaccessible-as-well/",
+      "author": "Bogdan Cerovac",
+      "pubDate": "2025-04-19T19:34:59.000Z",
+      "description": "Points out that shopping websites and native mobile shopping apps continue to struggle with accessibility, highlighting ongoing challenges in e-commerce.",
+      "categories": [
+        "Economics and accessibility",
+        "Native mobile apps accessibility",
+        "Promoting accessibility",
+        "Android",
+        "EAA",
+        "European Accessibility Act",
+        "Good for business",
+        "iOS",
+        "Mobile",
+        "Native mobile application",
+        "Research",
+        "Stakeholders"
+      ]
+    },
+    {
+      "title": "14 web performance tips for 2025",
+      "url": "https://sia.codes/posts/web-perf-tips-2025/",
+      "author": "Sia Karamalegos",
+      "pubDate": "2025-04-14T00:00:00.000Z",
+      "description": "Shares key web performance tips for 2025, including understanding weaknesses, setting clear targets, and fostering a performance-driven culture to improve Core Web Vitals.",
+      "categories": []
+    }
+  ],
+  "description": "Fostering an inclusive web experience is at the forefront, with insights into keyboard navigation and dark mode design. Accessibility is framed as a culture developed through habits, complemented by practical strategies for effective error handling. The spotlight also shines on CSS advancements and performance optimization, advocating for design tokens in Atomic Design to enhance UI consistency. E-commerce accessibility challenges remain a focus, alongside performance tips poised to shape the future. Designers are encouraged to streamline creativity with in-browser mockups.",
+  "joke": "Why did the JavaScript developer keep running into walls? They didn't understand the concept of 'break'!",
+  "challenge": "Create a dynamic 'dark mode toggle' webpage using only HTML, CSS, and JavaScript. This challenge involves designing a toggle button to switch between light and dark themes, complete with smooth transitions. Optionally, incorporate local storage to remember the user's theme preference across sessions. Push your creativity further by designing a unique theme for each mode with engaging animations or interactive elements."
+}

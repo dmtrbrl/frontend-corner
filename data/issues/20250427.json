@@ -1,0 +1,94 @@
+{
+  "no": 2,
+  "pubDate": "2025-04-27T21:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building An Offline-Friendly Image Upload System",
+      "url": "https://smashingmagazine.com/2025/04/building-offline-friendly-image-upload-system/",
+      "author": "Amejimaobari Ollornwi",
+      "pubDate": "2025-04-23T10:00:00.000Z",
+      "description": "Building offline-friendly image uploads with PWA tech like IndexedDB, service workers, and Background Sync ensures stress-free user experiences—even when connectivity is poor. Queue uploads and automate retries to keep users engaged without frustration.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/building-offline-friendly-image-upload-system/building-offline-friendly-image-upload-system.jpg"
+    },
+    {
+      "title": "Nice Details",
+      "url": "https://nerdy.dev/nice-details?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-04-25T16:35:05.000Z",
+      "description": "Spruce up your `<details>` elements with fun, stylish tweaks. Discover simple tricks to make these toggles more appealing and user-friendly.",
+      "categories": [
+        "note",
+        "css"
+      ]
+    },
+    {
+      "title": "Zen Garden Leave",
+      "url": "https://nerdy.dev/zen-garden-leave?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-04-23T17:21:16.000Z",
+      "description": "Embrace a slow, mindful approach to CSS design. Tending to a brutalist-inspired garden on CodePen offers a calming break from fast-paced development.",
+      "categories": [
+        "note",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/zen-garden-leave.png"
+    },
+    {
+      "title": "The Lost CSS Tricks of Cohost.org",
+      "url": "https://css-tricks.com/the-lost-css-tricks-of-cohost-org/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-04-24T12:49:42.000Z",
+      "description": "Explore clever CSS hacks uncovered while testing Cohost’s HTML support. These tricks push the boundaries of what’s possible—use them carefully, or risk being labeled a CSS criminal.",
+      "categories": [
+        "Articles",
+        "inspiration"
+      ]
+    },
+    {
+      "title": "Advanced TypeScript manipulation features for the real world",
+      "url": "https://piccalil.li/blog/advanced-typescript-manipulation-features-for-the-real-world/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-04-24T10:55:00.000Z",
+      "description": "Dive into advanced TypeScript type manipulation. Learn how to leverage powerful features beyond utility types for more expressive, maintainable code—perfect for complex data modeling.",
+      "categories": []
+    },
+    {
+      "title": "Creating CSS Theme Variables from a JS file",
+      "url": "https://css-irl.info/creating-css-variables-from-a-js-file/",
+      "author": "CSS In Real Life",
+      "pubDate": "2025-04-22T00:00:00.000Z",
+      "description": "Sync your brand and data visualization colors across JavaScript and CSS effortlessly. A step-by-step guide to generating CSS custom properties from a JS theme file using Node and NPM.",
+      "categories": []
+    },
+    {
+      "title": "Foreword to Web Accessibility Cookbook by Manuel Matuzovic",
+      "url": "https://adactio.com/articles/21876",
+      "author": "Jeremy Keith",
+      "pubDate": "2025-04-27T09:56:51.000Z",
+      "description": "An insightful foreword on designing inclusive digital experiences, emphasizing accessibility and user-centered design principles.",
+      "categories": [
+        "accessibility",
+        "a11y",
+        "book",
+        "publishing",
+        "writing",
+        "inclusive",
+        "frontend",
+        "development",
+        "html"
+      ]
+    },
+    {
+      "title": "Bunny CDN 🐇 (Migrating from Cloudflare)",
+      "url": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/",
+      "author": "David Bushell",
+      "pubDate": "2025-04-27T10:00:00.000Z",
+      "description": "Bunny offers CDN, edge storage, DNS, and JavaScript services—becoming a notable European alternative to US-based providers. A compelling choice for non-US developers seeking reliable, privacy-conscious infrastructure.",
+      "categories": []
+    }
+  ],
+  "description": "Explore ways to enhance web performance and accessibility with offline-friendly image uploads using PWA technologies like IndexedDB and service workers. Learn how to style <details> elements for a better user experience and dive into calming CSS design inspired by brutalist aesthetics. Discover advanced TypeScript techniques for complex data modeling and ensure consistent branding with JavaScript and CSS synchronization. Consider privacy-conscious infrastructure alternatives from Bunny for CDN and JavaScript services.",
+  "joke": "Why do JavaScript developers prefer dark mode? Because light attracts bugs!",
+  "challenge": "Create a dynamic weather visualization using the Canvas API. Fetch real-time weather data from an API, then use HTML, CSS, and JavaScript to display animated weather conditions like rain, snow, or sunshine. Challenge yourself to make the animations smooth and responsive, offering a visually engaging experience that adapts to different weather scenarios."
+}

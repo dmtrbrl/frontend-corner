@@ -1,0 +1,218 @@
+{
+  "no": 3,
+  "pubDate": "2025-05-04T21:59:59.999Z",
+  "articles": [
+    {
+      "title": "Motion Highlights #5",
+      "url": "https://tympanus.net/codrops/2025/05/04/motion-highlights-5/",
+      "author": "Codrops",
+      "pubDate": "2025-05-04T12:24:50.000Z",
+      "description": "Dive into the latest motion design trends across the web, showcasing bold visuals and innovative animations that push creative boundaries.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "motion-design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Developer Spotlight: Reksa Andhika",
+      "url": "https://tympanus.net/codrops/2025/05/02/developer-spotlight-reksa-andhika/",
+      "author": "Codrops",
+      "pubDate": "2025-05-02T11:26:36.000Z",
+      "description": "Explore the work of Reksa Andhika, an independent developer known for crafting websites with distinctive motion and interactive layouts.",
+      "categories": [
+        "Articles",
+        "Developer Spotlight"
+      ]
+    },
+    {
+      "title": "Animating in Frames: Repeating Image Transition",
+      "url": "https://tympanus.net/codrops/2025/04/28/animating-in-frames-repeating-image-transition/",
+      "author": "Codrops",
+      "pubDate": "2025-04-28T11:48:21.000Z",
+      "description": "Discover techniques for animating repeated image frames along paths, inspired by Joana Correia’s engaging motion design reel.",
+      "categories": [
+        "Playground",
+        "grid",
+        "page-transition",
+        "repetition"
+      ]
+    },
+    {
+      "title": "WCAG 3.0’s Proposed Scoring Model: A Shift In Accessibility Evaluation",
+      "url": "https://smashingmagazine.com/2025/05/wcag-3-proposed-scoring-model-shift-accessibility-evaluation/",
+      "author": "Mikhail Prosmitskiy",
+      "pubDate": "2025-05-02T11:00:00.000Z",
+      "description": "WCAG 3.0 shifts focus from binary success criteria to prioritizing usability and access quality, signaling a new era in web accessibility.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/wcag-3-proposed-scoring-model-shift-accessibility-evaluation/wcag-3-proposed-scoring-model-shift-accessibility-evaluation.jpg"
+    },
+    {
+      "title": "How To Turn Your Figma Designs Into Live Apps With Anima Playground",
+      "url": "https://smashingmagazine.com/2025/04/anima-playground-figma-designs-live-apps/",
+      "author": "Anima Team",
+      "pubDate": "2025-04-29T10:00:00.000Z",
+      "description": "Learn how AnimaApp helps designers and developers quickly turn visual ideas into functional prototypes, streamlining the design-to-development process.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/anima-playground-figma-designs-live-apps/anima-playground-figma-designs-live-apps.jpg"
+    },
+    {
+      "title": "UX And Design Files Organization Template",
+      "url": "https://smashingmagazine.com/2025/04/ux-design-files-organization-template/",
+      "author": "Vitaly Friedman",
+      "pubDate": "2025-04-28T13:00:00.000Z",
+      "description": "Organizing UX assets can be challenging—this guide offers practical folder structures to manage files across Figma, PDFs, Slack, Dropbox, and Notion.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/ux-design-files-organization-template/ux-design-files-organization-template.jpg"
+    },
+    {
+      "title": "WebDev Challenge - S2E2",
+      "url": "https://nerdy.dev/webdev-challenge-s2e2?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-04-29T15:45:22.000Z",
+      "description": "What can you build in 4 hours with 30 minutes of planning? A team takes on the Web Dev Challenge, creating fun multi-device experiences with Temporal workflow tools.",
+      "categories": [
+        "blog",
+        "shows",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/the-louigi-boards.jpg"
+    },
+    {
+      "title": "CSS shape() Commands",
+      "url": "https://css-tricks.com/css-shape-commands/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-02T12:36:10.000Z",
+      "description": "The CSS shape() function, now supported in Chromium and WebKit browsers, enables drawing complex shapes for clipping with clip-path—unlocking new design possibilities.",
+      "categories": [
+        "Notes",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "Revisiting Image Maps",
+      "url": "https://css-tricks.com/revisiting-image-maps/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-04-30T12:12:45.000Z",
+      "description": "Revisiting the history of image maps from HTML 3.2, exploring how clickable regions over images have evolved from server-side to client-side implementations.",
+      "categories": [
+        "Articles",
+        "images"
+      ]
+    },
+    {
+      "title": "Anchor Positioning Just Don’t Care About Source Order",
+      "url": "https://css-tricks.com/anchor-positioning-just-dont-care-about-source-order/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-04-28T12:43:01.000Z",
+      "description": "Anchor positioning in CSS intentionally ignores HTML source order, exemplifying the separation of content and presentation principles.",
+      "categories": [
+        "Articles",
+        "anchor positioning"
+      ]
+    },
+    {
+      "title": "Document Isolation Policy: Enable powerful web features with ease",
+      "url": "https://developer.chrome.com/blog/document-isolation-policy?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-01T07:00:00.000Z",
+      "description": "Unlock advanced web features like SharedArrayBuffers and WebAssembly threads by enabling Document Isolation Policy's crossOriginIsolation setting.",
+      "categories": []
+    },
+    {
+      "title": "Use CSS reading-flow for logical sequential focus navigation",
+      "url": "https://developer.chrome.com/blog/reading-flow?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-01T07:00:00.000Z",
+      "description": "Discover how to leverage Chrome 137's new reading-flow and reading-order CSS properties for improved content accessibility and layout control.",
+      "categories": []
+    },
+    {
+      "title": "Origin trial: Cross-device Digital Credentials API now in Chrome desktop",
+      "url": "https://developer.chrome.com/blog/digital-credentials-cross-device-ot?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-04-30T07:00:00.000Z",
+      "description": "Explore the cross-device capabilities of the Digital Credentials API to seamlessly present digital credentials across multiple devices.",
+      "categories": []
+    },
+    {
+      "title": "How to style console logs in Chrome DevTools: Color and more!",
+      "url": "https://developer.chrome.com/blog/devtools-tips-40?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-04-30T07:00:00.000Z",
+      "description": "Learn how to customize console logs in Chrome DevTools with color, styles, and formatting for clearer debugging.",
+      "categories": []
+    },
+    {
+      "title": "New in Chrome 136",
+      "url": "https://developer.chrome.com/blog/new-in-chrome-136?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-04-29T07:00:00.000Z",
+      "description": "Dive into RegExp.escape, partitioned visited links, WebAuthn passkey upgrades with conditional create, and more web security and performance enhancements.",
+      "categories": []
+    },
+    {
+      "title": "Lighthouse is moving to performance insight audits",
+      "url": "https://developer.chrome.com/blog/moving-lighthouse-to-insights?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-04-28T07:00:00.000Z",
+      "description": "Lighthouse is shifting focus to performance insight audits, providing deeper analysis to optimize your web app's speed and efficiency.",
+      "categories": []
+    },
+    {
+      "title": "7 Best Practices for Improving Landing Page Performance",
+      "url": "https://www.debugbear.com/blog/improving-landing-page-performance",
+      "author": "DebugBear",
+      "pubDate": "2025-04-29T00:00:00.000Z",
+      "description": "Enhance your landing pages with seven proven strategies—improve copy, design, and web performance to boost conversions.",
+      "categories": []
+    },
+    {
+      "title": "Does Making Fewer HTTP Requests Improve Page Speed?",
+      "url": "https://www.debugbear.com/blog/make-fewer-http-requests",
+      "author": "DebugBear",
+      "pubDate": "2025-04-28T00:00:00.000Z",
+      "description": "Understand the performance implications of multiple HTTP requests and explore practical techniques to minimize their impact.",
+      "categories": []
+    },
+    {
+      "title": "Making a custom compiler pass for Closure Compiler",
+      "url": "https://romanliutikov.com/blog/making-custom-compiler-pass-for-closure-compiler",
+      "author": "Roman Liutikov",
+      "pubDate": "2025-05-01T11:09:00.000Z",
+      "description": "Follow a detailed guide to implementing a custom compiler pass in Google's Closure Compiler for tailored code optimization.",
+      "categories": []
+    },
+    {
+      "title": "Closure Compiler lands class fields support",
+      "url": "https://romanliutikov.com/blog/closure-compiler-lands-class-fields-support",
+      "author": "Roman Liutikov",
+      "pubDate": "2025-04-28T10:10:44.000Z",
+      "description": "Closure Compiler now supports private class fields in JavaScript, a significant update for ClojureScript and modern JavaScript development.",
+      "categories": []
+    },
+    {
+      "title": "Potential accessibility issues of floating animations on webpages and mobile apps",
+      "url": "https://cerovac.com/a11y/2025/05/potential-accessibility-issues-of-floating-animations-on-webpages-and-mobile-apps/",
+      "author": "Bogdan Cerovac",
+      "pubDate": "2025-05-03T18:57:00.000Z",
+      "description": "Analyzing animated webpages to identify how excessive or poorly implemented animations can disrupt user experience and offering tips to manage them effectively.",
+      "categories": [
+        "Accessibility in organizations",
+        "Accessibility testing",
+        "Practical A11y",
+        "Accessible animations",
+        "animation loop",
+        "EN 301 549",
+        "Flash",
+        "floating animation",
+        "floating elements",
+        "WCAG"
+      ]
+    }
+  ],
+  "description": "Dive into innovative motion design trends, accessibility advancements with WCAG 3.0, and the power of CSS shape() for clipping. Explore Reksa Andhika’s dynamic web creations and Joana Correia’s animation techniques. Discover efficient design-to-development workflows with AnimaApp and practical UX asset management. Enhance web app performance with Lighthouse insights and optimize animations for better user experience.",
+  "joke": "Why did the developer go broke? Because they lost their domain in a bidding war!",
+  "challenge": "Create a dynamic and interactive animation using HTML, CSS, and JavaScript to mimic a leaf falling across the screen. Use the CSS shape() function for clipping effects and control the animation path with JavaScript. Optionally, enhance the experience with sound effects using the Web Audio API to simulate the rustling of leaves."
+}
