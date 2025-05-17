@@ -4,6 +4,7 @@ import "./globals.css";
 
 const tinosFont = Tinos({
   variable: "--font-tinos",
+  subsets: ["latin"],
   style: "normal",
   weight: "400",
 });
