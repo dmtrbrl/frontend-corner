@@ -5,24 +5,28 @@ type Options = {
   model?: string;
 };
 
-const parseDescriptions = (
+export const parseDescriptions = (
   responseText: string,
   expectedCount: number
 ): string[] => {
-  const lines = responseText
-    .split(/\n(?=\d+\.)/)
+  const normalized = responseText.replace(/\r\n/g, "\n");
+
+  const numbered = normalized
+    .split(/\n(?=\d+\.\s)/)
     .map((line) => line.replace(/^\d+\.\s*/, "").trim())
     .filter(Boolean);
 
-  if (lines.length < expectedCount) {
-    return responseText
-      .split("\n")
-      .map((l) => l.trim())
-      .filter(Boolean)
-      .slice(0, expectedCount);
+  if (numbered.length >= expectedCount) {
+    return numbered.slice(0, expectedCount);
   }
 
-  return lines.slice(0, expectedCount);
+  const fallback = normalized
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .slice(0, expectedCount);
+
+  return fallback;
 };
 
 const buildReviewOrGeneratePrompt = (batch: string[]): string => {
