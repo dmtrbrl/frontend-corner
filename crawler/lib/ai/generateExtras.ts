@@ -59,11 +59,16 @@ const buildExtrasPrompt = (summaries: string[]): string => {
       ✳️ Do NOT start with phrases like "This week", "This issue", "In this issue", "In this edition" etc.
       ✳️ Make the description feel timeless and self-contained — suitable for an archive of weekly summaries.
 
-    2. A frontend-related joke of the week. It should be short, fun, and understandable by developers who work with HTML, CSS, or JavaScript.
-      ✳️ The joke should not be old and stupid
+    2. A frontend-related joke of the week. It should be short, fun, and understandable by developers who work with HTML, CSS, JS, Node.js, frontend frameforks, A11I, UI/UX.
+      ✳️ It should be smart, NOT stupid (please keep dad jokes to yourself =))
+      ✳️ It should be gender neutral
 
-    3. A frontend challenge of the week — a fun and creative task that can be completed in 2–5 hours using HTML, CSS, and/or JavaScript.
+    3. A frontend challenge of the week — a fun and creative task that can be completed in 1–5 hours using HTML, CSS, and JS.
       ✳️ The challenge must not be specific to any framework (like React or Vue), but developers may optionally use one if they prefer.
+      ✳️ It can be a recreation from scratch of some concept used in modern frameforks
+      ✳️ It can be related to WebGL or Canvas
+      ✳️ It can involve usage of native APIs (video, audio etc.)
+      ✳️ It SHOULD NOT be boring
 
     Only return a valid JSON array: [description, joke, challenge]
 
