@@ -31,3 +31,98 @@ jobs:
       - uses: ./.github/actions/setup-node-pnpm
       - name: Lint ${{ matrix.target }}
         run: pnpm run ${{ matrix.target }}:lint
+
+  deploy:
+    name: Deploy to Vercel
+    runs-on: ubuntu-latest
+    needs: [build, lint]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-node-pnpm
+      - name: Check if deploy is needed
+        id: changes
+        run: |
+          git fetch origin ${{ github.event.before }} --depth=1
+          CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          echo "$CHANGED"
+
+          if echo "$CHANGED" | grep -qE '^(data|frontend|shared)/'; then
+            echo "should_deploy=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_deploy=false" >> $GITHUB_OUTPUT
+        shell: bash
+
+      # Preview Deployment
+      - name: Create GitHub Deployment (Preview)
+        if: github.event_name == 'pull_request' && steps.changes.outputs.should_deploy == 'true'
+        id: create_preview
+        run: |
+          DEPLOYMENT_ID=$(gh api repos/${{ github.repository }}/deployments \
+            -f ref="${{ github.sha }}" \
+            -f environment="Preview" \
+            -f description="Deploy preview from PR" \
+            -f auto_inactive=true \
+            -f transient_environment=true \
+            -f required_contexts='[]' \
+            --jq '.id')
+          echo "deployment_id=$DEPLOYMENT_ID" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to Vercel (Preview)
+        if: github.event_name == 'pull_request' && steps.changes.outputs.should_deploy == 'true'
+        run: |
+          URL=$(pnpm dlx vercel deploy --token=$VERCEL_TOKEN --yes)
+          echo "vercel_url=$URL" >> $GITHUB_OUTPUT
+        shell: bash
+        id: vercel_preview
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+      - name: Mark Deployment Success (Preview)
+        if: github.event_name == 'pull_request' && steps.changes.outputs.should_deploy == 'true'
+        run: |
+          gh api repos/${{ github.repository }}/deployments/${{ steps.create_preview.outputs.deployment_id }}/statuses \
+            -f state=success \
+            -f environment_url="${{ steps.vercel_preview.outputs.vercel_url }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Production Deployment
+      - name: Create GitHub Deployment (Production)
+        if: github.event_name == 'push' && steps.changes.outputs.should_deploy == 'true'
+        id: create_prod
+        run: |
+          DEPLOYMENT_ID=$(gh api repos/${{ github.repository }}/deployments \
+            -f ref="${{ github.sha }}" \
+            -f environment="Production" \
+            -f description="Deploy to production" \
+            -f auto_inactive=true \
+            -f required_contexts='[]' \
+            --jq '.id')
+          echo "deployment_id=$DEPLOYMENT_ID" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to Vercel (Production)
+        if: github.event_name == 'push' && steps.changes.outputs.should_deploy == 'true'
+        run: |
+          URL=$(pnpm dlx vercel deploy --prod --token=$VERCEL_TOKEN --yes)
+          echo "vercel_url=$URL" >> $GITHUB_OUTPUT
+        shell: bash
+        id: vercel_prod
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+      - name: Mark Deployment Success (Production)
+        if: github.event_name == 'push' && steps.changes.outputs.should_deploy == 'true'
+        run: |
+          gh api repos/${{ github.repository }}/deployments/${{ steps.create_prod.outputs.deployment_id }}/statuses \
+            -f state=success \
+            -f environment_url="${{ steps.vercel_prod.outputs.vercel_url }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
