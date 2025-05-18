@@ -27,7 +27,7 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
 
     const articles: Article[] = results
       .filter(
-        (r): r is PromiseFulfilledResult<Article[]> => r.status === "fulfilled"
+        (r): r is PromiseFulfilledResult<any> => r.status === "fulfilled"
       )
       .flatMap((r) => r.value);
 
