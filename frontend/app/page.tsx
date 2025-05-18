@@ -8,7 +8,7 @@ export default async function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <img src="/logo.svg" alt="Frontend Corner" className={styles.logo} />
-        <h1>RSS Feeds:</h1>
+        <h1>Sources:</h1>
         <ol>
           {sources.map(({ title }) => (
             <li key={title}>{title}</li>
