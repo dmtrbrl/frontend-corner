@@ -8,19 +8,21 @@ on:
 
 jobs:
   crawler-build:
+    name: Build Crawler
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node-pnpm
-      - name: Build crawler
+      - name: Build Crawler
         run: pnpm run crawler:build
 
   crawler-lint:
+    name: Lint Crawler
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node-pnpm
-      - name: Lint crawler
+      - name: Lint Crawler
         run: pnpm run crawler:lint
 
   frontend-build:
