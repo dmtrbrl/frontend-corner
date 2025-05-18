@@ -4,5 +4,5 @@
   "devCommand": "pnpm run frontend:dev",
   "outputDirectory": "frontend/.next",
   "framework": "nextjs",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':data/' ':frontend/' ':shared/'"
+  "ignoreCommand": "git diff --quiet $VERCEL_GIT_COMMIT_REF^ $VERCEL_GIT_COMMIT_SHA -- . ':data/' ':frontend/' ':shared/'"
 }
