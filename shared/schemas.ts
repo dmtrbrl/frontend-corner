@@ -24,5 +24,4 @@ export const IssueSchema = z.object({
   description: z.string().optional(),
   joke: z.string().optional(),
   challenge: z.string().optional(),
-  test: z.string().optional(),
 });
