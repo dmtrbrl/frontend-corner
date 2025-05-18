@@ -29,7 +29,7 @@ const limitWords = (text: string, maxWords: number) => {
   return limitedWords.join(" ") + "...";
 };
 
-export const cleanAndLimit = (text: string, maxWords = 300) => {
+export const cleanAndLimit = (text: string, maxWords = 150) => {
   if (!text) return "";
   return limitWords(stripHtml(text), maxWords);
 };
