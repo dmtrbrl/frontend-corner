@@ -3,10 +3,10 @@ import { writeFile } from "fs/promises";
 import { Issue } from "crawler/types";
 import { ensureDir } from "./ensureDir";
 
-export const writeIssue = async (issue: Issue, isPreview: boolean) => {
+export const writeIssue = async (issue: Issue) => {
   const date = new Date(issue.pubDate);
   const yyyymmdd = date.toISOString().split("T")[0].replace(/-/g, "");
-  const filename = `${yyyymmdd}${isPreview ? ".preview" : ""}.json`;
+  const filename = `${yyyymmdd}.json`;
 
   const outputDir = "data/issues";
   await ensureDir(outputDir);
