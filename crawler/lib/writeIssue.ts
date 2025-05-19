@@ -1,13 +1,9 @@
 import path from "path";
 import { writeFile } from "fs/promises";
-import { Issue } from "crawler/types";
+import { Issue } from "@shared/types";
 import { ensureDir } from "./ensureDir";
 
-export const writeIssue = async (issue: Issue) => {
-  const date = new Date(issue.pubDate);
-  const yyyymmdd = date.toISOString().split("T")[0].replace(/-/g, "");
-  const filename = `${yyyymmdd}.json`;
-
+export async function writeIssue(filename: string, issue: Issue) {
   const outputDir = "data/issues";
   await ensureDir(outputDir);
 
@@ -15,4 +11,4 @@ export const writeIssue = async (issue: Issue) => {
   await writeFile(filePath, JSON.stringify(issue, null, 2), "utf-8");
 
   return filePath;
-};
+}

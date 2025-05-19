@@ -1,5 +1,5 @@
 import Parser from "rss-parser";
-import { Article, Source } from "crawler/types";
+import { Article, Source } from "@shared/types";
 import { cleanAuthor } from "./cleanAuthor";
 import { cleanAndLimit } from "./cleanAndLimit";
 
@@ -9,11 +9,11 @@ const parser = new Parser({
   },
 });
 
-export const parseFeed = async (
+export async function parseFeed(
   source: Source,
   startDate: Date,
   endDate: Date
-): Promise<Article[]> => {
+): Promise<Article[]> {
   try {
     const feed = await parser.parseURL(source.feedUrl);
 
@@ -55,4 +55,4 @@ export const parseFeed = async (
     console.error(`❌ Failed to parse feed: ${source.feedUrl}`, message);
     return [];
   }
-};
+}

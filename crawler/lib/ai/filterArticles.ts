@@ -10,10 +10,10 @@ type Options = {
   model?: string;
 };
 
-export const filterArticles = async (
+export async function filterArticles(
   articles: ArticleInput[],
   options: Options = {}
-): Promise<boolean[]> => {
+): Promise<boolean[]> {
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
   });
@@ -68,9 +68,9 @@ export const filterArticles = async (
   }
 
   return results;
-};
+}
 
-const buildFilterPrompt = (batch: ArticleInput[]): string => {
+function buildFilterPrompt(batch: ArticleInput[]): string {
   return (
     `Below is a list of articles with a title and description. For each, decide whether it should be included in a frontend development newsletter.\n\nRespond with ✅ Include or ❌ Exclude for each item.\n\n` +
     batch
@@ -82,12 +82,12 @@ const buildFilterPrompt = (batch: ArticleInput[]): string => {
       )
       .join("\n\n")
   );
-};
+}
 
-const parseFilterResponse = (
+function parseFilterResponse(
   responseText: string,
   expectedCount: number
-): boolean[] => {
+): boolean[] {
   const lines = responseText
     .split(/\n+/)
     .map((l) => l.trim())
@@ -99,4 +99,4 @@ const parseFilterResponse = (
   });
 
   return lines.map((line) => line.includes("✅"));
-};
+}

@@ -1,4 +1,4 @@
-export const cleanAuthor = (author: string): string | undefined => {
+export function cleanAuthor(author: string): string | undefined {
   if (!author) return undefined;
 
   // Remove email addresses
@@ -10,4 +10,4 @@ export const cleanAuthor = (author: string): string | undefined => {
 
   // Fallback: return whatever remains after stripping
   return author.replace(/[()]/g, "").trim();
-};
+}
