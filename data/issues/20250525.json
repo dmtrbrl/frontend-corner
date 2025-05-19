@@ -1,0 +1,41 @@
+{
+  "no": 6,
+  "pubDate": "2025-05-25T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "A Reader’s Question on Nested Lists",
+      "url": "https://css-tricks.com/a-readers-question-on-nested-lists/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-19T12:32:22.000Z",
+      "description": "Exploring how to craft complex numbering systems using CSS list counters, with practical tips for nested lists and custom styles.",
+      "categories": [
+        "Articles",
+        "lists"
+      ]
+    },
+    {
+      "title": "How To Generate And Open HAR Files",
+      "url": "https://www.debugbear.com/blog/generate-open-har-files",
+      "author": "DebugBear",
+      "pubDate": "2025-05-19T00:00:00.000Z",
+      "description": "HAR files capture resource loads on a website, providing valuable insights for debugging performance and loading issues.",
+      "categories": []
+    },
+    {
+      "title": "Creating Blob Shapes using clip-path: shape()",
+      "url": "https://frontendmasters.com/blog/creating-blob-shapes-using-clip-path-shape/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-19T14:30:05.000Z",
+      "description": "Dive into blobs—quirky, gooey shapes that can be filled with backgrounds and animated for creative UI effects.",
+      "categories": [
+        "Blog Post",
+        "Blob",
+        "CSS",
+        "Shapes"
+      ]
+    }
+  ],
+  "description": "Dive into the art of crafting unique and complex numbering systems using CSS list counters, learn how to debug performance issues with HAR files, and explore the creative potential of animated blobs for dynamic UI effects.",
+  "joke": "Why did the developer go broke? Because they lost their domain in CSS specificity wars!",
+  "challenge": "Create an interactive blob animation using HTML, CSS, and JavaScript. Your task is to make blobs that change shape and color on hover, and optionally respond to audio input for a mesmerizing effect. Use the Canvas API to bring your blobs to life, and experiment with gradients and shadows to enhance their gooey appeal."
+}
