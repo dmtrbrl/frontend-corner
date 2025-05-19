@@ -22,13 +22,17 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: pnpm run crawler:start
 
+      - name: Set dynamic branch name
+        id: branch
+        run: echo "name=weekly/preview-$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.PAT_GITHUB }}
           commit-message: "chore: weekly preview publish"
-          branch: "weekly/preview"
-          delete-branch: true
+          branch: ${{ steps.branch.outputs.name }}
           title: "chore: weekly preview publish"
           body: "Automated weekly preview content update."
           labels: |
