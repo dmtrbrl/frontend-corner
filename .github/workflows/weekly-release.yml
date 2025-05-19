@@ -23,7 +23,7 @@ jobs:
           PR_JSON=$(gh pr list \
             --state open \
             --base main \
-            --search "head:weekly/preview" \
+            --search "head:issue/" \
             --json number,title,headRefName \
             --jq '.[0]')
 
