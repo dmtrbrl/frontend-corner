@@ -7,7 +7,7 @@
       "url": "https://smashingmagazine.com/2025/05/design-system-in-90-days/",
       "author": "Vitaly Friedman",
       "pubDate": "2025-05-19T10:00:00.000Z",
-      "description": "Explore helpful PDF worksheets and tools designed to kickstart and promote adoption of your design system, all inspired by the \"How To Measure UX and Design Impact\" course that highlights the value of your UX work.",
+      "description": "Discover helpful PDFs and tools to kickstart and promote adoption of your design system, complemented by insights from How To Measure UX and Design Impact—your guide to demonstrating the value of UX work.",
       "categories": [],
       "img": "http://files.smashing.media/articles/design-system-in-90-days/design-system-in-90-days.jpg"
     },
@@ -16,18 +16,26 @@
       "url": "https://css-tricks.com/a-readers-question-on-nested-lists/",
       "author": "CSS-Tricks",
       "pubDate": "2025-05-19T12:32:22.000Z",
-      "description": "Delve into techniques for creating complex, nested numbering systems with CSS list counters, answering a common question about customizing list styles for intricate list structures.",
+      "description": "Exploring how to craft complex numbering systems with CSS list counters—answering a reader's question about nested lists and advanced list styling techniques.",
       "categories": [
         "Articles",
         "lists"
       ]
     },
     {
+      "title": "How To Generate And Open HAR Files",
+      "url": "https://www.debugbear.com/blog/generate-open-har-files",
+      "author": "DebugBear",
+      "pubDate": "2025-05-19T00:00:00.000Z",
+      "description": "HAR files capture resource load details on websites, serving as a powerful debugging tool for identifying and fixing visitor-facing issues.",
+      "categories": []
+    },
+    {
       "title": "Creating Blob Shapes using clip-path: shape()",
       "url": "https://frontendmasters.com/blog/creating-blob-shapes-using-clip-path-shape/",
       "author": "Frontend Masters",
       "pubDate": "2025-05-19T14:30:05.000Z",
-      "description": "Discover blobs—playful, gooey shapes that can be filled with backgrounds and animated for engaging visual effects in your web designs.",
+      "description": "Dive into blobs—playful, gooey shapes that can be filled with backgrounds and animated for creative, dynamic UI effects.",
       "categories": [
         "Blog Post",
         "Blob",
@@ -36,7 +44,7 @@
       ]
     }
   ],
-  "description": "Discover innovative tools to enhance your design system's adoption while understanding the importance of measuring UX impact. Master the art of complex list styling using CSS counters for intricate layouts, and explore the creative possibilities of animated blobs for visually captivating web designs.",
-  "joke": "Why do JavaScript developers prefer coffee? Because they don't like dealing with promises.",
-  "challenge": "Create an interactive blob animation using HTML, CSS, and JavaScript. Experiment with different shapes, colors, and background patterns to make dynamic, engaging visuals that respond to user interactions. Utilize CSS animations and transformations for smooth transitions and consider adding audio effects using the Web Audio API for an immersive experience."
+  "description": "Embrace the fusion of design systems and UX impact measurement with insightful resources and tools. Unveil the art of crafting intricate numbering systems using CSS list counters for advanced styling. Enhance your debugging skills with HAR files, a key to resolving user-experience issues. Lastly, explore the playful world of animated blobs to add dynamic flair to your UI designs.",
+  "joke": "Why did the CSS developer bring a ladder to work? Because they heard the website had a few 'float' problems!",
+  "challenge": "Create an interactive blob animation using HTML, CSS, and JavaScript. Design gooey shapes that morph and change, incorporating background colors or gradients. Enhance the animation by making the blobs react to user interactions, like mouse movements or clicks. This challenge will test your skills in CSS animations and JavaScript event handling, resulting in a visually engaging and dynamic UI element."
 }
