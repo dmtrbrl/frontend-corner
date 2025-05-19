@@ -3,10 +3,11 @@ name: Weekly Release
 on:
   schedule:
     - cron: "0 3 * * 2" # Every Tuesday at 03:00 UTC
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   release:
@@ -16,26 +17,40 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-
-      - name: Rename latest preview to final release
+      - name: Find preview PR
+        id: pr
         run: |
-          cd data/issues
-          preview_file=$(ls *.preview.json | sort | tail -n 1)
-          release_file=$(echo "$preview_file" | sed 's/\.preview//')
-          echo "Renaming $preview_file to $release_file"
-          mv "$preview_file" "$release_file"
+          PR_JSON=$(gh pr list \
+          --state open \
+          --base main \
+          --json number,title,headRefName,author \
+          | jq -c '[.[] | select(.headRefName | startswith("weekly/preview")) | select(.author.email == "actions@github.com")][0]')
+          
+          if [ -z "$PR_JSON" ]; then
+            echo "No matching PR found."
+            echo "skip=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
 
-      - name: Commit and push release
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add .
-          git diff --cached --quiet || git commit -m "chore: weekly release"
-          git push
+          NUMBER=$(echo "$PR_JSON" | jq -r '.number')
+          HEAD=$(echo "$PR_JSON" | jq -r '.headRefName')
+
+          echo "Found PR #$NUMBER ($HEAD)"
+          echo "number=$NUMBER" >> $GITHUB_OUTPUT
+          echo "skip=false" >> $GITHUB_OUTPUT
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Enable auto-merge
+        if: steps.pr.outputs.skip == 'false'
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.pr.outputs.number }}
+          merge-method: squash
+
+      - name: Merge the PR
+        if: steps.pr.outputs.skip == 'false'
+        run: gh pr merge ${{ steps.pr.outputs.number }} --squash --admin --delete-branch --yes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
