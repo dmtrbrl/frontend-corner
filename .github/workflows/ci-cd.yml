@@ -1,14 +1,15 @@
 name: CI/CD
 
+env:
+  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
 on:
   push:
     branches: ["main"]
   pull_request:
     branches: ["main"]
-
-permissions:
-  contents: read
-  deployments: write
 
 jobs:
   build:
@@ -36,98 +37,58 @@ jobs:
       - name: Lint ${{ matrix.target }}
         run: pnpm run ${{ matrix.target }}:lint
 
-  deploy:
-    name: Deploy to Vercel
+  deploy-preview:
+    name: Vercel Preview Deployment
     runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
     needs: [build, lint]
+
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node-pnpm
-      - name: Check if deploy is needed
+      - uses: ./.github/actions/check-deploy-needed
         id: changes
-        run: |
-          git fetch origin ${{ github.event.before }} --depth=1
-          CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
-          echo "$CHANGED"
 
-          if echo "$CHANGED" | grep -qE '^(data|frontend|shared)/'; then
-            echo "should_deploy=true" >> $GITHUB_OUTPUT
-          else
-            echo "should_deploy=false" >> $GITHUB_OUTPUT
-          fi
-        shell: bash
+      - name: Skip if no relevant changes
+        if: steps.changes.outputs.should_deploy == 'false'
+        run: echo "✅ Skipping preview deploy (no changes)" && exit 78
 
-      # Preview Deployment
-      - name: Create GitHub Deployment (Preview)
-        if: github.event_name == 'pull_request' && steps.changes.outputs.should_deploy == 'true'
-        id: create_preview
-        run: |
-          DEPLOYMENT_ID=$(gh api repos/${{ github.repository }}/deployments \
-            -f ref="${{ github.sha }}" \
-            -f environment="Preview" \
-            -f description="Deploy preview from PR" \
-            -f auto_inactive=true \
-            -f transient_environment=true \
-            -f required_contexts='[]' \
-            --jq '.id')
-          echo "deployment_id=$DEPLOYMENT_ID" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install Vercel CLI
+        run: pnpm dlx vercel@latest --version
 
-      - name: Deploy to Vercel (Preview)
-        if: github.event_name == 'pull_request' && steps.changes.outputs.should_deploy == 'true'
-        run: |
-          URL=$(pnpm dlx vercel deploy --token=$VERCEL_TOKEN --yes)
-          echo "vercel_url=$URL" >> $GITHUB_OUTPUT
-        shell: bash
-        id: vercel_preview
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      - name: Pull Vercel Environment Info
+        run: pnpm dlx vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
 
-      - name: Mark Deployment Success (Preview)
-        if: github.event_name == 'pull_request' && steps.changes.outputs.should_deploy == 'true'
-        run: |
-          gh api repos/${{ github.repository }}/deployments/${{ steps.create_preview.outputs.deployment_id }}/statuses \
-            -f state=success \
-            -f environment_url="${{ steps.vercel_preview.outputs.vercel_url }}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build Project Artifacts
+        run: pnpm dlx vercel build --token=${{ secrets.VERCEL_TOKEN }}
 
-      # Production Deployment
-      - name: Create GitHub Deployment (Production)
-        if: github.event_name == 'push' && steps.changes.outputs.should_deploy == 'true'
-        id: create_prod
-        run: |
-          DEPLOYMENT_ID=$(gh api repos/${{ github.repository }}/deployments \
-            -f ref="${{ github.sha }}" \
-            -f environment="Production" \
-            -f description="Deploy to production" \
-            -f auto_inactive=true \
-            -f required_contexts='[]' \
-            --jq '.id')
-          echo "deployment_id=$DEPLOYMENT_ID" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Deploy Preview to Vercel
+        run: pnpm dlx vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+
+  deploy-prod:
+    name: Vercel Production Deployment
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    needs: [build, lint]
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-node-pnpm
+      - uses: ./.github/actions/check-deploy-needed
+        id: changes
+
+      - name: Skip if no relevant changes
+        if: steps.changes.outputs.should_deploy == 'false'
+        run: echo "✅ Skipping production deploy (no changes)" && exit 78
+
+      - name: Install Vercel CLI
+        run: pnpm dlx vercel@latest --version
+
+      - name: Pull Vercel Environment Info
+        run: pnpm dlx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+
+      - name: Build Project Artifacts
+        run: pnpm dlx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy to Vercel (Production)
-        if: github.event_name == 'push' && steps.changes.outputs.should_deploy == 'true'
-        run: |
-          URL=$(pnpm dlx vercel deploy --prod --token=$VERCEL_TOKEN --yes)
-          echo "vercel_url=$URL" >> $GITHUB_OUTPUT
-        shell: bash
-        id: vercel_prod
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-
-      - name: Mark Deployment Success (Production)
-        if: github.event_name == 'push' && steps.changes.outputs.should_deploy == 'true'
-        run: |
-          gh api repos/${{ github.repository }}/deployments/${{ steps.create_prod.outputs.deployment_id }}/statuses \
-            -f state=success \
-            -f environment_url="${{ steps.vercel_prod.outputs.vercel_url }}"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm dlx vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
