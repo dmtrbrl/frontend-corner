@@ -27,9 +27,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "chore: weekly preview publish"
-          branch: |
-            BRANCH_NAME="weekly/preview-$(date +'%Y-%m-%d')"
-            echo BRANCH_NAME
+          branch: "weekly/preview-$(date +'%Y-%m-%d')"
           delete-branch: true
           title: "chore: weekly preview publish"
           body: "Automated weekly preview content update."
