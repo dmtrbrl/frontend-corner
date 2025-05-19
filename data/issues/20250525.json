@@ -1,0 +1,41 @@
+{
+  "no": 6,
+  "pubDate": "2025-05-25T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "A Reader’s Question on Nested Lists",
+      "url": "https://css-tricks.com/a-readers-question-on-nested-lists/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-19T12:32:22.000Z",
+      "description": "Exploring how to craft complex numbering systems using CSS list counters, addressing a reader’s question about nested lists and custom styles.",
+      "categories": [
+        "Articles",
+        "lists"
+      ]
+    },
+    {
+      "title": "How To Generate And Open HAR Files",
+      "url": "https://www.debugbear.com/blog/generate-open-har-files",
+      "author": "DebugBear",
+      "pubDate": "2025-05-19T00:00:00.000Z",
+      "description": "HAR files capture resource loading details, serving as a powerful debugging tool for web developers troubleshooting website issues.",
+      "categories": []
+    },
+    {
+      "title": "Creating Blob Shapes using clip-path: shape()",
+      "url": "https://frontendmasters.com/blog/creating-blob-shapes-using-clip-path-shape/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-19T14:30:05.000Z",
+      "description": "Dive into blobs—quirky, gooey shapes that can be filled with backgrounds and animated for creative visual effects.",
+      "categories": [
+        "Blog Post",
+        "Blob",
+        "CSS",
+        "Shapes"
+      ]
+    }
+  ],
+  "description": "Delve into the art of crafting intricate numbering systems with CSS list counters, enhancing your control over nested lists and custom styles. Discover the power of HAR files as indispensable tools for diagnosing resource loading issues. Unleash your creativity with blobs, those fascinating, abstract shapes that can be animated to add a dynamic flair to your designs.",
+  "joke": "Why did the JavaScript developer go broke? Because he kept losing his this!",
+  "challenge": "Create an interactive blob generator using HTML, CSS, and JavaScript. Users should be able to adjust parameters like size, color, and animation speed to see their blob creations come to life. Integrate a download button to allow users to export their custom blob as an SVG."
+}
