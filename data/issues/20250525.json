@@ -1,0 +1,20 @@
+{
+  "no": 6,
+  "pubDate": "2025-05-25T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "A Reader’s Question on Nested Lists",
+      "url": "https://css-tricks.com/a-readers-question-on-nested-lists/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-19T12:32:22.000Z",
+      "description": "Exploring how to craft complex numbering systems using CSS list counters. This guide addresses a reader’s question about customizing nested lists for more sophisticated, visually appealing numbering schemes. Perfect for developers looking to elevate their list styling with CSS.",
+      "categories": [
+        "Articles",
+        "lists"
+      ]
+    }
+  ],
+  "description": "Discover innovative techniques for enhancing list styling with CSS list counters, offering solutions for crafting complex and visually appealing nested numbering systems. Learn how to elevate your web designs with sophisticated and customizable list aesthetics.",
+  "joke": "Why did the JavaScript developer keep getting lost in the forest? Because they kept following the promises but forgot to handle the rejections.",
+  "challenge": "Create a dynamic, interactive photo gallery using HTML, CSS, and JavaScript. Incorporate CSS Grid for layout, and enhance the gallery with animations or transitions for image hover effects. Add a lightbox feature using native JavaScript to display images in an overlay when clicked. Optionally, integrate the Web Animations API for smooth transitions and consider adding keyboard navigation for an accessible user experience."
+}
