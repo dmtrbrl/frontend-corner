@@ -1,0 +1,28 @@
+{
+  "no": 6,
+  "pubDate": "2025-05-25T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "A Reader’s Question on Nested Lists",
+      "url": "https://css-tricks.com/a-readers-question-on-nested-lists/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-19T12:32:22.000Z",
+      "description": "Exploring how to craft complex numbering systems using CSS list counters, with practical tips for nested lists and custom styles. A helpful guide for creating more sophisticated list structures in web design.",
+      "categories": [
+        "Articles",
+        "lists"
+      ]
+    },
+    {
+      "title": "How To Generate And Open HAR Files",
+      "url": "https://www.debugbear.com/blog/generate-open-har-files",
+      "author": "DebugBear",
+      "pubDate": "2025-05-19T00:00:00.000Z",
+      "description": "HAR files capture all resources loaded during a website visit, making them invaluable for debugging performance issues and understanding resource loading behavior. Essential for web developers troubleshooting site problems.",
+      "categories": []
+    }
+  ],
+  "description": "Unlock the potential of CSS list counters to enhance your web design by creating complex and custom-styled numbering systems. Additionally, delve into the power of HAR files for comprehensive performance analysis and resource management, arming developers with the tools to optimize and troubleshoot their websites effectively.",
+  "joke": "Why don't programmers like to gossip? They hate dealing with loose threads.",
+  "challenge": "Create an interactive to-do list app using HTML, CSS, and JavaScript that allows users to add, edit, and delete tasks. Enhance it with a feature that automatically categorizes tasks based on user input and displays them in a visually appealing, nested structure using CSS counters. Bonus: Implement a simple performance analysis using the browser's developer tools to optimize the app's loading speed."
+}
