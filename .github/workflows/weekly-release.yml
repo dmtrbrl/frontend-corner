@@ -21,28 +21,27 @@ jobs:
         id: pr
         run: |
           PR_JSON=$(gh pr list \
-          --state open \
-          --base main \
-          --json number,title,headRefName,author \
-          | jq -c '[.[] | select(.headRefName | startswith("weekly/preview")) | select(.author.email == "actions@github.com")][0]')
-          
-          if [ -z "$PR_JSON" ]; then
+            --state open \
+            --base main \
+            --search "head:weekly/preview" \
+            --json number,title,headRefName \
+            --jq '.[0]')
+
+          if [ -z "$PR_JSON" ] || [ "$PR_JSON" == "null" ]; then
             echo "No matching PR found."
-            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "found=false" >> $GITHUB_OUTPUT
             exit 0
           fi
 
           NUMBER=$(echo "$PR_JSON" | jq -r '.number')
-          HEAD=$(echo "$PR_JSON" | jq -r '.headRefName')
-
-          echo "Found PR #$NUMBER ($HEAD)"
+          echo "Found PR #$NUMBER"
+          echo "found=true" >> $GITHUB_OUTPUT
           echo "number=$NUMBER" >> $GITHUB_OUTPUT
-          echo "skip=false" >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Enable auto-merge
-        if: steps.pr.outputs.skip == 'false'
+        if: steps.pr.outputs.found == 'true'
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -50,7 +49,7 @@ jobs:
           merge-method: squash
 
       - name: Merge the PR
-        if: steps.pr.outputs.skip == 'false'
+        if: steps.pr.outputs.found == 'true'
         run: gh pr merge ${{ steps.pr.outputs.number }} --squash --admin --delete-branch --yes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
