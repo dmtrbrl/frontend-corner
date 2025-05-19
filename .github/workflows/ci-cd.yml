@@ -49,17 +49,16 @@ jobs:
       - uses: ./.github/actions/check-deploy-needed
         id: changes
 
-      - name: Skip if no relevant changes
-        if: steps.changes.outputs.should_deploy == 'false'
-        run: echo "✅ Skipping preview deploy (no changes)" && exit 78
-
       - name: Pull Vercel Environment Info
+        if: steps.changes.outputs.should_deploy == 'false'
         run: pnpm dlx vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Build Project Artifacts
+        if: steps.changes.outputs.should_deploy == 'false'
         run: pnpm dlx vercel build --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy Preview to Vercel
+        if: steps.changes.outputs.should_deploy == 'false'
         run: pnpm dlx vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
 
   deploy-prod:
@@ -74,15 +73,14 @@ jobs:
       - uses: ./.github/actions/check-deploy-needed
         id: changes
 
-      - name: Skip if no relevant changes
-        if: steps.changes.outputs.should_deploy == 'false'
-        run: echo "✅ Skipping production deploy (no changes)" && exit 78
-
       - name: Pull Vercel Environment Info
+        if: steps.changes.outputs.should_deploy == 'true'
         run: pnpm dlx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Build Project Artifacts
+        if: steps.changes.outputs.should_deploy == 'true'
         run: pnpm dlx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
 
       - name: Deploy to Vercel (Production)
+        if: steps.changes.outputs.should_deploy == 'true'
         run: pnpm dlx vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
