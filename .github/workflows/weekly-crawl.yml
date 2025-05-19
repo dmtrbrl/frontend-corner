@@ -24,18 +24,18 @@ jobs:
 
       - name: Set dynamic branch name
         id: branch
-        run: echo "name=weekly/preview-$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+        run: echo "name=issue/$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.PAT_GITHUB }}
-          commit-message: "chore: weekly preview publish"
+          commit-message: "chore: publish weekly issue"
           branch: ${{ steps.branch.outputs.name }}
           committer: GitHub Actions Bot <actions@github.com>
           author: GitHub Actions Bot <actions@github.com>
-          title: "chore: weekly preview publish"
-          body: "Automated weekly preview content update."
+          title: "chore: publish weekly issue"
+          body: "Automated weekly issue content update"
           labels: |
             automated pr
