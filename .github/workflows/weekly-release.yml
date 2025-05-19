@@ -44,7 +44,7 @@ jobs:
         if: steps.pr.outputs.found == 'true'
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_GITHUB }}
           pull-request-number: ${{ steps.pr.outputs.number }}
           merge-method: squash
 
