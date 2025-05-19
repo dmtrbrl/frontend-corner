@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import { getSources } from "@shared/services";
-import { weeksAgo, isPreview } from "./config";
+import { weeksAgo } from "./config";
 import { parseFeed } from "./lib/parseFeed";
 import { getLastPublishedIssue } from "./lib/getLastPublishedIssue";
 import { getWeekRange } from "./lib/getWeekRange";
@@ -70,7 +70,7 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
       challenge,
     };
 
-    const filePath = await writeIssue(issue, isPreview);
+    const filePath = await writeIssue(issue);
     console.log(`💾 Issue saved: ${filePath}`);
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
