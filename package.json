@@ -4,13 +4,14 @@
   "author": "Dmytro Barylo",
   "license": "MIT",
   "scripts": {
+    "crawler:build": "tsup crawler/index.ts --format esm --out-dir crawler/dist",
+    "crawler:lint": "cd crawler && npx eslint",
+    "crawler:start": "pnpm run crawler:build && node crawler/dist/index.js",
     "frontend:dev": "next dev frontend --turbopack",
     "frontend:build": "next build frontend",
     "frontend:start": "next start frontend",
     "frontend:lint": "cd frontend && next lint",
-    "crawler:build": "tsup crawler/index.ts --format esm --out-dir crawler/dist",
-    "crawler:lint": "cd crawler && npx eslint",
-    "crawler:start": "pnpm run crawler:build && node crawler/dist/index.js"
+    "shared:lint": "cd shared && npx eslint"
   },
   "dependencies": {
     "dotenv": "^16.5.0",

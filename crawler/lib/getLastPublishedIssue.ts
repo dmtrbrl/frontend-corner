@@ -1,28 +1,23 @@
-import { Issue } from "crawler/types";
+import { IssueSchema } from "@shared/schemas";
+import { Issue } from "@shared/types";
 import { readdir, readFile } from "fs/promises";
 import path from "path";
 
-export async function getLastPublishedIssue(
-  issuesDir: string
-): Promise<Issue | null> {
+export async function getLastPublishedIssue(): Promise<Issue | null> {
   try {
+    const issuesDir = "data/issues";
     const files = await readdir(issuesDir);
-    const jsonFiles = files.filter(
-      (file) => file.endsWith(".json") && !file.endsWith(".preview.json")
-    );
 
     let lastIssue: Issue | null = null;
 
-    for (const file of jsonFiles) {
+    for (const file of files) {
       try {
         const filePath = path.join(issuesDir, file);
         const content = await readFile(filePath, "utf-8");
-        const data = JSON.parse(content);
+        const data = IssueSchema.parse(content);
 
-        if (typeof data.no === "number") {
-          if (!lastIssue || data.no > lastIssue.no) {
-            lastIssue = data;
-          }
+        if (!lastIssue || data.no > lastIssue.no) {
+          lastIssue = data;
         }
       } catch (err) {
         console.warn(
