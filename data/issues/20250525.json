@@ -1,5 +1,5 @@
 {
-  "no": 6,
+  "no": 7,
   "pubDate": "2025-05-25T23:59:59.999Z",
   "articles": [
     {
@@ -7,7 +7,7 @@
       "url": "https://smashingmagazine.com/2025/05/design-system-in-90-days/",
       "author": "Vitaly Friedman",
       "pubDate": "2025-05-19T10:00:00.000Z",
-      "description": "Explore helpful PDF worksheets and tools designed to kickstart and promote adoption of your design system, all inspired by the \"How To Measure UX and Design Impact\" course that highlights the value of your UX work.",
+      "description": "Discover helpful PDF worksheets and tools to kickstart and promote adoption of your design system, supported by insights from How To Measure UX and Design Impact—a friendly guide to demonstrating your UX work’s business value.",
       "categories": [],
       "img": "http://files.smashing.media/articles/design-system-in-90-days/design-system-in-90-days.jpg"
     },
@@ -16,7 +16,7 @@
       "url": "https://css-tricks.com/a-readers-question-on-nested-lists/",
       "author": "CSS-Tricks",
       "pubDate": "2025-05-19T12:32:22.000Z",
-      "description": "Delve into techniques for creating complex, nested numbering systems with CSS list counters, answering a common question about customizing list styles for intricate list structures.",
+      "description": "Exploring how to craft complex, nested numbering systems using CSS list counters—answering a reader’s question on creating advanced list styles with CSS tricks.",
       "categories": [
         "Articles",
         "lists"
@@ -27,7 +27,7 @@
       "url": "https://frontendmasters.com/blog/creating-blob-shapes-using-clip-path-shape/",
       "author": "Frontend Masters",
       "pubDate": "2025-05-19T14:30:05.000Z",
-      "description": "Discover blobs—playful, gooey shapes that can be filled with backgrounds and animated for engaging visual effects in your web designs.",
+      "description": "Dive into blobs! These gooey, organic shapes can be filled with backgrounds, animated, and used to add playful, dynamic visuals to your web designs.",
       "categories": [
         "Blog Post",
         "Blob",
@@ -36,7 +36,7 @@
       ]
     }
   ],
-  "description": "Discover innovative tools to enhance your design system's adoption while understanding the importance of measuring UX impact. Master the art of complex list styling using CSS counters for intricate layouts, and explore the creative possibilities of animated blobs for visually captivating web designs.",
-  "joke": "Why do JavaScript developers prefer coffee? Because they don't like dealing with promises.",
-  "challenge": "Create an interactive blob animation using HTML, CSS, and JavaScript. Experiment with different shapes, colors, and background patterns to make dynamic, engaging visuals that respond to user interactions. Utilize CSS animations and transformations for smooth transitions and consider adding audio effects using the Web Audio API for an immersive experience."
+  "description": "Unlock the potential of design systems with insightful resources and metrics for measuring UX impact, explore the depths of CSS list counters to create sophisticated nested numbering, and add a playful touch to your designs with animated blob shapes.",
+  "joke": "Why did the JavaScript developer leave the restaurant? Because they couldn't 'table' their ideas.",
+  "challenge": "Create an animated blob generator using HTML, CSS, and JavaScript. Allow users to customize the blob's shape, color, and animation speed, and then export their creation as an SVG or a downloadable image. Experiment with different CSS properties and JavaScript controls to bring these gooey, dynamic visuals to life."
 }
