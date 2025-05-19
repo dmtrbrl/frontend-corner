@@ -1,0 +1,204 @@
+{
+  "no": 5,
+  "pubDate": "2025-05-18T21:59:59.999Z",
+  "articles": [
+    {
+      "title": "From SplitText to MorphSVG: 5 Creative Demos Using Free GSAP Plugins",
+      "url": "https://tympanus.net/codrops/2025/05/14/from-splittext-to-morphsvg-5-creative-demos-using-free-gsap-plugins/",
+      "author": "Codrops",
+      "pubDate": "2025-05-14T12:18:49.000Z",
+      "description": "Discover how GSAP's free premium plugins unlock creative potential with five engaging animation demos, inspiring new ways to animate your projects.",
+      "categories": [
+        "Tutorials",
+        "GSAP",
+        "morphing",
+        "svg",
+        "typography"
+      ]
+    },
+    {
+      "title": "Integrating Rive into a React Project: Behind the Scenes of Valley Adventures",
+      "url": "https://tympanus.net/codrops/2025/05/12/integrating-rive-into-a-react-project-behind-the-scenes-of-valley-adventures/",
+      "author": "Codrops",
+      "pubDate": "2025-05-12T12:30:00.000Z",
+      "description": "A practical guide to integrating Rive into React, combining seamless interactivity with playful animations for Chumbi Valley’s Adventures.",
+      "categories": [
+        "Tutorials",
+        "react",
+        "rive"
+      ]
+    },
+    {
+      "title": "Smashing Animations Part 2: How CSS Masking Can Add An Extra Dimension",
+      "url": "https://smashingmagazine.com/2025/05/smashing-animations-part-2-css-masking-add-extra-dimension/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-05-14T13:00:00.000Z",
+      "description": "Explore how masking can elevate CSS animations beyond basic effects, adding depth and cinematic flair to your designs—pioneered by web designer Andy Clarke.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-2-css-masking-add-extra-dimension/smashing-animations-part-2-css-masking-add-extra-dimension.jpg"
+    },
+    {
+      "title": "Integrating Localization Into Design Systems",
+      "url": "https://smashingmagazine.com/2025/05/integrating-localization-into-design-systems/",
+      "author": "Rebecca Hemstad & Mark Malek",
+      "pubDate": "2025-05-12T10:00:00.000Z",
+      "description": "This case study shows how designers used Figma Variables and design tokens to create a localization-ready system, tackling multilingual challenges like text overflow and RTL layouts.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/integrating-localization-into-design-systems/integrating-localization-into-design-systems.jpg"
+    },
+    {
+      "title": "HTML Email Accessibility Report 2025",
+      "url": "https://css-tricks.com/html-email-accessibility-report-2025/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-16T14:38:19.000Z",
+      "description": "Reflect on the latest insights from the HTML Email Accessibility Report 2025, released after Global Accessibility Awareness Day, highlighting accessibility improvements in email design.",
+      "categories": [
+        "Links",
+        "accessibility",
+        "html email"
+      ]
+    },
+    {
+      "title": "Scroll-Driven Animations Inside a CSS Carousel",
+      "url": "https://css-tricks.com/scroll-driven-animations-inside-a-css-carousel/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-15T12:30:59.000Z",
+      "description": "Dive into scroll-driven animations within CSS carousels, leveraging new features to trigger engaging effects as users scroll through content.",
+      "categories": [
+        "Articles",
+        "carousel"
+      ]
+    },
+    {
+      "title": "Using Pages CMS for Static Site Content Management",
+      "url": "https://css-tricks.com/using-pages-cms-for-static-site-content-management/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-12T12:42:10.000Z",
+      "description": "Navigating the world of content management systems? Learn why some options fall short and how Pages CMS offers a straightforward solution for static site content management.",
+      "categories": [
+        "Articles",
+        "CMS",
+        "static sites"
+      ]
+    },
+    {
+      "title": "Enhancements to the <permission> element",
+      "url": "https://developer.chrome.com/blog/enhancements-to-permission-element?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-12T07:00:00.000Z",
+      "description": "The HTML permission element is no longer void and now supports icons, opening new possibilities for interactive and accessible UI components.",
+      "categories": []
+    },
+    {
+      "title": "How To Optimize Document Request Latency",
+      "url": "https://www.debugbear.com/blog/document-request-latency",
+      "author": "DebugBear",
+      "pubDate": "2025-05-12T00:00:00.000Z",
+      "description": "Understand the importance of the HTML document request for page speed and discover strategies to optimize load times effectively.",
+      "categories": []
+    },
+    {
+      "title": "Atomic Design, Tokens, AI and the Future of Design Systems &#8211; Experience Designed Podcast",
+      "url": "https://bradfrost.com/blog/link/atomic-design-tokens-ai-and-the-future-of-design-systems-experience-designed-podcast/",
+      "author": "Brad Frost",
+      "pubDate": "2025-05-18T13:34:23.000Z",
+      "description": "Catch up on an insightful conversation with Vy Alechnavicius on the Experienced Design podcast, covering a wide range of topics in frontend design.",
+      "categories": []
+    },
+    {
+      "title": "The Height Enigma",
+      "url": "https://www.joshwcomeau.com/css/height-enigma/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-05-12T11:30:00.000Z",
+      "description": "Unraveling the mystery of percentage-based heights in CSS—discover the common pitfalls and solutions to make your layouts behave predictably.",
+      "categories": []
+    },
+    {
+      "title": "Is there a Correct Answer? Flipping Layouts When Google Translate Swaps between a Left-to-Right Language and a Right-to-Left Language",
+      "url": "https://frontendmasters.com/blog/to-flip-or-not-to-flip/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-16T20:24:11.000Z",
+      "description": "Explore how to enable Google Translate to change a site's `dir` attribute from LTR to RTL, enhancing multilingual user experiences.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "HTML",
+        "Layout",
+        "Logical Properties",
+        "Translation"
+      ]
+    },
+    {
+      "title": "contrast-color() ships in Safari Technology Preview",
+      "url": "https://frontendmasters.com/blog/contrast-color-ships-in-safari-technology-preview/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-15T19:09:12.000Z",
+      "description": "CSS's new `contrast-color()` function simplifies choosing optimal text colors—see how it works in Safari Technology Preview and why it matters.",
+      "categories": [
+        "The Beat",
+        "Accessibility",
+        "Color",
+        "Color Contrast",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Reading flow ships in Chrome 137",
+      "url": "https://frontendmasters.com/blog/reading-flow-ships-in-chrome-137/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-14T22:28:54.000Z",
+      "description": "Chrome introduces reading-flow and reading-order CSS features, allowing developers to control element focus and visual order for a smoother reading experience.",
+      "categories": [
+        "The Beat",
+        "CSS",
+        "flexbox",
+        "Grid",
+        "reading-order"
+      ]
+    },
+    {
+      "title": "Container Query for “is there enough space outside this element?”",
+      "url": "https://frontendmasters.com/blog/container-query-for-is-there-enough-space-outside-this-element/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-13T16:26:46.000Z",
+      "description": "Container queries now support viewport units, enabling comparisons between the viewport and container sizes for more responsive designs.",
+      "categories": [
+        "Blog Post",
+        "Carousels",
+        "Container Queries",
+        "CSS",
+        "Viewport Units"
+      ]
+    },
+    {
+      "title": "Global Accessibility Awareness Day (GAAD) reflections just before European Accessibility Act (EAA)",
+      "url": "https://cerovac.com/a11y/2025/05/global-accessibility-awareness-day-gaad-reflections-just-before-european-accessibility-act-eaa/",
+      "author": "Bogdan Cerovac",
+      "pubDate": "2025-05-17T18:39:00.000Z",
+      "description": "While awareness of accessibility is vital, true inclusion requires actionable steps beyond just spreading knowledge about disabilities.",
+      "categories": [
+        "Accessibility in organizations",
+        "Laws and regulations",
+        "Promoting accessibility",
+        "a11y.si",
+        "Awareness",
+        "GAAD",
+        "GAAD Slovenia",
+        "GAAD Slovenija",
+        "Global Accessibility Awareness Day",
+        "Shift left"
+      ]
+    },
+    {
+      "title": "Search with Zig, Wasm, and a Worker ⚡",
+      "url": "https://dbushell.com/2025/05/18/search-with-zig-wasm-worker/",
+      "author": "David Bushell",
+      "pubDate": "2025-05-18T10:00:00.000Z",
+      "description": "Adding static search to a blog with Pagefind is straightforward, but watch out for re-indexing issues that can cause unnecessary file churn.",
+      "categories": []
+    }
+  ],
+  "description": "Explore the cutting-edge of frontend animation and design with a deep dive into GSAP's premium plugins and CSS masking techniques. Discover the power of scroll-driven animations and new CSS features for improved reading experiences. Learn effective localization strategies with Figma's design tokens and gain insights into email accessibility improvements. Enhance your sites with innovative tools like Pages CMS and the HTML permission element, while optimizing performance through smart document requests.",
+  "joke": "Why did the JavaScript function break up with the HTML document? Because it couldn't handle the scope of their relationship!",
+  "challenge": "Create an interactive gallery using HTML, CSS, and JavaScript that leverages scroll-driven animations. As users scroll through your gallery, images should smoothly transition into view using CSS masking techniques. Incorporate a GSAP animation for a creative touch, and ensure the design is responsive by utilizing container queries to adjust layouts based on the viewport size."
+}
