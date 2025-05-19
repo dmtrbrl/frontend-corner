@@ -6,10 +6,10 @@ type ExtrasOutput = {
   challenge: string;
 };
 
-export const generateExtras = async (
+export async function generateExtras(
   summaries: string[],
   model = "gpt-4o"
-): Promise<ExtrasOutput> => {
+): Promise<ExtrasOutput> {
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
   });
@@ -48,9 +48,9 @@ export const generateExtras = async (
       `Failed to parse OpenAI extras output: ${e}\n\nRaw content:\n${content}`
     );
   }
-};
+}
 
-const buildExtrasPrompt = (summaries: string[]): string => {
+function buildExtrasPrompt(summaries: string[]): string {
   return `You're helping create a weekly frontend developer digest.
 
     Based on the article summaries below, return a JSON array with exactly 3 items:
@@ -74,4 +74,4 @@ const buildExtrasPrompt = (summaries: string[]): string => {
 
     Article summaries:
     ${summaries.map((s, i) => `${i + 1}. ${s}`).join("\n")}`;
-};
+}

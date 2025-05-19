@@ -1,6 +1,6 @@
 import { htmlToText } from "html-to-text";
 
-const stripHtml = (html: string): string => {
+function stripHtml(html: string): string {
   const rawText = htmlToText(html, {
     wordwrap: false,
     selectors: [
@@ -19,17 +19,17 @@ const stripHtml = (html: string): string => {
   const cleanText = rawText.replace(/\n+/g, " ").replace(/\s+/g, " ").trim();
 
   return cleanText;
-};
+}
 
-const limitWords = (text: string, maxWords: number) => {
+function limitWords(text: string, maxWords: number) {
   const words = text.trim().split(/\s+/);
   if (words.length <= maxWords) return text.trim();
 
   const limitedWords = words.slice(0, maxWords);
   return limitedWords.join(" ") + "...";
-};
+}
 
-export const cleanAndLimit = (text: string, maxWords = 150) => {
+export function cleanAndLimit(text: string, maxWords = 150) {
   if (!text) return "";
   return limitWords(stripHtml(text), maxWords);
-};
+}

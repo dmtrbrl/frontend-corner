@@ -1,4 +1,4 @@
-export const getWeekRange = (weeksAgo = 0) => {
+export function getWeekRange(weeksAgo = 0) {
   const now = new Date();
   const day = now.getDay(); // Sunday = 0, Monday = 1, ..., Saturday = 6
 
@@ -14,4 +14,4 @@ export const getWeekRange = (weeksAgo = 0) => {
   start.setHours(0, 0, 0, 0);
 
   return { start, end };
-};
+}

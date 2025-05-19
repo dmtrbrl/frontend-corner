@@ -11,7 +11,7 @@ export const ArticleSchema = z.object({
   title: z.string(),
   url: z.string().url(),
   author: z.string(),
-  pubDate: z.string().date(),
+  pubDate: z.string().datetime(),
   description: z.string(),
   categories: z.array(z.string()).optional(),
   img: z.string().url().optional(),
@@ -19,7 +19,7 @@ export const ArticleSchema = z.object({
 
 export const IssueSchema = z.object({
   no: z.number(),
-  pubDate: z.string(),
+  pubDate: z.string().datetime(),
   articles: z.array(ArticleSchema),
   description: z.string().optional(),
   joke: z.string().optional(),

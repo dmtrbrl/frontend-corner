@@ -5,10 +5,10 @@ type Options = {
   model?: string;
 };
 
-export const parseDescriptions = (
+export function parseDescriptions(
   responseText: string,
   expectedCount: number
-): string[] => {
+): string[] {
   const normalized = responseText.replace(/\r\n/g, "\n");
 
   const numbered = normalized
@@ -27,9 +27,9 @@ export const parseDescriptions = (
     .slice(0, expectedCount);
 
   return fallback;
-};
+}
 
-const buildReviewOrGeneratePrompt = (batch: string[]): string => {
+function buildReviewOrGeneratePrompt(batch: string[]): string {
   return (
     `
     Review or generate short descriptions for the following items.
@@ -47,14 +47,14 @@ const buildReviewOrGeneratePrompt = (batch: string[]): string => {
     Here are the items:\n\n
     ` + batch.map((text, idx) => `${idx + 1}. ${text}`).join("\n\n")
   );
-};
+}
 
-const generateBatchWithRetry = async (
+async function generateBatchWithRetry(
   openai: OpenAI,
   batch: string[],
   model: string,
   attempt = 1
-): Promise<string[]> => {
+): Promise<string[]> {
   const prompt = buildReviewOrGeneratePrompt(batch);
 
   const response = await openai.chat.completions.create({
@@ -86,12 +86,12 @@ const generateBatchWithRetry = async (
   }
 
   return parsed;
-};
+}
 
-export const generateDescriptions = async (
+export async function generateDescriptions(
   rawDescriptions: string[],
   options: Options = {}
-): Promise<string[]> => {
+): Promise<string[]> {
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
   });
@@ -106,4 +106,4 @@ export const generateDescriptions = async (
   }
 
   return descriptions;
-};
+}

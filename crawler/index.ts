@@ -1,14 +1,15 @@
 import dotenv from "dotenv";
-import { getSources } from "@shared/services";
+import { getIssue, getSources } from "@shared/services";
 import { weeksAgo } from "./config";
 import { parseFeed } from "./lib/parseFeed";
 import { getLastPublishedIssue } from "./lib/getLastPublishedIssue";
 import { getWeekRange } from "./lib/getWeekRange";
-import { writeIssue } from "./storage/writeIssue";
-import { Article, Issue } from "./types";
+import { writeIssue } from "./lib/writeIssue";
+import { Article, Issue } from "@shared/types";
 import { filterArticles } from "./lib/ai/filterArticles";
 import { generateDescriptions } from "./lib/ai/generateDescription";
 import { generateExtras } from "./lib/ai/generateExtras";
+import { checkIfFileExists } from "./lib/checkIfFileExists";
 
 dotenv.config();
 
@@ -58,8 +59,21 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
     console.log("😄 Joke of the Week:\n", joke);
     console.log("🎯 Challenge of the Week:\n", challenge);
 
-    const lastPublishedIssue = await getLastPublishedIssue("data/issues");
-    const issueNo = lastPublishedIssue ? lastPublishedIssue.no + 1 : 1;
+    const issueDate = end.toISOString().split("T")[0].replace(/-/g, "");
+    const fileName = `${issueDate}.json`;
+
+    let issueNo: number;
+
+    const issuePath = `data/issues/${fileName}`;
+    const exists = await checkIfFileExists(issuePath);
+
+    if (exists) {
+      const existingIssue = await getIssue(fileName);
+      issueNo = existingIssue?.no ?? 1;
+    } else {
+      const lastIssue = await getLastPublishedIssue();
+      issueNo = lastIssue ? lastIssue.no + 1 : 1;
+    }
 
     const issue: Issue = {
       no: issueNo,
@@ -70,7 +84,7 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
       challenge,
     };
 
-    const filePath = await writeIssue(issue);
+    const filePath = await writeIssue(fileName, issue);
     console.log(`💾 Issue saved: ${filePath}`);
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
