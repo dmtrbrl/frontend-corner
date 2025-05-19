@@ -69,8 +69,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node-pnpm
-      - uses: ./.github/actions/check-deploy-needed
-        id: changes
 
       - name: Pull Vercel Environment Info
         run: |
