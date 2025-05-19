@@ -50,6 +50,6 @@ jobs:
 
       - name: Merge the PR
         if: steps.pr.outputs.found == 'true'
-        run: gh pr merge ${{ steps.pr.outputs.number }} --squash --admin --delete-branch --yes
+        run: gh pr merge ${{ steps.pr.outputs.number }} --squash --admin --delete-branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
