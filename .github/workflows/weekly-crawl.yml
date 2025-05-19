@@ -33,6 +33,7 @@ jobs:
           token: ${{ secrets.PAT_GITHUB }}
           commit-message: "chore: weekly preview publish"
           branch: ${{ steps.branch.outputs.name }}
+          committer: GitHub Actions Bot <actions@github.com>
           author: GitHub Actions Bot <actions@github.com>
           title: "chore: weekly preview publish"
           body: "Automated weekly preview content update."
