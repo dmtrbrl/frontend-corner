@@ -23,9 +23,8 @@ jobs:
           PR_JSON=$(gh pr list \
             --state open \
             --base main \
-            --search "head:weekly/preview" \
-            --json number,title,headRefName \
-            --jq '.[0]')
+            --json number,headRefName,author \
+            | jq -c '[.[] | select(.headRefName | startswith("weekly/preview")) | select(.author.login == "actions-user")][0]')
 
           if [ -z "$PR_JSON" ] || [ "$PR_JSON" == "null" ]; then
             echo "No matching PR found."
