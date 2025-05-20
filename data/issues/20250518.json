@@ -33,7 +33,7 @@
       "url": "https://smashingmagazine.com/2025/05/smashing-animations-part-2-css-masking-add-extra-dimension/",
       "author": "Andy Clarke",
       "pubDate": "2025-05-14T13:00:00.000Z",
-      "description": "Explore how masking can elevate CSS animations beyond basic effects, adding depth and cinematic flair to your designs—pioneered by web designer Andy Clarke.",
+      "description": "Explore how masking can elevate CSS animations beyond basic effects, adding depth and cinematic flair to your designs – pioneered by web designer Andy Clarke.",
       "categories": [],
       "img": "http://files.smashing.media/articles/smashing-animations-part-2-css-masking-add-extra-dimension/smashing-animations-part-2-css-masking-add-extra-dimension.jpg"
     },
@@ -98,7 +98,7 @@
       "categories": []
     },
     {
-      "title": "Atomic Design, Tokens, AI and the Future of Design Systems &#8211; Experience Designed Podcast",
+      "title": "Atomic Design, Tokens, AI and the Future of Design Systems – Experience Designed Podcast",
       "url": "https://bradfrost.com/blog/link/atomic-design-tokens-ai-and-the-future-of-design-systems-experience-designed-podcast/",
       "author": "Brad Frost",
       "pubDate": "2025-05-18T13:34:23.000Z",
@@ -110,7 +110,7 @@
       "url": "https://www.joshwcomeau.com/css/height-enigma/",
       "author": "Josh W. Comeau",
       "pubDate": "2025-05-12T11:30:00.000Z",
-      "description": "Unraveling the mystery of percentage-based heights in CSS—discover the common pitfalls and solutions to make your layouts behave predictably.",
+      "description": "Unraveling the mystery of percentage-based heights in CSS – discover the common pitfalls and solutions to make your layouts behave predictably.",
       "categories": []
     },
     {
@@ -133,7 +133,7 @@
       "url": "https://frontendmasters.com/blog/contrast-color-ships-in-safari-technology-preview/",
       "author": "Frontend Masters",
       "pubDate": "2025-05-15T19:09:12.000Z",
-      "description": "CSS's new `contrast-color()` function simplifies choosing optimal text colors—see how it works in Safari Technology Preview and why it matters.",
+      "description": "CSS's new `contrast-color()` function simplifies choosing optimal text colors – see how it works in Safari Technology Preview and why it matters.",
       "categories": [
         "The Beat",
         "Accessibility",

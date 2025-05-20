@@ -62,7 +62,7 @@
       "url": "https://overreacted.io/rsc-for-astro-developers/",
       "author": "Overreacted",
       "pubDate": "2025-05-06T00:00:00.000Z",
-      "description": "Visualize intricate fractal islands—complex, self-similar structures that captivate with their recursive beauty.",
+      "description": "Visualize intricate fractal islands – complex, self-similar structures that captivate with their recursive beauty.",
       "categories": []
     },
     {
@@ -113,7 +113,7 @@
       "url": "https://css-tricks.com/modern-scroll-shadows-using-scroll-driven-animations/",
       "author": "CSS-Tricks",
       "pubDate": "2025-05-05T13:01:43.000Z",
-      "description": "Exploring a new approach to creating scroll shadows on mobile devices using scroll-driven animations, enhancing subtle UX cues. Originally published on CSS-Tricks, part of the DigitalOcean family—definitely worth checking out.",
+      "description": "Exploring a new approach to creating scroll shadows on mobile devices using scroll-driven animations, enhancing subtle UX cues.",
       "categories": [
         "Articles",
         "Scroll Driven Animation"
@@ -124,7 +124,7 @@
       "url": "https://piccalil.li/blog/javascript-what-is-this/?ref=articles-rss-feed",
       "author": "Piccalilli",
       "pubDate": "2025-05-08T10:56:00.000Z",
-      "description": "Delving into JavaScript's `this` binding, global scope, and arrow functions—clarifying how and when objects are bound during execution. A detailed breakdown for understanding scope and context in JS.",
+      "description": "Delving into JavaScript's `this` binding, global scope, and arrow functions – clarifying how and when objects are bound during execution. A detailed breakdown for understanding scope and context in JS.",
       "categories": []
     },
     {
@@ -140,7 +140,7 @@
       "url": "https://romanliutikov.com/blog/towards-react-server-components-in-clojure-part-1",
       "author": "Roman Liutikov",
       "pubDate": "2025-05-06T17:35:12.000Z",
-      "description": "Documenting the journey of integrating React Server Components into Clojure JVM via the UIx library—bridging React's server-side rendering with Clojure's ecosystem.",
+      "description": "Documenting the journey of integrating React Server Components into Clojure JVM via the UIx library – bridging React's server-side rendering with Clojure's ecosystem.",
       "categories": []
     },
     {
@@ -148,7 +148,7 @@
       "url": "https://frontendmasters.com/blog/easier-layout-with-margin-trim/",
       "author": "Frontend Masters",
       "pubDate": "2025-05-08T18:06:48.000Z",
-      "description": "Simplify margin management with the `margin-trim` property—avoiding hacks like `:last-child { margin-block-end: 0; }` to prevent margin collapsing issues. A handy CSS enhancement.",
+      "description": "Simplify margin management with the `margin-trim` property – avoiding hacks like `:last-child { margin-block-end: 0; }` to prevent margin collapsing issues. A handy CSS enhancement.",
       "categories": [
         "The Beat",
         "CSS",
@@ -160,7 +160,7 @@
       "url": "https://frontendmasters.com/blog/shape-a-new-powerful-drawing-syntax-in-css/",
       "author": "Frontend Masters",
       "pubDate": "2025-05-07T14:20:49.000Z",
-      "description": "Don't overlook `shape()`—the CSS feature that brings SVG-like shape capabilities into CSS, opening new possibilities for creative styling.",
+      "description": "Don't overlook `shape()` – the CSS feature that brings SVG-like shape capabilities into CSS, opening new possibilities for creative styling.",
       "categories": [
         "Blog Post"
       ]
@@ -170,7 +170,7 @@
       "url": "https://frontendmasters.com/blog/using-container-query-units-relative-to-an-outer-container/",
       "author": "Frontend Masters",
       "pubDate": "2025-05-06T23:53:28.000Z",
-      "description": "Container units (e.g., `cqi`) reference the nearest container, but registering custom properties higher up allows access to other container units—expanding layout flexibility.",
+      "description": "Container units (e.g., `cqi`) reference the nearest container, but registering custom properties higher up allows access to other container units – expanding layout flexibility.",
       "categories": [
         "Blog Post",
         "Container Queries",
@@ -184,7 +184,7 @@
       "url": "https://dbushell.com/2025/05/11/the-static-site-churns/",
       "author": "David Bushell",
       "pubDate": "2025-05-11T10:00:00.000Z",
-      "description": "A peek into my eclectic static site generator—built from scripts, GitHub snippets, and now including Hono. The ongoing JavaScript refactoring adventure continues!",
+      "description": "A peek into my eclectic static site generator – built from scripts, GitHub snippets, and now including Hono. The ongoing JavaScript refactoring adventure continues!",
       "categories": []
     },
     {
@@ -192,7 +192,7 @@
       "url": "https://dbushell.com/2025/05/07/glossary-web-component/",
       "author": "David Bushell",
       "pubDate": "2025-05-07T10:00:00.000Z",
-      "description": "Hidden gem: a secret glossary on my blog, accessible via hover-over links. A fun Easter egg—styled subtly to keep the focus on content.",
+      "description": "Hidden gem: a secret glossary on my blog, accessible via hover-over links. A fun Easter egg-styled subtly to keep the focus on content.",
       "categories": []
     }
   ],
