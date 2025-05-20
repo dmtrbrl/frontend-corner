@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
-import { Tinos } from "next/font/google";
-import "./globals.css";
+import { Crimson_Text } from "next/font/google";
 
-const tinosFont = Tinos({
-  variable: "--font-tinos",
+import "./globals.css";
+import { ThemeProvider } from "next-themes";
+
+const crimsonTextFont = Crimson_Text({
+  variable: "--font-crimson-text",
   subsets: ["latin"],
-  style: "normal",
-  weight: "400",
+  style: ["normal", "italic"],
+  weight: ["400", "600"],
 });
 
 export const metadata: Metadata = {
@@ -21,8 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${tinosFont.variable}`}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${crimsonTextFont.variable}`}>
+        <ThemeProvider>
+          <main className="layout">{children}</main>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

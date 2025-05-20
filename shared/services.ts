@@ -1,4 +1,4 @@
-import { readFile } from "fs/promises";
+import { readdir, readFile } from "fs/promises";
 import path from "path";
 import { IssueSchema, SourcesSchema } from "./schemas";
 import { Issue, Sources } from "@shared/types";
@@ -28,6 +28,31 @@ export async function getIssue(fileName: string): Promise<Issue | null> {
     return issue;
   } catch (error) {
     console.error(error);
+    return null;
+  }
+}
+
+export async function getLastPublishedIssue(): Promise<Issue | null> {
+  try {
+    const issuesDir = "data/issues";
+    const files = await readdir(issuesDir);
+
+    const jsonFiles = files
+      .filter((f) => /^\d{8}\.json$/.test(f))
+      .sort()
+      .reverse();
+
+    const latestFile = jsonFiles[0];
+    if (!latestFile) return null;
+
+    const issue = await getIssue(latestFile);
+    return issue;
+  } catch (err) {
+    console.warn(
+      `Failed to load last published issue: ${
+        err instanceof Error ? err.message : String(err)
+      }`
+    );
     return null;
   }
 }

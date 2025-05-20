@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-alpha-200);
+  position: sticky;
+  top: 0;
+}
+
+.control {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.issueNo {
+  font-family: var(--font-crimson-text);
+  font-size: 16px;
+}
+
+.logo {
+  display: block;
+}
+
+[data-theme="dark"] .logo {
+  filter: invert();
+}

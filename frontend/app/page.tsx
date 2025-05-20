@@ -1,20 +1,13 @@
-import styles from "./page.module.css";
-import { getSources } from "@shared/services";
+import { getLastPublishedIssue } from "@shared/services";
+import { AppIssue } from "../components/AppIssue";
 
 export default async function Home() {
-  const sources = await getSources();
+  const issue = await getLastPublishedIssue();
 
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <img src="/logo.svg" alt="Frontend Corner" className={styles.logo} />
-        <h1>Sources:</h1>
-        <ol>
-          {sources.map(({ title }) => (
-            <li key={title}>{title}</li>
-          ))}
-        </ol>
-      </main>
-    </div>
+  // Sort articles
+  issue.articles = issue.articles.toSorted(
+    (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
   );
+
+  return <AppIssue issue={issue} />;
 }

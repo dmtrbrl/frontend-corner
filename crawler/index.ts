@@ -1,8 +1,7 @@
 import dotenv from "dotenv";
-import { getIssue, getSources } from "@shared/services";
+import { getIssue, getLastPublishedIssue, getSources } from "@shared/services";
 import { weeksAgo } from "./config";
 import { parseFeed } from "./lib/parseFeed";
-import { getLastPublishedIssue } from "./lib/getLastPublishedIssue";
 import { getWeekRange } from "./lib/getWeekRange";
 import { writeIssue } from "./lib/writeIssue";
 import { Article, Issue } from "@shared/types";
@@ -10,6 +9,7 @@ import { filterArticles } from "./lib/ai/filterArticles";
 import { generateDescriptions } from "./lib/ai/generateDescription";
 import { generateExtras } from "./lib/ai/generateExtras";
 import { checkIfFileExists } from "./lib/checkIfFileExists";
+import { prettify } from "./lib/prettify";
 
 dotenv.config();
 
@@ -43,19 +43,24 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
       `🟢 Filtered: ${selecteddArticles.length} relevant articles selected`
     );
 
-    // Generate descriptions
+    // Prettify selected article titles
+    selecteddArticles.forEach((a) => (a.title = prettify(a.title)));
+
+    // Generate article descriptions
     const rawDescriptions = selecteddArticles.map((a) => a.description ?? "");
     const descriptions = await generateDescriptions(rawDescriptions);
-    selecteddArticles.forEach((a, i) => (a.description = descriptions[i]));
+    selecteddArticles.forEach(
+      (a, i) => (a.description = prettify(descriptions[i]))
+    );
     console.log(
       `✍️  Descriptions generated for ${descriptions.length} articles`
     );
 
-    const { description, joke, challenge } = await generateExtras(
+    const { issueDescription, joke, challenge } = await generateExtras(
       selecteddArticles.map((a) => a.description)
     );
 
-    console.log("📢 Issue Description:\n", description);
+    console.log("📢 Issue Description:\n", issueDescription);
     console.log("😄 Joke of the Week:\n", joke);
     console.log("🎯 Challenge of the Week:\n", challenge);
 
@@ -79,7 +84,7 @@ const formatDate = (date: Date) => date.toLocaleString("en-GB");
       no: issueNo,
       pubDate: end.toISOString(),
       articles: selecteddArticles,
-      description,
+      description: issueDescription,
       joke,
       challenge,
     };
