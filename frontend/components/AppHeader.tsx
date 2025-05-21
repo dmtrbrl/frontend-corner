@@ -1,8 +1,7 @@
 import { FC } from "react";
+import Link from "next/link";
 import styles from "./AppHeader.module.css";
 import { AppLogo } from "./AppLogo";
-import { ThemeChanger } from "./ThemeChanger";
-import Link from "next/link";
 
 interface HeaderProps {
   issueNo?: number;
@@ -18,7 +17,7 @@ export const AppHeader: FC<HeaderProps> = ({ issueNo }) => {
         <AppLogo className={styles.logo} />
       </Link>
       <div className={styles.control}>
-        <ThemeChanger />
+        <Link href="/archive">Archive</Link>
       </div>
     </header>
   );

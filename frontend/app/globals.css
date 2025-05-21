@@ -10,14 +10,16 @@
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
 }
 
-[data-theme="dark"] {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
 
-  --gray-rgb: 255, 255, 255;
-  --gray-alpha-800: rgba(var(--gray-rgb), 0.8);
-  --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
-  --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-800: rgba(var(--gray-rgb), 0.8);
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+  }
 }
 
 html,

@@ -6,25 +6,29 @@
   border-bottom: 1px solid var(--gray-alpha-200);
   position: sticky;
   top: 0;
+  padding: 0 20px;
 }
 
 .control {
-  width: 60px;
   height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.issueNo {
   font-family: var(--font-crimson-text);
   font-size: 16px;
+  font-weight: bold;
 }
 
 .logo {
   display: block;
+  position: absolute;
+  left: 50%;
+  height: 50%;
+  transform: translate(-50%, -50%);
 }
 
-[data-theme="dark"] .logo {
-  filter: invert();
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert();
+  }
 }
