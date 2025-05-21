@@ -12,7 +12,7 @@ interface IssueProps {
 export const AppIssue: React.FC<IssueProps> = ({ issue }) => {
   return (
     <section className={styles.issue}>
-      <AppHeader issueNo={issue.no} />
+      <AppHeader title={`#${issue.no}`} />
       <ul className={styles.articles}>
         {issue.articles.map((a) => (
           <li key={a.pubDate} className={styles.article}>

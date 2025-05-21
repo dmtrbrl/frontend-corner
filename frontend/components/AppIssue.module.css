@@ -1,5 +1,4 @@
 .issue {
-  border: 1px solid var(--gray-alpha-200);
   & > * {
     background-color: var(--background);
   }
@@ -41,6 +40,9 @@
 }
 
 @media screen and (min-width: 700px) {
+  .issue {
+    border: 1px solid var(--gray-alpha-200);
+  }
   .extras {
     flex-direction: row;
     & > * {

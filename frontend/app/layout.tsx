@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Crimson_Text } from "next/font/google";
 
 import "./globals.css";
-import { ThemeProvider } from "next-themes";
 
 const crimsonTextFont = Crimson_Text({
   variable: "--font-crimson-text",
@@ -25,9 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${crimsonTextFont.variable}`}>
-        <ThemeProvider>
-          <main className="layout">{children}</main>
-        </ThemeProvider>
+        <main className="layout">{children}</main>
       </body>
     </html>
   );
