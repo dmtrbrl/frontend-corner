@@ -6,7 +6,7 @@ type Props = {
   params: { slug: number };
 };
 
-export default async function IssueSlugPage({ params }: Props) {
+export default async function Issue({ params }: Props) {
   const { slug } = await params;
   const issue = await getIssue(slug);
 

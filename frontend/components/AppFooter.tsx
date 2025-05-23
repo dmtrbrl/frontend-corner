@@ -1,10 +1,15 @@
+import { FC, ReactNode } from "react";
 import styles from "./AppFooter.module.css";
 
-export default function AppFooter() {
+interface AppFooterProps {
+  children: ReactNode;
+}
+
+export const AppFooter: FC<AppFooterProps> = ({ children }) => {
   return (
     <footer className={styles.footer}>
-      <div>Nav</div>
+      {children && <div>{children}</div>}
       <div>Share</div>
     </footer>
   );
-}
+};

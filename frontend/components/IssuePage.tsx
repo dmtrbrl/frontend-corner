@@ -1,9 +1,8 @@
 import { Issue } from "@shared/types";
-import { AppHeader } from "./AppHeader";
-import AppFooter from "./AppFooter";
 import { AppArticle } from "./AppArticle";
 
 import styles from "./IssuePage.module.css";
+import { PageContainer } from "./PageContainer";
 
 interface IssuePageProps {
   issue: Issue;
@@ -11,8 +10,7 @@ interface IssuePageProps {
 
 export const IssuePage: React.FC<IssuePageProps> = ({ issue }) => {
   return (
-    <section className={styles.issue}>
-      <AppHeader title={`#${issue.no}`} />
+    <PageContainer title={`#${issue.no}`}>
       <ul className={styles.articles}>
         {issue.articles.map((a) => (
           <li key={a.title} className={styles.article}>
@@ -30,7 +28,6 @@ export const IssuePage: React.FC<IssuePageProps> = ({ issue }) => {
           <p>{issue.joke}</p>
         </div>
       </div>
-      <AppFooter />
-    </section>
+    </PageContainer>
   );
 };

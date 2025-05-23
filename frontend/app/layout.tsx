@@ -23,9 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${crimsonTextFont.variable}`}>
-        <main className="layout">{children}</main>
-      </body>
+      <body className={`${crimsonTextFont.variable}`}>{children}</body>
     </html>
   );
 }
