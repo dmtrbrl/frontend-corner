@@ -27,6 +27,31 @@
   }
 }
 
+.pagination,
+.share {
+  display: flex;
+  gap: 10px;
+  user-select: none;
+
+  a,
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  span {
+    color: var(--gray-alpha-500);
+  }
+}
+
+.share {
+  a {
+    font-size: 20px;
+  }
+}
+
 @media screen and (min-width: 700px) {
   .extras {
     flex-direction: row;

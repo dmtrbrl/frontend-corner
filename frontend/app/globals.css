@@ -17,6 +17,7 @@
 
     --gray-rgb: 255, 255, 255;
     --gray-alpha-800: rgba(var(--gray-rgb), 0.8);
+    --gray-alpha-500: rgba(var(--gray-rgb), 0.5);
     --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
   }

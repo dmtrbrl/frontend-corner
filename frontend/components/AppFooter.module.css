@@ -7,6 +7,32 @@
   position: sticky;
   bottom: 0;
   font-family: var(--font-crimson-text);
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+
+  & > *:not(:first-child) {
+    padding-left: 20px;
+    border-left: 1px solid var(--gray-alpha-200);
+  }
+}
+
+.subscribe {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+
+  & > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    font-size: 20px;
+  }
 }
