@@ -7,7 +7,7 @@ export async function generateStaticParams() {
 
   return (
     files?.map((_, i) => ({
-      slug: i + 1,
+      slug: `${i + 1}`,
     })) ?? []
   );
 }
