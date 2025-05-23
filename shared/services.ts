@@ -17,40 +17,67 @@ export async function getSources(): Promise<Sources> {
   }
 }
 
-export async function getIssue(fileName: string): Promise<Issue | null> {
-  try {
-    const issuePath = path.resolve(`data/issues/${fileName}`);
-
-    const raw = await readFile(issuePath, "utf-8");
-    const json = JSON.parse(raw);
-    const issue = IssueSchema.parse(json);
-
-    return issue;
-  } catch (error) {
-    console.error(error);
-    return null;
-  }
-}
-
-export async function getLastPublishedIssue(): Promise<Issue | null> {
+export async function getAllIssueFileNames(): Promise<string[] | null> {
   try {
     const issuesDir = "data/issues";
     const files = await readdir(issuesDir);
 
     const jsonFiles = files
       .filter((f) => /^\d{8}\.json$/.test(f))
-      .sort()
+      .sort((a, b) => b.localeCompare(a))
       .reverse();
 
-    const latestFile = jsonFiles[0];
-    if (!latestFile) return null;
+    return jsonFiles;
+  } catch (error) {
+    console.error(
+      `Failed to load last published issue: ${
+        error instanceof Error ? error.message : String(error)
+      }`
+    );
+    return null;
+  }
+}
 
-    const issue = await getIssue(latestFile);
+export async function getIssue(no: number): Promise<Issue | null> {
+  try {
+    const allFiles = await getAllIssueFileNames();
+    if (!allFiles) return null;
+
+    const issuePath = path.resolve(`data/issues/${allFiles[no - 1]}`);
+
+    const raw = await readFile(issuePath, "utf-8");
+    const json = JSON.parse(raw);
+    const issue = IssueSchema.parse(json);
+
+    if (issue) {
+      // Sort articles
+      issue.articles = issue.articles.toSorted(
+        (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
+      );
+    }
+
     return issue;
-  } catch (err) {
+  } catch (error) {
+    console.warn(
+      `Failed to load issue #${no}: ${
+        error instanceof Error ? error.message : String(error)
+      }`
+    );
+    return null;
+  }
+}
+
+export async function getLastPublishedIssue(): Promise<Issue | null> {
+  try {
+    const jsonFiles = await getAllIssueFileNames();
+    if (!jsonFiles) return null;
+
+    const issue = await getIssue(jsonFiles.length);
+    return issue;
+  } catch (error) {
     console.warn(
       `Failed to load last published issue: ${
-        err instanceof Error ? err.message : String(err)
+        error instanceof Error ? error.message : String(error)
       }`
     );
     return null;

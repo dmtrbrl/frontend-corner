@@ -1,13 +1,8 @@
 import { getLastPublishedIssue } from "@shared/services";
-import { AppIssue } from "../components/AppIssue";
+import { IssuePage } from "@components/IssuePage";
 
-export default async function Home() {
+export default async function LastPublishedIssue() {
   const issue = await getLastPublishedIssue();
 
-  // Sort articles
-  issue.articles = issue.articles.toSorted(
-    (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
-  );
-
-  return <AppIssue issue={issue} />;
+  return <IssuePage issue={issue} />;
 }

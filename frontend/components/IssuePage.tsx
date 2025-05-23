@@ -1,21 +1,21 @@
 import { Issue } from "@shared/types";
 import { AppHeader } from "./AppHeader";
-
-import styles from "./AppIssue.module.css";
 import AppFooter from "./AppFooter";
 import { AppArticle } from "./AppArticle";
 
-interface IssueProps {
+import styles from "./IssuePage.module.css";
+
+interface IssuePageProps {
   issue: Issue;
 }
 
-export const AppIssue: React.FC<IssueProps> = ({ issue }) => {
+export const IssuePage: React.FC<IssuePageProps> = ({ issue }) => {
   return (
     <section className={styles.issue}>
       <AppHeader title={`#${issue.no}`} />
       <ul className={styles.articles}>
         {issue.articles.map((a) => (
-          <li key={a.pubDate} className={styles.article}>
+          <li key={a.title} className={styles.article}>
             <AppArticle article={a} />
           </li>
         ))}
