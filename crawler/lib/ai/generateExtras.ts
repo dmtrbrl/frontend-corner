@@ -1,7 +1,8 @@
 import { OpenAI } from "openai";
+import { prettify } from "../prettify";
 
 type ExtrasOutput = {
-  description: string;
+  issueDescription: string;
   joke: string;
   challenge: string;
 };
@@ -39,9 +40,9 @@ export async function generateExtras(
     const raw = jsonBlock?.[1] ?? content; // fallback to raw
     const [description, joke, challenge] = JSON.parse(raw);
     return {
-      description: (description ?? "").trim(),
-      joke: (joke ?? "").trim(),
-      challenge: (challenge ?? "").trim(),
+      issueDescription: prettify(description ?? ""),
+      joke: prettify(joke ?? ""),
+      challenge: prettify(challenge ?? ""),
     };
   } catch (e) {
     throw new Error(

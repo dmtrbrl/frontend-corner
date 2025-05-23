@@ -1,20 +1,9 @@
-import styles from "./page.module.css";
-import { getSources } from "@shared/services";
+import { getAllIssueFileNames, getLastPublishedIssue } from "@shared/services";
+import { IssuePage } from "@components/IssuePage";
 
 export default async function Home() {
-  const sources = await getSources();
+  const allIssues = await getAllIssueFileNames();
+  const issue = await getLastPublishedIssue();
 
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <img src="/logo.svg" alt="Frontend Corner" className={styles.logo} />
-        <h1>Sources:</h1>
-        <ol>
-          {sources.map(({ title }) => (
-            <li key={title}>{title}</li>
-          ))}
-        </ol>
-      </main>
-    </div>
-  );
+  return <IssuePage issue={issue} count={allIssues.length} />;
 }

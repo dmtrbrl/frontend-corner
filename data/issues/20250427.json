@@ -7,7 +7,7 @@
       "url": "https://smashingmagazine.com/2025/04/building-offline-friendly-image-upload-system/",
       "author": "Amejimaobari Ollornwi",
       "pubDate": "2025-04-23T10:00:00.000Z",
-      "description": "Building offline-friendly image uploads with PWA tech like IndexedDB, service workers, and Background Sync ensures stress-free user experiences—even when connectivity is poor. Queue uploads and automate retries to keep users engaged without frustration.",
+      "description": "Building offline-friendly image uploads with PWA tech like IndexedDB, service workers, and Background Sync ensures stress-free user experiences – even when connectivity is poor. Queue uploads and automate retries to keep users engaged without frustration.",
       "categories": [],
       "img": "http://files.smashing.media/articles/building-offline-friendly-image-upload-system/building-offline-friendly-image-upload-system.jpg"
     },
@@ -39,7 +39,7 @@
       "url": "https://css-tricks.com/the-lost-css-tricks-of-cohost-org/",
       "author": "CSS-Tricks",
       "pubDate": "2025-04-24T12:49:42.000Z",
-      "description": "Explore clever CSS hacks uncovered while testing Cohost’s HTML support. These tricks push the boundaries of what’s possible—use them carefully, or risk being labeled a CSS criminal.",
+      "description": "Explore clever CSS hacks uncovered while testing Cohost’s HTML support. These tricks push the boundaries of what’s possible – use them carefully, or risk being labeled a CSS criminal.",
       "categories": [
         "Articles",
         "inspiration"
@@ -50,7 +50,7 @@
       "url": "https://piccalil.li/blog/advanced-typescript-manipulation-features-for-the-real-world/?ref=articles-rss-feed",
       "author": "Piccalilli",
       "pubDate": "2025-04-24T10:55:00.000Z",
-      "description": "Dive into advanced TypeScript type manipulation. Learn how to leverage powerful features beyond utility types for more expressive, maintainable code—perfect for complex data modeling.",
+      "description": "Dive into advanced TypeScript type manipulation. Learn how to leverage powerful features beyond utility types for more expressive, maintainable code – perfect for complex data modeling.",
       "categories": []
     },
     {
@@ -84,7 +84,7 @@
       "url": "https://dbushell.com/2025/04/27/bunny-cdn-edge-storage/",
       "author": "David Bushell",
       "pubDate": "2025-04-27T10:00:00.000Z",
-      "description": "Bunny offers CDN, edge storage, DNS, and JavaScript services—becoming a notable European alternative to US-based providers. A compelling choice for non-US developers seeking reliable, privacy-conscious infrastructure.",
+      "description": "Bunny offers CDN, edge storage, DNS, and JavaScript services – becoming a notable European alternative to US-based providers. A compelling choice for non-US developers seeking reliable, privacy-conscious infrastructure.",
       "categories": []
     }
   ],

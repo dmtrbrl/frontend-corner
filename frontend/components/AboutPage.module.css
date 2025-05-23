@@ -1,0 +1,11 @@
+.content {
+  padding: 20px;
+
+  p:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  a {
+    border-bottom: 1px solid var(--gray-alpha-800);
+  }
+}

@@ -14,12 +14,14 @@
     "shared:lint": "cd shared && npx eslint"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "dotenv": "^16.5.0",
     "html-to-text": "^9.0.5",
     "next": "15.3.0",
     "openai": "^4.98.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "rss-parser": "^3.13.0",
     "zod": "^3.24.2"
   },

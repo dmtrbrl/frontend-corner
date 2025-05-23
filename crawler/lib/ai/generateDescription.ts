@@ -38,6 +38,7 @@ function buildReviewOrGeneratePrompt(batch: string[]): string {
     Guidelines:
     - Each description should be clear, editorial-style, and max 50 words.
     - Skip the parts related to sponsorship, partnership etc.
+    - Skip the parts, where it's mentioned where the article was published originally. 
     - Avoid personal phrasing like “I”, “we”, or “A developer shares…”
     - Use neutral or informative tones, but vary the structure. The line should not begin with “A…” or “An…” if possible.
     - Allow sentence fragments, questions, or verbs at the start for variety — e.g., “Exploring…”, “What happens when…”, “CSS tricks for…”
