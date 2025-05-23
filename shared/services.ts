@@ -38,12 +38,17 @@ export async function getAllIssueFileNames(): Promise<string[] | null> {
   }
 }
 
-export async function getIssue(no: number): Promise<Issue | null> {
+export async function getIssue(no: number | string): Promise<Issue | null> {
   try {
+    const i = Number(no) - 1;
+
     const allFiles = await getAllIssueFileNames();
     if (!allFiles) return null;
 
-    const issuePath = path.resolve(`data/issues/${allFiles[no - 1]}`);
+    const fileName = allFiles[i];
+    if (!fileName) return null;
+
+    const issuePath = path.resolve(`data/issues/${fileName}`);
 
     const raw = await readFile(issuePath, "utf-8");
     const json = JSON.parse(raw);
@@ -51,7 +56,7 @@ export async function getIssue(no: number): Promise<Issue | null> {
 
     if (issue) {
       // Sort articles
-      issue.articles = issue.articles.toSorted(
+      issue.articles = issue.articles.sort(
         (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
       );
     }
