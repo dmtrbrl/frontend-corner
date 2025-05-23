@@ -1,5 +1,5 @@
-import { PageContainer } from "@components/PageContainer";
+import { ArchivePage } from "@components/ArchivePage";
 
 export default async function Archive() {
-  return <PageContainer title="Archive">Archive</PageContainer>;
+  return <ArchivePage />;
 }

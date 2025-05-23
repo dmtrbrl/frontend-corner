@@ -1,7 +1,7 @@
 import { readdir, readFile } from "fs/promises";
 import path from "path";
 import { IssueSchema, SourcesSchema } from "./schemas";
-import { Issue, Sources } from "@shared/types";
+import { Archive, Issue, Sources } from "@shared/types";
 
 export async function getSources(): Promise<Sources> {
   try {
@@ -36,6 +36,26 @@ export async function getAllIssueFileNames(): Promise<string[] | null> {
     );
     return null;
   }
+}
+
+export async function getAllIssues(): Promise<Archive> {
+  const allFiles = await getAllIssueFileNames();
+  if (!allFiles) return [];
+
+  const issues: Archive = await Promise.all(
+    allFiles.map(async (_, i) => {
+      const issue = await getIssue(i + 1);
+      return {
+        no: issue?.no,
+        pubDate: issue?.pubDate,
+        description: issue?.description,
+      };
+    })
+  );
+
+  return issues.sort((a, b) =>
+    (b.pubDate ?? "").localeCompare(a.pubDate ?? "")
+  );
 }
 
 export async function getIssue(no: number | string): Promise<Issue | null> {
