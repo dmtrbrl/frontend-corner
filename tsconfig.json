@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2023",
+    "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "node",
     "esModuleInterop": true,
@@ -8,22 +8,11 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@shared/*": [
-        "shared/*"
-      ],
-      "@components/*": [
-        "frontend/components/*"
-      ]
+      "@shared/*": ["shared/*"],
+      "@components/*": ["frontend/components/*"]
     },
-    "types": [
-      "node"
-    ]
+    "types": ["node"]
   },
-  "include": [
-    "crawler",
-    "shared"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["crawler", "shared"],
+  "exclude": ["node_modules"]
 }
