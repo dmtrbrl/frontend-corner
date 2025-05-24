@@ -1,14 +1,13 @@
+import { FC } from "react";
 import Link from "next/link";
 import {
   FaLinkedin,
   FaSquareFacebook,
   FaSquareXTwitter,
 } from "react-icons/fa6";
-import { IoLogoWhatsapp } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa";
 
 import styles from "./AppFooter.module.css";
-import { FC } from "react";
 
 interface FooterProps {
   issueNo?: number;
@@ -45,10 +44,11 @@ export const AppFooter: FC<FooterProps> = ({ issueNo }) => {
       </div>
       <div className={styles.social}>
         Subscribe:
-        <Link href="#" target="__blank" title="WhatsApp">
-          <IoLogoWhatsapp />
-        </Link>
-        <Link href="#" target="__blank" title="Telegram">
+        <Link
+          href="https://t.me/frontendcorner"
+          target="_blank"
+          title="Telegram"
+        >
           <FaTelegram />
         </Link>
       </div>
