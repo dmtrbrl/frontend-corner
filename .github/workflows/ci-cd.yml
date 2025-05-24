@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [crawler, frontend]
+        target: [crawler, frontend, social]
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node-pnpm
@@ -25,7 +25,7 @@ jobs:
     needs: build
     strategy:
       matrix:
-        target: [crawler, frontend, shared]
+        target: [crawler, frontend, social, shared]
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node-pnpm
