@@ -17,7 +17,9 @@ export const ArchivePage = async () => {
               <Link href={`/issue/${i.no}`}>
                 <header>
                   <span>Issue #{i.no}</span>
-                  <span>{formattedDate(i.pubDate)}</span>
+                  <span className={styles.date}>
+                    {formattedDate(i.pubDate)}
+                  </span>
                 </header>
                 <p>{i.description}</p>
               </Link>
