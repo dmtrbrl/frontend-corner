@@ -1,19 +1,32 @@
-import { FC, ReactNode } from "react";
 import Link from "next/link";
+import {
+  FaLinkedin,
+  FaSquareFacebook,
+  FaSquareXTwitter,
+} from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa";
 
 import styles from "./AppFooter.module.css";
 
-interface AppFooterProps {
-  children: ReactNode;
-}
+export const AppFooter = () => {
+  const url = "#";
 
-export const AppFooter: FC<AppFooterProps> = ({ children }) => {
   return (
     <footer className={styles.footer}>
-      {children && <div className={styles.controls}>{children}</div>}
-      <div className={styles.subscribe}>
+      <div className={styles.social}>
+        Share:
+        <Link href={url} target="__blank" title="Facebook">
+          <FaSquareFacebook />
+        </Link>
+        <Link href={url} target="__blank" title="X">
+          <FaSquareXTwitter />
+        </Link>
+        <Link href={url} target="__blank" title="LinkedIn">
+          <FaLinkedin />
+        </Link>
+      </div>
+      <div className={styles.social}>
         Subscribe:
         <Link href="#" target="__blank" title="WhatsApp">
           <IoLogoWhatsapp />
