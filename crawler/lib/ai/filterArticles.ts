@@ -47,6 +47,7 @@ export async function filterArticles(
             - Articles with no connection to frontend work
             - Sales, promo, course launches, or generic startup news
             - Deep AI/ML content unless tied to frontend dev (e.g. AI for design systems)
+            - Articles that are feeds, digests, or collections of other articles (often titled with phrases like “Weekly #...”, “Reading List...”, etc.)
 
             Use your judgment. It’s OK to include slightly tangential but interesting content if it’s likely relevant to frontend engineers.
 
