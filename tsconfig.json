@@ -13,6 +13,6 @@
     },
     "types": ["node"]
   },
-  "include": ["crawler", "shared"],
+  "include": ["crawler", "shared", "social"],
   "exclude": ["node_modules"]
 }

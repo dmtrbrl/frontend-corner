@@ -11,6 +11,9 @@
     "frontend:build": "next build frontend",
     "frontend:start": "next start frontend",
     "frontend:lint": "cd frontend && next lint",
+    "social:build": "tsup social/index.ts --format esm --out-dir social/dist",
+    "social:lint": "cd social && npx eslint",
+    "social:start": "pnpm run social:build && node social/dist/index.js",
     "shared:lint": "cd shared && npx eslint"
   },
   "dependencies": {

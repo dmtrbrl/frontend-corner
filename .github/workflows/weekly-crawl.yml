@@ -2,7 +2,7 @@ name: Weekly Preview Publish
 
 on:
   schedule:
-    - cron: "0 20 * * 0" # Every Sunday at 20:00 UTC
+    - cron: "0 22 * * 0" # Every Sunday at 22:00 UTC
   workflow_dispatch: # Allows manual triggering
 
 permissions:

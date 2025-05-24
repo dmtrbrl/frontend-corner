@@ -3,7 +3,7 @@ import tseslint from "typescript-eslint";
 
 export default tseslint.config(
   {
-    ignores: ["crawler/dist"],
+    ignores: ["crawler/dist", "social/dist"],
   },
   eslint.configs.recommended,
   tseslint.configs.recommended
