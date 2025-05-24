@@ -154,5 +154,13 @@
   {
     "title": "David Bushell",
     "feedUrl": "https://dbushell.com/rss.xml"
+  },
+  {
+    "title": "Stefan Judis",
+    "feedUrl": "https://www.stefanjudis.com/rss.xml"
+  },
+  {
+    "title": "Unicorn Club",
+    "feedUrl": "https://unicornclub.dev/feed.xml"
   }
 ]
