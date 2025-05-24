@@ -10,19 +10,29 @@ import { FaTelegram } from "react-icons/fa";
 import styles from "./AppFooter.module.css";
 
 export const AppFooter = () => {
-  const url = "#";
+  const shareUrl = "https://www.frontendcorner.com";
+
+  const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+    shareUrl
+  )}`;
+  const xShare = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+    shareUrl
+  )}`;
+  const linkedinShare = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+    shareUrl
+  )}`;
 
   return (
     <footer className={styles.footer}>
       <div className={styles.social}>
         Share:
-        <Link href={url} target="__blank" title="Facebook">
+        <Link href={facebookShare} target="_blank" title="Facebook">
           <FaSquareFacebook />
         </Link>
-        <Link href={url} target="__blank" title="X">
+        <Link href={xShare} target="_blank" title="X">
           <FaSquareXTwitter />
         </Link>
-        <Link href={url} target="__blank" title="LinkedIn">
+        <Link href={linkedinShare} target="_blank" title="LinkedIn">
           <FaLinkedin />
         </Link>
       </div>
