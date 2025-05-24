@@ -1,6 +1,6 @@
 ![Frontend Corner](frontend/public/og-image.png)
 
-Frontend Corner is an experimental, AI-curated weekly digest for frontend developers who want to stay current with the latest in UI, web development, and related technologies – without spending hours chasing down quality content.
+[Frontend Corner](https://www.frontendcorner.com) is an experimental, AI-curated weekly digest for frontend developers who want to stay current with the latest in UI, web development, and related technologies – without spending hours chasing down quality content.
 
 Each week, it scans a curated list of RSS feeds, collecting fresh articles and updates from trusted sources across the frontend landscape. The AI then steps in to review, summarize, and organize the content into a fully described, issue-style digest. It doesn’t just list links – it provides context, commentary, and a snapshot of what’s actually worth your attention.
 
