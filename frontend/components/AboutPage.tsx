@@ -28,9 +28,7 @@ export const AboutPage = () => {
             The list of sources
           </a>{" "}
           is managed on GitHub, and anyone is welcome to suggest new RSS feeds
-          or update existing ones. It’s not a community project in the
-          traditional sense, but it’s open, transparent, and benefits from
-          collective input.
+          or update existing ones.
         </p>
         <p>
           Frontend Corner is more than just a curated feed – it’s an ongoing
