@@ -54,7 +54,7 @@ const emojis = [
 
 if (issue) {
   const emoji = getRandomEmoji(emojis);
-  const message = `${emoji} Issue #${issue.no} is live!\n\n${issue.description}\n\n👉 Read it here: https://www.frontendcorner.com/issue/${issue.no}`;
+  const message = `${emoji} Issue #${issue.no} is live!\n\n${issue.description}\n\n👉 [Read it here](https://www.frontendcorner.com/issue/${issue.no})`;
 
   sendTelegramMessage(message);
 }
