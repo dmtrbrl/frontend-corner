@@ -49,7 +49,7 @@ interface IssuePageProps {
 
 export const IssuePage: FC<IssuePageProps> = ({ count, issue }) => {
   return (
-    <PageContainer title={`Issue #${issue.no}`}>
+    <PageContainer title={`Issue #${issue.no}`} issueNo={issue.no}>
       <ul className={styles.articles}>
         {issue.articles.map((a) => (
           <li key={a.title} className={styles.article}>

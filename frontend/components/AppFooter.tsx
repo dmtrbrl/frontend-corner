@@ -8,9 +8,16 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa";
 
 import styles from "./AppFooter.module.css";
+import { FC } from "react";
 
-export const AppFooter = () => {
-  const shareUrl = "https://www.frontendcorner.com";
+interface FooterProps {
+  issueNo?: number;
+}
+
+export const AppFooter: FC<FooterProps> = ({ issueNo }) => {
+  const baseUrl = "https://www.frontendcorner.com";
+  const sharePath = issueNo ? `/issue/${issueNo}` : "/";
+  const shareUrl = `${baseUrl}${sharePath}`;
 
   const facebookShare = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
     shareUrl
