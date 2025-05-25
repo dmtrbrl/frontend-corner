@@ -72,6 +72,8 @@
   position: sticky;
   top: 60px;
   padding: 0 20px;
+  background-color: rgba(var(--background-rgb), 0.9);
+  backdrop-filter: blur(3px);
   border-bottom: 1px solid var(--gray-alpha-200);
 
   ul {
