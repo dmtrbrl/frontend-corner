@@ -1,5 +1,6 @@
 :root {
   --background: #ffffff;
+  --background-rgb: 255, 255, 255;
   --foreground: #171717;
 
   --width-limit: 800px;
@@ -13,6 +14,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
+    --background-rgb: 10, 10, 10;
     --foreground: #ededed;
 
     --gray-rgb: 255, 255, 255;

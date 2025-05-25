@@ -3,6 +3,8 @@
   height: 60px;
   align-items: center;
   justify-content: space-between;
+  background-color: rgba(var(--background-rgb), 0.9);
+  backdrop-filter: blur(3px);
   border-bottom: 1px solid var(--gray-alpha-200);
   position: sticky;
   top: 0;
