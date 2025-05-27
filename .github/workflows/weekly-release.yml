@@ -38,10 +38,10 @@ jobs:
           echo "found=true" >> $GITHUB_OUTPUT
           echo "number=$NUMBER" >> $GITHUB_OUTPUT
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_GITHUB }}
 
       - name: Merge the PR
         if: steps.pr.outputs.found == 'true'
         run: gh pr merge ${{ steps.pr.outputs.number }} --squash --admin --delete-branch
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_GITHUB }}
