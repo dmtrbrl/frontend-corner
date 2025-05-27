@@ -1,0 +1,197 @@
+{
+  "no": 6,
+  "pubDate": "2025-05-25T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Bolt.new: Web Creation at the Speed of Thought",
+      "url": "https://tympanus.net/codrops/2025/05/22/bolt-new-web-creation-at-the-speed-of-thought/",
+      "author": "Codrops",
+      "pubDate": "2025-05-22T16:16:34.000Z",
+      "description": "Exploring Bolt.new, an ultra-fast AI engine that generates websites and apps based on user input and design specifications.",
+      "categories": [
+        "Articles",
+        "AI",
+        "figma"
+      ]
+    },
+    {
+      "title": "Shopify Summer ’25 Edition Introduces Horizon, a New Standard for Creative Control",
+      "url": "https://tympanus.net/codrops/2025/05/21/shopify-summer-25-edition-introduces-horizon-a-new-standard-for-creative-control/",
+      "author": "Codrops",
+      "pubDate": "2025-05-21T17:30:51.000Z",
+      "description": "Introducing Shopify Horizon, a modular, AI-driven theme framework that empowers merchants with greater design flexibility and storytelling capabilities.",
+      "categories": [
+        "Articles",
+        "shopify"
+      ]
+    },
+    {
+      "title": "Behind the Curtain: Building Aurel’s Grand Theater from Design to Code",
+      "url": "https://tympanus.net/codrops/2025/05/20/behind-the-curtain-building-aurels-grand-theater-from-design-to-code/",
+      "author": "Codrops",
+      "pubDate": "2025-05-20T13:01:17.000Z",
+      "description": "A showcase of Aurel’s Grand Theater — an innovative portfolio blending Three.js, Vue.js, GSAP, and Blender, packed with animations and intricate details.",
+      "categories": [
+        "Articles",
+        "3D",
+        "blender",
+        "Case Studies",
+        "GSAP",
+        "Three.js",
+        "Typescript",
+        "vue.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Motion Highlights #7",
+      "url": "https://tympanus.net/codrops/2025/05/20/motion-highlights-7/",
+      "author": "Codrops",
+      "pubDate": "2025-05-20T10:05:50.000Z",
+      "description": "A roundup of fresh motion design trends and animation ideas to inspire your next project.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "motion-design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Smashing Animations Part 3: SMIL’s Not Dead Baby, SMIL’s Not Dead",
+      "url": "https://smashingmagazine.com/2025/05/smashing-animations-part-3-smil-not-dead/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-05-21T08:00:00.000Z",
+      "description": "Discover how SVG SMIL animations extend beyond CSS, enabling more complex and synchronized visual effects in your designs.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-3-smil-not-dead/smashing-animations-part-3-smil-not-dead.jpg"
+    },
+    {
+      "title": "Design System In 90 Days",
+      "url": "https://smashingmagazine.com/2025/05/design-system-in-90-days/",
+      "author": "Vitaly Friedman",
+      "pubDate": "2025-05-19T10:00:00.000Z",
+      "description": "Practical PDF worksheets and tools to streamline your design system development, supported by a course on demonstrating UX impact.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/design-system-in-90-days/design-system-in-90-days.jpg"
+    },
+    {
+      "title": "Better CSS Shapes Using shape() — Part 1: Lines and Arcs",
+      "url": "https://css-tricks.com/better-css-shapes-using-shape-part-1-lines-and-arcs/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-23T13:02:32.000Z",
+      "description": "Deep dive into CSS shapes with the shape() function, focusing on lines and arcs — part one of a series on advanced shape creation.",
+      "categories": [
+        "Articles",
+        "art",
+        "clip-path",
+        "CSS functions",
+        "css shapes"
+      ]
+    },
+    {
+      "title": "You can style alt text like any other text",
+      "url": "https://css-tricks.com/you-can-style-alt-text-like-any-other-text/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-22T14:43:09.000Z",
+      "description": "Clever technique from Andy Bell for styling alt text when images fail to load, enhancing fallback UI with styled error messages.",
+      "categories": [
+        "Notes",
+        "accessibility",
+        "images"
+      ]
+    },
+    {
+      "title": "SVG to CSS Shape Converter",
+      "url": "https://css-tricks.com/svg-to-css-shape-converter/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-21T15:09:29.000Z",
+      "description": "Temani Afif’s extensive collection of CSS shapes, featuring tools to generate and customize shapes dynamically with clever techniques.",
+      "categories": [
+        "Links",
+        "CSS functions",
+        "resource",
+        "shapes"
+      ]
+    },
+    {
+      "title": "A Reader’s Question on Nested Lists",
+      "url": "https://css-tricks.com/a-readers-question-on-nested-lists/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-19T12:32:22.000Z",
+      "description": "A detailed guide on creating complex, nested numbering systems using CSS list counters for more flexible list styling.",
+      "categories": [
+        "Articles",
+        "lists"
+      ]
+    },
+    {
+      "title": "Reshaping user authentication and identity verification",
+      "url": "https://developer.chrome.com/blog/io25-web-identity?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-20T07:00:00.000Z",
+      "description": "Exploring Chrome's latest tools to enhance web sign-in, focusing on safer password management, passkeys, and streamlined identity verification.",
+      "categories": []
+    },
+    {
+      "title": "What's new in DevTools, Chrome 137",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-137?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-20T07:00:00.000Z",
+      "description": "Leveraging Gemini for CSS modifications, performance insights, and annotations to optimize web performance and styling workflows.",
+      "categories": []
+    },
+    {
+      "title": "You can style alt text like any other text",
+      "url": "https://piccalil.li/blog/you-can-style-alt-text-like-any-other-text/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-05-22T10:55:00.000Z",
+      "description": "Enhancing image loading experiences with styled alt text, emphasizing descriptive accessibility and improved visual fallback styles.",
+      "categories": []
+    },
+    {
+      "title": "How to Improve Image Delivery on Your Website",
+      "url": "https://www.debugbear.com/blog/improve-image-delivery",
+      "author": "DebugBear",
+      "pubDate": "2025-05-23T00:00:00.000Z",
+      "description": "Lighthouse’s Improve Image Delivery insight offers practical tips for optimizing images – compression, modern formats, responsive images – to boost performance.",
+      "categories": []
+    },
+    {
+      "title": "How To Generate And Open HAR Files",
+      "url": "https://www.debugbear.com/blog/generate-open-har-files",
+      "author": "DebugBear",
+      "pubDate": "2025-05-19T00:00:00.000Z",
+      "description": "HAR files capture resource loads on websites, serving as invaluable tools for debugging and diagnosing web performance issues.",
+      "categories": []
+    },
+    {
+      "title": "P3 in Color Inputs",
+      "url": "https://frontendmasters.com/blog/p3-in-color-inputs/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-23T14:34:34.000Z",
+      "description": "Safari leads the way in supporting P3 colors and alpha transparency in color inputs, enabling richer color workflows on iOS.",
+      "categories": [
+        "The Beat",
+        "Color",
+        "Display P3",
+        "Inputs"
+      ]
+    },
+    {
+      "title": "Creating Blob Shapes using clip-path: shape()",
+      "url": "https://frontendmasters.com/blog/creating-blob-shapes-using-clip-path-shape/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-19T14:30:05.000Z",
+      "description": "Exploring blobs – versatile, animated shapes filled with backgrounds, perfect for creative and interactive web designs.",
+      "categories": [
+        "Blog Post",
+        "Blob",
+        "CSS",
+        "Shapes"
+      ]
+    }
+  ],
+  "description": "Dive into the world of AI-driven design with highlights on Bolt.new's rapid website generation, Shopify Horizon's flexible theme framework, and advanced SVG SMIL animations. Explore CSS shapes, optimize image loading with styled alt text, and discover new motion design trends. Enhance your development toolkit with PDF worksheets for design systems, smarter password management in Chrome, and Safari's support for P3 colors.",
+  "joke": "Why did the web developer go broke? Because they kept rendering themselves useless.",
+  "challenge": "Challenge: Create an interactive web experience featuring animated blobs. Utilize HTML, CSS, and JavaScript to design blobs that change shape, color, and position based on user interaction. Enhance the experience with synchronized audio effects or background animations, leveraging the Canvas API or CSS animations for a dynamic and engaging visual display."
+}
