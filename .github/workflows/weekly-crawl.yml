@@ -12,15 +12,20 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 35
 
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup-node-pnpm
 
-      - name: Run crawler
+      - name: Run crawler with retry
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: pnpm run crawler:start
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: pnpm run crawler:start
 
       - name: Set dynamic branch name
         id: branch
