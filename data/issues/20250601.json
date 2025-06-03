@@ -1,0 +1,189 @@
+{
+  "no": 7,
+  "pubDate": "2025-06-01T21:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building Interactive 3D Cards in Webflow with Three.js",
+      "url": "https://tympanus.net/codrops/2025/05/31/building-interactive-3d-cards-in-webflow-with-three-js/",
+      "author": "Codrops",
+      "pubDate": "2025-05-31T06:42:44.000Z",
+      "description": "Integrate interactive 3D models into Webflow projects seamlessly using Three.js with this quick and practical guide.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "Three.js",
+        "Webflow"
+      ]
+    },
+    {
+      "title": "Deconstructing the 35mm Website: A Look at the Process and Technical Details",
+      "url": "https://tympanus.net/codrops/2025/05/30/deconstructing-the-35mm-website-a-look-at-the-process-and-technical-details/",
+      "author": "Codrops",
+      "pubDate": "2025-05-30T11:36:09.000Z",
+      "description": "Explore the core components and techniques behind the design and development of the 35mm site, revealing key concepts and strategies.",
+      "categories": [
+        "Articles",
+        "Case Studies",
+        "glsl",
+        "Three.js"
+      ]
+    },
+    {
+      "title": "Building a Physics-Based Character Controller with the Help of AI",
+      "url": "https://tympanus.net/codrops/2025/05/28/building-a-physics-based-character-controller-with-the-help-of-ai/",
+      "author": "Codrops",
+      "pubDate": "2025-05-28T10:59:34.000Z",
+      "description": "Delve into building a physics-based character controller with AI, React Three Fiber, Three.js, and Rapier, offering insights into complex interactive experiences.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "AI",
+        "game",
+        "r3f",
+        "rapier",
+        "Three.js"
+      ]
+    },
+    {
+      "title": "Animated Product Grid Preview with GSAP & Clip-Path",
+      "url": "https://tympanus.net/codrops/2025/05/27/animated-product-grid-preview-with-gsap-clip-path/",
+      "author": "Codrops",
+      "pubDate": "2025-05-27T11:55:00.000Z",
+      "description": "Transform a basic product grid into an engaging, animated preview with GSAP in this hands-on tutorial for creating interactive web experiences.",
+      "categories": [
+        "Tutorials",
+        "clip-path",
+        "ecommerce",
+        "grid",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "Progressive JSON",
+      "url": "https://overreacted.io/progressive-json/",
+      "author": "Overreacted",
+      "pubDate": "2025-05-31T00:00:00.000Z",
+      "description": "Streaming alone isn’t enough – discover the limitations and what additional strategies are needed for effective content delivery.",
+      "categories": []
+    },
+    {
+      "title": "One Roundtrip Per Navigation",
+      "url": "https://overreacted.io/one-roundtrip-per-navigation/",
+      "author": "Overreacted",
+      "pubDate": "2025-05-29T00:00:00.000Z",
+      "description": "Uncover the common ground between HTML, GraphQL, and React Server Components, and how they shape modern web development.",
+      "categories": []
+    },
+    {
+      "title": "Better CSS Shapes Using shape() — Part 2: More on Arcs",
+      "url": "https://css-tricks.com/better-css-shapes-using-shape-part-2-more-on-arcs/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-30T13:45:43.000Z",
+      "description": "Continue exploring CSS shapes with shape(), focusing on the arc command – enhance your designs with more complex shapes in Part 2 of the series.",
+      "categories": [
+        "Articles",
+        "art",
+        "clip-path",
+        "css shapes",
+        "functions"
+      ]
+    },
+    {
+      "title": "What We Know (So Far) About CSS Reading Order",
+      "url": "https://css-tricks.com/what-we-know-so-far-about-css-reading-order/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-05-27T13:02:32.000Z",
+      "description": "Learn how CSS properties for reading order help align focus and accessibility, ensuring a better experience in line with WCAG 2.2 guidelines.",
+      "categories": [
+        "Articles",
+        "accessibility",
+        "css properties"
+      ]
+    },
+    {
+      "title": "Chrome 138 beta",
+      "url": "https://developer.chrome.com/blog/chrome-138-beta?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-28T07:00:00.000Z",
+      "description": "Get a sneak peek at upcoming features and improvements in the latest Chrome beta release.",
+      "categories": []
+    },
+    {
+      "title": "New in Chrome 137",
+      "url": "https://developer.chrome.com/blog/new-in-chrome-137?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-27T07:00:00.000Z",
+      "description": "Explore new CSS and JavaScript features like reading-flow, reading-order, the if() function, and WebAssembly integration for modern web development.",
+      "categories": []
+    },
+    {
+      "title": "What's New in WebGPU (Chrome 137)",
+      "url": "https://developer.chrome.com/blog/new-in-webgpu-137?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-05-26T07:00:00.000Z",
+      "description": "Exploring texture views for externalTexture binding, buffer copying without offsets, WGSL workgroupUniformLoad with atomic pointers, and more WebGPU techniques.",
+      "categories": []
+    },
+    {
+      "title": "Out-of-your-face AI",
+      "url": "https://frontendmasters.com/blog/out-of-your-face-ai/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-01T15:29:05.000Z",
+      "description": "Examining how AI integration transforms software products, from UX patterns to control mechanisms, and the evolving landscape of intelligent tools.",
+      "categories": [
+        "The Beat",
+        "AI",
+        "Code Editors",
+        "Design",
+        "UX"
+      ]
+    },
+    {
+      "title": "The Simplest Way to Deploy Your Own Updatable Portfolio Site",
+      "url": "https://frontendmasters.com/blog/the-simplest-way-to-deploy/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-29T14:38:30.000Z",
+      "description": "A beginner-friendly guide to hosting static sites: placing files in GitHub, connecting to Netlify, and getting your project live.",
+      "categories": [
+        "Blog Post",
+        "Deployment",
+        "Hosting",
+        "HTML",
+        "Portfolio"
+      ]
+    },
+    {
+      "title": "CSS Spotlight Effect",
+      "url": "https://frontendmasters.com/blog/css-spotlight-effect/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-05-26T15:02:35.000Z",
+      "description": "Discover how passing mouse position from JavaScript to CSS enables playful, interactive visual effects on your website.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Custom Properties",
+        "Filter",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "🚀 Meet Hope AI: Ship Real Software at Lightning Speed",
+      "url": "https://unicornclub.dev/newsletters/2025-06-01-meet-hope-ai-ship-real-software-at-lightning-speed/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-06-01T08:00:00.000Z",
+      "description": "See how teams from startups to enterprises accelerate development and deployment with Hope AI’s software composition tools.",
+      "categories": []
+    },
+    {
+      "title": "🤖 Jony Ive + OpenAI, Create Calmer UX & Is Paper the New Figma?",
+      "url": "https://unicornclub.dev/newsletters/2025-05-28-jony-ive-openai-create-calmer-ux-is-paper-the-new-figma/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-05-28T08:00:00.000Z",
+      "description": "Dive into CSS neon glass effects, a look back at 30 years of JavaScript, and tips for styling alt text effectively.",
+      "categories": []
+    }
+  ],
+  "description": "This edition focuses on the seamless integration of 3D models with Three.js, the transformation of basic grids into engaging animations using GSAP, and enhancing accessibility with advanced CSS techniques. Explore the cutting-edge intersections of HTML, GraphQL, and React Server Components, and stay ahead with new CSS and JavaScript features. Uncover insights into physics-based character controllers and AI's transformative role in software development.",
+  "joke": "Why did the JavaScript developer keep running out of coffee? Because they kept encountering 'undefined'!",
+  "challenge": "Create an interactive 3D gallery using HTML, CSS, and JavaScript. Utilize Three.js to display and rotate 3D models on mouse interaction, and add dynamic lighting effects for realism. Optionally, include sound effects triggered on user actions to enhance the immersive experience. This challenge encourages creativity and exploration of 3D technology in web development."
+}
