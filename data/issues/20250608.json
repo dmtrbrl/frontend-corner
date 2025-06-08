@@ -1,0 +1,239 @@
+{
+  "no": 8,
+  "pubDate": "2025-06-08T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Motion Highlights #9",
+      "url": "https://tympanus.net/codrops/2025/06/08/motion-highlights-9/",
+      "author": "Codrops",
+      "pubDate": "2025-06-08T14:46:34.000Z",
+      "description": "Explore fresh ideas in motion and animation with this curated roundup of inspiring techniques and examples.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "Motion Design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Try It On: A Playful Drag-and-Drop Styling UI",
+      "url": "https://tympanus.net/codrops/2025/06/06/try-it-on-a-playful-drag-and-drop-styling-ui/",
+      "author": "Codrops",
+      "pubDate": "2025-06-06T12:30:23.000Z",
+      "description": "Experience a playful interactive where virtual T-shirts can be dragged and dropped onto a model to instantly change their look.",
+      "categories": [
+        "Articles",
+        "3D",
+        "draggable"
+      ]
+    },
+    {
+      "title": "How to Create Responsive and SEO-friendly WebGL Text",
+      "url": "https://tympanus.net/codrops/2025/06/05/how-to-create-responsive-and-seo-friendly-webgl-text/",
+      "author": "Codrops",
+      "pubDate": "2025-06-05T13:03:03.000Z",
+      "description": "Discover how to blend responsive HTML text with WebGL rendering for scroll-driven animations and custom shader effects.",
+      "categories": [
+        "Tutorials",
+        "accessibility",
+        "scroll",
+        "Three.js",
+        "typography",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Motion Highlights: Rive Special",
+      "url": "https://tympanus.net/codrops/2025/06/05/motion-highlights-rive-special/",
+      "author": "Codrops",
+      "pubDate": "2025-06-05T09:52:38.000Z",
+      "description": "A showcase of standout interactive animations created with Rive, highlighting creative motion design.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "Motion Design",
+        "rive",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Building a Real-Time Dithering Shader",
+      "url": "https://tympanus.net/codrops/2025/06/04/building-a-real-time-dithering-shader/",
+      "author": "Codrops",
+      "pubDate": "2025-06-04T07:45:16.000Z",
+      "description": "Dive into a minimal WebGL shader that applies ordered dithering and pixelation as a flexible postprocessing effect.",
+      "categories": [
+        "Articles",
+        "glsl",
+        "postprocessing",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Elastic Grid Scroll: Creating Lag-Based Layout Animations with GSAP ScrollSmoother",
+      "url": "https://tympanus.net/codrops/2025/06/03/elastic-grid-scroll-creating-lag-based-layout-animations-with-gsap-scrollsmoother/",
+      "author": "Codrops",
+      "pubDate": "2025-06-03T09:45:34.000Z",
+      "description": "Achieve a smooth, elastic scrolling experience with columns in a grid moving at different speeds for subtle depth.",
+      "categories": [
+        "Tutorials",
+        "elastic",
+        "grid",
+        "GSAP",
+        "scroll"
+      ]
+    },
+    {
+      "title": "Collaboration: The Most Underrated UX Skill No One Talks About",
+      "url": "https://smashingmagazine.com/2025/06/collaboration-most-underrated-ux-skill/",
+      "author": "Carrie Webster",
+      "pubDate": "2025-06-05T08:00:00.000Z",
+      "description": "Great UX relies on collaboration – working with engineers, product teams, and stakeholders to co-create and amplify design impact.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/collaboration-most-underrated-ux-skill/collaboration-most-underrated-ux-skill.jpg"
+    },
+    {
+      "title": "Smashing Animations Part 4: Optimising SVGs",
+      "url": "https://smashingmagazine.com/2025/06/smashing-animations-part-4-optimising-svgs/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-06-04T08:00:00.000Z",
+      "description": "Learn Andy Clarke’s process for optimizing SVGs to be faster, simpler, and more manageable for animation and beyond.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-4-optimising-svgs/smashing-animations-part-4-optimising-svgs.jpg"
+    },
+    {
+      "title": "Designing For Neurodiversity",
+      "url": "https://smashingmagazine.com/2025/06/designing-for-neurodiversity/",
+      "author": "Vitaly Friedman",
+      "pubDate": "2025-06-02T08:00:00.000Z",
+      "description": "Designing for neurodiversity involves creating inclusive experiences that recognize diverse ways of thinking and navigating the web.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/designing-for-neurodiversity/designing-for-neurodiversity.jpg"
+    },
+    {
+      "title": "CSSday 2025",
+      "url": "https://nerdy.dev/cssday-2025?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-06-05T05:34:55.000Z",
+      "description": "A quick, impactful talk on design and code, available in a couple of hours, with a collection of slides and Codepen examples.",
+      "categories": [
+        "note",
+        "css",
+        "talks"
+      ],
+      "img": "https://nerdy.dev/media/ultimate-scroller.jpg"
+    },
+    {
+      "title": "Off To CSS Day 2025",
+      "url": "https://nerdy.dev/off-to-css-day-2025?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-06-02T01:53:53.000Z",
+      "description": "Heading to CSS Day – excited to learn, share, and connect with the community.",
+      "categories": [
+        "note",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/cssday-2024-swag.jpg"
+    },
+    {
+      "title": "Better CSS Shapes Using shape() — Part 3: Curves",
+      "url": "https://css-tricks.com/better-css-shapes-using-shape-part-3-curves/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-06T13:52:42.000Z",
+      "description": "Exploring the CSS shape() function’s curve command for creating complex shapes, building on previous articles about lines and arcs.",
+      "categories": [
+        "Articles",
+        "art",
+        "clip-path",
+        "CSS functions",
+        "css shapes"
+      ]
+    },
+    {
+      "title": "Exploring the CSS contrast-color() Function… a Second Time",
+      "url": "https://css-tricks.com/exploring-the-css-contrast-color-function-a-second-time/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-05T13:45:56.000Z",
+      "description": "The contrast-color() function selects black or white based on contrast, not actual contrast checking. Safari's implementation opens new styling possibilities.",
+      "categories": [
+        "Articles",
+        "accessibility",
+        "color",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "The State of CSS 2025 Survey is out!",
+      "url": "https://css-tricks.com/the-state-of-css-2025-survey-is-out/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-05T11:13:00.000Z",
+      "description": "The latest State of CSS 2025 Survey reflects recent CSS innovations and trends, offering insights into the future of CSS development.",
+      "categories": [
+        "Links",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Getting Creative With HTML Dialog",
+      "url": "https://css-tricks.com/getting-creative-with-html-dialog/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-03T14:39:04.000Z",
+      "description": "Elevate dialogue box design beyond frameworks using CSS ::backdrop, backdrop-filter, and animations to match branding and storytelling.",
+      "categories": [
+        "Articles",
+        "dialog"
+      ]
+    },
+    {
+      "title": "Printing the web: making webpages look good on paper",
+      "url": "https://piccalil.li/blog/printing-the-web-making-webpages-look-good-on-paper/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-06-05T10:55:00.000Z",
+      "description": "Designing for print enhances accessibility and user experience, transforming documents into clean, readable formats beyond screen responsiveness.",
+      "categories": []
+    },
+    {
+      "title": "The Height Enigma",
+      "url": "https://frontendmasters.com/blog/the-height-enigma/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-06T11:37:57.000Z",
+      "description": "Understanding height in CSS is trickier than width, especially with grid and flexbox. Josh Comeau breaks down the nuances for better control.",
+      "categories": [
+        "The Beat",
+        "CSS",
+        "flexbox",
+        "Grid",
+        "height"
+      ]
+    },
+    {
+      "title": "firstChild can be white space",
+      "url": "https://frontendmasters.com/blog/firstchild-can-be-white-space/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-05T06:52:04.000Z",
+      "description": "A quick heads-up on a common CSS gotcha that can trip up your styling efforts.",
+      "categories": [
+        "Blog Post",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "SVG to shape()",
+      "url": "https://frontendmasters.com/blog/svg-to-shape/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-04T11:23:09.000Z",
+      "description": "The CSS shape() function brings SVG’s path capabilities into CSS with real units, enabling more dynamic and precise shapes.",
+      "categories": [
+        "The Beat",
+        "clip-path",
+        "CSS",
+        "shape()",
+        "SVG"
+      ]
+    }
+  ],
+  "description": "Unlock new dimensions of frontend design with innovative motion and animation techniques, from responsive text blended with WebGL to playful interactive experiences like virtual T-shirt dressing. Discover how collaboration amplifies great UX, and explore the latest CSS advancements, including the shape() function and contrast-color(). Enhance your designs with SVG optimization tips and create smooth, elastic scrolling effects. Dive into WebGL shaders for creative postprocessing and rethink inclusive design for neurodiversity.",
+  "joke": "Why do frontend developers love food? Because they can't resist a good CSS (Cascade Style Sheet)!",
+  "challenge": "Create an interactive art piece using HTML, CSS, and JavaScript that responds to the user's scroll position. Blend responsive text with WebGL for dynamic animations, using custom shaders to transform the visuals as you scroll. Optionally, add a canvas element for additional visual effects, integrating ordered dithering or pixelation techniques for a truly unique experience."
+}
