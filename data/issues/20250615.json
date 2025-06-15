@@ -1,0 +1,215 @@
+{
+  "no": 9,
+  "pubDate": "2025-06-15T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Developer Spotlight: Robin Payot",
+      "url": "https://tympanus.net/codrops/2025/06/12/developer-spotlight-robin-payot/",
+      "author": "Codrops",
+      "pubDate": "2025-06-12T13:42:54.000Z",
+      "description": "Exploring Robin Payot’s journey and projects, highlighting his expertise in WebGL, animation, and crafting award-winning interactive web experiences.",
+      "categories": [
+        "Articles",
+        "Developer Spotlight"
+      ]
+    },
+    {
+      "title": "Building an Infinite Parallax Grid with GSAP and Seamless Tiling",
+      "url": "https://tympanus.net/codrops/2025/06/11/building-an-infinite-parallax-grid-with-gsap-and-seamless-tiling/",
+      "author": "Codrops",
+      "pubDate": "2025-06-11T11:07:00.000Z",
+      "description": "Building a responsive, infinitely scrolling image grid with parallax effects and staggered text animations using GSAP.",
+      "categories": [
+        "Tutorials",
+        "grid",
+        "GSAP",
+        "infinite",
+        "parallax"
+      ]
+    },
+    {
+      "title": "How to Create Interactive, Droplet-like Metaballs with Three.js and GLSL",
+      "url": "https://tympanus.net/codrops/2025/06/09/how-to-create-interactive-droplet-like-metaballs-with-three-js-and-glsl/",
+      "author": "Codrops",
+      "pubDate": "2025-06-09T09:56:51.000Z",
+      "description": "Creating interactive bubble-like spheres with Three.js and GLSL that respond smoothly to mouse movements.",
+      "categories": [
+        "Tutorials",
+        "glsl",
+        "metaballs",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Creating The &ldquo;Moving Highlight&rdquo; Navigation Bar With JavaScript And CSS",
+      "url": "https://smashingmagazine.com/2025/06/creating-moving-highlight-navigation-bar-javascript-css/",
+      "author": "Blake Lundquist",
+      "pubDate": "2025-06-11T13:00:00.000Z",
+      "description": "Demonstrating two JavaScript and CSS techniques for “moving-highlight” navigation: using `getBoundingClientRect` and the View Transition API.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/creating-moving-highlight-navigation-bar-vanilla-javascript/creating-moving-highlight-navigation-bar-javascript-css.jpg"
+    },
+    {
+      "title": "Decoding The SVG <code>path</code> Element: Line Commands",
+      "url": "https://smashingmagazine.com/2025/06/decoding-svg-path-element-line-commands/",
+      "author": "Myriam Frisano",
+      "pubDate": "2025-06-09T08:00:00.000Z",
+      "description": "Simplifying SVG `path` commands with visual examples, helping you understand and translate complex path syntax into usable graphics.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/decoding-svg-path-element-line-commands/decoding-svg-path-element-line-commands.jpg"
+    },
+    {
+      "title": "Nintendo Switch Homescreen recreated with CSS and a li'l bit of JS",
+      "url": "https://nerdy.dev/nintendo-switch-homescreen-css-recreation?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-06-13T22:16:31.000Z",
+      "description": "Recreating the iconic Nintendo Switch home screen layout with CSS, supporting themes, accessibility, and smooth scrolling across browsers.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/switch-homescreen-both-light-dark.jpg"
+    },
+    {
+      "title": "Breaking Boundaries: Building a Tangram Puzzle With (S)CSS",
+      "url": "https://css-tricks.com/breaking-boundaries-building-a-tangram-puzzle-with-scss/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-12T13:58:38.000Z",
+      "description": "Using Sass to replace JavaScript in creating a Tangram puzzle, leveraging maps, mixins, and math for low-level logic without scripting.",
+      "categories": [
+        "Articles",
+        "CSS games",
+        "Sass"
+      ]
+    },
+    {
+      "title": "Creating an Auto-Closing Notification With an HTML Popover",
+      "url": "https://css-tricks.com/creating-an-auto-closing-notification-with-an-html-popover/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-09T12:58:37.000Z",
+      "description": "Techniques for making HTML popovers auto-close, enhancing user experience with simple, effective solutions.",
+      "categories": [
+        "Articles",
+        "popover"
+      ]
+    },
+    {
+      "title": "A new way to style gaps in CSS",
+      "url": "https://developer.chrome.com/blog/gap-decorations?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-06-11T07:00:00.000Z",
+      "description": "Eliminating the need for border and pseudo-element hacks with modern CSS approaches.",
+      "categories": []
+    },
+    {
+      "title": "Support foldable devices with the Viewport Segments API",
+      "url": "https://developer.chrome.com/blog/viewport-segments-api-shipped?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-06-09T07:00:00.000Z",
+      "description": "Updates on the Viewport Segments API, including recent changes following its origin trial.",
+      "categories": []
+    },
+    {
+      "title": "New permission prompt for Local Network Access",
+      "url": "https://developer.chrome.com/blog/local-network-access?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-06-09T07:00:00.000Z",
+      "description": "Exploring the new permission prompt for sites accessing local networks, enhancing user privacy and control.",
+      "categories": []
+    },
+    {
+      "title": "Sticky revealing footer",
+      "url": "https://piccalil.li/blog/sticky-revealing-footer/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-06-09T10:55:00.000Z",
+      "description": "Tips for positioning the footer below <main>: creating stacking contexts with relative positioning and z-index, plus styling considerations for sticky footers.",
+      "categories": []
+    },
+    {
+      "title": "How To Use The Browser Console: An In-Depth Guide",
+      "url": "https://www.debugbear.com/blog/chrome-browser-console",
+      "author": "DebugBear",
+      "pubDate": "2025-06-12T00:00:00.000Z",
+      "description": "Unlock the full potential of Chrome DevTools Console tab with advanced features and practical tips for debugging.",
+      "categories": []
+    },
+    {
+      "title": "The Multi-All-The-Things Organization",
+      "url": "https://bradfrost.com/blog/post/the-multi-all-the-things-organization/",
+      "author": "Brad Frost",
+      "pubDate": "2025-06-12T13:32:07.000Z",
+      "description": "An overview of the comprehensive online course, Subatomic, covering design tokens, architecture, and resources for Figma and code.",
+      "categories": []
+    },
+    {
+      "title": "Partial Keyframes",
+      "url": "https://www.joshwcomeau.com/animation/partial-keyframes/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-06-10T11:00:00.000Z",
+      "description": "Discover how CSS keyframe animations can be more powerful and reusable with techniques that add dynamism and flexibility.",
+      "categories": []
+    },
+    {
+      "title": "Grainy Gradients",
+      "url": "https://frontendmasters.com/blog/grainy-gradients/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-13T14:37:36.000Z",
+      "description": "Reducing gradient banding effects by adding noise through SVG filters, creating smoother visual transitions.",
+      "categories": [
+        "Blog Post",
+        "Gradients",
+        "SVG"
+      ]
+    },
+    {
+      "title": "Jake Archibald on Native HTML Includes",
+      "url": "https://frontendmasters.com/blog/jake-archibald-on-native-html-includes/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-12T14:30:49.000Z",
+      "description": "Deep dive into HTML includes and the conversation with Jake Archibald, exploring the future of web componentization.",
+      "categories": [
+        "The Beat",
+        "HTML",
+        "includes",
+        "Podcast"
+      ]
+    },
+    {
+      "title": "1fr 1fr vs auto auto vs 50% 50%",
+      "url": "https://frontendmasters.com/blog/1fr-1fr-vs-auto-auto-vs-50-50/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-11T16:17:48.000Z",
+      "description": "Comparing different methods for creating equal-width columns, highlighting the most effective and consistent approaches.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Grid"
+      ]
+    },
+    {
+      "title": "Scroll-Driven Letter Grid",
+      "url": "https://frontendmasters.com/blog/scroll-driven-letter-grid/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-09T22:28:59.000Z",
+      "description": "Exploring the interplay between scroll-timelines (0-100) and variable font axes (100-900) for dynamic, synchronized animations.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Scroll-Driven Animations",
+        "Variable Fonts"
+      ]
+    },
+    {
+      "title": "🔮 How Tiny UX Changes Echo, State of CSS 2025 & Logos that Standout",
+      "url": "https://unicornclub.dev/newsletters/2025-06-11-how-tiny-ux-changes-echo-state-of-css-2025-logos-that-standout/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-06-11T08:00:00.000Z",
+      "description": "Covering essential teamwork skills for UX professionals, empathy-driven design, and creative charting using only CSS.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into cutting-edge frontend techniques, from WebGL animations and interactive Three.js spheres to dynamic parallax scrolling with GSAP. Master SVG path commands, create responsive layouts like the Nintendo Switch home screen, and explore modern CSS techniques for popovers and borders. Enhance your development workflow with advanced Chrome DevTools tips and discover the potential of scroll-timelines and variable font axes for synchronized animations.",
+  "joke": "Why do JavaScript developers love coffee? Because they love to 'brew' their code!",
+  "challenge": "Create an interactive art gallery using HTML, CSS, and JavaScript. Implement a responsive, infinitely scrolling image grid that features parallax effects and hover-sensitive animations. Utilize the Canvas API to add dynamic backgrounds that react to mouse movement, and challenge yourself to integrate smooth transitions and accessibility features for an engaging user experience."
+}
