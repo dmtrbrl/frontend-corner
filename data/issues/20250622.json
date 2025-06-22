@@ -1,0 +1,156 @@
+{
+  "no": 10,
+  "pubDate": "2025-06-22T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Coding a 3D Audio Visualizer with Three.js, GSAP & Web Audio API",
+      "url": "https://tympanus.net/codrops/2025/06/18/coding-a-3d-audio-visualizer-with-three-js-gsap-web-audio-api/",
+      "author": "Codrops",
+      "pubDate": "2025-06-18T11:42:41.000Z",
+      "description": "Explore a music-driven visualizer featuring a glowing 3D orb that pulses to the beat, complemented by GSAP-draggable panels that drift smoothly with inertia for an engaging interactive experience.",
+      "categories": [
+        "Tutorials",
+        "audio",
+        "GSAP",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Building an Infinite Marquee Along an SVG Path with React & Motion",
+      "url": "https://tympanus.net/codrops/2025/06/17/building-an-infinite-marquee-along-an-svg-path-with-react-motion/",
+      "author": "Codrops",
+      "pubDate": "2025-06-17T12:08:33.000Z",
+      "description": "Discover how to create an infinite scrolling marquee that follows a custom SVG path using React and Motion, enabling dynamic and visually appealing text animations.",
+      "categories": [
+        "Tutorials",
+        "Framer Motion",
+        "marquee",
+        "offset-path",
+        "react",
+        "scroll"
+      ]
+    },
+    {
+      "title": "CSS Cascade Layers Vs. BEM Vs. Utility Classes: Specificity Control",
+      "url": "https://smashingmagazine.com/2025/06/css-cascade-layers-bem-utility-classes-specificity-control/",
+      "author": "Victor Ayomipo",
+      "pubDate": "2025-06-19T15:00:00.000Z",
+      "description": "Understand how CSS specificity impacts style application, with insights into common pitfalls and why mastering specificity is more reliable than overusing `!important`.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/css-cascade-layers-bem-utility-classes-specificity-control/css-cascade-layers-bem-utility-classes-specificity-control.jpg"
+    },
+    {
+      "title": "What I Wish Someone Told Me When I Was Getting Into ARIA",
+      "url": "https://smashingmagazine.com/2025/06/what-i-wish-someone-told-me-aria/",
+      "author": "Eric Bailey",
+      "pubDate": "2025-06-16T13:00:00.000Z",
+      "description": "An introduction to ARIA (Accessible Rich Internet Applications), emphasizing its importance for web accessibility and guiding newcomers through its core concepts and best practices.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/what-i-wish-someone-told-me-aria/what-i-wish-someone-told-me-aria.jpg"
+    },
+    {
+      "title": "Color Everything in CSS",
+      "url": "https://css-tricks.com/color-everything-in-css/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-20T14:04:12.000Z",
+      "description": "Dive into color terminology in CSS – covering color spaces, models, and gamuts – to better understand how colors work and how to manipulate them effectively in your styles.",
+      "categories": [
+        "Articles",
+        "color",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "CSS Color Functions",
+      "url": "https://css-tricks.com/css-color-functions/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-19T15:01:18.000Z",
+      "description": "Learn about CSS color functions that allow you to set, translate, and manipulate colors with practical examples, enhancing your ability to create vibrant, dynamic designs.",
+      "categories": [
+        "Guides",
+        "color"
+      ]
+    },
+    {
+      "title": "How to Keep Up With New CSS Features",
+      "url": "https://css-tricks.com/how-to-keep-up-with-new-css-features/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-17T13:13:15.000Z",
+      "description": "Sacha Greif shares tips on staying updated with evolving CSS features, including his insights from annual surveys that track the latest developments in CSS.",
+      "categories": [
+        "Articles",
+        "inspiration",
+        "learning"
+      ]
+    },
+    {
+      "title": "A Better API for the Resize Observer",
+      "url": "https://css-tricks.com/a-better-api-for-the-resize-observer/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-16T12:47:51.000Z",
+      "description": "Explore how ResizeObserver, MutationObserver, and IntersectionObserver improve performance and simplify DOM monitoring, with practical examples and strategies for refactoring.",
+      "categories": [
+        "Articles",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Animating zooming using CSS: transform order is important… sometimes",
+      "url": "https://jakearchibald.com/2025/animating-zooming/",
+      "author": "Jake Archibald",
+      "pubDate": "2025-06-17T01:00:00.000Z",
+      "description": "Tips and techniques for achieving precise and appealing transform animations to enhance your UI interactions.",
+      "categories": []
+    },
+    {
+      "title": "Import Assertions use “with” not “assert” anymore.",
+      "url": "https://frontendmasters.com/blog/import-assertions-use-with-not-assert-anymore/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-19T15:46:44.000Z",
+      "description": "An overview of CSS Module Scripts – importable, constructable stylesheets using ESModules syntax – highlighting their potential, limitations, and use cases in modern web development.",
+      "categories": [
+        "The Beat",
+        "import",
+        "import attributes",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Drawing CSS Shapes using corner-shape",
+      "url": "https://frontendmasters.com/blog/drawing-css-shapes-using-corner-shape/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-18T17:05:26.000Z",
+      "description": "Exploring `corner-shape`: a new way to control corner shapes with `border-radius`, offering a simpler and more powerful alternative to `clip-path()` for creating custom shapes.",
+      "categories": [
+        "Blog Post",
+        "border-radius",
+        "corner-shape",
+        "Shapes"
+      ]
+    },
+    {
+      "title": "Scope in CSS",
+      "url": "https://frontendmasters.com/blog/scope-in-css/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-17T14:26:54.000Z",
+      "description": "Understanding CSS scope: the introduction of `@scope` and the broader concept of scope in CSS, shaping how styles are applied and managed across components.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "scope"
+      ]
+    },
+    {
+      "title": "🧠 Physical UI, Escaping UX Traps & Smarter CSS Gaps",
+      "url": "https://unicornclub.dev/newsletters/2025-06-18-physical-ui-escaping-ux-traps-smarter-css-gaps/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-06-18T08:00:00.000Z",
+      "description": "Highlights include print-friendly CSS techniques, animated navigation bars, SVG line drawing skills, and insights into why sometimes a “hard” UI design can be more effective.",
+      "categories": []
+    }
+  ],
+  "description": "Unlock the potential of CSS with insights on color manipulation, specificity, and the latest features shaping the future of web styling. Dive into interactive experiences with a music-driven visualizer and infinite scrolling marquees, while enhancing accessibility through ARIA. Explore modern techniques like CSS Module Scripts and Observers to elevate performance, and discover innovative ways to control design with `corner-shape` and CSS scope.",
+  "joke": "Why do JavaScript developers prefer to work on the beach? Because they love working with sandboxes!",
+  "challenge": "Create an interactive audio visualizer using the Web Audio API and Canvas. Design a responsive 3D orb that reacts dynamically to music, with draggable panels that move seamlessly with inertia. Focus on delivering a visually stunning and interactive user experience."
+}
