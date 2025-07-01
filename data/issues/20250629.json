@@ -1,0 +1,174 @@
+{
+  "no": 11,
+  "pubDate": "2025-06-29T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Motion Highlights #10",
+      "url": "https://tympanus.net/codrops/2025/06/29/motion-highlights-10/",
+      "author": "Codrops",
+      "pubDate": "2025-06-29T12:14:30.000Z",
+      "description": "Discover a curated collection of innovative motion designs and animations from the creative community, showcasing the latest trends and techniques in web animation.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "Motion Design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Designing TrueKind: A Skincare Brand’s Journey Through Moodboards, Motion, and Meaning",
+      "url": "https://tympanus.net/codrops/2025/06/25/designing-truekind-a-skincare-brands-journey-through-moodboards-motion-and-meaning/",
+      "author": "Codrops",
+      "pubDate": "2025-06-25T10:02:46.000Z",
+      "description": "This case study explores how combining aesthetic restraint with GSAP's capabilities leads to thoughtful, impactful animations through trust and careful execution.",
+      "categories": [
+        "Articles",
+        "Case Studies"
+      ]
+    },
+    {
+      "title": "Modeling the World in 280 Characters",
+      "url": "https://tympanus.net/codrops/2025/06/23/modeling-the-world-in-280-characters/",
+      "author": "Codrops",
+      "pubDate": "2025-06-23T09:44:16.000Z",
+      "description": "Dive into the mindset and methods behind creating tiny, expressive shaders that blend code and art, demonstrating how constraints can inspire creativity.",
+      "categories": [
+        "Articles",
+        "generative art",
+        "glsl",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Decoding The SVG <code>path</code> Element: Curve And Arc Commands",
+      "url": "https://smashingmagazine.com/2025/06/decoding-svg-path-element-curve-arc-commands/",
+      "author": "Myriam Frisano",
+      "pubDate": "2025-06-23T10:00:00.000Z",
+      "description": "Learn how to code vectors by hand with Myriam Frisano’s deep dive into SVG paths, curves, and arcs – building a solid foundation for complex, code-driven illustrations.",
+      "categories": [],
+      "img": "http://files.smashing.media/decoding-svg-path-element-curve-arc-commands/decoding-svg-path-element-curve-arc-commands.jpg"
+    },
+    {
+      "title": "CSS Blob Recipes",
+      "url": "https://css-tricks.com/css-blob-recipes/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-27T13:48:41.000Z",
+      "description": "Explore various CSS techniques for creating blob shapes, comparing different methods to find the most effective approach for your designs.",
+      "categories": [
+        "Articles",
+        "art",
+        "blobs",
+        "css shapes"
+      ]
+    },
+    {
+      "title": "KelpUI",
+      "url": "https://css-tricks.com/kelpui/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-26T16:42:32.000Z",
+      "description": "Follow Chris Ferdinandi’s development of KelpUI, a library leveraging modern CSS features and Web Components, with insights into his design strategy and approach.",
+      "categories": [
+        "Links",
+        "framework"
+      ]
+    },
+    {
+      "title": "Poking at the CSS if() Function a Little More: Conditional Color Theming",
+      "url": "https://css-tricks.com/poking-at-the-css-if-function-a-little-more-conditional-color-theming/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-25T14:33:45.000Z",
+      "description": "Understand how the CSS if() function enables conditional styling, with practical examples like dynamic color theming to illustrate its real-world applications.",
+      "categories": [
+        "Articles",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "Lightly Poking at the CSS if() Function in Chrome 137",
+      "url": "https://css-tricks.com/lightly-poking-at-the-css-if-function-in-chrome-137/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-24T15:17:10.000Z",
+      "description": "Get a high-level look at the newly supported CSS if() function in Chrome 137, and what it means for future CSS capabilities and developer workflows.",
+      "categories": [
+        "Articles",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "A Better API for the Intersection and Mutation Observers",
+      "url": "https://css-tricks.com/a-better-api-for-the-intersection-and-mutation-observers/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-23T13:41:34.000Z",
+      "description": "Zell presents a streamlined approach to the Resize, Mutation, and Intersection Observer APIs, focusing on simplifying callback and event listener patterns for easier use.",
+      "categories": [
+        "Articles",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "New in Chrome 138",
+      "url": "https://developer.chrome.com/blog/new-in-chrome-138?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-06-24T07:00:00.000Z",
+      "description": "Explore new CSS functions and built-in AI APIs that facilitate summarizing, translating, and language detection, enhancing your web development toolkit.",
+      "categories": []
+    },
+    {
+      "title": "Iterator Helpers Supported Across all Browsers",
+      "url": "https://frontendmasters.com/blog/iterator-helpers-supported-across-all-browsers/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-27T21:44:14.000Z",
+      "description": "Exploring the new Baseline iterator helpers, enabling easier mapping and filtering on previously challenging data structures. A handy update for more flexible data manipulation in JavaScript.",
+      "categories": [
+        "The Beat",
+        "Filter",
+        "JavaScript",
+        "Maps"
+      ]
+    },
+    {
+      "title": "Quantity Query Carousel",
+      "url": "https://frontendmasters.com/blog/quantity-query-carousel/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-25T23:04:06.000Z",
+      "description": ":has() enhances CSS selectors, making complex queries simpler and more powerful. Use it to reflow grid layouts or create dynamic carousels with ease.",
+      "categories": [
+        "Blog Post",
+        "Carousels",
+        "Grid",
+        "Quantity Queries"
+      ]
+    },
+    {
+      "title": "Understanding CSS corner-shape and the Power of the Superellipse",
+      "url": "https://frontendmasters.com/blog/understanding-css-corner-shape-and-the-power-of-the-superellipse/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-23T14:29:16.000Z",
+      "description": "The emerging CSS shape property, currently in Chrome Canary, opens new possibilities for basic and intricate shape creation. The superellipse() function adds even more creative control.",
+      "categories": [
+        "Blog Post",
+        "corner-shape",
+        "CSS"
+      ]
+    },
+    {
+      "title": "SVG Optimization and Accessibility Basics",
+      "url": "https://dbushell.com/2025/06/25/svg-optimization-and-accessibility-basics/",
+      "author": "David Bushell",
+      "pubDate": "2025-06-25T10:00:00.000Z",
+      "description": "SVG graphics are now a staple on the web, evolving from browser support challenges to reliable, scalable visuals. A look back at SVG’s journey from early hurdles to modern ubiquity.",
+      "categories": []
+    },
+    {
+      "title": "🎨 14 Proven UI Tips, Logic-First Design & CSS Color Upgrades",
+      "url": "https://unicornclub.dev/newsletters/2025-06-25-14-proven-ui-tips-logic-first-design-css-color-upgrades/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-06-25T08:00:00.000Z",
+      "description": "Covering UX benchmarking versus metrics, tips for solo designers, and fresh inspiration in motion design – key insights for staying sharp and creative in web development.",
+      "categories": []
+    }
+  ],
+  "description": "Explore cutting-edge motion designs and the power of GSAP for impactful animations. Learn about the artistry of shaders, SVG path coding, and the innovative use of CSS techniques for blobs and conditional styling. Delve into Chris Ferdinandi's KelpUI library and discover the potential of CSS if(), :has(), and shape properties. Enhance your JavaScript toolkit with streamlined Observer APIs and Baseline iterator helpers for flexible data manipulation. Gain insights into UX benchmarking and the evolution of SVG graphics.",
+  "joke": "Why do JavaScript developers prefer async over sync? Because they don't like to get blocked!",
+  "challenge": "Create an interactive art piece using HTML, CSS, and JavaScript that reacts to user input. Incorporate WebGL or Canvas to generate dynamic patterns or animations. Use native APIs to add sound effects or visual changes based on audio input, creating a mesmerizing and responsive experience. Let your creativity flow and push the boundaries of what's possible with code-driven art."
+}
