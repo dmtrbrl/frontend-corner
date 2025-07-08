@@ -1,0 +1,161 @@
+{
+  "no": 12,
+  "pubDate": "2025-07-06T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "From Static to Dynamic: 3 Micro-Animations Every Web Developer Can Master with Rive",
+      "url": "https://tympanus.net/codrops/2025/07/01/from-static-to-dynamic-3-micro-animations-every-web-developer-can-master-with-rive/",
+      "author": "Codrops",
+      "pubDate": "2025-07-01T10:27:01.000Z",
+      "description": "Transform your website with engaging interactive animations that boost user experience and bring your design to life.",
+      "categories": [
+        "Tutorials",
+        "rive"
+      ]
+    },
+    {
+      "title": "Invisible Forces: The Making of Phantom.land’s Interactive Grid and 3D Face Particle System",
+      "url": "https://tympanus.net/codrops/2025/06/30/invisible-forces-the-making-of-phantom-lands-interactive-grid-and-3d-face-particle-system/",
+      "author": "Codrops",
+      "pubDate": "2025-06-30T07:56:32.000Z",
+      "description": "Exploring Phantom.land’s dynamic grid, volumetric face scans, and immersive visuals built with React Three Fiber, GLSL shaders, and GSAP.",
+      "categories": [
+        "Articles",
+        "Case Studies",
+        "GSAP",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "CSS Intelligence: Speculating On The Future Of A Smarter Language",
+      "url": "https://smashingmagazine.com/2025/07/css-intelligence-speculating-future-smarter-language/",
+      "author": "Gabriel Shoyombo",
+      "pubDate": "2025-07-02T13:00:00.000Z",
+      "description": "CSS’s evolution from styling to logical capabilities — with container queries, pseudo-classes, and the `if()` function — raises questions about its future role and complexity.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/css-intelligence-speculating-future-smarter-language/css-intelligence-speculating-future-smarter-language.jpg"
+    },
+    {
+      "title": "The Gap Strikes Back: Now Stylable",
+      "url": "https://css-tricks.com/the-gap-strikes-back-now-stylable/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-01T12:42:38.000Z",
+      "description": "Simplify styling gaps between layout items with a new CSS feature that offers flexible, easy-to-use properties for creating styled separators.",
+      "categories": [
+        "Articles",
+        "flexbox",
+        "grid",
+        "layout",
+        "multi-column layout"
+      ]
+    },
+    {
+      "title": "Using CSS Cascade Layers With Tailwind Utilities",
+      "url": "https://css-tricks.com/using-css-cascade-layers-with-tailwind-utilities/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-06-30T13:16:43.000Z",
+      "description": "Rethinking Tailwind’s cascade layers: a developer shares a better approach after over a year of experimenting with Tailwind and vanilla CSS.",
+      "categories": [
+        "Articles",
+        "cascade layers",
+        "framework",
+        "tailwind"
+      ]
+    },
+    {
+      "title": "CSS conditionals with the new if() function",
+      "url": "https://developer.chrome.com/blog/if-article?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-07-01T07:00:00.000Z",
+      "description": "Discover the `if()` function in CSS, enabling more elegant and dynamic styling through cleaner media queries and style conditions.",
+      "categories": []
+    },
+    {
+      "title": "Chris’ Corner: Tokens – CodePen",
+      "url": "https://bradfrost.com/blog/link/chris-corner-tokens-codepen/",
+      "author": "Brad Frost",
+      "pubDate": "2025-07-02T14:47:43.000Z",
+      "description": "Design tokens are more than just buzzwords — they streamline consistency and collaboration across websites and apps, even in lightweight setups.",
+      "categories": []
+    },
+    {
+      "title": "How to make a design system that&#8217;s not boring",
+      "url": "https://bradfrost.com/blog/link/how-to-make-a-design-system-thats-not-boring/",
+      "author": "Brad Frost",
+      "pubDate": "2025-06-30T16:12:55.000Z",
+      "description": "A conversation with Jason Lengstorf on design tokens, system recipes, and fostering healthier, more collaborative workflows in web development.",
+      "categories": []
+    },
+    {
+      "title": ":heading",
+      "url": "https://frontendmasters.com/blog/heading/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-04T16:46:45.000Z",
+      "description": "Firefox Nightly introduces the :heading pseudo, allowing easy styling of headings and range selections with syntax similar to nth-child, enabled via a flag.",
+      "categories": [
+        "The Beat",
+        ":heading",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Satisfies in TypeScript",
+      "url": "https://frontendmasters.com/blog/satisfies-in-typescript/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-03T14:47:14.000Z",
+      "description": "The `satisfies` keyword helps ensure values meet specific types, providing better type safety and preventing overly broad inferences in TypeScript.",
+      "categories": [
+        "Blog Post",
+        "satisfies",
+        "TypeScript"
+      ]
+    },
+    {
+      "title": "CSS Gap Decorations",
+      "url": "https://frontendmasters.com/blog/css-gap-decorations/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-02T17:32:14.000Z",
+      "description": "Exploring Microsoft's \"gap decorations\" concept, which visualizes gaps as drawn lines instead of empty space. The playground offers detailed controls – adjusting edges, overlaps, and more – to enhance UI design with creative gap management.",
+      "categories": [
+        "The Beat",
+        "CSS",
+        "Gap",
+        "Gap Decorations",
+        "Grid"
+      ]
+    },
+    {
+      "title": "Custom Select (that comes up from the bottom on mobile)",
+      "url": "https://frontendmasters.com/blog/custom-select-that-comes-up-from-the-bottom-on-mobile/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-01T19:37:38.000Z",
+      "description": "Discover how to progressively enhance select menus with extensive styling options. Modern CSS techniques now allow for greater control over dropdown appearance, making customization more accessible and flexible.",
+      "categories": [
+        "Blog Post",
+        "Animation",
+        "CSS",
+        "Select",
+        "Stagger"
+      ]
+    },
+    {
+      "title": "Step Gradients with a Given Number of Steps",
+      "url": "https://frontendmasters.com/blog/step-gradients-with-a-given-number-of-steps/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-06-30T17:30:02.000Z",
+      "description": "A deep dive into creating interpolated color gradients from just two colors. Learn how to generate smooth, visually appealing transitions that can be applied to backgrounds, borders, or UI elements.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Gradients",
+        "Steps",
+        "SVG"
+      ]
+    }
+  ],
+  "description": "Delve into the world of interactive animations and engaging visuals with insights on using React Three Fiber and GLSL shaders. Explore CSS's evolving capabilities with container queries and the innovative `if()` function, offering a glimpse into its growing complexity. Discover new CSS features for styling separators and enhancing select menus, while design tokens and dynamic styling solutions streamline development workflows.",
+  "joke": "Why did the CSS developer break up with the JavaScript developer? They couldn't find common class.",
+  "challenge": "Challenge yourself to create an interactive particle animation using HTML, CSS, and JavaScript. Utilize the Canvas API to generate particles that respond to mouse movements. Add a twist by incorporating fluid-like simulations for a mesmerizing effect. Optionally, experiment with WebGL for enhanced performance and visual depth."
+}
