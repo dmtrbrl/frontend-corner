@@ -21,7 +21,7 @@ export async function generateMetadata({
 }: {
   params: Params;
 }): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
   const issue = await getIssue(slug);
 
   if (!issue) {
