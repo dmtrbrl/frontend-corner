@@ -14,7 +14,7 @@ export async function generateStaticParams() {
   );
 }
 
-type Params = { slug: string };
+type Params = Promise<{ slug: string }>;
 
 export async function generateMetadata({
   params,
