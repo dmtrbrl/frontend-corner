@@ -14,15 +14,19 @@ export async function generateStaticParams() {
   );
 }
 
-type Params = Promise<{ slug: string }>;
+type Params = { slug: string };
 
 export async function generateMetadata({
   params,
 }: {
   params: Params;
 }): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug } = params;
   const issue = await getIssue(slug);
+
+  if (!issue) {
+    return null;
+  }
 
   const issueTitle = `Frontend Corner – Issue #${issue.no}`;
   const issueDescription = issue.description;
