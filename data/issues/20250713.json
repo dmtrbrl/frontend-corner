@@ -1,0 +1,120 @@
+{
+  "no": 13,
+  "pubDate": "2025-07-13T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Three.js Instances: Rendering Multiple Objects Simultaneously",
+      "url": "https://tympanus.net/codrops/2025/07/10/three-js-instances-rendering-multiple-objects-simultaneously/",
+      "author": "Codrops",
+      "pubDate": "2025-07-10T20:37:34.000Z",
+      "description": "Master efficient rendering of thousands of 3D objects in React Three Fiber using instancing, showcased in the performance-optimized basement.studio site.",
+      "categories": [
+        "Tutorials",
+        "React Three Fiber",
+        "Three.js"
+      ]
+    },
+    {
+      "title": "How To Create Kinetic Image Animations with React-Three-Fiber",
+      "url": "https://tympanus.net/codrops/2025/07/09/how-to-create-kinetic-image-animations-with-react-three-fiber/",
+      "author": "Codrops",
+      "pubDate": "2025-07-09T10:55:15.000Z",
+      "description": "Bring static visuals to life with rotating textures, 3D geometry, and smooth animations powered by React Three Fiber.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "React Three Fiber",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Design Guidelines For Better Notifications UX",
+      "url": "https://smashingmagazine.com/2025/07/design-guidelines-better-notifications-ux/",
+      "author": "Vitaly Friedman",
+      "pubDate": "2025-07-07T13:00:00.000Z",
+      "description": "Explore how to enhance notifications UX with better timing and design patterns, featuring insights from Vitaly’s friendly video course on UX and interface design.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/design-guidelines-better-notifications-ux/design-guidelines-better-notifications-ux.jpg"
+    },
+    {
+      "title": "Scroll-Driven Sticky Heading",
+      "url": "https://css-tricks.com/scroll-driven-sticky-heading/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-11T17:11:00.000Z",
+      "description": "Discover scroll-driven animations by animating main headings that change based on user scroll position, creating dynamic and engaging page interactions.",
+      "categories": [
+        "Articles",
+        "position",
+        "Scroll Driven Animation"
+      ]
+    },
+    {
+      "title": "Better CSS Shapes Using shape() — Part 4: Close and Move",
+      "url": "https://css-tricks.com/better-css-shapes-using-shape-part-4-close-and-move/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-07T12:48:29.000Z",
+      "description": "Unlock the potential of CSS shape() with close and move commands, offering powerful tools for creating unique shapes and designs.",
+      "categories": [
+        "Articles",
+        "art",
+        "clip-path",
+        "CSS functions",
+        "css shapes"
+      ]
+    },
+    {
+      "title": "Optimizing Nuxt Server Side Rendering (SSR) Performance",
+      "url": "https://www.debugbear.com/blog/nuxt-ssr-performance",
+      "author": "DebugBear",
+      "pubDate": "2025-07-11T00:00:00.000Z",
+      "description": "Optimize Nuxt 3 SSR performance through advanced caching, efficient data fetching, edge deployment, and smart component loading – boost speed and scalability for high-traffic apps.",
+      "categories": []
+    },
+    {
+      "title": "Bridging the Performance Divide: Backend and Frontend Engineers Must Unite",
+      "url": "https://www.debugbear.com/blog/performance-divide-backend-frontend",
+      "author": "DebugBear",
+      "pubDate": "2025-07-08T00:00:00.000Z",
+      "description": "Understand how browser performance impacts user experience today, and learn strategies for engineering teams to better serve their users in a more client-side focused landscape.",
+      "categories": []
+    },
+    {
+      "title": "Deploy a Site with a Build Process & a Custom Domain Name",
+      "url": "https://frontendmasters.com/blog/deploy-a-site-with-a-build-process-a-custom-domain-name/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-12T10:54:26.000Z",
+      "description": "Add an Astro build process to your GitHub project and map your custom domain to a Netlify-hosted site, completing a seamless deployment workflow.",
+      "categories": [
+        "Blog Post",
+        "Astro",
+        "Deployment",
+        "Hosting",
+        "Portfolio"
+      ]
+    },
+    {
+      "title": "View Transition List Reordering (with a Kick Flip)",
+      "url": "https://frontendmasters.com/blog/view-transition-list-reordering-with-a-kick-flip/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-08T16:10:25.000Z",
+      "description": "Learn tricks for animating list items into new positions, including how to handle different transition effects for specific elements.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "View Transitions"
+      ]
+    },
+    {
+      "title": "Croissant! Building a No-Framework Web App",
+      "url": "https://dbushell.com/2025/07/11/croissant-no-framework-web-app/",
+      "author": "David Bushell",
+      "pubDate": "2025-07-11T10:00:00.000Z",
+      "description": "Follow the journey of building an RSS aggregator web app, code-named Croissant, and discover the joys of working with web standards and side projects.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the world of 3D web experiences with efficient rendering techniques in React Three Fiber, explore the art of scroll-driven animations, and elevate your notification UX with precise timing. Unleash the power of CSS shape commands for unique design, and optimize server-side performance in Nuxt 3 for high-traffic applications. Enhance your deployment workflow by integrating Astro with Netlify, and spark creativity by animating list items with custom transitions.",
+  "joke": "Why did the developer go broke? Because they kept caching all their problems!",
+  "challenge": "Create an interactive scroll-driven animation where the main heading changes as the user scrolls. Use HTML, CSS, and JavaScript to animate the text color, size, and position based on scroll position. Optionally, enhance the experience with parallax effects or dynamic background changes, providing a visually engaging and responsive interaction for users."
+}
