@@ -1,0 +1,139 @@
+{
+  "no": 14,
+  "pubDate": "2025-07-20T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Making Animations Smarter with Data Binding: Creating a Dynamic Gold Calculator in Rive",
+      "url": "https://tympanus.net/codrops/2025/07/15/making-animations-smarter-with-data-binding-creating-a-dynamic-gold-calculator-in-rive/",
+      "author": "Codrops",
+      "pubDate": "2025-07-15T10:30:06.000Z",
+      "description": "Exploring Data Binding in Rive through a gold calculator that seamlessly connects animations, states, and logic in real time.",
+      "categories": [
+        "Tutorials",
+        "rive"
+      ]
+    },
+    {
+      "title": "Why Non-Native Content Designers Improve Global UX",
+      "url": "https://smashingmagazine.com/2025/07/why-non-native-content-designers-improve-global-ux/",
+      "author": "Oleksii Tkachenko",
+      "pubDate": "2025-07-18T13:00:00.000Z",
+      "description": "Practical tips for making English UI content clear and inclusive for non-native speakers, enhancing global product communication.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/why-non-native-content-designers-improve-global-ux/why-non-native-content-designers-improve-global-ux.jpg"
+    },
+    {
+      "title": "Design Patterns For AI Interfaces",
+      "url": "https://smashingmagazine.com/2025/07/design-patterns-ai-interfaces/",
+      "author": "Vitaly Friedman",
+      "pubDate": "2025-07-14T15:00:00.000Z",
+      "description": "A systematic approach to designing AI features, from initial concepts to user interactions that create engaging experiences.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/design-patterns-ai-interfaces/design-patterns-ai-interfaces.jpg"
+    },
+    {
+      "title": "Getting Creative With Versal Letters",
+      "url": "https://css-tricks.com/getting-creative-with-versal-letters/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-18T16:12:05.000Z",
+      "description": "Discover the art of versal letters – typographic flourishes that add visual interest and guide readers in illuminated manuscripts and traditional design.",
+      "categories": [
+        "Articles",
+        "initial-letter",
+        "inspiration",
+        "typography"
+      ]
+    },
+    {
+      "title": "Getting Clarity on Apple’s Liquid Glass",
+      "url": "https://css-tricks.com/getting-clarity-on-apples-liquid-glass/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-17T13:23:52.000Z",
+      "description": "An overview of Apple’s Liquid Glass design language introduced at WWDC 2025, with resources to understand and recreate its effects in code.",
+      "categories": [
+        "Notes",
+        "apple",
+        "design systems",
+        "Graphic Design",
+        "UI/IX Design"
+      ]
+    },
+    {
+      "title": "Setting Line Length in CSS (and Fitting Text to a Container)",
+      "url": "https://css-tricks.com/setting-line-length-in-css-and-fitting-text-to-a-container/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-14T12:38:23.000Z",
+      "description": "Techniques for managing line length in CSS, including upcoming properties that could simplify fitting text within containers.",
+      "categories": [
+        "Articles",
+        "typography"
+      ]
+    },
+    {
+      "title": "A handy use of subgrid to enhance a simple layout",
+      "url": "https://piccalil.li/blog/a-handy-use-of-subgrid-to-enhance-a-simple-layout/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-07-17T10:55:00.000Z",
+      "description": "Building a responsive three-column grid with CSS that stacks seamlessly on smaller screens, ensuring consistent reading lines across viewports.",
+      "categories": []
+    },
+    {
+      "title": "Adaptive Alerts (a CSS scroll-state Use Case)",
+      "url": "https://frontendmasters.com/blog/adaptive-alerts-a-css-scroll-state-use-case/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-16T13:13:36.000Z",
+      "description": "A single button with dual behaviors triggered by scroll position, controlled through CSS and JavaScript interactions.",
+      "categories": [
+        "Blog Post",
+        "container-type",
+        "Scroll State"
+      ]
+    },
+    {
+      "title": "Stacked Transforms",
+      "url": "https://frontendmasters.com/blog/stacked-transforms/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-15T23:38:20.000Z",
+      "description": "How multiple transforms on an element interact with `animation-composition`, affecting complex animations and visual effects.",
+      "categories": [
+        "Blog Post",
+        "Animation",
+        "animation-composition",
+        "CSS",
+        "transform"
+      ]
+    },
+    {
+      "title": "How JavaScript’s at() method makes array indexing easier",
+      "url": "https://frontendmasters.com/blog/how-javascripts-at-method-makes-array-indexing-easier/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-14T13:55:31.000Z",
+      "description": "A quick reminder from Matt Smith: retrieving the last item in an array has become even simpler with recent JavaScript updates.",
+      "categories": [
+        "The Beat",
+        ".at()",
+        "Arrays",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Web Weekly #163 (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/web-weekly-163/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-07-14T22:00:00.000Z",
+      "description": "Exploring recent CSS updates in Chromium, including CSS ifs, import.meta.resolve, and browser support for importing JSON files. Plus, a fun musical break and a reminder that CSS is evolving to include programming-like features such as if/else statements – at least in Chromium.",
+      "categories": []
+    },
+    {
+      "title": "💸 Beware UX Debt – Plus, AI Patterns & Sticky Headings",
+      "url": "https://unicornclub.dev/newsletters/2025-07-16-beware-ux-debt-plus-ai-patterns-sticky-headings/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-07-16T08:00:00.000Z",
+      "description": "Discover effective critique rituals to improve team performance, clever scroll techniques, and insights from a 2025 developer landing page study.",
+      "categories": []
+    }
+  ],
+  "description": "Delve into the intersection of animation, typography, and responsive design with insights on Rive's data binding, the art of versal letters, and Apple's innovative Liquid Glass design language. Discover practical UI tips for global inclusivity, CSS techniques for managing text and grids, and explore the evolving capabilities of CSS and JavaScript, including new Chromium features. Enhance your design and development acumen with a systematic approach to AI features and creative button interactions.",
+  "joke": "Why did the JavaScript developer go broke? Because they kept trying to fetch money, but it was always undefined.",
+  "challenge": "Challenge: Create an interactive animated scene using HTML, CSS, and JavaScript where a character moves through various states based on user interactions. Incorporate real-time data binding to change animations dynamically, perhaps reflecting different weather conditions. Optionally, use the Canvas API to add extra visual effects, and ensure the scene is responsive and accessible. Aim for a seamless experience that feels alive and engaging, mimicking the intricate animations discussed in modern design frameworks."
+}
