@@ -1,0 +1,184 @@
+{
+  "no": 15,
+  "pubDate": "2025-07-27T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Reform Collective: A New Website, Designed to Be Seen",
+      "url": "https://tympanus.net/codrops/2025/07/24/reform-collective-a-new-website-designed-to-be-seen/",
+      "author": "Codrops",
+      "pubDate": "2025-07-24T14:55:53.000Z",
+      "description": "Exploring how Reform Collective’s new site achieves clarity and performance through AI, GSAP, and CSS hacks, emphasizing clean structure and user experience.",
+      "categories": [
+        "Articles",
+        "Case Studies"
+      ]
+    },
+    {
+      "title": "Motion Highlights #11",
+      "url": "https://tympanus.net/codrops/2025/07/24/motion-highlights-11/",
+      "author": "Codrops",
+      "pubDate": "2025-07-24T09:36:01.000Z",
+      "description": "A curated showcase of impressive motion design and animation work from the creative web community.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "Motion Design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Interactive Text Destruction with Three.js, WebGPU, and TSL",
+      "url": "https://tympanus.net/codrops/2025/07/22/interactive-text-destruction-with-three-js-webgpu-and-tsl/",
+      "author": "Codrops",
+      "pubDate": "2025-07-22T14:49:29.000Z",
+      "description": "Creating interactive 3D text effects with exploding letters using Three.js, WebGPU, and TSL – dive into the techniques behind dynamic web animations.",
+      "categories": [
+        "Tutorials",
+        "Three.js",
+        "TSL",
+        "typography",
+        "WebGL",
+        "webgpu"
+      ]
+    },
+    {
+      "title": "Designing Better UX For Left-Handed People",
+      "url": "https://smashingmagazine.com/2025/07/designing-better-ux-left-handed-people/",
+      "author": "Vitaly Friedman",
+      "pubDate": "2025-07-25T15:00:00.000Z",
+      "description": "Addressing the lack of inclusive design for left-handed users, with patterns and insights from a friendly UX video course on smarter interface design.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/designing-better-ux-left-handed-people/designing-better-ux-left-handed-people.jpg"
+    },
+    {
+      "title": "Handling JavaScript Event Listeners With Parameters",
+      "url": "https://smashingmagazine.com/2025/07/handling-javascript-event-listeners-parameters/",
+      "author": "Amejimaobari Ollornwi",
+      "pubDate": "2025-07-21T10:00:00.000Z",
+      "description": "Handling event listeners in JavaScript – prevent memory leaks, pass parameters effectively, and explore features that support robust event management.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/handling-javascript-event-listeners-parameters/handling-javascript-event-listeners-parameters.jpg"
+    },
+    {
+      "title": "Celebrating 20 years of MDN",
+      "url": "https://developer.mozilla.org/en-US/blog/mdn-turns-20/",
+      "author": "joe-walker",
+      "pubDate": "2025-07-23T00:00:00.000Z",
+      "description": "Celebrating 20 years of MDN Web Docs – tracing its journey, impact on the web community, and its role as a trusted developer resource.",
+      "categories": [],
+      "img": "https://developer.mozilla.org/en-US/blog/mdn-turns-20/featured.png"
+    },
+    {
+      "title": "How to Discover a CSS Trick",
+      "url": "https://css-tricks.com/how-to-discover-a-css-trick/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-25T13:48:36.000Z",
+      "description": "Discover how creative constraints and recursive thinking lead to innovative CSS tricks, blending experimentation with unexpected solutions.",
+      "categories": [
+        "Articles",
+        "inspiration"
+      ]
+    },
+    {
+      "title": "Atomic Design Certification Course",
+      "url": "https://css-tricks.com/atomic-design-certification-course/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-24T16:16:30.000Z",
+      "description": "Revisiting the origins of Atomic Design, its influence on component-based development, and the certification course that helps you master the methodology.",
+      "categories": [
+        "Links",
+        "design systems",
+        "education"
+      ]
+    },
+    {
+      "title": "A First Look at the Interest Invoker API (for Hover-Triggered Popovers)",
+      "url": "https://css-tricks.com/a-first-look-at-the-interest-invoker-api-for-hover-triggered-popovers/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-23T12:36:48.000Z",
+      "description": "A first look at Chrome 139’s experiment with the Interest Invoker API, enabling hover-triggered UI elements like tooltips and quick actions.",
+      "categories": [
+        "Articles",
+        "Interest Invoker API",
+        "popover"
+      ]
+    },
+    {
+      "title": "A Primer on Focus Trapping",
+      "url": "https://css-tricks.com/a-primer-on-focus-trapping/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-21T13:14:17.000Z",
+      "description": "An introduction to focus trapping – managing keyboard focus within elements to improve accessibility, despite the complexities involved.",
+      "categories": [
+        "Articles",
+        "accessibility",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "What's new in DevTools, Chrome 139",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-139?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-07-22T07:00:00.000Z",
+      "description": "Enhancements in Chrome DevTools boost reliability and productivity, with new support for arbitrary image uploads in AI styling assistance and more handy features for developers.",
+      "categories": []
+    },
+    {
+      "title": "How To Monitor Single Page Application Performance",
+      "url": "https://www.debugbear.com/blog/single-page-application-monitoring",
+      "author": "DebugBear",
+      "pubDate": "2025-07-22T00:00:00.000Z",
+      "description": "Explore how to diagnose and resolve common performance issues in single-page applications, ensuring smoother user experiences through actionable data.",
+      "categories": []
+    },
+    {
+      "title": "State of HTML 2025 now open!",
+      "url": "https://lea.verou.me/blog/2025/state-of-html/",
+      "author": "Lea Verou",
+      "pubDate": "2025-07-22T00:00:00.000Z",
+      "description": "The State of HTML 2025 survey is open! Contribute your insights to influence browser development priorities and help shape the future of web standards.",
+      "categories": []
+    },
+    {
+      "title": "A Friendly Introduction to SVG",
+      "url": "https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-07-21T13:30:00.000Z",
+      "description": "Discover the power of SVGs – fully CSS- and JavaScript-accessible graphics. This guide covers fundamentals and showcases some of the coolest tricks you can do with SVG.",
+      "categories": []
+    },
+    {
+      "title": "Introducing Zustand (State Management)",
+      "url": "https://frontendmasters.com/blog/introducing-zustand/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-21T19:56:35.000Z",
+      "description": "Zustand offers a lightweight, effective approach to state management that can boost your app’s rendering performance with minimal fuss.",
+      "categories": [
+        "Blog Post",
+        "JavaScript",
+        "React",
+        "State Management",
+        "Zustand"
+      ]
+    },
+    {
+      "title": "Better max-width queries",
+      "url": "https://www.trysmudford.com/blog/max-width-queries/",
+      "author": "Trys Mudford",
+      "pubDate": "2025-07-24T00:00:00.000Z",
+      "description": "Simplify media queries with range-based syntax. Use `@media (width < 60em)` for cleaner, more predictable responsive designs, especially when supporting Safari 16.3.",
+      "categories": []
+    },
+    {
+      "title": "Play it, Sam. Play “Speech Synthesis”",
+      "url": "https://dbushell.com/2025/07/26/text-to-speech-synthesis/",
+      "author": "David Bushell",
+      "pubDate": "2025-07-26T10:00:00.000Z",
+      "description": "Terence Eden’s Numbers Station uses the Web Speech API to generate text-to-speech audio, turning web content into engaging audio experiences for podcasts and audiobooks.",
+      "categories": []
+    }
+  ],
+  "description": "Explore the synergy of AI, GSAP, and CSS for clarity and performance, delve into interactive 3D text effects with Three.js, and embrace inclusive design for left-handed users. Celebrate MDN Web Docs' legacy while discovering innovative CSS tricks and design methodologies like Atomic Design. Learn about Chrome's Interest Invoker API, focus management for accessibility, and enhancements in DevTools. Engage with the future of web standards through the State of HTML 2025 survey and harness the power of SVGs, range-based media queries, and lightweight state management with Zustand.",
+  "joke": "Why did the JavaScript function stop running? Because it had too many callbacks and needed a promise of rest!",
+  "challenge": "Create an interactive, animated carousel that displays 3D rotating text using vanilla JavaScript, HTML, and CSS. Experiment with WebGL or Canvas to add depth and dimension, and use native APIs to make the text respond to user interactions like clicks or scrolls. Challenge yourself to make it both visually stunning and accessible, ensuring smooth performance across devices."
+}
