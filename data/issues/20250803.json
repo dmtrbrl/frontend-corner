@@ -1,0 +1,169 @@
+{
+  "no": 16,
+  "pubDate": "2025-08-03T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Interactive WebGL Backgrounds: A Quick Guide to Bayer Dithering",
+      "url": "https://tympanus.net/codrops/2025/07/30/interactive-webgl-backgrounds-a-quick-guide-to-bayer-dithering/",
+      "author": "Codrops",
+      "pubDate": "2025-07-30T13:25:32.000Z",
+      "description": "Creating a subtle, interactive WebGL background using Bayer dithering techniques – quick tips for adding visual depth to your site.",
+      "categories": [
+        "Tutorials",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Exploring the Process of Building a Procedural 3D Kitchen Designer with Three.js",
+      "url": "https://tympanus.net/codrops/2025/07/29/exploring-the-process-of-building-a-procedural-3d-kitchen-designer-with-three-js/",
+      "author": "Codrops",
+      "pubDate": "2025-07-29T14:31:11.000Z",
+      "description": "Simplifying complex 3D design through procedural modeling and smart abstractions, making web experiences more intuitive and accessible.",
+      "categories": [
+        "Articles"
+      ]
+    },
+    {
+      "title": "Built to Move: A Closer Look at the Animations Behind Eduard Bodak’s Portfolio",
+      "url": "https://tympanus.net/codrops/2025/07/29/built-to-move-a-closer-look-at-the-animations-behind-eduard-bodaks-portfolio/",
+      "author": "Codrops",
+      "pubDate": "2025-07-29T10:47:53.000Z",
+      "description": "A practical guide to crafting scroll-driven and interactive animations, perfect for elevating portfolio presentations.",
+      "categories": [
+        "Articles",
+        "Case Studies"
+      ]
+    },
+    {
+      "title": "Web Components: Working With Shadow DOM",
+      "url": "https://smashingmagazine.com/2025/07/web-components-working-with-shadow-dom/",
+      "author": "Russell Beswick",
+      "pubDate": "2025-07-28T08:00:00.000Z",
+      "description": "Exploring Web Components beyond Custom Elements – understanding Shadow DOM, HTML Templates, and their roles in building encapsulated, reusable UI elements.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/web-components-working-with-shadow-dom/web-components-working-with-shadow-dom.jpg"
+    },
+    {
+      "title": "VisBug was built into a browser!",
+      "url": "https://nerdy.dev/orion-ships-with-visbug-as-the-design-tools?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-07-29T18:10:45.000Z",
+      "description": "A look at Orion, a browser inspired by Arc, featuring design tools like VisBug pre-installed, and innovative hotkeys for a smoother design workflow.",
+      "categories": [
+        "blog",
+        "oss"
+      ],
+      "img": "https://nerdy.dev/media/visbug-in-orion.png"
+    },
+    {
+      "title": "LLM chat prototype",
+      "url": "https://nerdy.dev/llm-chat-prototype?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-07-28T22:42:36.000Z",
+      "description": "Building a minimal LLM chat interface from scratch – focusing on core primitives, UX details, and smooth animations without frameworks or build tools.",
+      "categories": [
+        "blog",
+        "css",
+        "js"
+      ],
+      "img": "https://nerdy.dev/media/llm-chat-light.png"
+    },
+    {
+      "title": "Keeping Article Demos Alive When Third-Party APIs Die",
+      "url": "https://css-tricks.com/keeping-article-demos-alive-when-third-party-apis-die/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-30T13:21:05.000Z",
+      "description": "Strategies for creating demos that remain functional despite third-party API failures, ensuring long-term educational value.",
+      "categories": [
+        "Articles",
+        "api",
+        "third-party"
+      ]
+    },
+    {
+      "title": "Making a Masonry Layout That Works Today",
+      "url": "https://css-tricks.com/making-a-masonry-layout-that-works-today/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-07-28T12:42:16.000Z",
+      "description": "Achieving a responsive masonry layout with just 66 lines of JavaScript, compatible across modern browsers for reliable, flexible design.",
+      "categories": [
+        "Articles",
+        "layout",
+        "masonry"
+      ]
+    },
+    {
+      "title": "Efficient Data Fetching In Nuxt With useAsyncData",
+      "url": "https://www.debugbear.com/blog/nuxt-useasyncdata",
+      "author": "DebugBear",
+      "pubDate": "2025-08-01T00:00:00.000Z",
+      "description": "Leveraging Nuxt’s useAsyncData for efficient data fetching – improving performance and SEO with built-in caching, error handling, and reactivity.",
+      "categories": []
+    },
+    {
+      "title": "WCAG in Plain English by AAArdvark",
+      "url": "https://bradfrost.com/blog/link/wcag-in-plain-english-by-aaardvark/",
+      "author": "Brad Frost",
+      "pubDate": "2025-07-31T13:32:45.000Z",
+      "description": "Demystifying WCAG standards with \"WCAG in Plain English,\" breaking down accessibility criteria into clear, actionable insights.",
+      "categories": []
+    },
+    {
+      "title": "Liquid Glass on the Web",
+      "url": "https://frontendmasters.com/blog/liquid-glass-on-the-web/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-07-29T02:57:16.000Z",
+      "description": "Navigating complex visual effects with blurring, light refraction, and bright highlights – plus the importance of maintaining accessible text contrast in challenging designs.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Liquid Glass",
+        "SVG"
+      ]
+    },
+    {
+      "title": "Creating a Component for Positioning Content",
+      "url": "https://alwaystwisted.com/articles/creating-a-component-for-positiong-content.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-07-30T00:00:00.000Z",
+      "description": "Building a reusable CSS Grid component with ⁠place-self for flexible text positioning – perfect for adaptable layouts across different sections of a website.",
+      "categories": []
+    },
+    {
+      "title": "Composable Adopted Stylesheets",
+      "url": "https://dbushell.com/2025/08/02/composable-adopted-stylesheets/",
+      "author": "David Bushell",
+      "pubDate": "2025-08-02T10:00:00.000Z",
+      "description": "Exploring how adopted stylesheets simplify styling web components without needing frameworks or utility classes – CSS alone can handle your component styling needs.",
+      "categories": []
+    },
+    {
+      "title": "Anatomy of a Web Component",
+      "url": "https://dbushell.com/2025/08/01/anatomy-of-a-web-component/",
+      "author": "David Bushell",
+      "pubDate": "2025-08-01T10:00:00.000Z",
+      "description": "Breaking down the essentials of custom elements – understanding their role as the core of web components and how they enable modular, reusable UI elements.",
+      "categories": []
+    },
+    {
+      "title": "Talking about the Polypane browser with Kilian Valkhof (#note)",
+      "url": "https://www.stefanjudis.com/notes/talking-about-the-polypane-browser-with-kilian-valkhof/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-08-02T22:00:00.000Z",
+      "description": "Unlocking the full potential of Polypane – discover tips and tricks to streamline frontend workflows and leverage hidden features for better development experiences.",
+      "categories": []
+    },
+    {
+      "title": "🔥 AI Won’t Kill UX, But We Might",
+      "url": "https://unicornclub.dev/newsletters/2025-07-30-ai-won-t-kill-ux-but-we-might/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-07-30T08:00:00.000Z",
+      "description": "Examining the barriers to innovation – covering left-handed design and experimental approaches in frontend development.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the world of advanced web design with insights on WebGL backgrounds, procedural 3D modeling, and scroll-driven animations. Explore the versatility of Web Components and CSS Grid for creating dynamic, reusable UI elements. Uncover strategies to maintain demo integrity, achieve responsive layouts, and embrace accessibility with simplified WCAG standards. Discover new tools like Orion and Polypane to enhance your design workflow, and challenge conventional design approaches for innovative frontend solutions.",
+  "joke": "Why do JavaScript developers prefer to work with promises? Because they hate callback hell, but love a good resolution!",
+  "challenge": "Challenge of the week: Create an interactive WebGL-based background using Bayer dithering techniques. Enhance your site with subtle animations and depth, allowing users to manipulate the visual effects through mouse movements or touch gestures. Use HTML, CSS, and JavaScript to integrate the effect seamlessly into any webpage, and explore how these techniques can elevate the visual experience without relying on external frameworks."
+}
