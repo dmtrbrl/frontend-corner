@@ -1,0 +1,195 @@
+{
+  "no": 17,
+  "pubDate": "2025-08-10T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building Aether 1: Sound Without Boundaries",
+      "url": "https://tympanus.net/codrops/2025/08/06/building-aether-1-sound-without-boundaries/",
+      "author": "Codrops",
+      "pubDate": "2025-08-06T10:18:23.000Z",
+      "description": "Exploring how Aether 1 combines 3D, sound, and WebGL to create an immersive, boundary-breaking experience.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "The Power Of The <code>Intl</code> API: A Definitive Guide To Browser-Native Internationalization",
+      "url": "https://smashingmagazine.com/2025/08/power-intl-api-guide-browser-native-internationalization/",
+      "author": "Fuqiao Xue",
+      "pubDate": "2025-08-08T10:00:00.000Z",
+      "description": "Discover how the Intl API in JavaScript simplifies internationalization beyond translation – handling dates, plurals, and sorting according to locales.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/power-intl-api-guide-browser-native-internationalization/power-intl-api-guide-browser-native-internationalization.jpg"
+    },
+    {
+      "title": "Automating Design Systems: Tips And Resources For Getting Started",
+      "url": "https://smashingmagazine.com/2025/08/automating-design-systems-tips-resources/",
+      "author": "Joas Pambou",
+      "pubDate": "2025-08-06T10:00:00.000Z",
+      "description": "Delve into how design systems evolve with workflows, tokens, and automation, helping teams maintain consistency and focus on creative work.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/automating-design-systems-tips-resources/automating-design-systems-tips-resources.jpg"
+    },
+    {
+      "title": "How to Prepare for CSS-Specific Interview Questions",
+      "url": "https://css-tricks.com/how-to-prepare-for-css-specific-interview-questions/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-08T13:42:31.000Z",
+      "description": "Prepare for front-end interviews with essential CSS questions covering layout, specificity, flexbox, grid, and more.",
+      "categories": [
+        "Articles",
+        "career"
+      ]
+    },
+    {
+      "title": "Bringing Back Parallax With Scroll-Driven CSS Animations",
+      "url": "https://css-tricks.com/bringing-back-parallax-with-scroll-driven-css-animations/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-06T13:39:06.000Z",
+      "description": "Learn how CSS scroll-driven animations revive parallax effects, offering smooth, performant layered scrolling without JavaScript.",
+      "categories": [
+        "Articles",
+        "animation",
+        "Scroll Driven Animation"
+      ]
+    },
+    {
+      "title": "Thinking Deeply About Theming and Color Naming",
+      "url": "https://css-tricks.com/thinking-deeply-about-theming-and-color-naming/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-04T13:14:45.000Z",
+      "description": "Explore community patterns for naming color palettes, with ideas on how to improve flexibility and aesthetic appeal through better theming strategies.",
+      "categories": [
+        "Articles",
+        "color",
+        "UI/IX Design"
+      ]
+    },
+    {
+      "title": "New in Chrome 139",
+      "url": "https://developer.chrome.com/blog/new-in-chrome-139?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-08-05T07:00:00.000Z",
+      "description": "Discover CSS tricks like squircles and custom functions, plus how on-device speech recognition enhances web accessibility.",
+      "categories": []
+    },
+    {
+      "title": "Building a typed fetch in TypeScript with conditional types and infer",
+      "url": "https://piccalil.li/blog/building-a-typed-fetch-in-typescript-with-conditional-types-and-infer/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-08-07T10:55:00.000Z",
+      "description": "See how TypeScript’s conditional types and inference can automatically generate precise API request and response types from schemas, streamlining development.",
+      "categories": []
+    },
+    {
+      "title": "How To Fix A Slow Website: 4 Web Performance Tips",
+      "url": "https://www.debugbear.com/blog/fix-slow-loading-websites",
+      "author": "DebugBear",
+      "pubDate": "2025-08-08T00:00:00.000Z",
+      "description": "Uncover common causes of slow websites, how to diagnose load issues, and impactful optimizations to boost page speed.",
+      "categories": []
+    },
+    {
+      "title": "How To Use The Safari Developer Tools",
+      "url": "https://www.debugbear.com/blog/safari-developer-tools",
+      "author": "DebugBear",
+      "pubDate": "2025-08-05T00:00:00.000Z",
+      "description": "Master debugging your website on Mac OS and iOS using Safari’s powerful developer tools for efficient troubleshooting.",
+      "categories": []
+    },
+    {
+      "title": "The one-liner for max-width, centering, and margins.",
+      "url": "https://frontendmasters.com/blog/the-one-liner-for-max-width-centering-and-margins/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-08T19:18:08.000Z",
+      "description": "Exploring simple techniques to horizontally center elements with constrained widths, emphasizing how to manage spacing effectively by adjusting parent containers for cleaner layouts.",
+      "categories": [
+        "The Beat",
+        "CSS",
+        "Logical Properties"
+      ]
+    },
+    {
+      "title": "Using the Custom Highlight API",
+      "url": "https://frontendmasters.com/blog/using-the-custom-highlight-api/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-07T13:45:02.000Z",
+      "description": "Learn how to highlight specific text ranges in JavaScript, enabling CSS styling without additional selectors – perfect for dynamic text emphasis.",
+      "categories": [
+        "Blog Post",
+        "Highlight()",
+        "JavaScript",
+        "Range()"
+      ]
+    },
+    {
+      "title": "Get the number of auto-fit/auto-fill columns in CSS",
+      "url": "https://frontendmasters.com/blog/count-auto-fill-columns/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-06T15:08:24.000Z",
+      "description": "Understanding auto-fit and auto-fill in CSS Grid – how knowing the number of columns chosen by the browser can inform smarter, more adaptable designs.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Design",
+        "Grid",
+        "Layout"
+      ]
+    },
+    {
+      "title": "Little Reminder About Custom Properties with Invalid Values",
+      "url": "https://frontendmasters.com/blog/little-reminder-about-custom-properties-with-invalid-values/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-05T19:33:43.000Z",
+      "description": "Decoding CSS behavior: what color does a <p> element render when given an invalid color value? A look into CSS fallback and inheritance mechanisms.",
+      "categories": [
+        "The Beat",
+        "CSS",
+        "Custom Properties"
+      ]
+    },
+    {
+      "title": "Infinite Marquee Animation using Modern CSS",
+      "url": "https://frontendmasters.com/blog/infinite-marquee-animation-using-modern-css/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-04T18:30:28.000Z",
+      "description": "Creating endlessly animated logo rows with pure CSS – no duplicated HTML or JavaScript needed, showcasing modern CSS tricks for smooth, infinite animations.",
+      "categories": [
+        "Blog Post",
+        "Animation",
+        "Carousels",
+        "CSS",
+        "sibling-index()",
+        "slider"
+      ]
+    },
+    {
+      "title": "IntelliSense in the VS Code terminal (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/intellisense-in-the-vs-code-terminal/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-08-07T22:00:00.000Z",
+      "description": "A new preview feature in VS Code’s integrated terminal offers inline IntelliSense for commands and flags. How to enable it and whether it’s a helpful boost or a potential distraction.",
+      "categories": []
+    },
+    {
+      "title": "Node.js supports import maps (#tilPost)",
+      "url": "https://www.stefanjudis.com/today-i-learned/node-js-import-maps/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-08-06T22:00:00.000Z",
+      "description": "Simplify long import paths in Node.js projects using import maps. Define path aliases in package.json to keep your code cleaner and easier to refactor.",
+      "categories": []
+    },
+    {
+      "title": "🚨 The UX Research Revolution Is Already Here",
+      "url": "https://unicornclub.dev/newsletters/2025-08-06-the-ux-research-revolution-is-already-here/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-08-06T08:00:00.000Z",
+      "description": "Staying current with AI, Figma, and evolving design rules – are your skills keeping pace with the fast-changing landscape of modern design tools?",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the dynamic world of frontend development with explorations on creating immersive 3D experiences using WebGL, mastering the Intl API for internationalization, and using CSS for scroll-driven animations. Learn to build efficient design systems and enhance web accessibility with on-device speech recognition. Explore the art of naming color palettes for better theming and discover how TypeScript's conditional types streamline API development. Plus, gain insights into optimizing website performance and mastering Safari's developer tools.",
+  "joke": "Why do JavaScript developers prefer using 'let' instead of 'var'? Because it’s a more scoped approach!",
+  "challenge": "Create an interactive art piece using the HTML Canvas API and WebGL. Combine sound and 3D elements to build a visualizer that responds to audio input. Implement user controls to change the visual effects in real-time, and ensure your creation is both visually appealing and performs smoothly. Consider adding a unique twist like a responsive color palette or dynamic lighting effects to push the boundaries of creativity and technical skill."
+}
