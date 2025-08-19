@@ -1,0 +1,193 @@
+{
+  "no": 18,
+  "pubDate": "2025-08-17T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building a Blended Material Shader in WebGL with Solid.js",
+      "url": "https://tympanus.net/codrops/2025/08/12/building-a-blended-material-shader-in-webgl-with-solid-js/",
+      "author": "Codrops",
+      "pubDate": "2025-08-12T12:35:08.000Z",
+      "description": "Exploring a blend effect using Three.js render targets, with a focus on managing the WebGL lifecycle in Solid.js for seamless animations and effects.",
+      "categories": [
+        "Tutorials",
+        "Solid.js",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "The Psychology Of Color In UX Design And Digital Products",
+      "url": "https://smashingmagazine.com/2025/08/psychology-color-ux-design-digital-products/",
+      "author": "Rodolpho Henrique",
+      "pubDate": "2025-08-15T15:00:00.000Z",
+      "description": "Delving into the role of color in digital design – creating scalable palettes, ensuring accessibility, and leveraging hues to evoke emotions and improve user experience.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/psychology-color-ux-design-digital-products/psychology-color-ux-design-digital-products.jpg"
+    },
+    {
+      "title": "Designing With AI, Not Around It: Practical Advanced Techniques For Product Design Use Cases",
+      "url": "https://smashingmagazine.com/2025/08/designing-with-ai-practical-techniques-product-design/",
+      "author": "Ilia Kanazin & Marina Chernyshova",
+      "pubDate": "2025-08-11T08:00:00.000Z",
+      "description": "Unlocking the power of advanced prompting – shaping better workflows, enhancing research, brainstorming, and testing through smarter instruction design.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/designing-with-ai-practical-techniques-product-design/designing-with-ai-practical-techniques-product-design.jpg"
+    },
+    {
+      "title": "How our dog increased my appreciation for accessibility",
+      "url": "https://cloudfour.com/thinks/how-our-dog-increased-my-appreciation-for-accessibility/",
+      "author": "Cloud Four",
+      "pubDate": "2025-08-11T15:17:44.000Z",
+      "description": "A humorous reminder of how accessibility features can be unexpectedly lifesaving – thanks to a dog’s headbutt and a new appreciation for inclusive design.",
+      "categories": [
+        "Accessibility",
+        "Design"
+      ],
+      "img": "https://cloudfour.com/wp-content/uploads/2025/08/coco-feature-r2.jpg"
+    },
+    {
+      "title": "Covering hidden=until-found",
+      "url": "https://css-tricks.com/covering-hiddenuntil-found/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-15T12:55:36.000Z",
+      "description": "Discover how setting `hidden=\"until-found\"` makes hidden HTML content searchable within the browser, improving accessibility and discoverability.",
+      "categories": [
+        "Articles",
+        "accessibility",
+        "attributes",
+        "HTML"
+      ]
+    },
+    {
+      "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
+      "url": "https://css-tricks.com/a-few-things-about-the-anchor-elements-href-you-might-not-have-known/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-15T12:26:00.000Z",
+      "description": "Uncover lesser-known patterns and tricks for using the `href` attribute in URLs, highlighting the often-overlooked superpowers of anchor elements.",
+      "categories": [
+        "Links",
+        "HTML",
+        "Links & URLs"
+      ]
+    },
+    {
+      "title": "On Accessibility Conformance, Design Systems, and CSS “Base” Units",
+      "url": "https://css-tricks.com/on-accessibility-conformance-design-systems-and-css-base-units/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-14T13:10:11.000Z",
+      "description": "Connecting dots between accessibility, design systems, and CSS units – exploring how conforming to WCAG, automating design, and CSS base units intersect.",
+      "categories": [
+        "Articles",
+        "accessibility",
+        "design systems",
+        "units"
+      ]
+    },
+    {
+      "title": "We Might Need Something Between Root and Relative CSS Units for “Base Elements”",
+      "url": "https://css-tricks.com/we-might-need-something-between-root-and-relative-css-units-for-base-elements/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-13T13:24:55.000Z",
+      "description": "Proposing a new CSS unit between root and relative values to enhance reusability and flexibility in creating scalable, maintainable components.",
+      "categories": [
+        "Articles",
+        "CSS",
+        "CSS functions",
+        "typography"
+      ]
+    },
+    {
+      "title": "CSS-Questions",
+      "url": "https://css-tricks.com/css-questions/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-12T15:02:21.000Z",
+      "description": "Test your CSS knowledge with over 100 questions on CSS-Questions, a mini site designed to sharpen your styling skills.",
+      "categories": [
+        "Links",
+        "education"
+      ]
+    },
+    {
+      "title": "Getting Creative With Quotes",
+      "url": "https://css-tricks.com/getting-creative-with-quotes/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-11T13:43:14.000Z",
+      "description": "Styling block quotes with borders, decorative marks, and custom shapes to reflect brand identity and enhance storytelling through creative design.",
+      "categories": [
+        "Articles",
+        "inspiration",
+        "typography"
+      ]
+    },
+    {
+      "title": "Stuff & Nonsense Practical Layout Workshop",
+      "url": "https://css-tricks.com/stuff-nonsense-practical-layout-workshop/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-11T12:16:00.000Z",
+      "description": "Explore practical and creative page layout techniques in a two-hour workshop with Andy Clarke this September 18. Perfect for designers seeking hands-on guidance in building effective web layouts. Register now and save with a special coupon code.",
+      "categories": [
+        "Links",
+        "education",
+        "layout",
+        "workshop"
+      ]
+    },
+    {
+      "title": "Another article about centering in CSS",
+      "url": "https://piccalil.li/blog/another-article-about-centering-in-css/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-08-14T10:55:00.000Z",
+      "description": "The myth that CSS centering is “impossible” is outdated. Discover various methods – like text-align and flexbox – to center text or blocks effectively, with practical examples for different contexts. Flexbox often offers the most flexible solutions.",
+      "categories": []
+    },
+    {
+      "title": "Stretch",
+      "url": "https://frontendmasters.com/blog/stretch/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-12T15:52:32.000Z",
+      "description": "CSS now supports height: stretch, allowing elements to fill available space dynamically. Dave Rupert explains how this new feature differs from traditional 100% or viewport units, opening new possibilities for responsive layouts.",
+      "categories": [
+        "The Beat",
+        "CSS",
+        "stretch"
+      ]
+    },
+    {
+      "title": "A Nice Vanilla App Archicture Using Web Components and CSS Module Scripts",
+      "url": "https://frontendmasters.com/blog/architecture-through-component-colocation/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-11T16:18:06.000Z",
+      "description": "CSS module scripts enable component-based development by co-locating related files without the need for a bundler. Simplify your workflow and keep your code organized with this modern approach.",
+      "categories": [
+        "Blog Post"
+      ]
+    },
+    {
+      "title": "Un-Sass’ing my CSS",
+      "url": "https://alwaystwisted.com/articles/UnSassing-my-CSS.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-08-12T00:00:00.000Z",
+      "description": "After 14 years of championing Sass, a shift is underway. Working on an aging website with a legacy codebase, the focus turns to leveraging platform features over preprocessors to modernize the front-end without rewriting everything.",
+      "categories": []
+    },
+    {
+      "title": "Self-hosted Forgejo Actions Runner",
+      "url": "https://dbushell.com/2025/08/15/self-hosted-forgejo-actions-runner/",
+      "author": "David Bushell",
+      "pubDate": "2025-08-15T10:00:00.000Z",
+      "description": "Moving code hosting from GitHub to a self-hosted Forgejo instance at git.dbushell.com. Today’s update includes setting up Forgejo Actions for continuous integration – bringing GitHub-like workflows to your own server.",
+      "categories": []
+    },
+    {
+      "title": "State of CSS 2025: :has() takes the crown 🏆",
+      "url": "https://unicornclub.dev/newsletters/2025-08-13-state-of-css-2025-has-takes-the-crown/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-08-13T08:00:00.000Z",
+      "description": "Enhancing animations with smoother motion than scale(0), and rethinking reset techniques for more natural, seamless transitions in your UI.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the world of frontend development with insights on blending effects using Three.js, the power of color in digital design, and the unsung heroics of accessibility features. Discover the hidden potential of the `href` attribute, explore new CSS units, and learn about the latest in scalable component creation. Enhance your knowledge with a comprehensive CSS quiz and practical techniques for centering content using flexbox. Plus, get hands-on with creative page layout techniques, and explore the future of frontend with CSS module scripts and dynamic height utilities.",
+  "joke": "Why do JavaScript developers prefer dark mode? Because light attracts bugs!",
+  "challenge": "Create a dynamic photo gallery using HTML, CSS, and JavaScript that adapts to different screen sizes. Implement a filter system that allows users to sort images by categories, and use CSS transitions for smooth animations when switching between categories. Enhance the experience with a responsive, draggable carousel that showcases selected images in full view. Optionally, use the Canvas API to add a creative effect, like a watercolor overlay or pixelation, to the images as they transition."
+}
