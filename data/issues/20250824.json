@@ -1,0 +1,147 @@
+{
+  "no": 19,
+  "pubDate": "2025-08-24T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Developer Spotlight: Ruud Luijten",
+      "url": "https://tympanus.net/codrops/2025/08/21/developer-spotlight-ruud-luijten/",
+      "author": "Codrops",
+      "pubDate": "2025-08-21T13:54:36.000Z",
+      "description": "Highlighting Ruud Luijten, a passionate freelance developer blending creativity to craft engaging web experiences.",
+      "categories": [
+        "Articles",
+        "Developer Spotlight"
+      ]
+    },
+    {
+      "title": "Exporting a Cloth Simulation from Blender to an Interactive Three.js Scene",
+      "url": "https://tympanus.net/codrops/2025/08/20/exporting-a-cloth-simulation-from-blender-to-an-interactive-three-js-scene/",
+      "author": "Codrops",
+      "pubDate": "2025-08-20T15:27:17.000Z",
+      "description": "Step-by-step guide on baking a cloth simulation in Blender, exporting it, and integrating it into Three.js for interactive animations.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "blender",
+        "button",
+        "React Three Fiber",
+        "Three.js"
+      ]
+    },
+    {
+      "title": "Launching MDN's new front end",
+      "url": "https://developer.mozilla.org/en-US/blog/launching-new-front-end/",
+      "author": "mdn-team",
+      "pubDate": "2025-08-19T00:00:00.000Z",
+      "description": "MDN's new look: explore the updates, improved navigation, and how the revamped site makes learning web standards easier.",
+      "categories": [],
+      "img": "https://developer.mozilla.org/en-US/blog/launching-new-front-end/featured.png"
+    },
+    {
+      "title": "3D Layered Text: Interactivity and Dynamicism",
+      "url": "https://css-tricks.com/3d-layered-text-interactivity-and-dynamism/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-22T13:14:31.000Z",
+      "description": "Final chapter on adding JavaScript interactivity – hover effects, responsive bulging text, and dynamic 3D layered text that follows your cursor.",
+      "categories": [
+        "Articles",
+        "animation",
+        "background",
+        "custom properties"
+      ]
+    },
+    {
+      "title": "3D Layered Text: Motion and Variations",
+      "url": "https://css-tricks.com/3d-layered-text-motion-and-variations/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-20T13:54:52.000Z",
+      "description": "Exploring animation techniques for 3D layered text – adding transitions, variations, and subtle motion to enhance depth and visual appeal.",
+      "categories": [
+        "Articles",
+        "animation",
+        "typography"
+      ]
+    },
+    {
+      "title": "3D Layered Text: The Basics",
+      "url": "https://css-tricks.com/3d-layered-text-the-basics/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-18T13:46:00.000Z",
+      "description": "Creating a convincing bulging text effect with advanced CSS – part of a series showcasing the process from basics to complex effects.",
+      "categories": [
+        "Articles",
+        "typography"
+      ]
+    },
+    {
+      "title": "Logoipsum",
+      "url": "https://bradfrost.com/blog/link/logoipsum/",
+      "author": "Brad Frost",
+      "pubDate": "2025-08-21T12:55:09.000Z",
+      "description": "Logoipsum offers free SVG placeholder logos perfect for mockups and prototypes – great for quick, customizable branding visuals.",
+      "categories": []
+    },
+    {
+      "title": "An Interactive Guide to SVG Paths",
+      "url": "https://www.joshwcomeau.com/svg/interactive-guide-to-paths/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-08-18T13:30:00.000Z",
+      "description": "Demystifying the SVG `<symbol>` element – understanding its syntax and exploring creative ways to leverage this powerful, yet complex, primitive.",
+      "categories": []
+    },
+    {
+      "title": "CSS-only scrollspy effect using scroll-marker-group and :target-current",
+      "url": "https://www.sarasoueidan.com/blog/css-scrollspy/",
+      "author": "Sara Soueidan",
+      "pubDate": "2025-08-18T00:00:00.000Z",
+      "description": "An overview of Bootstrap's Scrollspy feature – automatically updating navigation links based on scroll position to improve user experience.",
+      "categories": []
+    },
+    {
+      "title": "Quick Dark Mode Toggles",
+      "url": "https://frontendmasters.com/blog/quick-dark-mode-toggles/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-22T14:57:23.000Z",
+      "description": "How browsers' DevTools emulate color modes – faking system preferences to test dark/light themes and other visual settings.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Dark Theme",
+        "DevTools"
+      ]
+    },
+    {
+      "title": "Obsessing Over Smooth radial-gradient() Disc Edges",
+      "url": "https://frontendmasters.com/blog/obsessing-over-smooth-radial-gradient-disc-edges/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-20T15:40:49.000Z",
+      "description": "Exploring how resolution media queries can improve radial gradients, preventing blurriness and jagged edges for sharper visuals across devices.",
+      "categories": [
+        "Blog Post"
+      ]
+    },
+    {
+      "title": "What is popover=hint?",
+      "url": "https://frontendmasters.com/blog/what-is-popoverhint/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-20T04:03:12.000Z",
+      "description": "Delving into the HTML popover API reveals more than just toggling visibility – understanding the three types of popovers for better UI control.",
+      "categories": [
+        "The Beat",
+        "HTML",
+        "Popover"
+      ]
+    },
+    {
+      "title": "🎨 Color psychology that works + scroll spy in 2 lines",
+      "url": "https://unicornclub.dev/newsletters/2025-08-20-color-psychology-that-works-scroll-spy-in-2-lines/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-08-20T08:00:00.000Z",
+      "description": "Demonstrating how color palettes influence design choices, with a live demo of :target-current and @function features in Chrome 139.",
+      "categories": []
+    }
+  ],
+  "description": "Explore engaging web experiences crafted by creative developers, dive into interactive animations with Three.js, and discover MDN's sleek new design. Enhance your CSS skills with bulging text effects and get inspired by SVG `<symbol>` elements for creative web designs. Learn to improve UX with Bootstrap's Scrollspy and DevTools' color mode emulation. Understand the impact of resolution media queries on gradients and leverage the HTML popover API for better UI control.",
+  "joke": "Why do JavaScript developers prefer dark mode? Because light attracts bugs!",
+  "challenge": "Create an interactive 3D scene using HTML, CSS, and JavaScript where text follows the user's cursor. Incorporate a dynamic bulging effect on hover, and add a subtle but visually appealing transition to mimic depth. Optionally, use Three.js for enhanced 3D capabilities and experiment with exporting models from Blender to incorporate into your scene for a polished, interactive experience."
+}
