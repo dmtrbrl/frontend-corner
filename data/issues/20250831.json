@@ -1,0 +1,191 @@
+{
+  "no": 20,
+  "pubDate": "2025-08-31T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Motion Highlights #12",
+      "url": "https://tympanus.net/codrops/2025/08/30/motion-highlights-12/",
+      "author": "Codrops",
+      "pubDate": "2025-08-30T10:56:37.000Z",
+      "description": "Showcasing a global selection of outstanding motion design and animation projects, highlighting talented creators pushing the boundaries of visual storytelling.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "Motion Design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Interactive Video Projection Mapping with Three.js",
+      "url": "https://tympanus.net/codrops/2025/08/28/interactive-video-projection-mapping-with-three-js/",
+      "author": "Codrops",
+      "pubDate": "2025-08-28T11:09:38.000Z",
+      "description": "Exploring how to map video textures onto 3D cubes with masks, motion, and interactivity using Three.js for dynamic, engaging web experiences.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "GSAP",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Prompting Is A Design Act: How To Brief, Guide And Iterate With AI",
+      "url": "https://smashingmagazine.com/2025/08/prompting-design-act-brief-guide-iterate-ai/",
+      "author": "Lyndon Cerejo",
+      "pubDate": "2025-08-29T10:00:00.000Z",
+      "description": "Rethinking prompting as a design act – blending creative briefs, conversation design, and structural clarity to enhance AI-assisted workflows.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/prompting-design-act-brief-guide-iterate-ai/prompting-design-act-brief-guide-iterate-ai.jpg"
+    },
+    {
+      "title": "Optimizing PWAs For Different Display Modes",
+      "url": "https://smashingmagazine.com/2025/08/optimizing-pwas-different-display-modes/",
+      "author": "Declan Chidlow",
+      "pubDate": "2025-08-26T08:00:00.000Z",
+      "description": "Adapting PWAs for different display modes to prevent usability issues when transitioning from a browser environment to native-like experiences.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/optimizing-pwas-different-display-modes/optimizing-pwas-different-display-modes.jpg"
+    },
+    {
+      "title": "Gradient Style Is Out Of Beta",
+      "url": "https://nerdy.dev/gradient.style-is-out-of-beta?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-08-28T20:39:59.000Z",
+      "description": "Gradient.style is now open source, supporting multiple background layers and ready for community feedback – bringing more flexibility to gradient creation.",
+      "categories": [
+        "note",
+        "css",
+        "tools",
+        "oss"
+      ],
+      "img": "https://nerdy.dev/media/gradient-layered-1.jpg"
+    },
+    {
+      "title": "The Making of gradient.style",
+      "url": "https://nerdy.dev/the-making-of-gradient.style?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-08-27T05:45:03.000Z",
+      "description": "A journey through building a CSS-compliant gradient generator in 2023, featuring HDR colors, visual effects, and innovative syntax testing for modern gradients.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/gradient-peek-thumb.jpg"
+    },
+    {
+      "title": "CSS Elevator: A Pure CSS State Machine With Floor Navigation",
+      "url": "https://css-tricks.com/css-elevator-a-pure-css-state-machine-with-floor-navigation/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-29T13:06:48.000Z",
+      "description": "Creating a fully functional, interactive elevator with CSS alone – no JavaScript needed – using modern CSS features to manage state and navigation.",
+      "categories": [
+        "Articles",
+        "animation",
+        "custom properties",
+        "forms"
+      ]
+    },
+    {
+      "title": "A Radio Button Shopping Cart Trick",
+      "url": "https://css-tricks.com/a-radio-button-shopping-cart-trick/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-08-27T14:18:12.000Z",
+      "description": "An approach to animating shopping cart additions with an infinite item count, utilizing a clever variation of the Checkbox Hack for seamless effects.",
+      "categories": [
+        "Articles",
+        "animation",
+        "forms",
+        "UI/IX Design"
+      ]
+    },
+    {
+      "title": "The interpolate-size property is a great example of progressive enhancement",
+      "url": "https://piccalil.li/blog/the-interpolate-size-property-is-a-great-example-of-progressive-enhancement/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-08-26T10:45:00.000Z",
+      "description": "A look at the current state of animate-to-height: auto and intrinsic size transitions in CSS, emphasizing progressive enhancement and ongoing browser support.",
+      "categories": []
+    },
+    {
+      "title": "Build a router for creative transitions",
+      "url": "https://willybrauner.com/journal/build-a-router-for-creative-transitions/?ref=rss-feed",
+      "author": "Willy Brauner",
+      "pubDate": "2025-08-27T12:00:00.000Z",
+      "description": "Tackling route transition animations – sharing solutions and custom approaches to create smooth, versatile transitions across different routing scenarios.",
+      "categories": []
+    },
+    {
+      "title": "Partytown: Optimize Third Party Scripts with Web Workers",
+      "url": "https://www.debugbear.com/blog/partytown-web-workers",
+      "author": "DebugBear",
+      "pubDate": "2025-08-28T00:00:00.000Z",
+      "description": "Explore techniques using web workers and Partytown to reduce third-party resource impact and boost website performance.",
+      "categories": []
+    },
+    {
+      "title": "The `-path` of Least Resistance (Part 2)",
+      "url": "https://frontendmasters.com/blog/the-path-of-least-resistance-part-2/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-30T05:47:10.000Z",
+      "description": "Delve into offset-path and related properties to create animated movements, leveraging the same powerful functions used with clip-path.",
+      "categories": [
+        "Blog Post",
+        "Animation",
+        "CSS",
+        "offset-path"
+      ]
+    },
+    {
+      "title": "The `-path` of Least Resistance (Part 1)",
+      "url": "https://frontendmasters.com/blog/the-path-of-least-resistance-part-1/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-27T18:58:53.000Z",
+      "description": "An in-depth look at clip-path, highlighting its capabilities for complex shape creation, especially with the new shape() function.",
+      "categories": [
+        "Blog Post",
+        "clip-path",
+        "CSS",
+        "shape()"
+      ]
+    },
+    {
+      "title": "Opening a Details Element from the URL",
+      "url": "https://frontendmasters.com/blog/opening-a-details-element-from-the-url/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-27T00:15:23.000Z",
+      "description": "When the URL hash matches an element's ID inside another element, it will automatically open – no extra code needed.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Details",
+        "HTML",
+        "URLs"
+      ]
+    },
+    {
+      "title": "Very Early Playing with random() in CSS",
+      "url": "https://frontendmasters.com/blog/very-early-playing-with-random-in-css/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-08-25T21:59:02.000Z",
+      "description": "Safari Technical Preview introduces the experimental CSS `random()` function, opening new creative possibilities for designers.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Design",
+        "random()"
+      ]
+    },
+    {
+      "title": "⚖️ Data-Driven Design's Death, AI-Driven UX & Button Hacks",
+      "url": "https://unicornclub.dev/newsletters/2025-08-27-data-driven-design-s-death-ai-driven-ux-button-hacks/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-08-27T08:00:00.000Z",
+      "description": "Examining how AI is transforming UX, signaling a shift in design paradigms, and why some buttons may be confusing users.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the world of motion design, creative interaction, and AI-enhanced workflows. Discover innovative uses of Three.js for immersive video-textured 3D projects and explore the evolving landscape of PWAs. Open source tools like Gradient.style are making waves, alongside CSS advancements in gradient creation and animation techniques. Modern CSS empowers developers to create interactive experiences, from animated shopping carts to stateful elevators, while exploring new browser capabilities like Safari's `random()` function.",
+  "joke": "Why don't HTML and CSS get along? Because they always need to style their differences!",
+  "challenge": "Create an interactive photo gallery that uses WebGL to map images onto a rotating 3D cube. Add functionality for users to click on a face of the cube to view the image in full screen, and incorporate subtle animations to enhance the user experience. Use Three.js for the 3D effects, and experiment with CSS for smooth transitions between states."
+}
