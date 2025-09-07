@@ -1,0 +1,137 @@
+{
+  "no": 21,
+  "pubDate": "2025-09-07T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "7 Must-Know GSAP Animation Tips for Creative Developers",
+      "url": "https://tympanus.net/codrops/2025/09/03/7-must-know-gsap-animation-tips-for-creative-developers/",
+      "author": "Codrops",
+      "pubDate": "2025-09-03T10:14:57.000Z",
+      "description": "Unlock seven GSAP tips to craft smoother, smarter, and more creative web animations with less code, enhancing your animation workflow and visual storytelling.",
+      "categories": [
+        "Tutorials",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "A Behind-the-Scenes Look at the New Jitter Website",
+      "url": "https://tympanus.net/codrops/2025/09/02/a-behind-the-scenes-look-at-the-new-jitter-website/",
+      "author": "Codrops",
+      "pubDate": "2025-09-02T10:43:35.000Z",
+      "description": "Jitter's website redesign emphasizes collaboration, creativity, and motion design, showcasing how thoughtful layout and animation can elevate brand storytelling at scale.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "Recreating Palmer’s Draggable Product Grid with GSAP",
+      "url": "https://tympanus.net/codrops/2025/09/01/recreating-palmers-draggable-product-grid-with-gsap/",
+      "author": "Codrops",
+      "pubDate": "2025-09-01T11:36:59.000Z",
+      "description": "Step-by-step guide on using GSAP and plugins to recreate a sleek, refined grid animation, demonstrating powerful animation techniques with ease.",
+      "categories": [
+        "Tutorials",
+        "draggable",
+        "grid",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "Keyframe Offsets",
+      "url": "https://nerdy.dev/keyframe-offsets?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-09-05T22:31:33.000Z",
+      "description": "Exploring keyframe offsets in CSS and JavaScript reveals how precise timing and percentages can craft complex, orchestrated animations for a polished look.",
+      "categories": [
+        "blog",
+        "css",
+        "js"
+      ],
+      "img": "https://nerdy.dev/media/keyframe-offsets-compared.jpg"
+    },
+    {
+      "title": "What You Need to Know About CSS Color Interpolation",
+      "url": "https://css-tricks.com/what-you-need-to-know-about-css-color-interpolation/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-05T13:44:06.000Z",
+      "description": "Sunkanmi Fafowora discusses how CSS color interpolation can enhance color experiences, making color transitions more natural and engaging.",
+      "categories": [
+        "Articles",
+        "color",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "Functional custom elements the easy way",
+      "url": "https://piccalil.li/blog/functional-custom-elements-the-easy-way/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-09-04T10:55:00.000Z",
+      "description": "Discover how Custom Elements (Web Components) enable lightweight, framework-free JavaScript components, with utility functions to simplify their creation, especially for React users.",
+      "categories": []
+    },
+    {
+      "title": "Performance Engineering: To Invest or Not To Invest",
+      "url": "https://www.debugbear.com/blog/performance-engineering-why-invest-in-web-performance",
+      "author": "DebugBear",
+      "pubDate": "2025-09-01T00:00:00.000Z",
+      "description": "Learn when investing in web performance pays off, balancing the costs and benefits to deliver fast, reliable applications that meet user expectations.",
+      "categories": []
+    },
+    {
+      "title": "Zero runtime cost styles in ClojureScript",
+      "url": "https://romanliutikov.com/blog/zero-runtime-cost-styles-in-clojurescript",
+      "author": "Roman Liutikov",
+      "pubDate": "2025-09-03T09:40:00.000Z",
+      "description": "Building a lightweight CSS-in-CLJS library for ClojureScript, enabling seamless styling within your ClojureScript projects with minimal overhead.",
+      "categories": []
+    },
+    {
+      "title": "Style your underlines",
+      "url": "https://frontendmasters.com/blog/style-your-underlines/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-02T22:02:55.000Z",
+      "description": "Jeremy Keith emphasizes that color alone shouldn't indicate interactivity, advocating for underlined links with subtle styling to improve accessibility and aesthetics.",
+      "categories": [
+        "The Beat",
+        "Accessibility",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Un-Sass'ing My CSS: Compiling Multiple CSS Files into One",
+      "url": "https://alwaystwisted.com/articles/UnSassing-my-CSS-CSS-imports.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-09-05T00:00:00.000Z",
+      "description": "Exploring modern CSS features in a vanilla HTML, CSS, and JavaScript project, highlighting the benefits of avoiding Sass and leveraging browser-supported CSS capabilities.",
+      "categories": []
+    },
+    {
+      "title": "Leveraging tech communities for your career",
+      "url": "https://sia.codes/posts/career-and-community/",
+      "author": "Sia Karamalegos",
+      "pubDate": "2025-09-03T00:00:00.000Z",
+      "description": "Emphasizes the importance of community involvement for career growth in tech. Highlights ways to contribute – writing, speaking, mentoring – and encourages engaging with groups that match your interests and goals across various web development communities.",
+      "categories": []
+    },
+    {
+      "title": "Web Weekly #167 (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/web-weekly-167/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-09-01T22:00:00.000Z",
+      "description": "Explores recent CSS anchor positioning, new regex features, and color space insights. Includes a musical touch with a favorite song, inviting readers to share their own. A lively roundup of web development updates and cultural moments to start the week.",
+      "categories": []
+    },
+    {
+      "title": "Standardise label voice across your UI",
+      "url": "https://unicornclub.dev/newsletters/2025-09-03-standardise-label-voice-across-your-ui/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-09-03T08:00:00.000Z",
+      "description": "Recommends auditing navigation and help copy, simplifying language with bare nouns, and clarifying labels by removing possessives like “my” to improve UI clarity and accessibility.",
+      "categories": []
+    }
+  ],
+  "description": "Explore the art of web animation with insights into GSAP techniques and CSS keyframe mastery, while a redesign case study on Jitter's site exemplifies the power of thoughtful layout and motion. Delve into the world of color with CSS interpolation, and discover the simplicity of using Custom Elements without a framework. This week's highlights also include a dive into web performance strategies, the impact of community involvement on career growth, and the importance of clear UI design.",
+  "joke": "Why did the JavaScript developer keep going to the beach? Because they wanted to catch some waves with GSAP!",
+  "challenge": "Create a mesmerizing interactive particle animation using HTML, CSS, and JavaScript. Use the Canvas API to render particles that react to mouse movements, creating a fluid and engaging visual experience. Optionally, spice it up with Web Audio API to sync particle movements with sound frequencies for a dynamic audiovisual treat."
+}
