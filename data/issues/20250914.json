@@ -1,0 +1,199 @@
+{
+  "no": 22,
+  "pubDate": "2025-09-14T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "When Cells Collide: The Making of an Organic Particle Experiment with Rapier & Three.js",
+      "url": "https://tympanus.net/codrops/2025/09/11/when-cells-collide-the-making-of-an-organic-particle-experiment-with-rapier-three-js/",
+      "author": "Codrops",
+      "pubDate": "2025-09-11T12:30:39.000Z",
+      "description": "Exploring the process behind a cellular particle experiment, from initial concepts and design to the technical methods that brought it to life, offering a behind-the-scenes look at innovative visualizations.",
+      "categories": [
+        "Articles",
+        "fluid",
+        "rapier",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "From Data To Decisions: UX Strategies For Real-Time Dashboards",
+      "url": "https://smashingmagazine.com/2025/09/ux-strategies-real-time-dashboards/",
+      "author": "Karan Rawal",
+      "pubDate": "2025-09-12T15:00:00.000Z",
+      "description": "Discover how strategic UX patterns in real-time dashboards help reduce decision time, lower cognitive load, and build trust in critical systems like fleet management and healthcare.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/ux-strategies-real-time-dashboards/ux-strategies-real-time-dashboards.jpg"
+    },
+    {
+      "title": "Integrating CSS Cascade Layers To An Existing Project",
+      "url": "https://smashingmagazine.com/2025/09/integrating-css-cascade-layers-existing-project/",
+      "author": "Victor Ayomipo",
+      "pubDate": "2025-09-10T10:00:00.000Z",
+      "description": "A practical guide to integrating CSS Cascade Layers into legacy codebases, focusing on refactoring existing styles without breaking functionality.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/integrating-css-cascade-layers-existing-project/integrating-css-cascade-layers-existing-project.jpg"
+    },
+    {
+      "title": "One List To Rule Them All",
+      "url": "https://nerdy.dev/cascading-secret-sauce?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-09-10T23:02:20.000Z",
+      "description": "A curated list of CSS features and selectors – like :has(), :is(), and ::slotted() – to stay updated with the latest in CSS, perfect for developers eager to expand their knowledge.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/feature-list-hero.jpg"
+    },
+    {
+      "title": "What Can We Actually Do With corner-shape?",
+      "url": "https://css-tricks.com/what-can-we-actually-do-with-corner-shape/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-12T14:20:45.000Z",
+      "description": "Revisiting the evolution of rounded corners, from multiple background images to the simplicity of border-radius, highlighting what we can now achieve with modern CSS.",
+      "categories": [
+        "Articles",
+        "css properties",
+        "shapes"
+      ]
+    },
+    {
+      "title": "Compiling Multiple CSS Files into One",
+      "url": "https://css-tricks.com/compiling-multiple-css-files-into-one/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-11T15:16:34.000Z",
+      "description": "Two straightforward methods for combining multiple CSS files into one, perfect for developers not relying on Sass, to streamline their stylesheet management.",
+      "categories": [
+        "Links",
+        "css preprocessors",
+        "node",
+        "postcss",
+        "Sass"
+      ]
+    },
+    {
+      "title": "What’re Your Top 4 CSS Properties?",
+      "url": "https://css-tricks.com/whatre-your-top-4-css-properties/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-10T13:13:41.000Z",
+      "description": "Celebrating diverse opinions, this piece explores the top four CSS properties that every front-end developer should consider essential in their toolkit.",
+      "categories": [
+        "Articles",
+        "css properties",
+        "opinion"
+      ]
+    },
+    {
+      "title": "Composition in CSS",
+      "url": "https://css-tricks.com/composition-in-css/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-08T13:55:26.000Z",
+      "description": "An insightful look at CSS’s inherent composability, emphasizing how the cascade naturally supports modular and layered styling approaches.",
+      "categories": [
+        "Articles",
+        "cascade",
+        "CSS",
+        "specificity"
+      ]
+    },
+    {
+      "title": "While you’re fixing the fun stuff, fix the important stuff too",
+      "url": "https://piccalil.li/blog/while-youre-fixing-the-fun-stuff-fix-the-important-stuff-too/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-09-09T10:55:00.000Z",
+      "description": "Troubleshooting a glitchy hover effect on product cards, with practical CSS tips to ensure smooth, jank-free transitions when hovering near the edges.",
+      "categories": []
+    },
+    {
+      "title": "Color Shifting in CSS",
+      "url": "https://www.joshwcomeau.com/animation/color-shifting/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-09-08T13:30:00.000Z",
+      "description": "Delving into browser limitations on animating background colors, this tutorial offers strategies to create rainbow cycling effects despite processing constraints.",
+      "categories": []
+    },
+    {
+      "title": "🎥 New (Video) Podcast: \"Navigating the World of Web Accessibility with Sara Soueidan\", with Kevin Powell",
+      "url": "https://www.sarasoueidan.com/blog/podcast-with-kevin-powell/",
+      "author": "Sara Soueidan",
+      "pubDate": "2025-09-11T00:00:00.000Z",
+      "description": "Exploring web accessibility essentials, from HTML semantics and ARIA to screen readers and CSS. Includes personal stories, myth-busting, and practical tips, plus a fun chat about cooking and fermentation – perfect for front-end designers curious about making the web more inclusive.",
+      "categories": []
+    },
+    {
+      "title": "Breakpoint Columns, Five Ways. Which Do You Like?",
+      "url": "https://frontendmasters.com/blog/breakpoint-columns-five-ways-which-do-you-like/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-12T16:05:34.000Z",
+      "description": "Discover different approaches to achieving the same result on the web. This CSS example highlights how choice and abstraction influence design and performance – what’s your preferred method?",
+      "categories": [
+        "Blog Post",
+        "@function",
+        "CSS",
+        "Grid",
+        "if()",
+        "Media Query"
+      ]
+    },
+    {
+      "title": "The Joy of Mixing Custom Elements, Web Components, and Markdown",
+      "url": "https://frontendmasters.com/blog/the-joy-of-mixing-custom-elements-web-components-and-markdown/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-11T15:17:35.000Z",
+      "description": "Markdown's flexibility extends beyond text – embed HTML like <div> or custom elements directly. This opens up possibilities for integrating Web Components seamlessly into your content creation.",
+      "categories": [
+        "The Beat",
+        "HTML",
+        "Markdown",
+        "Web Components"
+      ]
+    },
+    {
+      "title": "Choosing the Right Model in Cursor",
+      "url": "https://frontendmasters.com/blog/choosing-the-right-model-in-cursor/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-10T15:09:34.000Z",
+      "description": "Steve Kinney emphasizes the importance of choosing models manually over \"auto\" mode in Cursor, especially when cost and predictability matter. A reminder to consider control in your workflows.",
+      "categories": [
+        "Blog Post",
+        "AI",
+        "Code Editors",
+        "Cursor",
+        "LLMs"
+      ]
+    },
+    {
+      "title": "Unit Formatting with Intl in JavaScript",
+      "url": "https://frontendmasters.com/blog/unit-formatting-with-intl-in-javascript/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-09T19:18:20.000Z",
+      "description": "Raymond Camden revisits the Intl API, showcasing how to correctly format numbers – like displaying 392 as megabytes – highlighting its value for precise, localized data presentation.",
+      "categories": [
+        "The Beat",
+        "Intl",
+        "JavaScript",
+        "units"
+      ]
+    },
+    {
+      "title": "Let’s see Paul Allen’s CSS Reset",
+      "url": "https://dbushell.com/2025/09/12/css-reset/",
+      "author": "David Bushell",
+      "pubDate": "2025-09-12T15:00:00.000Z",
+      "description": "CSS resets normalize browser defaults, creating a clean slate for styling. When used thoughtfully, they serve as a subtle foundation, allowing personal flair to shine through without quirks.",
+      "categories": []
+    },
+    {
+      "title": "🔑 Show value pre‑signup in 30 seconds",
+      "url": "https://unicornclub.dev/newsletters/2025-09-10-show-value-pre-signup-in-30-seconds/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-09-10T09:00:00.000Z",
+      "description": "Replace a generic step with a focused three-question branch, and update your CTA to clearly promise the next step – making your user journey more engaging and effective.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the art of creating dynamic and accessible web experiences with insights on CSS composability, strategic UX patterns, and the evolution of style techniques. Explore how modern CSS features enhance your toolkit and learn to streamline stylesheets while troubleshooting common CSS issues. Gain valuable tips on integrating accessibility into your designs for a more inclusive web.",
+  "joke": "Why did the JavaScript developer go broke? Because he used up all his cache!",
+  "challenge": "Create an interactive particle simulation using HTML Canvas and JavaScript. Your task is to simulate cellular movement, allowing users to manipulate variables like speed and size through a user-friendly interface. Add a twist by making particles react to mouse movements or sound input, offering an engaging and educational exploration of physics on the web."
+}
