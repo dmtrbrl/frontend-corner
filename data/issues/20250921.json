@@ -1,0 +1,206 @@
+{
+  "no": 23,
+  "pubDate": "2025-09-21T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "LO2S × SNP & DashDigital: Designing a Website Full of Movement and Energy",
+      "url": "https://tympanus.net/codrops/2025/09/19/lo2s-x-snp-dashdigital-designing-a-website-full-of-movement-and-energy/",
+      "author": "Codrops",
+      "pubDate": "2025-09-19T11:36:39.000Z",
+      "description": "Exploring how SNP and DashDigital crafted the LO2S website with engaging motion, interactivity, and a focus on performance.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "Creating an Immersive 3D Weather Visualization with React Three Fiber",
+      "url": "https://tympanus.net/codrops/2025/09/18/creating-an-immersive-3d-weather-visualization-with-react-three-fiber/",
+      "author": "Codrops",
+      "pubDate": "2025-09-18T12:31:44.000Z",
+      "description": "A practical guide to simulating weather effects like sun, rain, snow, and storms in an interactive 3D weather application.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "React Three Fiber",
+        "Three.js"
+      ]
+    },
+    {
+      "title": "The Making of a Personal Project Platform: A Portfolio that Grew out of Process and Play",
+      "url": "https://tympanus.net/codrops/2025/09/17/the-making-of-a-personal-project-platform-a-portfolio-that-grew-out-of-process-and-play/",
+      "author": "Codrops",
+      "pubDate": "2025-09-17T11:14:08.000Z",
+      "description": "Behind the scenes of a portfolio evolving into a dynamic archive of projects and resources, showcasing continuous growth.",
+      "categories": [
+        "Articles",
+        "case study",
+        "portfolio"
+      ]
+    },
+    {
+      "title": "The Journey Behind inspo.page: A Better Way to Collect Web Design Inspiration",
+      "url": "https://tympanus.net/codrops/2025/09/15/the-journey-behind-inspo-page-a-better-way-to-collect-web-design-inspiration/",
+      "author": "Codrops",
+      "pubDate": "2025-09-15T09:31:08.000Z",
+      "description": "The journey from a simple idea to a curated platform highlighting the details that make websites memorable.",
+      "categories": [
+        "Articles",
+        "inspiration"
+      ]
+    },
+    {
+      "title": "How To Minimize The Environmental Impact Of Your Website",
+      "url": "https://smashingmagazine.com/2025/09/how-minimize-environmental-impact-website/",
+      "author": "James Chudley",
+      "pubDate": "2025-09-18T10:00:00.000Z",
+      "description": "Strategies for reducing the environmental impact of websites, emphasizing pragmatic approaches that benefit people, profit, and the planet.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/how-minimize-environmental-impact-website/how-minimize-environmental-impact-website.jpg"
+    },
+    {
+      "title": "Functional Personas With AI: A Lean, Practical Workflow",
+      "url": "https://smashingmagazine.com/2025/09/functional-personas-ai-lean-practical-workflow/",
+      "author": "Paul Boag",
+      "pubDate": "2025-09-16T08:00:00.000Z",
+      "description": "Rethinking personas – how to create lightweight, useful, and functional user profiles that add real value to UX design.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/functional-personas-ai-lean-practical-workflow/functional-personas-ai-lean-practical-workflow.jpg"
+    },
+    {
+      "title": "Creating Elastic And Bounce Effects With Expressive Animator",
+      "url": "https://smashingmagazine.com/2025/09/creating-elastic-bounce-effects-expressive-animator/",
+      "author": "Marius Sarca",
+      "pubDate": "2025-09-15T10:00:00.000Z",
+      "description": "Expressive Animator simplifies elastic and bounce effects, enabling quick, lively animations without manual keyframe work.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/creating-elastic-bounce-effects-expressive-animator/creating-elastic-bounce-effects-expressive-animator.jpg"
+    },
+    {
+      "title": "Cascadiajs 2025 Talk",
+      "url": "https://nerdy.dev/cascadiajs-2025-talk?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-09-19T19:24:09.000Z",
+      "description": "Join the upcoming CascadiaJS talk in Seattle – exciting insights and discussions happening in just a few hours.",
+      "categories": [
+        "note",
+        "css",
+        "talk"
+      ],
+      "img": "https://nerdy.dev/media/cascadiajs-2025-slide.jpg"
+    },
+    {
+      "title": "On inclusive personas and inclusive user research",
+      "url": "https://css-tricks.com/on-inclusive-personas-and-inclusive-user-research/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-19T13:58:37.000Z",
+      "description": "Key takeaways from Eric Bailey’s article on inclusive personas and user research, emphasizing diversity and accessibility in design.",
+      "categories": [
+        "Notes",
+        "accessibility",
+        "UI/IX Design"
+      ]
+    },
+    {
+      "title": "Is it Time to Un-Sass?",
+      "url": "https://css-tricks.com/is-it-time-to-un-sass/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-17T14:02:25.000Z",
+      "description": "With many Sass features now native in CSS, explore whether it's time to move away from Sass, as discussed by Jeff Bridgforth.",
+      "categories": [
+        "Articles",
+        "css preprocessors"
+      ]
+    },
+    {
+      "title": "The “Most Hated” CSS Feature: cos() and sin()",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-cos-and-sin/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-15T14:31:06.000Z",
+      "description": "Exploring practical applications of CSS trigonometric functions, focusing on sin() and cos(). Discover how these \"worst\" features can be useful in creative CSS effects and animations.",
+      "categories": [
+        "Articles",
+        "animations",
+        "math"
+      ]
+    },
+    {
+      "title": "Taking a shot at the double focus ring problem using modern CSS",
+      "url": "https://piccalil.li/blog/taking-a-shot-at-the-double-focus-ring-problem-using-modern-css/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-09-18T10:55:00.000Z",
+      "description": "Tackling the double focus ring problem in large, accessible web apps. Learn how to manage focus styles across dark/light modes and multiple themes without breaking accessibility.",
+      "categories": []
+    },
+    {
+      "title": "Nuxt Scripts: Load And Optimize Third Party Code",
+      "url": "https://www.debugbear.com/blog/nuxt-scripts",
+      "author": "DebugBear",
+      "pubDate": "2025-09-15T00:00:00.000Z",
+      "description": "Master third-party script optimization in Nuxt with the Nuxt Scripts module and @nuxtjs/partytown. Learn to declaratively load scripts, manage consent, and run heavy scripts in web workers for better performance.",
+      "categories": []
+    },
+    {
+      "title": "Fetch streams are great, but not for measuring upload/download progress",
+      "url": "https://jakearchibald.com/2025/fetch-streams-not-for-progress/",
+      "author": "Jake Archibald",
+      "pubDate": "2025-09-15T01:00:00.000Z",
+      "description": "Highlighting the inaccuracies of certain methods and suggesting more reliable alternatives for improved web development practices.",
+      "categories": []
+    },
+    {
+      "title": "What You Need to Know about Modern CSS (2025 Edition)",
+      "url": "https://frontendmasters.com/blog/what-you-need-to-know-about-modern-css-2025-edition/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-19T23:05:13.000Z",
+      "description": "The future of CSS looks bright beyond 2024. Discover the top upcoming features and examples that will shape CSS in 2025, with easy-to-understand demonstrations.",
+      "categories": [
+        "Blog Post",
+        "@function",
+        "attr()",
+        "calc-size()",
+        "CSS",
+        "field-sizing",
+        "if()",
+        "interpolate-size",
+        "invokers",
+        "linear()",
+        "random()",
+        "reading-flow",
+        "text-wrap"
+      ]
+    },
+    {
+      "title": "CSS offset and animation-composition for Rotating Menus",
+      "url": "https://frontendmasters.com/blog/css-offset-and-animation-composition-for-rotating-menus/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-17T13:49:38.000Z",
+      "description": "Step-by-step guide to designing and animating a circular, rotating menu in CSS, using offset properties and animation-composition techniques for smooth motion.",
+      "categories": [
+        "Blog Post",
+        "Animation",
+        "animation-composition",
+        "CSS",
+        "Menu",
+        "offset-path"
+      ]
+    },
+    {
+      "title": "Replace Your Animated GIFs with SVGs",
+      "url": "https://frontendmasters.com/blog/replace-your-animated-gifs-with-svgs/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-15T16:12:53.000Z",
+      "description": "Animate SVGs directly in CSS to create engaging, lightweight animations that can replace GIFs, even with background images or inline SVGs.",
+      "categories": [
+        "Blog Post",
+        "Animation",
+        "CSS",
+        "Images",
+        "SVG"
+      ]
+    }
+  ],
+  "description": "Dive into the world of engaging web experiences with articles on crafting interactive websites, creating dynamic weather applications, and optimizing animations without keyframes. Learn strategies for sustainable web development and explore the future of CSS beyond 2024. From rethinking personas to managing accessibility challenges, this collection highlights practical techniques and innovative approaches to enhance both performance and user experience.",
+  "joke": "Why did the developer go broke? Because they kept using promises for all their code and never resolved any.",
+  "challenge": "Create an interactive 3D weather dashboard using HTML, CSS, and JavaScript. Simulate different weather conditions like sunny, rainy, and snowy days by leveraging native WebGL or Canvas APIs. Add interactivity, such as toggling between weather types or adjusting intensity levels, to make your application feel immersive and engaging."
+}
