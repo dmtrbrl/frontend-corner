@@ -1,0 +1,202 @@
+{
+  "no": 24,
+  "pubDate": "2025-09-28T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Lax Space: Designing With Duct Tape and Everyday Chaos",
+      "url": "https://tympanus.net/codrops/2025/09/23/lax-space-designing-with-duct-tape-and-everyday-chaos/",
+      "author": "Codrops",
+      "pubDate": "2025-09-23T09:51:01.000Z",
+      "description": "Behind the scenes of an experimental portfolio that blends duct tape, design, and code to turn chaos into playful digital experiences.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "Motion Highlights #13",
+      "url": "https://tympanus.net/codrops/2025/09/22/motion-highlights-13/",
+      "author": "Codrops",
+      "pubDate": "2025-09-22T09:51:39.000Z",
+      "description": "A curated collection of inspiring motion designs and animations from across the web to spark your creativity.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "Motion Design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Intent Prototyping: The Allure And Danger Of Pure Vibe Coding In Enterprise UX (Part 1)",
+      "url": "https://smashingmagazine.com/2025/09/intent-prototyping-pure-vibe-coding-enterprise-ux/",
+      "author": "Yegor Gilyov",
+      "pubDate": "2025-09-24T17:00:00.000Z",
+      "description": "Exploring the limitations of static mockups and the potential of AI-powered prototyping, questioning whether vibe coding or structured approaches better serve user flows.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/intent-prototyping-pure-vibe-coding-enterprise-ux/intent-prototyping-pure-vibe-coding-enterprise-ux.jpg"
+    },
+    {
+      "title": "Ambient Animations In Web Design: Principles And Implementation (Part 1)",
+      "url": "https://smashingmagazine.com/2025/09/ambient-animations-web-design-principles-implementation/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-09-22T13:00:00.000Z",
+      "description": "Ambient animations offer a subtle way to add atmosphere to designs – discover how to implement these slow-moving details without distraction.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/ambient-animations-web-design-principles-implementation/ambient-animations-web-design-principles-implementation.jpg"
+    },
+    {
+      "title": "Sticky Gradient Transitions",
+      "url": "https://nerdy.dev/sticky-gradient-transitions?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-09-26T15:22:13.000Z",
+      "description": "Combining sticky offsets and gradients creates smooth transitions, with options for linear or curved effects using trigonometry.",
+      "categories": [
+        "note",
+        "css"
+      ]
+    },
+    {
+      "title": "Squircles",
+      "url": "https://nerdy.dev/squircles?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-09-26T03:01:58.000Z",
+      "description": "Experimenting with squircles via clip-path: shape() – vote for corner-shape support or try Zoran’s GUI on Codepen.",
+      "categories": [
+        "note",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/squircle.jpg"
+    },
+    {
+      "title": "Just Vite It",
+      "url": "https://nerdy.dev/just-vite-it?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-09-25T04:27:27.000Z",
+      "description": "Simplify your build process – ditch complex configs and just Vite it.",
+      "categories": [
+        "note",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/just-vite-it.jpg"
+    },
+    {
+      "title": "Recreating Gmail’s Google Gemini Animation",
+      "url": "https://css-tricks.com/recreating-gmails-google-gemini-animation/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-26T14:45:13.000Z",
+      "description": "Recreating a fancy button with CSS shape() and animation, inspired by Gmail’s Google Gemini animation.",
+      "categories": [
+        "Articles",
+        "animation"
+      ]
+    },
+    {
+      "title": "CSS Typed Arithmetic",
+      "url": "https://css-tricks.com/css-typed-arithmetic/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-24T12:49:22.000Z",
+      "description": "Chrome 140 introduces calculations with mixed data types, making CSS more powerful – Amit explores the significance of computational CSS.",
+      "categories": [
+        "Articles",
+        "animation",
+        "CSS functions",
+        "math"
+      ]
+    },
+    {
+      "title": "A workaround for using custom properties in media queries",
+      "url": "https://piccalil.li/blog/a-workaround-for-using-custom-properties-in-media-queries/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-09-25T10:55:00.000Z",
+      "description": "Using custom properties with media queries isn’t possible yet, but container style queries offer a promising workaround for responsive design.",
+      "categories": []
+    },
+    {
+      "title": "Get Started With Load Testing - A JMeter Tutorial",
+      "url": "https://www.debugbear.com/blog/load-testing-jmeter-tutorial",
+      "author": "DebugBear",
+      "pubDate": "2025-09-25T00:00:00.000Z",
+      "description": "Discover how to perform load testing on your website using the free JMeter tool. Learn to create scripts, run tests, and verify your site’s ability to handle traffic effectively.",
+      "categories": []
+    },
+    {
+      "title": "The Big Gotcha With @starting-style",
+      "url": "https://www.joshwcomeau.com/css/starting-style/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-09-22T11:30:00.000Z",
+      "description": "Exploring CSS’s latest features, including @starting-style for enter animations with transitions – an alternative to keyframes. Is it worth adopting this new approach?",
+      "categories": []
+    },
+    {
+      "title": "Git Worktrees: Git Done Right",
+      "url": "https://frontendmasters.com/blog/git-worktrees-git-done-right/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-26T23:00:07.000Z",
+      "description": "Curious about Git worktrees? Learn how they enable checking out multiple branches simultaneously in separate directories, streamlining your workflow without constant switching.",
+      "categories": [
+        "The Beat",
+        "Git",
+        "Git Worktrees"
+      ]
+    },
+    {
+      "title": "APIs vs. SDKs: Key Differences, Use Cases, and Best Practices",
+      "url": "https://frontendmasters.com/blog/apis-vs-sdks-key-differences-use-cases-and-best-practices/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-25T19:48:21.000Z",
+      "description": "Understanding DevRel roles: how developer advocacy, API teaching, and SDK support differ. Clarify these functions to better navigate or pursue a career in Developer Relations.",
+      "categories": [
+        "The Beat",
+        "API",
+        "JavaScript",
+        "Job Hunting",
+        "SDK"
+      ]
+    },
+    {
+      "title": "The Coyier CSS Starter",
+      "url": "https://frontendmasters.com/blog/the-coyier-css-starter/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-24T18:18:49.000Z",
+      "description": "A curated, opinionated CSS starter kit by Chris, built around personal principles that shape what’s included and excluded – aiming for a clean, purposeful foundation.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Starter"
+      ]
+    },
+    {
+      "title": "Code portability",
+      "url": "https://frontendmasters.com/blog/code-portability/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-22T18:36:32.000Z",
+      "description": "Insights from Nicholas C. Zakas on code portability, highlighting key decisions made in recent projects to ensure your code works across environments and platforms.",
+      "categories": [
+        "The Beat",
+        "Database",
+        "Frameworks",
+        "JavaScript",
+        "Storage"
+      ]
+    },
+    {
+      "title": "Give your AI eyes: Introducing Chrome DevTools MCP",
+      "url": "https://addyosmani.com/blog/devtools-mcp/",
+      "author": "Addy Osmani",
+      "pubDate": "2025-09-25T00:00:00.000Z",
+      "description": "Chrome DevTools MCP introduces AI-powered assistants that can see and interact with a live Chrome browser, opening new possibilities for debugging and automation.",
+      "categories": []
+    },
+    {
+      "title": "✨ 3 onboarding tips for faster “aha moments”",
+      "url": "https://unicornclub.dev/newsletters/2025-09-24-3-onboarding-tips-for-faster-aha-moments/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-09-24T11:00:00.000Z",
+      "description": "Swap out traditional ‘how it works’ explanations with a value-focused panel, complemented by a quick 10–15 second demo to showcase features effectively.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the creative fusion of design and code with an experimental portfolio that turns chaos into playful digital experiences. Explore inspiring motion designs, ambient animations, and the power of AI in prototyping. Delve into the latest CSS capabilities, including mixed data types and the potential of container style queries for improved responsiveness. Discover the ins and outs of load testing, and streamline your workflow with Git worktrees and a simplified build process. Finally, enhance your frontend arsenal with insights on code portability and an opinionated CSS starter kit.",
+  "joke": "Why did the JavaScript developer go broke? Because he kept trying to 'null' his debts.",
+  "challenge": "Challenge of the week: Create a whimsical digital aquarium using HTML, CSS, and JavaScript. Incorporate ambient animations to make the water ripple and fish swim smoothly. Use clip-paths to create unique fish shapes and experiment with CSS variables for dynamic lighting effects. Enhance the experience with sound by integrating the Web Audio API, allowing users to toggle ambient underwater noises. Share your aquarium on CodePen or GitHub to showcase your creativity!"
+}
