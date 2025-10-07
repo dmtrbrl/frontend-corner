@@ -1,0 +1,205 @@
+{
+  "no": 25,
+  "pubDate": "2025-10-05T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Fluid Worlds and Layered Visions: Tomoya Okada’s Digital Craft",
+      "url": "https://tympanus.net/codrops/2025/10/03/fluid-worlds-and-layered-visions-tomoya-okadas-digital-craft/",
+      "author": "Codrops",
+      "pubDate": "2025-10-03T08:35:54.000Z",
+      "description": "Exploring immersive web experiences through motion, interactivity, and elegance with insights from frontend engineer and designer Tomoya Okada.",
+      "categories": [
+        "Articles",
+        "Developer Spotlight"
+      ]
+    },
+    {
+      "title": "How Readymag’s free layout model drives unconventional web design",
+      "url": "https://tympanus.net/codrops/2025/10/02/how-readymags-free-layout-model-drives-unconventional-web-design/",
+      "author": "Codrops",
+      "pubDate": "2025-10-02T08:27:14.000Z",
+      "description": "Discover how Readymag's freeform canvas empowers designers to craft unique websites beyond traditional templates, shaping innovative digital layouts.",
+      "categories": [
+        "Articles",
+        "website builder"
+      ]
+    },
+    {
+      "title": "Abstract Feelings, Concrete Forms: Daiki Fujita Portfolio 2025",
+      "url": "https://tympanus.net/codrops/2025/09/30/abstract-feelings-concrete-forms-daiki-fujita-portfolio-2025/",
+      "author": "Codrops",
+      "pubDate": "2025-09-30T08:16:19.000Z",
+      "description": "A designer’s journey behind the scenes of building a digital portfolio in Tokyo, highlighting process and creative choices.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "Intent Prototyping: A Practical Guide To Building With Clarity (Part 2)",
+      "url": "https://smashingmagazine.com/2025/10/intent-prototyping-practical-guide-building-clarity/",
+      "author": "Yegor Gilyov",
+      "pubDate": "2025-10-03T10:00:00.000Z",
+      "description": "Step-by-step guide to Intent Prototyping – using AI to transform UI sketches and user flows into live prototypes for faster ideation.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/intent-prototyping-practical-guide-building-clarity/intent-prototyping-practical-guide-building-clarity.jpg"
+    },
+    {
+      "title": "CSS Bluesky Feed",
+      "url": "https://nerdy.dev/css-bluesky-feed?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-10-04T22:44:31.000Z",
+      "description": "Sharing a custom CSS Feed built for Bluesky – showcasing creative styling on the new social platform.",
+      "categories": [
+        "note",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/css-bluesky-feed.jpg"
+    },
+    {
+      "title": "Try Warp",
+      "url": "https://nerdy.dev/try-warp?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-10-03T03:03:08.000Z",
+      "description": "Still loving Warp? Here’s why it continues to impress developers with its performance and features.",
+      "categories": [
+        "note"
+      ]
+    },
+    {
+      "title": "On Log Rocket With Kevin And Paige",
+      "url": "https://nerdy.dev/on-log-rocket-with-kevin-and-paige?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-10-02T19:57:24.000Z",
+      "description": "Tune into PodRocket’s latest episode with Kevin Powell, diving deep into CSS topics and best practices.",
+      "categories": [
+        "note",
+        "css",
+        "shows"
+      ],
+      "img": "https://nerdy.dev/media/logrocket-with-kevin-and-paige.jpg"
+    },
+    {
+      "title": "A Rad Function To Be Excited About",
+      "url": "https://nerdy.dev/a-rad-function-to-be-excited-about?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-10-01T05:03:02.000Z",
+      "description": "Bramus presents a compact CSS snippet: a --light-dark() function that dynamically switches colors based on the color scheme – simple and versatile.",
+      "categories": [
+        "note",
+        "css"
+      ]
+    },
+    {
+      "title": "Touring New CSS Features in Safari 26",
+      "url": "https://css-tricks.com/touring-new-css-features-in-safari-26/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-09-29T14:31:16.000Z",
+      "description": "Safari 26 introduces 75 new features, including CSS updates and deprecations. Get the full rundown of the latest CSS enhancements.",
+      "categories": [
+        "Articles",
+        "browser",
+        "news",
+        "safari"
+      ]
+    },
+    {
+      "title": "Make accessible carousels",
+      "url": "https://developer.chrome.com/blog/accessible-carousel?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-09-29T07:00:00.000Z",
+      "description": "Learn how CSS Overflow 5 features enable more accessible and flexible carousel patterns for improved user experience.",
+      "categories": []
+    },
+    {
+      "title": "Analyzing the Web Performance of Food & Recipe Websites",
+      "url": "https://www.debugbear.com/blog/media-publisher-web-performance-recipe-food-sites",
+      "author": "DebugBear",
+      "pubDate": "2025-10-02T00:00:00.000Z",
+      "description": "Discover which site leads in food, drink, and recipe publishing by analyzing their web performance metrics.",
+      "categories": []
+    },
+    {
+      "title": "How to Optimize Viewport for Mobile for Faster Interactions",
+      "url": "https://www.debugbear.com/blog/optimize-viewport-for-mobile",
+      "author": "DebugBear",
+      "pubDate": "2025-10-01T00:00:00.000Z",
+      "description": "Learn how optimizing viewport settings for mobile can significantly improve interaction speed with the latest Lighthouse insights.",
+      "categories": []
+    },
+    {
+      "title": "A Progressive Enhancement Challenge",
+      "url": "https://frontendmasters.com/blog/a-progressive-enhancement-challenge/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-03T16:06:19.000Z",
+      "description": "Find out how to hide unnecessary interactive elements after JavaScript loads without causing layout shifts or flashes.",
+      "categories": [
+        "Blog Post",
+        "Buttons",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Progressive Enhancement"
+      ]
+    },
+    {
+      "title": "Inset Shadows Directly on img Elements (Part 1)",
+      "url": "https://frontendmasters.com/blog/inset-shadows-directly-on-img-elements-part-1/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-01T15:59:05.000Z",
+      "description": "Explore how SVG filters can directly apply inset `box-shadow` effects on images, bypassing common workarounds.",
+      "categories": [
+        "Blog Post",
+        "box-shadow",
+        "CSS",
+        "Filter",
+        "Images",
+        "SVG"
+      ]
+    },
+    {
+      "title": "Don’t Sleep on AbortController",
+      "url": "https://frontendmasters.com/blog/dont-sleep-on-abortcontroller/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-30T21:37:49.000Z",
+      "description": "Understand how a single signal can efficiently remove multiple event listeners, simplifying event management.",
+      "categories": [
+        "The Beat",
+        "AbortController",
+        "JavaScript",
+        "useEffect"
+      ]
+    },
+    {
+      "title": "How much do you really know about media queries?",
+      "url": "https://frontendmasters.com/blog/learn-media-queries/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-09-29T15:46:45.000Z",
+      "description": "Dive into the extended range of @media queries beyond width and prefers-reduced-motion, with practical use cases.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Media Query"
+      ]
+    },
+    {
+      "title": "Web Weekly #169 (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/web-weekly-169/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-10-04T22:00:00.000Z",
+      "description": "Get excited about the upcoming CSS corner-shape property, Safari 26 features, and explore new web dev tools and music recommendations.",
+      "categories": []
+    },
+    {
+      "title": "Keyframe animations have a special role in the CSS cascade (#tilPost)",
+      "url": "https://www.stefanjudis.com/today-i-learned/keyframe-animations-have-a-special-role-in-the-css-cascade/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-10-04T22:00:00.000Z",
+      "description": "Uncover how CSS keyframe animations are prioritized in the cascade, applying styles before other non-important rules for predictable animations.",
+      "categories": []
+    }
+  ],
+  "description": "Discover the fusion of motion and interactivity to create immersive web experiences. Learn how Readymag's canvas empowers designers to transcend traditional templates, and explore AI-driven intent prototyping for faster ideation. Gain insights into the latest CSS features from Safari 26, and delve into creative styling with a custom CSS Feed for Bluesky. This edition also highlights the impact of optimized viewport settings on mobile interaction speed and innovative ways to manage event listeners efficiently.",
+  "joke": "Why did the JavaScript developer keep running into walls? Because they never handled their promises!",
+  "challenge": "Create an interactive image carousel using CSS Overflow 5 features for a seamless user experience. Enhance your project with dynamic SVG filters to apply inset box-shadow effects directly on images, and use native JavaScript APIs to optimize event listener management. Aim for accessibility and performance, ensuring your carousel is both visually appealing and functional across devices."
+}
