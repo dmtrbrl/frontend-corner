@@ -1,0 +1,159 @@
+{
+  "no": 26,
+  "pubDate": "2025-10-12T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Generating Your Website from Scratch for Remixing and Exploration",
+      "url": "https://tympanus.net/codrops/2025/10/09/generating-your-website-from-scratch-for-remixing-and-exploration/",
+      "author": "Codrops",
+      "pubDate": "2025-10-09T12:26:37.000Z",
+      "description": "Discover how Anima’s AI-powered design-to-code tools streamline web prototyping, enabling rapid remixing and creative experimentation for faster development cycles.",
+      "categories": [
+        "Articles",
+        "AI",
+        "react",
+        "tailwind"
+      ]
+    },
+    {
+      "title": "How to Animate WebGL Shaders with GSAP: Ripples, Reveals, and Dynamic Blur Effects",
+      "url": "https://tympanus.net/codrops/2025/10/08/how-to-animate-webgl-shaders-with-gsap-ripples-reveals-and-dynamic-blur-effects/",
+      "author": "Codrops",
+      "pubDate": "2025-10-08T13:16:16.000Z",
+      "description": "A practical guide to animating WebGL shaders with GSAP, covering control of shader uniforms and synchronization with JavaScript timelines for dynamic visual effects.",
+      "categories": [
+        "Tutorials",
+        "GSAP",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Ponpon Mania: How WebGL and GSAP Bring a Comic Sheep’s Dream to Life",
+      "url": "https://tympanus.net/codrops/2025/10/07/ponpon-mania-how-webgl-and-gsap-bring-a-comic-sheeps-dream-to-life/",
+      "author": "Codrops",
+      "pubDate": "2025-10-07T10:27:04.000Z",
+      "description": "Behind the scenes of Ponpon Mania: exploring how illustration, animation, WebGL, and GSAP combine to craft an engaging interactive comic experience.",
+      "categories": [
+        "Articles",
+        "case study",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "Smashing Animations Part 5: Building Adaptive SVGs With `<symbol>`, `<use>`, And CSS Media Queries",
+      "url": "https://smashingmagazine.com/2025/10/smashing-animations-part-5-building-adaptive-svgs/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-10-06T13:00:00.000Z",
+      "description": "Andy Clarke shares techniques for building adaptive SVGs that scale seamlessly across devices, using CSS media queries and creative markup strategies.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-5-building-adaptive-svgs/smashing-animations-part-5-building-adaptive-svgs.jpg"
+    },
+    {
+      "title": "A beginner-friendly guide to view transitions in CSS",
+      "url": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide/",
+      "author": "yash-raj-bharti",
+      "pubDate": "2025-10-09T00:00:00.000Z",
+      "description": "Enhance multi-page apps with smooth, animated view transitions – achieve seamless navigation with just a single line of CSS.",
+      "categories": [],
+      "img": "https://developer.mozilla.org/en-US/blog/view-transitions-beginner-guide/featured.png"
+    },
+    {
+      "title": "We Completely Missed width/height: stretch",
+      "url": "https://css-tricks.com/we-completely-missed-width-height-stretch/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-10T14:03:52.000Z",
+      "description": "Understanding `stretch`: it functions like 100% width/height but ignores padding, affecting how elements adapt to available space in CSS layouts.",
+      "categories": [
+        "Articles",
+        "box model",
+        "css properties",
+        "layout"
+      ]
+    },
+    {
+      "title": "The thing about contrast-color",
+      "url": "https://css-tricks.com/the-thing-about-contrast-color/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-08T14:52:58.000Z",
+      "description": "Andy Clarke discusses the limitations of the contrast-color() function, especially when working with dark backgrounds and light text for optimal readability.",
+      "categories": [
+        "Links",
+        "color",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "Getting Creative With shape-outside",
+      "url": "https://css-tricks.com/getting-creative-with-shape-outside/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-06T15:45:40.000Z",
+      "description": "Unlock creative potential with shape-outside to add personality to designs – explore practical tips for using it to craft unique, engaging layouts.",
+      "categories": [
+        "Articles",
+        "css shapes",
+        "images",
+        "UI/IX Design"
+      ]
+    },
+    {
+      "title": "A pragmatic guide to modern CSS colours - part one",
+      "url": "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-10-07T10:55:00.000Z",
+      "description": "Modern CSS colour features offer new ways for developers to create and manipulate colour schemes, moving beyond simple copy-pasting to more dynamic, theory-based approaches.",
+      "categories": []
+    },
+    {
+      "title": "Optimizing Images For Web Performance: All You Need To Know",
+      "url": "https://www.debugbear.com/blog/image-optimization-web-performance",
+      "author": "DebugBear",
+      "pubDate": "2025-10-08T00:00:00.000Z",
+      "description": "Learn how to deliver stunning images on your website without compromising page speed, ensuring a fast and visually appealing user experience.",
+      "categories": []
+    },
+    {
+      "title": "Nuxt vs Next.js: A Practical Comparison",
+      "url": "https://www.debugbear.com/blog/nuxt-vs-next",
+      "author": "DebugBear",
+      "pubDate": "2025-10-06T00:00:00.000Z",
+      "description": "Comparing Nuxt and Next.js: a practical look at SSR performance, hybrid rendering, and framework features, with benchmarks, code examples, and deployment tips to guide your choice.",
+      "categories": []
+    },
+    {
+      "title": "CSS Counters in Action",
+      "url": "https://frontendmasters.com/blog/css-counters-in-action/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-10T00:36:27.000Z",
+      "description": "CSS counters based on matching selectors can be output as formatted content or used in calculations, enabling dynamic styling and numbering.",
+      "categories": [
+        "Blog Post",
+        "Counters",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Numbers That Fall (Scroll-Driven Animations & Sibling Index)",
+      "url": "https://frontendmasters.com/blog/numbers-that-fall-scroll-driven-animations-sibling-index/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-07T19:40:28.000Z",
+      "description": "For scroll-driven animations with view() style, start with a clear vision of the desired effect and fine-tune the ranges to achieve smooth, engaging interactions.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Scroll-Driven Animations"
+      ]
+    },
+    {
+      "title": "Node.js includes a native glob utility (#tilPost)",
+      "url": "https://www.stefanjudis.com/today-i-learned/node-js-includes-a-native-glob-utility/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-10-06T22:00:00.000Z",
+      "description": "Node.js now includes native globbing support since v22.17, with three utility flavors – promises, callback, and synchronous – making file matching more integrated and versatile.",
+      "categories": []
+    }
+  ],
+  "description": "Explore the evolution of frontend development with AI-driven design tools, dynamic WebGL animations, and adaptive SVGs. Delve into creative layout techniques with CSS, from shape-outside to seamless view transitions. Discover modern color features and CSS counters for enhanced styling, while Node.js's new globbing support simplifies file matching. Engage with WebGL and GSAP for interactive storytelling and compare Nuxt with Next.js to optimize rendering performance.",
+  "joke": "Why do JavaScript developers prefer dark mode? Because light attracts bugs!",
+  "challenge": "Create an interactive comic strip using HTML, CSS, and JavaScript. Incorporate WebGL for dynamic backgrounds and GSAP for animating transitions between panels. Challenge yourself to make the navigation smooth and engaging, bringing the comic to life with interactive elements and unique visual effects."
+}
