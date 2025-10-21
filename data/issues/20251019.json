@@ -1,0 +1,190 @@
+{
+  "no": 27,
+  "pubDate": "2025-10-19T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Fragments: A Platform for Learning Creative Coding with Shaders",
+      "url": "https://tympanus.net/codrops/2025/10/17/fragments-a-platform-for-learning-creative-coding-with-shaders/",
+      "author": "Codrops",
+      "pubDate": "2025-10-17T12:36:05.000Z",
+      "description": "Dive into shader fundamentals by exploring techniques, tweaking utilities, and remixing over 120 sketches to create unique generative art pieces.",
+      "categories": [
+        "Articles",
+        "Three.js",
+        "TSL",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Creating Smooth Scroll-Synchronized Animation for OPTIKKA: From HTML5 Video to Frame Sequences",
+      "url": "https://tympanus.net/codrops/2025/10/16/creating-smooth-scroll-synchronized-animation-for-optikka-from-html5-video-to-frame-sequences/",
+      "author": "Codrops",
+      "pubDate": "2025-10-16T10:42:01.000Z",
+      "description": "Discover how Zajno crafted OPTIKKA’s smooth, scroll-synced animations using frame sequences instead of HTML5 video for enhanced control and performance.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "From Blank Canvas to Mayhem: Eloy Benoffi’s Brutalist, Glitchy Portfolio Built with Webflow and GSAP",
+      "url": "https://tympanus.net/codrops/2025/10/15/from-blank-canvas-to-mayhem-eloy-benoffis-brutalist-glitchy-portfolio-built-with-webflow-and-gsap/",
+      "author": "Codrops",
+      "pubDate": "2025-10-15T10:23:52.000Z",
+      "description": "Experience a glitchy web design blending brutalist structures, maximalist visuals, ASCII art, and bold motion for an unapologetically chaotic digital space.",
+      "categories": [
+        "Articles",
+        "case study",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "The Underdog’s Crown: Clay Boan’s 3D Playground of Design, Motion, and GSAP Magic",
+      "url": "https://tympanus.net/codrops/2025/10/14/the-underdogs-crown-clay-boans-3d-playground-of-design-motion-and-gsap-magic/",
+      "author": "Codrops",
+      "pubDate": "2025-10-14T10:32:39.000Z",
+      "description": "A case study on how 3D, WebGL, and GSAP animations combine in Clay Boan’s portfolio to craft a personal, dynamic web experience.",
+      "categories": [
+        "Articles",
+        "case study",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "closedBy=any",
+      "url": "https://nerdy.dev/closedby-any?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-10-16T04:42:39.000Z",
+      "description": "Quick guide on using `<dialog>`'s `closedBy=\"any\"` attribute for easy light-dismiss functionality, with tips on browser support and custom JavaScript enhancements.",
+      "categories": [
+        "blog",
+        "html"
+      ],
+      "img": "https://nerdy.dev/media/bzz.jpg"
+    },
+    {
+      "title": "Sequential linear() Animation With N Elements",
+      "url": "https://css-tricks.com/sequential-linear-animation-with-n-elements/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-15T13:39:39.000Z",
+      "description": "Achieve sequential animations for multiple elements effortlessly with modern CSS, making animations scalable regardless of the number of items.",
+      "categories": [
+        "Articles",
+        "animation",
+        "CSS functions"
+      ]
+    },
+    {
+      "title": "Masonry: Watching a CSS Feature Evolve",
+      "url": "https://css-tricks.com/masonry-watching-a-css-feature-evolve/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-13T14:31:35.000Z",
+      "description": "Explore how CSS Masonry discussions influence the development of new CSS features, the role of CSSWG, and lessons from past feature evolutions.",
+      "categories": [
+        "Articles",
+        "browser",
+        "csswg",
+        "grid",
+        "masonry",
+        "specifications"
+      ]
+    },
+    {
+      "title": "Highlights from our AI in Action workshop",
+      "url": "https://developer.chrome.com/blog/ai-action-workshop-nyc?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-10-14T07:00:00.000Z",
+      "description": "Showcasing how client-side AI and built-in APIs are integrated into NYC startups’ products for faster, more private, and engaging user experiences.",
+      "categories": []
+    },
+    {
+      "title": "Performance Debugging With The Chrome DevTools MCP Server",
+      "url": "https://www.debugbear.com/blog/chrome-devtools-mcp-performance-debugging",
+      "author": "DebugBear",
+      "pubDate": "2025-10-13T00:00:00.000Z",
+      "description": "Use Chrome DevTools MCP server with AI models to analyze web performance, gaining actionable insights and optimization tips.",
+      "categories": []
+    },
+    {
+      "title": "The present and potential future of progressive image rendering",
+      "url": "https://jakearchibald.com/2025/present-and-future-of-progressive-image-rendering/",
+      "author": "Jake Archibald",
+      "pubDate": "2025-10-15T01:00:00.000Z",
+      "description": "An overview of progressive image rendering techniques across JPEG, PNG, WebP, AVIF, and JPEG XL formats.",
+      "categories": []
+    },
+    {
+      "title": "Why JavaScript variables don’t always update",
+      "url": "https://frontendmasters.com/blog/why-javascript-variables-dont-always-update/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-15T23:14:05.000Z",
+      "description": "A JavaScript trivia from Cassidy Williams highlights a key concept to master before JavaScript job interviews, emphasizing understanding core behaviors for technical success.",
+      "categories": [
+        "The Beat",
+        "JavaScript",
+        "Job Hunting"
+      ]
+    },
+    {
+      "title": "A11Y Linting HTML with CSS",
+      "url": "https://frontendmasters.com/blog/a11y-linting-html-with-css/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-14T15:51:12.000Z",
+      "description": "Will Mendes demonstrates a quick way to identify accessibility issues on HTML elements, like missing alt text and improper labels, using a simple injected JavaScript snippet for instant website testing.",
+      "categories": [
+        "The Beat",
+        "Accessibility",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Modern CSS Round-Out Tabs",
+      "url": "https://frontendmasters.com/blog/modern-css-round-out-tabs/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-13T15:56:32.000Z",
+      "description": "Learn how to create a folder tab effect by manually shaping elements with CSS `shape()`, giving your UI a custom, tab-like appearance.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "shape()",
+        "Tabs"
+      ]
+    },
+    {
+      "title": "Making Context-Aware Components: How CSS inherit() Could Simplify Design Systems",
+      "url": "https://alwaystwisted.com/articles/making-context-aware-components.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-10-16T00:00:00.000Z",
+      "description": "Exploring the upcoming `inherit()` CSS function, which aims to enhance how child elements access parent custom properties, paving the way for more context-aware, flexible design systems.",
+      "categories": []
+    },
+    {
+      "title": "... and that's my rank!",
+      "url": "https://alwaystwisted.com/articles/and-thats-my-rank.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-10-16T00:00:00.000Z",
+      "description": "Firefox is experimenting with community input for the Interop 2026 project, aiming to standardize web features across browsers by addressing bugs and improving existing standards through collaborative efforts.",
+      "categories": []
+    },
+    {
+      "title": "Web Weekly #170 (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/web-weekly-170/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-10-13T22:00:00.000Z",
+      "description": "Discover CSS functions, the ARIA live region role of HTML output elements, and more in this week's Web Weekly, along with music recommendations and community shoutouts.",
+      "categories": []
+    },
+    {
+      "title": "🦋 Design with intent. Emotionally smart colours in your UI.",
+      "url": "https://unicornclub.dev/newsletters/2025-10-15-design-with-intent-emotionally-smart-colours-in-your-ui/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-10-15T09:00:00.000Z",
+      "description": "Updating a UI flow with a focus on color can significantly influence user trust and clarity, demonstrating the power of visual design in user experience.",
+      "categories": []
+    }
+  ],
+  "description": "Explore the intersection of creativity and technology with a focus on generative art using shaders, innovative animation techniques with frame sequences, and the chaotic beauty of glitchy web design. Enhance your knowledge of CSS advancements, delve into the potential of AI and native APIs in web performance and user experiences, and gain practical insights into accessibility and animation for crafting dynamic, inclusive digital spaces.",
+  "joke": "Why did the JavaScript developer go broke? Because they kept using 'this' in all the wrong contexts.",
+  "challenge": "Design a digital art gallery using HTML, CSS, and JavaScript where users can remix generative art sketches using shader effects. Implement scroll-synced animations for transitioning between art pieces and include a glitchy design element for a chaotic aesthetic. Use native APIs to play ambient sounds triggered by user interactions, and ensure the gallery is accessible to all users."
+}
