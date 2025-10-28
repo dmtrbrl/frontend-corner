@@ -1,0 +1,217 @@
+{
+  "no": 28,
+  "pubDate": "2025-10-26T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Motion Highlights #14",
+      "url": "https://tympanus.net/codrops/2025/10/26/motion-highlights-14/",
+      "author": "Codrops",
+      "pubDate": "2025-10-26T15:27:21.000Z",
+      "description": "Curated motion snippets from the creative community to inspire your next design or animation project.",
+      "categories": [
+        "UI Interactions and Animations Roundups",
+        "inspiration",
+        "Motion Design",
+        "roundup"
+      ]
+    },
+    {
+      "title": "Dissecting a Wavy Shader: Sine, Refraction, and Serendipity",
+      "url": "https://tympanus.net/codrops/2025/10/25/dissecting-a-wavy-shader-sine-refraction-and-serendipity/",
+      "author": "Codrops",
+      "pubDate": "2025-10-25T14:48:48.000Z",
+      "description": "Exploring the math and GPU logic behind an accidental animation experiment, revealing the technical underpinnings.",
+      "categories": [
+        "Articles",
+        "webgpu"
+      ]
+    },
+    {
+      "title": "Weisdevice: Crafting a Glitched-Out World Between 2D, 3D, and Sound",
+      "url": "https://tympanus.net/codrops/2025/10/22/weisdevice-crafting-a-glitched-out-world-between-2d-3d-and-sound/",
+      "author": "Codrops",
+      "pubDate": "2025-10-22T14:19:29.000Z",
+      "description": "Behind the scenes of a 2D-3D-audio experiment that transforms creative chaos into captivating digital art.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "The Vision Behind Daria Nevezhyna’s Interactive Configurators",
+      "url": "https://tympanus.net/codrops/2025/10/21/the-vision-behind-daria-nevezhynas-interactive-configurators/",
+      "author": "Codrops",
+      "pubDate": "2025-10-21T11:52:05.000Z",
+      "description": "Daria Nevezhyna demonstrates how animation and AI can turn product design into engaging, interactive storytelling.",
+      "categories": [
+        "Articles",
+        "Designer Spotlight"
+      ]
+    },
+    {
+      "title": "From Garage to Browser: Forged.build and the WebGPU Revolution",
+      "url": "https://tympanus.net/codrops/2025/10/20/from-garage-to-browser-forged-build-and-the-webgpu-revolution/",
+      "author": "Codrops",
+      "pubDate": "2025-10-20T11:41:27.000Z",
+      "description": "Forged.build reimagines studio websites as dynamic, explorable worlds powered by WebGPU technology.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "Ambient Animations In Web Design: Practical Applications (Part 2)",
+      "url": "https://smashingmagazine.com/2025/10/ambient-animations-web-design-practical-applications-part2/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-10-22T13:00:00.000Z",
+      "description": "Ambient animations strike a balance – subtle, atmospheric details that add personality without distraction. Andy Clarke shares how to incorporate them effectively.",
+      "categories": []
+    },
+    {
+      "title": "Beyond Tellerrand 2025",
+      "url": "https://nerdy.dev/beyond-tellerrand-2025?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-10-26T21:04:54.000Z",
+      "description": "Preparing for a talk at Beyond Tellerrand: exploring how CSS can visualize audio, diverging from WebGL approaches.",
+      "categories": [
+        "note",
+        "css"
+      ]
+    },
+    {
+      "title": "CSS Animations That Leverage the Parent-Child Relationship",
+      "url": "https://css-tricks.com/css-animations-that-leverage-the-parent-child-relationship/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-24T14:18:03.000Z",
+      "description": "Changing an element’s intrinsic size impacts its children – using this to craft more dynamic, parent-aware CSS animations.",
+      "categories": [
+        "Articles",
+        "animation"
+      ]
+    },
+    {
+      "title": "An Introduction to JavaScript Expressions",
+      "url": "https://css-tricks.com/an-introduction-to-javascript-expressions/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-22T19:08:23.000Z",
+      "description": "A friendly introduction to JavaScript expressions, breaking down complex concepts into approachable lessons from the JavaScript For Everyone course.",
+      "categories": [
+        "Articles",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "What's New in WebGPU (Chrome 142)",
+      "url": "https://developer.chrome.com/blog/new-in-webgpu-142?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-10-22T07:00:00.000Z",
+      "description": "Updates on texture format support and primitive indexing in WGSL, enhancing graphics capabilities for WebGPU developers.",
+      "categories": []
+    },
+    {
+      "title": "How To Optimize Your Magento Website For Performance",
+      "url": "https://www.debugbear.com/blog/magento-performance-optimization",
+      "author": "DebugBear",
+      "pubDate": "2025-10-21T00:00:00.000Z",
+      "description": "Step-by-step guide to optimizing Magento and Adobe Commerce for better Core Web Vitals, focusing on fixing slow TTFB, render-blocking assets, layout shifts, and more.",
+      "categories": []
+    },
+    {
+      "title": "Importing vs fetching JSON",
+      "url": "https://jakearchibald.com/2025/importing-vs-fetching-json/",
+      "author": "Jake Archibald",
+      "pubDate": "2025-10-22T01:00:00.000Z",
+      "description": "Exploring the different behaviors of similar web components – key insights to help you choose the right one for your project.",
+      "categories": []
+    },
+    {
+      "title": "What's an interactive element?",
+      "url": "https://www.matuzo.at/blog/2025/whats-an-interactive-element",
+      "author": "Manuel Matuzovic",
+      "pubDate": "2025-10-24T00:00:00.000Z",
+      "description": "Revisiting focus behavior in modal dialogs: testing showModal() with various elements and attributes, and clarifying the use of tabindex on <dialog> elements.",
+      "categories": []
+    },
+    {
+      "title": "Introducing TanStack Start Middleware",
+      "url": "https://frontendmasters.com/blog/introducing-tanstack-start-middleware/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-24T18:59:02.000Z",
+      "description": "An introduction to TanStack Start, a full-stack framework that combines TanStack Router’s strong typing with server-side support for database access and more.",
+      "categories": [
+        "Blog Post",
+        "JavaScript",
+        "TanStack"
+      ]
+    },
+    {
+      "title": "closedby=”any”",
+      "url": "https://frontendmasters.com/blog/closedbyany/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-23T19:33:19.000Z",
+      "description": "Discovering the new closedby=\"any\" attribute for <dialog>, enabling click outside to close behavior in browsers like Chrome and Firefox – waiting for Safari support.",
+      "categories": [
+        "The Beat",
+        "closedby",
+        "Dialog",
+        "HTML"
+      ]
+    },
+    {
+      "title": "Browser Speech Input & Output Buttons",
+      "url": "https://frontendmasters.com/blog/browser-speech-input-output-buttons/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-21T03:15:38.000Z",
+      "description": "Incorporating voice input buttons in web forms: a UX trend that’s convenient but raises questions about learning to type, with insights from Pamela Fox.",
+      "categories": [
+        "The Beat",
+        "JavaScript",
+        "SpeechRecognition",
+        "SpeechSythesis"
+      ]
+    },
+    {
+      "title": "Styling The gap with CSS",
+      "url": "https://alwaystwisted.com/articles/styling-the-gap-with-css.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-10-22T00:00:00.000Z",
+      "description": "Using CSS Grid to add graphical rules for logo separators at different screen sizes – an update from a 2017 project to modern CSS capabilities in 2025.",
+      "categories": []
+    },
+    {
+      "title": "Context‑Aware Cornering: How inherit() Can Simplify Border‑Radius for Components",
+      "url": "https://alwaystwisted.com/articles/making-context-aware-corners.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-10-21T00:00:00.000Z",
+      "description": "A bonus look at how the CSS inherit() function can help maintain consistent border-radius across nested elements, ensuring visual harmony in design.",
+      "categories": []
+    },
+    {
+      "title": "Web Weekly #171 (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/web-weekly-171/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-10-21T08:00:00.000Z",
+      "description": "An overview of core web vitals metrics across browsers, the closed-by attribute, and AI’s role in development – plus a musical interlude from \"Dick Around\" by Sparks.",
+      "categories": []
+    },
+    {
+      "title": "field-sizing isn't only about growing textareas (#tilPost)",
+      "url": "https://www.stefanjudis.com/today-i-learned/field-sizing-is-about-more-than-textareas/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-10-20T06:00:00.000Z",
+      "description": "Introducing the new CSS field-sizing property, which allows form controls to resize based on their content – support is evolving, but it’s promising for flexible UI design.",
+      "categories": []
+    },
+    {
+      "title": "✍️ Error messages that help users get unstuck",
+      "url": "https://unicornclub.dev/newsletters/2025-10-22-error-messages-that-help-users-get-unstuck/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-10-22T08:30:00.000Z",
+      "description": "Exploring a clearer error handling approach by replacing \"Avoid\" with \"Explain\" and \"Resolve,\" eliminating confirm-shaming for more user-friendly interactions. Enhances error messages to be informative and constructive, improving overall user experience.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into a whirlwind of creativity with insights on motion snippets, ambient animation, and the art of transforming chaos into digital masterpieces. Discover the technical magic of GPU logic behind animations and how AI reshapes storytelling in design. Explore the latest in WebGPU advancements, CSS audio visualization, and the evolving role of CSS and JavaScript in creating immersive, interactive experiences.",
+  "joke": "Why did the JavaScript developer go broke? Because they kept using var and let the money slip away.",
+  "challenge": "Create an interactive audio-visualizer using HTML, CSS, and JavaScript. Your task is to design a visually appealing animation that reacts to live audio input, creating a dynamic experience that is both engaging and educational. Utilize the Web Audio API to capture sound and CSS animations for visual effects, ensuring your creation balances beauty and performance. Optionally, incorporate Canvas for more complex graphics or experiment with WebGL for added depth."
+}
