@@ -1,0 +1,185 @@
+{
+  "no": 29,
+  "pubDate": "2025-11-02T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "The Art of Play: Karim Maaloul’s World of Interactive Wonder",
+      "url": "https://tympanus.net/codrops/2025/10/31/the-art-of-play-karim-maalouls-world-of-interactive-wonder/",
+      "author": "Codrops",
+      "pubDate": "2025-10-31T08:59:47.000Z",
+      "description": "Discover how shaders, storytelling, and experimentation combine to create engaging, artful interactivity on the modern web.",
+      "categories": [
+        "Articles",
+        "Developer Spotlight"
+      ]
+    },
+    {
+      "title": "Building a Layered Zoom Scroll Effect with GSAP ScrollSmoother and ScrollTrigger",
+      "url": "https://tympanus.net/codrops/2025/10/29/building-a-layered-zoom-scroll-effect-with-gsap-scrollsmoother-and-scrolltrigger/",
+      "author": "Codrops",
+      "pubDate": "2025-10-29T13:16:11.000Z",
+      "description": "Recreate Telescope’s cinematic zoom scroll effect using GSAP’s ScrollSmoother and ScrollTrigger for smooth, layered scrolling with depth.",
+      "categories": [
+        "Tutorials",
+        "GSAP",
+        "scroll",
+        "zoom"
+      ]
+    },
+    {
+      "title": "Interpol: A Low-Level Take on Tweening and Motion",
+      "url": "https://tympanus.net/codrops/2025/10/27/interpol-a-low-level-take-on-tweening-and-motion/",
+      "author": "Codrops",
+      "pubDate": "2025-10-27T14:55:46.000Z",
+      "description": "Dive into Interpol, a minimal library for low-level, time-based animations, exploring its design and mechanics.",
+      "categories": [
+        "Articles",
+        "web development"
+      ]
+    },
+    {
+      "title": "JavaScript For Everyone: Iterators",
+      "url": "https://smashingmagazine.com/2025/10/javascript-for-everyone-iterators/",
+      "author": "Mat Marquis",
+      "pubDate": "2025-10-27T13:00:00.000Z",
+      "description": "Breaking down iterators and iterables – understand how they implement different iteration interfaces in JavaScript.",
+      "categories": []
+    },
+    {
+      "title": "Web elements know about the user, device, variables, layout and more",
+      "url": "https://nerdy.dev/components-can-know?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-10-30T23:51:37.000Z",
+      "description": "Explore container queries and component-based design, enabling elements to adapt their styles based on their container’s context – making components smarter and more flexible.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/named-container-query.jpg"
+    },
+    {
+      "title": "Getting Creative With Small Screens",
+      "url": "https://css-tricks.com/getting-creative-with-small-screens/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-29T16:22:28.000Z",
+      "description": "Small-screen design techniques help users easily identify section boundaries and maintain context on mobile devices.",
+      "categories": [
+        "Articles",
+        "rwd",
+        "UI/IX Design"
+      ]
+    },
+    {
+      "title": "Pure CSS Tabs With Details, Grid, and Subgrid",
+      "url": "https://css-tricks.com/pure-css-tabs-with-details-grid-and-subgrid/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-10-27T14:33:17.000Z",
+      "description": "Using the <details> element creatively, build a pure CSS tabbed interface with grid and subgrid layouts.",
+      "categories": [
+        "Articles",
+        "grid",
+        "html elements",
+        "layout",
+        "subgrid"
+      ]
+    },
+    {
+      "title": "Start implementing view transitions on your websites today",
+      "url": "https://piccalil.li/blog/start-implementing-view-transitions-on-your-websites-today/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-10-28T11:55:00.000Z",
+      "description": "The View Transition API simplifies animating between page states, but managing transitions requires careful handling with CSS and JavaScript.",
+      "categories": []
+    },
+    {
+      "title": "Interpol: A low-level take on tweening and motion",
+      "url": "https://tympanus.net/codrops/2025/10/27/interpol-a-low-level-take-on-tweening-and-motion/",
+      "author": "Willy Brauner",
+      "pubDate": "2025-10-27T12:00:00.000Z",
+      "description": "An inside look at Interpol, a lightweight interpolation library, perfect for those curious about the mechanics of web animations.",
+      "categories": []
+    },
+    {
+      "title": "Inlining Critical CSS: Does It Make Your Website Faster?",
+      "url": "https://www.debugbear.com/blog/critical-css",
+      "author": "DebugBear",
+      "pubDate": "2025-10-27T00:00:00.000Z",
+      "description": "Understand critical CSS, learn how to inline it for faster page loads, and weigh the benefits against potential trade-offs.",
+      "categories": []
+    },
+    {
+      "title": "Springs and Bounces in Native CSS",
+      "url": "https://www.joshwcomeau.com/animation/linear-timing-function/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-10-28T12:00:00.000Z",
+      "description": "Exploring the “linear()” timing function in CSS reveals how to model physics-based motion directly in styles, along with tips and quirks to maximize its potential. A must-know for advanced animations and smooth interactions.",
+      "categories": []
+    },
+    {
+      "title": "Super Simple Full-Bleed & Breakout Styles",
+      "url": "https://frontendmasters.com/blog/super-simple-full-bleed-breakout-styles/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-31T16:06:50.000Z",
+      "description": "When a centered content column reaches its width limit, knowing how to break out effectively depends on the layout context – here’s how to handle it gracefully.",
+      "categories": [
+        "Blog Post",
+        "Container Units",
+        "CSS",
+        "Full-Bleed",
+        "Grid"
+      ]
+    },
+    {
+      "title": "View Transitions Feature Explorer",
+      "url": "https://frontendmasters.com/blog/view-transitions-feature-explorer/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-30T23:58:40.000Z",
+      "description": "Browser support isn’t always a binary yes or no – sub-features and phased rollouts matter. Dive into the evolving support landscape, with a focus on View Transitions and their current status.",
+      "categories": [
+        "The Beat",
+        "Browser Support",
+        "View Transitions"
+      ]
+    },
+    {
+      "title": "Perfectly Pointed Tooltips: A Foundation",
+      "url": "https://frontendmasters.com/blog/perfectly-pointed-tooltips-a-foundation/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-10-28T16:51:29.000Z",
+      "description": "The CSS Anchor Positioning API offers powerful positioning options. This series kicks off with a deep dive into tooltips, showcasing its practical use-case.",
+      "categories": [
+        "Blog Post",
+        "Anchor",
+        "CSS",
+        "Tooltips"
+      ]
+    },
+    {
+      "title": "Better Alt Text",
+      "url": "https://dbushell.com/2025/11/01/better-alt-text/",
+      "author": "David Bushell",
+      "pubDate": "2025-11-01T15:00:00.000Z",
+      "description": "A rare week of uninterrupted focus led to revisiting old tasks and discovering hidden gems – like developing an accessible alt text button for images.",
+      "categories": []
+    },
+    {
+      "title": "Custom Cursor Accessibility",
+      "url": "https://dbushell.com/2025/10/27/custom-cursor-accessibility/",
+      "author": "David Bushell",
+      "pubDate": "2025-10-27T15:00:00.000Z",
+      "description": "macOS’s buried pointer settings, along with similar hidden options on Windows, can significantly impact usability – especially on smaller screens. Here’s how to find and tweak them.",
+      "categories": []
+    },
+    {
+      "title": "🦄 AI Skills That Matter – And the Product Fundamentals That Don’t Change",
+      "url": "https://unicornclub.dev/newsletters/2025-10-29-ai-skills-that-matter-and-the-product-fundamentals-that-don-t-change/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-10-29T10:00:00.000Z",
+      "description": "Top teams excel by blending prompt engineering, problem framing, and visionary thinking to achieve resilient, innovative results.",
+      "categories": []
+    }
+  ],
+  "description": "Explore innovative techniques in web animation and design, from creating artful interactivity with shaders to building smarter components using container queries. Learn to harness the power of the View Transition API and critical CSS for seamless experiences. Dive into the mechanics of time-based animations with Interpol, and gain insights into advanced CSS timing functions for smooth, physics-based motion. Uncover small-screen design tips and the creative use of the <details> element for enhancing mobile usability.",
+  "joke": "Why do JavaScript developers love nature? Because they never get 'undefined' in the forest!",
+  "challenge": "Create a visually engaging, interactive particle system using HTML, CSS, and JavaScript. Use the Canvas API to animate particles reacting to mouse movement, creating a dynamic, artistic display. Optionally, enhance your project with shaders for added depth and visual complexity."
+}
