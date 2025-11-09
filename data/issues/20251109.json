@@ -1,0 +1,139 @@
+{
+  "no": 30,
+  "pubDate": "2025-11-09T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Animating a 3D Scene with Spline’s New Timeline Tool",
+      "url": "https://tympanus.net/codrops/2025/11/05/animating-a-3d-scene-with-splines-new-timeline-tool/",
+      "author": "Codrops",
+      "pubDate": "2025-11-05T12:17:29.000Z",
+      "description": "Discover how to craft smooth, realistic 3D animations in Spline using the new Timeline feature, covering keyframes, curves, and exporting scenes for web use.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "Spline"
+      ]
+    },
+    {
+      "title": "Creating 3D Scroll-Driven Text Animations with CSS and GSAP",
+      "url": "https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/",
+      "author": "Codrops",
+      "pubDate": "2025-11-04T10:42:13.000Z",
+      "description": "Step-by-step guide to creating high-performance 3D scroll effects with GSAP, ScrollTrigger, and CSS transform techniques.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "GSAP",
+        "scroll",
+        "typography"
+      ]
+    },
+    {
+      "title": "Smashing Animations Part 6: Magnificent SVGs With `<use>` And CSS Custom Properties",
+      "url": "https://smashingmagazine.com/2025/11/smashing-animations-part-6-svgs-css-custom-properties/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-11-07T15:00:00.000Z",
+      "description": "Explore innovative methods for animating SVG elements hidden in the Shadow DOM, tackling the challenges of this elegant yet complex technology.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-6-svgs-css-custom-properties/smashing-animations-part-6-svgs-css-custom-properties.jpg"
+    },
+    {
+      "title": "How To Leverage Component Variants In Penpot",
+      "url": "https://smashingmagazine.com/2025/11/how-leverage-component-variants-penpot/",
+      "author": "Daniel Schwarz",
+      "pubDate": "2025-11-04T10:00:00.000Z",
+      "description": "Unlock the power of component variants and design tokens in Penpot to build flexible, scalable design systems with reusable components and adaptable styles.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/how-leverage-component-variants-penpot/how-leverage-component-variants-penpot.jpg"
+    },
+    {
+      "title": "Explaining the Accessible Benefits of Using Semantic HTML Elements",
+      "url": "https://css-tricks.com/explaining-the-accessible-benefits-of-using-semantic-html-elements/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-11-06T15:57:49.000Z",
+      "description": "Understand how semantic <button> elements enhance accessibility, providing better support for assistive technologies compared to generic <div> tags.",
+      "categories": [
+        "Articles",
+        "accessibility",
+        "semantics"
+      ]
+    },
+    {
+      "title": "The “Most Hated” CSS Feature: tan()",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-tan/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-11-03T16:03:08.000Z",
+      "description": "Dive into the controversy around CSS’s tan() function, often labeled the “Most Hated” CSS feature, and explore why it sparks debate among developers.",
+      "categories": [
+        "Articles",
+        "CSS functions",
+        "math"
+      ]
+    },
+    {
+      "title": "FedCM updates: Display iframe domain",
+      "url": "https://developer.chrome.com/blog/fedcm-chrome-142-updates?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-11-03T08:00:00.000Z",
+      "description": "From Chrome 142 onward, the FedCM dialog can now display the iframe's domain when embedded as a third-party iframe, improving transparency and security.",
+      "categories": []
+    },
+    {
+      "title": "Some practical examples of view transitions to elevate your UI",
+      "url": "https://piccalil.li/blog/some-practical-examples-of-view-transitions-to-elevate-your-ui/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-11-06T11:55:00.000Z",
+      "description": "Explore the View Transition API, a powerful tool for creating animated transitions between webpage states, with practical examples for real-world use.",
+      "categories": []
+    },
+    {
+      "title": "How To Throttle Specific Requests In Chrome DevTools",
+      "url": "https://www.debugbear.com/blog/chrome-devtools-throttle-individual-request",
+      "author": "DebugBear",
+      "pubDate": "2025-11-04T00:00:00.000Z",
+      "description": "Learn how to delay individual network requests in Chrome DevTools, aiding in debugging performance issues and simulating slow-loading resources.",
+      "categories": []
+    },
+    {
+      "title": "Staggered Animation with CSS sibling-* Functions",
+      "url": "https://frontendmasters.com/blog/staggered-animation-with-css-sibling-functions/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-07T15:08:18.000Z",
+      "description": "Discover how CSS sibling-index() and -count() functions enable staggered timing effects, allowing for more dynamic and coordinated animations.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "sibling-index()",
+        "transition"
+      ]
+    },
+    {
+      "title": "The Weird Parts of position: sticky;",
+      "url": "https://frontendmasters.com/blog/the-weird-parts-of-position-sticky/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-05T18:47:26.000Z",
+      "description": "Exploring common pitfalls that disrupt sticky positioning and understanding the underlying reasons behind them.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Sticky"
+      ]
+    },
+    {
+      "title": "Perfectly Pointed Tooltips: All Four Sides",
+      "url": "https://frontendmasters.com/blog/perfectly-pointed-tooltips-all-four-sides/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-03T16:15:35.000Z",
+      "description": "Leveraging Anchor Positioning for versatile tooltips – placing them on any side or corner – while navigating the challenges of pointer interactions.",
+      "categories": [
+        "Blog Post",
+        "Anchor",
+        "CSS",
+        "Tooltips"
+      ]
+    }
+  ],
+  "description": "Explore the art of creating dynamic animations and transitions in web development. Delve into 3D animations with Spline's Timeline feature, high-performance scroll effects using GSAP and CSS, and the innovative View Transition API. Understand the power of CSS sibling-index() for staggered animations and the role of semantic HTML in enhancing accessibility. Also, tackle the ongoing debate around CSS's tan() function and discover how to harness Penpot's design tokens for scalable design systems.",
+  "joke": "Why did the frontend developer go broke? Because they kept using 'position: absolute;' for everything!",
+  "challenge": "Create a mini interactive art gallery using HTML, CSS, and JavaScript. Incorporate WebGL or Canvas to allow users to 'walk' through the gallery and explore 3D artwork with smooth transitions. Optionally, use the View Transition API to animate between different gallery rooms or exhibits, and implement a responsive layout that adapts to different screen sizes."
+}
