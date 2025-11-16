@@ -1,0 +1,156 @@
+{
+  "no": 31,
+  "pubDate": "2025-11-16T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building a 3D Infinite Carousel with Reactive Background Gradients",
+      "url": "https://tympanus.net/codrops/2025/11/11/building-a-3d-infinite-carousel-with-reactive-background-gradients/",
+      "author": "Codrops",
+      "pubDate": "2025-11-11T13:50:43.000Z",
+      "description": "Building a seamless, infinite 3D carousel with images that dynamically drive a reactive, canvas-based background gradient – creating a captivating visual experience.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "carousel",
+        "draggable",
+        "infinite"
+      ]
+    },
+    {
+      "title": "Crafting Generative CSS Worlds",
+      "url": "https://tympanus.net/codrops/2025/11/10/crafting-generative-css-worlds/",
+      "author": "Codrops",
+      "pubDate": "2025-11-10T14:18:26.000Z",
+      "description": "Using CSS stacked grids and 3D transforms to animate and bring heightmaps to life, all without JavaScript.",
+      "categories": [
+        "Articles",
+        "3D",
+        "CSS Only"
+      ]
+    },
+    {
+      "title": "CSS Gamepad API Visual Debugging With CSS Layers",
+      "url": "https://smashingmagazine.com/2025/11/css-gamepad-api-visual-debugging-css-layers/",
+      "author": "Godstime Aburu",
+      "pubDate": "2025-11-14T13:00:00.000Z",
+      "description": "Exploring how CSS can streamline debugging controllers and how to create a reusable visual debugger for your projects.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/css-gamepad-api-visual-debugging-css-layers/css-gamepad-api-visual-debugging-css-layers.jpg"
+    },
+    {
+      "title": "Effectively Monitoring Web Performance",
+      "url": "https://smashingmagazine.com/2025/11/effectively-monitoring-web-performance/",
+      "author": "Matt Zeunert",
+      "pubDate": "2025-11-11T10:00:00.000Z",
+      "description": "Strategies for maintaining website performance even after optimization – focusing on targeting the right pages and understanding key data roles.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/effectively-monitoring-web-performance/effectively-monitoring-web-performance.jpg"
+    },
+    {
+      "title": "Simple One-Time Passcode Inputs",
+      "url": "https://cloudfour.com/thinks/simple-one-time-passcode-inputs/",
+      "author": "Cloud Four",
+      "pubDate": "2025-11-11T16:45:08.000Z",
+      "description": "Simplify OTP entry with straightforward, effective techniques for a fully functional user experience.",
+      "categories": [
+        "Accessibility",
+        "CSS",
+        "Development",
+        "JavaScript",
+        "Performance",
+        "Progressive Enhancement",
+        "Standards",
+        "Web Components"
+      ],
+      "img": "https://cloudfour.com/wp-content/uploads/2025/11/otp-feature-r1.png"
+    },
+    {
+      "title": "The Range Syntax Has Come to Container Style Queries and if()",
+      "url": "https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-11-13T15:00:20.000Z",
+      "description": "Unlock the power of container style queries with range syntax in Chrome 142, enabling comparisons of numeric values with custom properties and attr().",
+      "categories": [
+        "Articles",
+        "container-queries",
+        "CSS functions",
+        "media queries",
+        "Style Queries"
+      ]
+    },
+    {
+      "title": "Perfecting Baseline",
+      "url": "https://piccalil.li/blog/perfecting-baseline/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-11-13T11:55:00.000Z",
+      "description": "Understanding what Baseline means for web developers – its growing presence, significance, and the ongoing quest to define and implement it effectively.",
+      "categories": []
+    },
+    {
+      "title": "How To Debug JavaScript In Chrome DevTools",
+      "url": "https://www.debugbear.com/blog/chrome-javascript-debugger",
+      "author": "DebugBear",
+      "pubDate": "2025-11-10T00:00:00.000Z",
+      "description": "Master techniques for pausing execution, inspecting application state, and utilizing advanced breakpoint features for debugging.",
+      "categories": []
+    },
+    {
+      "title": "Vite+",
+      "url": "https://frontendmasters.com/blog/vite/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-14T16:43:19.000Z",
+      "description": "Keep an eye on Vite+ in early access – an all-in-one tool for dev, build, test, lint, format, and monorepo caching, promising to streamline workflows.",
+      "categories": [
+        "The Beat",
+        "Build Process",
+        "Vite"
+      ]
+    },
+    {
+      "title": "Browserslist & Baseline",
+      "url": "https://frontendmasters.com/blog/browserslist-baseline/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-13T19:56:46.000Z",
+      "description": "Insights from using Browserslist with Baseline and Browserslist’s role in shaping browser support strategies – an essential tool for modern web development.",
+      "categories": [
+        "Blog Post",
+        "Analytics",
+        "Baseline",
+        "browserslist",
+        "Lightning CSS"
+      ]
+    },
+    {
+      "title": "Perfectly Pointed Tooltips: To The Corners",
+      "url": "https://frontendmasters.com/blog/perfectly-pointed-tooltips-to-the-corners/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-10T15:04:33.000Z",
+      "description": "Exploring advanced tooltip positioning by making pointers point diagonally, building on foundational techniques like anchoring and flipping for more dynamic UI effects.",
+      "categories": [
+        "Blog Post",
+        "Anchor",
+        "CSS",
+        "Tooltips"
+      ]
+    },
+    {
+      "title": "A Raycast confetti shell command (#note)",
+      "url": "https://www.stefanjudis.com/notes/a-raycast-confetti-shell-command/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-11-14T23:00:00.000Z",
+      "description": "Discover how to trigger Raycast confetti from the command line using a simple shell script and URL protocol handler, adding fun and interactivity to shell sessions effortlessly.",
+      "categories": []
+    },
+    {
+      "title": "Syntax-highlighting for JS template strings in VS Code (#note)",
+      "url": "https://www.stefanjudis.com/notes/syntax-highlighted-template-strings-vs-code/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-11-14T23:00:00.000Z",
+      "description": "Enhancing JavaScript template strings with syntax highlighting by leveraging specific comments and VS Code extensions, improving readability in custom frameworks and interactive components.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into innovative frontend techniques like creating a seamless 3D carousel with dynamic gradients, harnessing CSS for 3D animations and debugging, and leveraging advanced tooltip positioning for enhanced UI effects. Explore performance optimization strategies, the power of container style queries, and the significance of Baseline in web development. Stay updated with tools like Vite+ and insights on Browserslist for effective browser support strategies.",
+  "joke": "Why did the JavaScript developer keep getting lost in the forest? Because they kept trying to find their way with map() but forgot to reduce() the distractions!",
+  "challenge": "Challenge: Create an interactive web-based 3D carousel using HTML, CSS, and JavaScript. Integrate a canvas-based background that dynamically changes colors based on the images being displayed. The carousel should rotate smoothly, providing a seamless visual experience that showcases your creativity in blending 3D elements with reactive design."
+}
