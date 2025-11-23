@@ -1,0 +1,184 @@
+{
+  "no": 32,
+  "pubDate": "2025-11-23T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "One Canvas to Rule Them All: How INK Games’ New Site Handles Complex 3D",
+      "url": "https://tympanus.net/codrops/2025/11/21/one-canvas-to-rule-them-all-how-ink-games-new-site-handles-complex-3d/",
+      "author": "Codrops",
+      "pubDate": "2025-11-21T14:25:13.000Z",
+      "description": "Exploring how ToyFight® designed a striking new site for INK Games using layered 3D, scroll-driven animation, and a unified WebGL canvas to create an engaging visual experience.",
+      "categories": [
+        "Articles",
+        "3D",
+        "case study",
+        "GSAP",
+        "React Three Fiber"
+      ]
+    },
+    {
+      "title": "Behind the KAI Design Dept. Experience: WebGL Line Blur, Video Scrubbing, and 3D Animation",
+      "url": "https://tympanus.net/codrops/2025/11/20/behind-the-kai-design-dept-experience-webgl-line-blur-video-scrubbing-and-3d-animation/",
+      "author": "Codrops",
+      "pubDate": "2025-11-20T14:34:35.000Z",
+      "description": "Delving into the technical details of the KAI Design Dept. site, including WebGL line DoF, video scrubbing techniques, and Blender integration for a seamless interactive showcase.",
+      "categories": [
+        "Articles",
+        "case study",
+        "Three.js",
+        "video",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "How to Build Cinematic 3D Scroll Experiences with GSAP",
+      "url": "https://tympanus.net/codrops/2025/11/19/how-to-build-cinematic-3d-scroll-experiences-with-gsap/",
+      "author": "Codrops",
+      "pubDate": "2025-11-19T13:42:46.000Z",
+      "description": "Discover how to craft smooth, immersive 3D scroll experiences with GSAP, WebGL, and Three.js, transforming simple scrolling into dynamic visual motion.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "GSAP",
+        "React Three Fiber",
+        "scroll",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Keyframes Tokens: Standardizing Animation Across Projects",
+      "url": "https://smashingmagazine.com/2025/11/keyframes-tokens-standardizing-animation-across-projects/",
+      "author": "Amit Sheen",
+      "pubDate": "2025-11-21T08:00:00.000Z",
+      "description": "Standardizing keyframes simplifies complex animations, making interface motion predictable, manageable, and more enjoyable to develop.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/keyframes-tokens-standardizing-animation-across-projects/keyframes-tokens-standardizing-animation-across-projects.jpg"
+    },
+    {
+      "title": "Responsive Letter Spacing",
+      "url": "https://cloudfour.com/thinks/responsive-letter-spacing/",
+      "author": "Cloud Four",
+      "pubDate": "2025-11-20T16:30:43.000Z",
+      "description": "Strategies to reduce the readability impact of typographic branding, ensuring clarity while maintaining visual identity.",
+      "categories": [
+        "CSS",
+        "Design",
+        "Responsive Web Design",
+        "Typography"
+      ],
+      "img": "https://cloudfour.com/wp-content/uploads/2025/11/letter-spacing-feature-r3.png"
+    },
+    {
+      "title": "Testing HTML Light DOM Web Components: Easier Than Expected!",
+      "url": "https://cloudfour.com/thinks/testing-html-light-dom-web-components-easier-than-expected/",
+      "author": "Cloud Four",
+      "pubDate": "2025-11-18T16:30:00.000Z",
+      "description": "Practical tips and patterns for testing HTML Light DOM web components, demonstrating that testing can be straightforward and effective.",
+      "categories": [
+        "Accessibility",
+        "Development",
+        "JavaScript",
+        "Legacy Application Modernization",
+        "Pattern Libraries",
+        "Testing",
+        "Tools",
+        "Web Components"
+      ],
+      "img": "https://cloudfour.com/wp-content/uploads/2025/11/light-dom-wc-test-feature-r1-1.jpg"
+    },
+    {
+      "title": "The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2()",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-asin-acos-atan-and-atan2/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-11-17T14:47:54.000Z",
+      "description": "Understanding how to retrieve the original angle from sine, cosine, or tangent ratios using inverse trigonometric functions like asin(), acos(), and atan().",
+      "categories": [
+        "Articles",
+        "math"
+      ]
+    },
+    {
+      "title": "What's New in WebGPU (Chrome 143)",
+      "url": "https://developer.chrome.com/blog/new-in-webgpu-143?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-11-19T08:00:00.000Z",
+      "description": "Exploring texture component swizzle and techniques to remove bgra8unorm read-only storage texture usage for optimized WebGL performance.",
+      "categories": []
+    },
+    {
+      "title": "How Quickly Can Chrome Parse HTML Code?",
+      "url": "https://www.debugbear.com/blog/html-parser-throughput",
+      "author": "DebugBear",
+      "pubDate": "2025-11-17T00:00:00.000Z",
+      "description": "Comparing HTML parsing speeds across devices, highlighting how processing power influences load times and user experience.",
+      "categories": []
+    },
+    {
+      "title": "JavaScript SpeechSynthesis API",
+      "url": "https://davidwalsh.name/speechsynthesis-api",
+      "author": "David Walsh",
+      "pubDate": "2025-11-20T00:39:07.000Z",
+      "description": "Highlighting the importance of the speechSynthesis API for enhancing accessibility, enabling browsers to audibly speak arbitrary text for users with visual impairments.",
+      "categories": [
+        "Uncategorized"
+      ]
+    },
+    {
+      "title": "How to Create 3D Images in CSS with the Layered Pattern",
+      "url": "https://frontendmasters.com/blog/how-to-create-3d-images-in-css-with-the-layered-pattern/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-20T18:25:52.000Z",
+      "description": "Creating the illusion of shape by layering the same content with slight 3D offsets, producing a compelling visual effect through repetition and spatial manipulation.",
+      "categories": [
+        "Blog Post",
+        "3D",
+        "CSS"
+      ]
+    },
+    {
+      "title": "More CSS random() Learning Through Experiments",
+      "url": "https://frontendmasters.com/blog/more-css-random-learning-through-experiments/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-18T20:23:44.000Z",
+      "description": "Exploring the exciting design possibilities with CSS `random()`, especially when combined with animation and composition techniques to generate dynamic, unpredictable visuals.",
+      "categories": [
+        "Blog Post",
+        "Animation",
+        "CSS",
+        "random()",
+        "Scroll-Driven Animations"
+      ]
+    },
+    {
+      "title": "There are a lot of ways to break up long tasks in JavaScript.",
+      "url": "https://frontendmasters.com/blog/there-are-a-lot-of-ways-to-break-up-long-tasks-in-javascript/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-17T19:26:11.000Z",
+      "description": "Seven methods to break up long JavaScript tasks, highlighting the importance of choosing the right approach based on performance and complexity considerations.",
+      "categories": [
+        "The Beat",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "A Design Tokens Workflow (part 13) - Generating Utility Classes from Design Tokens using Style Dictionary",
+      "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-13.html",
+      "author": "Always Twisted",
+      "pubDate": "2025-11-21T00:00:00.000Z",
+      "description": "A practical pattern for generating utility classes from design tokens, enabling consistent, scalable styling without hard-coded CSS – perfect for maintaining design system integrity.",
+      "categories": []
+    },
+    {
+      "title": "🦄 Build Trust with Visual Systems, Not Flash",
+      "url": "https://unicornclub.dev/newsletters/2025-11-19-build-trust-with-visual-systems-not-flash/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-11-19T10:00:00.000Z",
+      "description": "How team audit checklists and monotone palettes enhance product quality, ensuring consistency and thoroughness in development and design processes.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the art of crafting immersive and interactive web experiences through cutting-edge techniques like WebGL, GSAP, and Three.js. Discover practical insights into animation standardization, testing web components, and optimizing performance. Enhance accessibility with the speechSynthesis API, and explore the creative possibilities of CSS `random()` and utility classes. Gain a deeper understanding of typography's role in branding and learn efficient methods for handling JavaScript tasks.",
+  "joke": "Why do JavaScript developers prefer the dark mode? Because light attracts bugs!",
+  "challenge": "Create a mesmerizing webpage with a layered 3D parallax effect using WebGL and CSS. Your task is to simulate depth by stacking elements with slight offsets and animate them on scroll. Feel free to incorporate audio or video elements for added immersion. Unleash your creativity by integrating random animations for a dynamic and engaging user experience!"
+}
