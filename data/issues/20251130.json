@@ -1,0 +1,193 @@
+{
+  "no": 33,
+  "pubDate": "2025-11-30T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building The Monolith: Composable Rendering Systems for a 13-Scene WebGL Epic",
+      "url": "https://tympanus.net/codrops/2025/11/29/building-the-monolith-composable-rendering-systems-for-a-13-scene-webgl-epic/",
+      "author": "Codrops",
+      "pubDate": "2025-11-29T11:30:11.000Z",
+      "description": "Discover how composable materials, particles, and transitions were crafted to create the stylized universe of The Monolith Project, bringing its visual world vividly to life.",
+      "categories": [
+        "Articles",
+        "case study",
+        "React Three Fiber",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Letting the Creative Process Shape a WebGL Portfolio",
+      "url": "https://tympanus.net/codrops/2025/11/27/letting-the-creative-process-shape-a-webgl-portfolio/",
+      "author": "Codrops",
+      "pubDate": "2025-11-27T13:50:17.000Z",
+      "description": "Exploring how experimenting with Three.js, React Three Fiber, and GSAP shaped the immersive 3D experience and dynamic animations.",
+      "categories": [
+        "Articles",
+        "case study",
+        "GSAP",
+        "portfolio",
+        "React Three Fiber",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Creating Wavy Infinite Carousels in React Three Fiber with GLSL Shaders",
+      "url": "https://tympanus.net/codrops/2025/11/26/creating-wavy-infinite-carousels-in-react-three-fiber-with-glsl-shaders/",
+      "author": "Codrops",
+      "pubDate": "2025-11-26T14:45:27.000Z",
+      "description": "Creating infinitely scrolling, wavy 3D carousels in React Three Fiber, featuring smooth scroll-driven distortion effects for engaging visual interactions.",
+      "categories": [
+        "Tutorials",
+        "carousel",
+        "glsl",
+        "infinite",
+        "React Three Fiber",
+        "scroll",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "The Accessibility Problem With Authentication Methods Like CAPTCHA",
+      "url": "https://smashingmagazine.com/2025/11/accessibility-problem-authentication-methods-captcha/",
+      "author": "Eleanor Hecks",
+      "pubDate": "2025-11-27T10:00:00.000Z",
+      "description": "Examining the accessibility challenges of CAPTCHAs, highlighting the need for inclusive human verification methods that serve users with disabilities.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/accessibility-problem-authentication-methods-captcha/accessibility-problem-authentication-methods-captcha.jpg"
+    },
+    {
+      "title": "Using CSS to fix the irradiation illusion",
+      "url": "https://nerdy.dev/adjust-perceived-typepace-weight-for-dark-mode-without-layout-shift?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-11-29T21:47:37.000Z",
+      "description": "Learn how to adjust perceived font weight in dark mode using variable fonts and the GRAD axis, ensuring consistent visual weight without layout shifts.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/typography-illusion.jpg"
+    },
+    {
+      "title": "Capture → Adapt → Code",
+      "url": "https://nerdy.dev/capture-adapt-code?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-11-24T15:52:06.000Z",
+      "description": "Rethinking workflows: from sketch to code versus capture to adapt, with tools like VisBug and SuperDesign streamlining UI prototyping and design iteration.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/capture-adapt-code.jpg"
+    },
+    {
+      "title": "Superellipsed Pill Shapes Are Cool",
+      "url": "https://nerdy.dev/superellipsed-pill-shapes-are-cool?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-11-24T04:58:55.000Z",
+      "description": "Superellipsed pill shapes are trending – check out the designs on CodePen and explore browser support for these stylish forms.",
+      "categories": [
+        "note",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/superellipsed.jpg"
+    },
+    {
+      "title": "On Inheriting and Sharing Property Values",
+      "url": "https://css-tricks.com/on-inheriting-and-sharing-property-values/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-11-24T14:22:30.000Z",
+      "description": "Visualize how inheriting and sharing parent property values on child elements can simplify CSS management and create more flexible styles.",
+      "categories": [
+        "Articles",
+        "cascade"
+      ]
+    },
+    {
+      "title": "Calendly Booking Links: A Web Performance Audit",
+      "url": "https://www.debugbear.com/blog/calendly-web-performance-audit",
+      "author": "DebugBear",
+      "pubDate": "2025-11-26T00:00:00.000Z",
+      "description": "Analyzing a real-world website to identify performance bottlenecks and explore practical strategies for optimization.",
+      "categories": []
+    },
+    {
+      "title": "From Atomic to Subatomic: Brad Frost on Design Systems, Tokens, and the Human Side of UI",
+      "url": "https://bradfrost.com/blog/link/from-atomic-to-subatomic-brad-frost-on-design-systems-tokens-and-the-human-side-of-ui/",
+      "author": "Brad Frost",
+      "pubDate": "2025-11-29T15:10:58.000Z",
+      "description": "Insights from an interview on the Design Systems Collective, covering design tokens, collaboration, and evolving thoughts on scalable design systems.",
+      "categories": []
+    },
+    {
+      "title": "Introducing our new course: AI and Design Systems",
+      "url": "https://bradfrost.com/blog/post/introducing-our-new-course-ai-and-design-systems/",
+      "author": "Brad Frost",
+      "pubDate": "2025-11-24T14:39:22.000Z",
+      "description": "Exploring the intersection of AI and design systems with a new online course. Discover how generative AI can enhance UI infrastructure – while also managing its potential pitfalls. Preorder now for $500 to stay ahead in AI-driven design.",
+      "categories": []
+    },
+    {
+      "title": "Brand New Layouts with CSS Subgrid",
+      "url": "https://www.joshwcomeau.com/css/subgrid/",
+      "author": "Josh W. Comeau",
+      "pubDate": "2025-11-25T12:00:00.000Z",
+      "description": "Subgrid extends CSS Grid capabilities by allowing nested elements to share a common grid context. Unlock new layout possibilities that were previously impossible, enabling more flexible and complex designs across nested structures.",
+      "categories": []
+    },
+    {
+      "title": "How to Add and Remove Items From a Native CSS Carousel (…with CSS)",
+      "url": "https://frontendmasters.com/blog/how-to-add-and-remove-items-from-a-native-css-carousel-with-css/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-26T21:30:50.000Z",
+      "description": "Creating a carousel without JavaScript is possible in Chrome using CSS checkboxes. Simple, lightweight, and effective – demonstrating how CSS alone can handle dynamic UI components.",
+      "categories": [
+        "Blog Post",
+        "Carousels",
+        "Checkbox",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Web Monetization is Still Inching Along, But Still Too Difficult",
+      "url": "https://frontendmasters.com/blog/web-monetization-is-still-inching-along-but-still-too-difficult/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-11-24T20:38:22.000Z",
+      "description": "A basic HTML link can connect to an online wallet for payments and trigger JavaScript APIs to respond. Still early days, but promising for integrating seamless payment experiences directly into web pages.",
+      "categories": [
+        "Blog Post",
+        "HTML",
+        "Web Monetization"
+      ]
+    },
+    {
+      "title": "iOS Web Browser Latency",
+      "url": "https://dbushell.com/2025/11/27/ios-web-browser-latency/",
+      "author": "David Bushell",
+      "pubDate": "2025-11-27T15:00:00.000Z",
+      "description": "Apple’s restrictive practices have led to a limited mobile web experience, with Safari dominating iOS. Alternative browsers often just mimic Safari, leaving little room for innovation or improvement in iOS web browsing.",
+      "categories": []
+    },
+    {
+      "title": "Async SvelteKit Data and Side Effects",
+      "url": "https://dbushell.com/2025/11/25/async-sveltekit-data-and-side-effects/",
+      "author": "David Bushell",
+      "pubDate": "2025-11-25T15:00:00.000Z",
+      "description": "SvelteKit’s features, like remote functions, are inspiring new projects. Eager to refactor a personal app once the API stabilizes, while experimenting with reading emails through SvelteKit.",
+      "categories": []
+    },
+    {
+      "title": "🦄 Green checks ≠ good - Prevent costly UI mistakes",
+      "url": "https://unicornclub.dev/newsletters/2025-11-26-green-checks-good-prevent-costly-ui-mistakes/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-11-26T10:00:00.000Z",
+      "description": "UI cues can be misleading – an icon that seems successful may lead users into costly mistakes. Highlighting the importance of clear, meaningful design signals.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the world of 3D web experiences with explorations on composable materials, particles, and transitions that bring dynamic animations to life. Discover innovative techniques in creating infinitely scrolling 3D carousels and the accessibility challenges in CAPTCHA design. Learn to adjust font weights in dark mode using variable fonts, and explore the impact of AI on design systems. Get inspired by browser capabilities like CSS subgrid and superellipsed pill shapes, while examining real-world performance optimization strategies.",
+  "joke": "Why do JavaScript developers prefer coffee? Because they love to see their code 'brew'!",
+  "challenge": "Challenge of the week: Create a dynamic bookshelf using HTML, CSS, and JavaScript. Utilize CSS Grid or Flexbox for layout, and enhance it with 3D animations using WebGL or Canvas for book covers. Add interactivity by allowing users to 'flip' through books, revealing additional content or animations. Aim for accessibility, ensuring the bookshelf is navigable via keyboard and screen readers. This exercise encourages exploring creative design and interactivity without relying on frameworks, though integration with Three.js for extra flair is welcome."
+}
