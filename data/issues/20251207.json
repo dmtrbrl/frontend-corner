@@ -1,0 +1,172 @@
+{
+  "no": 34,
+  "pubDate": "2025-12-07T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "From Illusions to Optimization: The Creative WebGL Worlds of Adrián Gubrica",
+      "url": "https://tympanus.net/codrops/2025/12/05/from-illusions-to-optimization-the-creative-webgl-worlds-of-adrian-gubrica/",
+      "author": "Codrops",
+      "pubDate": "2025-12-05T11:29:50.000Z",
+      "description": "Traces Adrián Gubrica’s evolution from design beginnings to mastering high-performance WebGL, highlighting the creative and technical worlds he’s built along the way.",
+      "categories": [
+        "Articles",
+        "Developer Spotlight"
+      ]
+    },
+    {
+      "title": "Crafting Nature Beyond Technology: A Project from Roots to Leaves",
+      "url": "https://tympanus.net/codrops/2025/12/04/crafting-nature-beyond-technology-a-project-from-roots-to-leaves/",
+      "author": "Codrops",
+      "pubDate": "2025-12-04T13:49:18.000Z",
+      "description": "Explores how a nature-inspired concept matured into a refined WebGL experience, seamlessly blending design, animation, and technology.",
+      "categories": [
+        "Articles",
+        "3D",
+        "case study",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Two Portfolios, One Process: Where Design, Motion, and Code Come Together",
+      "url": "https://tympanus.net/codrops/2025/12/02/two-portfolios-one-process-where-design-motion-and-code-come-together/",
+      "author": "Codrops",
+      "pubDate": "2025-12-02T14:16:41.000Z",
+      "description": "Shows how design and development collaborate to turn ideas into motion, shaping portfolio websites through animation and creative coding.",
+      "categories": [
+        "Articles",
+        "case study",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "Masonry: Things You Won’t Need A Library For Anymore",
+      "url": "https://smashingmagazine.com/2025/12/masonry-things-you-wont-need-library-anymore/",
+      "author": "Patrick Brosset",
+      "pubDate": "2025-12-02T10:00:00.000Z",
+      "description": "Patrick Brosset dives into CSS Masonry, explaining what this upcoming feature means for developers and how to leverage it in projects.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/masonry-things-you-wont-need-library-anymore/masonry-things-you-wont-need-library-anymore.jpg"
+    },
+    {
+      "title": "Custom Media Feature Flags",
+      "url": "https://nerdy.dev/custom-media-feature-flags?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-12-06T04:32:46.000Z",
+      "description": "Demonstrates using @custom-media queries for feature flags, enabling style toggles for A/B testing, user features, debug elements, and layouts with CSS and JavaScript.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/custom-media-flags.jpg"
+    },
+    {
+      "title": "HTML Web Components Proposal From 1998",
+      "url": "https://css-tricks.com/html-web-components-proposal-from-1998/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-05T18:16:48.000Z",
+      "description": "Reveals the roots of HTML Web Components dating back to 1998, illustrating their long-standing history before recent adoption.",
+      "categories": [
+        "Links",
+        "web components"
+      ]
+    },
+    {
+      "title": "Getting Creative With “The Measure”",
+      "url": "https://css-tricks.com/getting-creative-with-the-measure/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-04T14:04:52.000Z",
+      "description": "Highlights the importance of text measure in layout, suggesting that measure should inform layout decisions for better readability.",
+      "categories": [
+        "Articles",
+        "container-queries",
+        "layout",
+        "typography"
+      ]
+    },
+    {
+      "title": "Scrollytelling on Steroids With Scroll-State Queries",
+      "url": "https://css-tricks.com/scrollytelling-on-steroids-with-scroll-state-queries/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-02T16:47:14.000Z",
+      "description": "Presents common use cases for scroll-based styling, warming up skeptics to the potential of scrollytelling with scroll-state queries.",
+      "categories": [
+        "Articles",
+        "Scroll Driven Animation"
+      ]
+    },
+    {
+      "title": "Prevent a page from scrolling while a dialog is open",
+      "url": "https://css-tricks.com/prevent-a-page-from-scrolling-while-a-dialog-is-open/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-01T17:25:28.000Z",
+      "description": "Details Chrome 144’s update to overscroll-behavior, fixing long-standing issues by applying it to non-scrollable containers to prevent unwanted scrolling.",
+      "categories": [
+        "Links",
+        "css properties",
+        "dialog"
+      ]
+    },
+    {
+      "title": "A view transitions fallback: DOMContentLoaded + requestAnimationFrame()",
+      "url": "https://piccalil.li/blog/a-view-transitions-fallback-domcontentloaded-requestanimationframe/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-12-04T16:55:00.000Z",
+      "description": "Introduces view transitions in CSS, with a beginner’s guide and example code demonstrating smooth page-to-page animations using @view-transition and pseudo-elements.",
+      "categories": []
+    },
+    {
+      "title": "A pragmatic guide to modern CSS colours - part two",
+      "url": "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-two/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2025-12-02T14:55:00.000Z",
+      "description": "Exploring the latest CSS color features, this article highlights how developers can manipulate colors beyond design tools, using variables and HSL functions for dynamic, browser-based color effects. Unlock new possibilities with modern CSS color techniques.",
+      "categories": []
+    },
+    {
+      "title": "Dealbreaker bugs in native popovers",
+      "url": "https://www.matuzo.at/blog/2025/deal-breaker-bugs-in-popovers",
+      "author": "Manuel Matuzovic",
+      "pubDate": "2025-12-05T00:00:00.000Z",
+      "description": "Building a custom popover component revealed a critical accessibility bug, emphasizing the importance of native popover features. Learn how to leverage built-in attributes for accessible floating UI elements and avoid common pitfalls.",
+      "categories": []
+    },
+    {
+      "title": "The Deep Card Conundrum",
+      "url": "https://frontendmasters.com/blog/the-deep-card-conundrum/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-04T19:30:21.000Z",
+      "description": "Discover a mesmerizing 3D card effect that creates the illusion of layers and depth, transforming simple UI elements into engaging, portal-like visuals with clever CSS and interaction techniques.",
+      "categories": [
+        "Blog Post",
+        "3D",
+        "CSS"
+      ]
+    },
+    {
+      "title": "The Downsides of scrollbar-gutter: stable; (and one weird trick)",
+      "url": "https://frontendmasters.com/blog/the-downsides-of-scrollbar-gutter-stable-and-one-weird-trick/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-03T16:22:36.000Z",
+      "description": "This technique preserves space for scrollbars regardless of their presence, but it raises the question: is always reserving that space the best choice for your layout? Explore the pros and cons.",
+      "categories": [
+        "Blog Post",
+        "CSS",
+        "Scroll State",
+        "Scrolling"
+      ]
+    },
+    {
+      "title": "Non-Square Image Blur Extensions",
+      "url": "https://frontendmasters.com/blog/non-square-image-blur-extensions/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-01T17:14:22.000Z",
+      "description": "A CodePen demo showcases a creative blur extension effect using a layered div beneath an image. Could a more streamlined approach with a single image and minimal CSS achieve the same stunning visual? Let’s explore possible simplifications.",
+      "categories": [
+        "Blog Post"
+      ]
+    }
+  ],
+  "description": "Dive into the synergy of design and technology as we explore the evolution of WebGL experiences and creative coding in portfolio websites. Discover the upcoming CSS Masonry feature, refine your projects with @custom-media queries, and unravel the history of HTML Web Components. Enhance your skills with insights on text measure, scroll-based styling, and the latest CSS color techniques. Finally, learn to build accessible UI with native popover features and create stunning 3D effects with CSS.",
+  "joke": "Why don't developers trust JavaScript? Because it always promises, but never resolves!",
+  "challenge": "Create a 3D flipping card effect using HTML, CSS, and JavaScript. The challenge is to design a card that flips on hover, revealing its back side with a different design. Use perspective and transform properties to achieve a smooth and realistic flip animation. Optionally, enhance the effect with WebGL to add shadows or lighting for an even more immersive experience."
+}
