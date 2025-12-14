@@ -1,0 +1,188 @@
+{
+  "no": 35,
+  "pubDate": "2025-12-14T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Simulating Life in the Browser: Creating a Living Particle System for the UntilLabs Website",
+      "url": "https://tympanus.net/codrops/2025/12/10/simulating-life-in-the-browser-creating-a-living-particle-system-for-the-untillabs-website/",
+      "author": "Codrops",
+      "pubDate": "2025-12-10T14:16:57.000Z",
+      "description": "Transforming a photograph into a dynamic, physics-driven particle system using WebGL, shaders, and data-driven motion showcases advanced visual effects on the UntilLabs homepage.",
+      "categories": [
+        "Articles",
+        "case study",
+        "glsl",
+        "particles",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Supercharge Your Design System with LLMs and Storybook MCP",
+      "url": "https://tympanus.net/codrops/2025/12/09/supercharge-your-design-system-with-llms-and-storybook-mcp/",
+      "author": "Codrops",
+      "pubDate": "2025-12-09T11:11:39.000Z",
+      "description": "Combining large language model coding agents with Storybook MCP offers a pathway to more efficient, cost-effective frontend development with higher-quality results.",
+      "categories": [
+        "Articles",
+        "AI",
+        "AI Agents",
+        "mcp",
+        "storybook"
+      ]
+    },
+    {
+      "title": "State, Logic, And Native Power: CSS Wrapped 2025",
+      "url": "https://smashingmagazine.com/2025/12/state-logic-native-power-css-wrapped-2025/",
+      "author": "Brecht De Ruyte",
+      "pubDate": "2025-12-09T10:00:00.000Z",
+      "description": "CSS Wrapped 2025 explores how CSS is evolving to handle logic, state, and complex interactions traditionally managed by JavaScript, highlighting key features and future directions.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/state-logic-native-power-css-wrapped-2025/state-logic-native-power-css-wrapped-2025.jpg"
+    },
+    {
+      "title": "5 WebGL Tools of 2025",
+      "url": "https://nerdy.dev/the-year-of-webgl-tools?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-12-09T05:33:27.000Z",
+      "description": "A roundup of WebGL tools like Hydra, Efecto, Shaders, and Paper – perfect for creative experiments, visual coding, and web-based design, with quick insights into each.",
+      "categories": [
+        "blog"
+      ],
+      "img": "https://nerdy.dev/media/2025-webgl.jpg"
+    },
+    {
+      "title": "What Else Could Container Queries… Query?",
+      "url": "https://css-tricks.com/what-else-could-container-queries-query/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-12T14:38:18.000Z",
+      "description": "Pondering the potential of container queries – what new possibilities open up when we extend media query concepts to container-based styling? Explore the future of modular CSS.",
+      "categories": [
+        "Notes",
+        "container-queries"
+      ]
+    },
+    {
+      "title": "Creating Scroll-Based Animations in Full view()",
+      "url": "https://css-tricks.com/creating-scroll-based-animations-in-full-view/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-10T15:04:08.000Z",
+      "description": "Simplify scroll-based animations by applying familiar CSS techniques on a view timeline, making interactive effects more accessible and easier to implement.",
+      "categories": [
+        "Articles",
+        "CSS functions",
+        "Scroll Driven Animation"
+      ]
+    },
+    {
+      "title": "CSS Wrapped 2025",
+      "url": "https://css-tricks.com/css-wrapped-2025/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-09T15:52:20.000Z",
+      "description": "The Chrome Dev Team reviews the year's CSS updates, showcasing new features for customizable components, advanced interactions, and improved developer ergonomics.",
+      "categories": [
+        "Links",
+        "browser",
+        "chrome"
+      ]
+    },
+    {
+      "title": "Fit width text in 1 line of CSS",
+      "url": "https://css-tricks.com/fit-width-text-in-1-line-of-css/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-09T15:00:56.000Z",
+      "description": "Prototyping a CSS solution for fitting text to container width using a text-grow property, enabling precise control over inline text sizing with minimal fuss.",
+      "categories": [
+        "Links",
+        "css properties",
+        "typography"
+      ]
+    },
+    {
+      "title": "That Time I Tried Explaining HTML and CSS to My 5-Year Old Niece",
+      "url": "https://css-tricks.com/that-time-i-tried-explaining-html-and-css-to-my-5-year-old-niece/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-08T14:45:43.000Z",
+      "description": "Explaining HTML and CSS to a five-year-old reveals funny insights about the fundamentals of web development and what we often take for granted.",
+      "categories": [
+        "Articles",
+        "learning"
+      ]
+    },
+    {
+      "title": "Signal API for passkeys available on Chrome for Android",
+      "url": "https://developer.chrome.com/blog/signal-api-android?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-12-09T08:00:00.000Z",
+      "description": "The Signal API for passkeys is now available on Chrome for Android, enhancing synchronization and security between relying parties and passkey providers.",
+      "categories": []
+    },
+    {
+      "title": "CSS Wrapped 2025",
+      "url": "https://developer.chrome.com/blog/css-wrapped-2025?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2025-12-08T08:00:00.000Z",
+      "description": "Explore 22 new CSS features in Chrome that unlock creative possibilities for dynamic interfaces and innovative design.",
+      "categories": []
+    },
+    {
+      "title": "A Website Performance Review Of The Splunk Homepage",
+      "url": "https://www.debugbear.com/blog/splunk-website-performance",
+      "author": "DebugBear",
+      "pubDate": "2025-12-12T00:00:00.000Z",
+      "description": "Dive into Core Web Vitals with a real website example to identify optimization opportunities and enhance user experience.",
+      "categories": []
+    },
+    {
+      "title": "Next.js Image Optimization",
+      "url": "https://www.debugbear.com/blog/nextjs-image-optimization",
+      "author": "DebugBear",
+      "pubDate": "2025-12-09T00:00:00.000Z",
+      "description": "Master image optimization in Next.js with the next/image component, covering responsive images, lazy loading, and boosting Core Web Vitals.",
+      "categories": []
+    },
+    {
+      "title": "CSS Wrapped 2025",
+      "url": "https://bradfrost.com/blog/link/css-wrapped-2025/",
+      "author": "Brad Frost",
+      "pubDate": "2025-12-09T14:58:36.000Z",
+      "description": "Check out CSS Wrapped 2025, a playful site showcasing the latest CSS features with fun light/dark mode effects.",
+      "categories": []
+    },
+    {
+      "title": "Driving 3D scenes in Blender with React",
+      "url": "https://romanliutikov.com/blog/driving-3d-scenes-in-blender-with-react",
+      "author": "Roman Liutikov",
+      "pubDate": "2025-12-10T10:00:00.000Z",
+      "description": "Discover how React's declarative approach and custom reconcilers can be used to build and manage 3D scenes in Blender.",
+      "categories": []
+    },
+    {
+      "title": "Default parameters: your code just got smarter",
+      "url": "https://frontendmasters.com/blog/default-parameters-your-code-just-got-smarter/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-12T15:22:11.000Z",
+      "description": "Learn why default function parameters are beneficial, with simple tips on using object-style parameters for cleaner code.",
+      "categories": [
+        "The Beat",
+        "Default Parameters",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "CSS Wrapped 2025",
+      "url": "https://frontendmasters.com/blog/css-wrapped-2025/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-09T00:32:02.000Z",
+      "description": "Celebrate CSS's achievements in 2023 with a visually impressive showcase from the Chrome DevRel team.",
+      "categories": [
+        "The Beat",
+        "Chrome",
+        "CSS"
+      ]
+    }
+  ],
+  "description": "Explore the future of frontend development with a focus on CSS advancements transforming logic handling, state management, and complex interactions traditionally managed by JavaScript. Dive into creative visual effects using WebGL particle systems and discover the potential of container queries for modular CSS. Enhance development efficiency with language model coding agents and Storybook integration, and stay updated with Chrome's latest CSS features. For those interested in web performance, learn practical strategies for optimizing Core Web Vitals.",
+  "joke": "Why did the web developer go broke? Because they kept using 'margin: 0 auto;' and lost their center!",
+  "challenge": "Create an interactive particle system using HTML5 Canvas. Transform a static image into a dynamic animation where particles respond to mouse movement and simulate physics-driven behavior. Optionally, incorporate WebGL shaders for enhanced visual effects and leverage CSS for styling. This project encourages creativity and experimentation with visual coding, offering insights into modern web animation techniques."
+}
