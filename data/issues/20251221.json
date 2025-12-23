@@ -1,0 +1,156 @@
+{
+  "no": 36,
+  "pubDate": "2025-12-21T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building Responsive, Scroll-Triggered Curved Path Animations with GSAP",
+      "url": "https://tympanus.net/codrops/2025/12/17/building-responsive-scroll-triggered-curved-path-animations-with-gsap/",
+      "author": "Codrops",
+      "pubDate": "2025-12-17T13:52:47.000Z",
+      "description": "Exploring techniques for creating smooth, curved animations that respond well across different screen sizes, emphasizing careful control for responsive design.",
+      "categories": [
+        "Tutorials",
+        "GSAP",
+        "MotionPath"
+      ]
+    },
+    {
+      "title": "Smashing Animations Part 7: Recreating Toon Text With CSS And SVG",
+      "url": "https://smashingmagazine.com/2025/12/smashing-animations-part-7-recreating-toon-text-css-svg/",
+      "author": "Andy Clarke",
+      "pubDate": "2025-12-17T10:00:00.000Z",
+      "description": "Discover modern CSS and SVG methods for crafting playful Toon Text titles, blending creative typography with visual effects.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-7-recreating-toon-text-css-svg/smashing-animations-part-7-recreating-toon-text-css-svg.jpg"
+    },
+    {
+      "title": "Bring The Color",
+      "url": "https://nerdy.dev/bring-the-color?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2025-12-16T07:05:00.000Z",
+      "description": "Learn how to incorporate vibrant colors into your designs using gradient.style for seamless gradient backgrounds and overlays.",
+      "categories": [
+        "note"
+      ]
+    },
+    {
+      "title": "Masonry Layout is Now grid-lanes",
+      "url": "https://css-tricks.com/masonry-layout-is-now-grid-lanes/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-19T16:08:28.000Z",
+      "description": "Introducing the new CSS `grid-lanes` property, enabling masonry layout mode for flexible, Pinterest-style grid arrangements.",
+      "categories": [
+        "Articles",
+        "csswg",
+        "masonry"
+      ]
+    },
+    {
+      "title": "Search CSS-Tricks Raycast Extension",
+      "url": "https://css-tricks.com/search-css-tricks-raycast-extension/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-18T15:34:23.000Z",
+      "description": "Search CSS-Tricks articles effortlessly with a Raycast extension that provides real-time results, streamlining your workflow.",
+      "categories": [
+        "Links",
+        "resource"
+      ]
+    },
+    {
+      "title": "Responsive List of Avatars Using Modern CSS (Part 2)",
+      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-17T15:21:34.000Z",
+      "description": "Building on previous work, this article shows how to arrange circular images around a circle with a sleek hover effect for responsive avatar lists.",
+      "categories": [
+        "Articles",
+        "container-queries",
+        "images",
+        "list",
+        "mask"
+      ]
+    },
+    {
+      "title": "What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More",
+      "url": "https://css-tricks.com/whats-important-1/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-16T17:03:46.000Z",
+      "description": "A roundup of recent CSS news, including advent calendars, the CSS Wrapped 2025 event, and the latest updates to Web Platform features.",
+      "categories": [
+        "Articles",
+        "news"
+      ]
+    },
+    {
+      "title": "Responsive List of Avatars Using Modern CSS (Part 1)",
+      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-1/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-15T16:19:23.000Z",
+      "description": "Creating overlapping, rounded images that adapt dynamically to container size, maintaining a classic yet responsive avatar layout.",
+      "categories": [
+        "Articles",
+        "images",
+        "mask"
+      ]
+    },
+    {
+      "title": "Firefox And Safari Now Support Two Core Web Vitals Metrics",
+      "url": "https://www.debugbear.com/blog/firefox-safari-web-vitals",
+      "author": "DebugBear",
+      "pubDate": "2025-12-15T00:00:00.000Z",
+      "description": "Firefox and Safari now support LCP and INP Core Web Vitals metrics, offering deeper insights into real user experience.",
+      "categories": []
+    },
+    {
+      "title": "Agentic Design Systems in 2026",
+      "url": "https://bradfrost.com/blog/post/agentic-design-systems-in-2026/",
+      "author": "Brad Frost",
+      "pubDate": "2025-12-16T20:01:44.000Z",
+      "description": "A look into how Design Systems combined with AI (DS+AI) can enhance development workflows, showcased through a discussion with the Storybook team.",
+      "categories": []
+    },
+    {
+      "title": "Exploring Multi-Brand Systems with Tokens and Composability",
+      "url": "https://frontendmasters.com/blog/exploring-multi-brand-systems-with-tokens-and-composability/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-19T16:59:44.000Z",
+      "description": "Discover how a highly flexible Card component leverages customizable properties, props, and slots to adapt seamlessly to various design needs. Unlock the power of easy modifications for dynamic, reusable UI elements.",
+      "categories": [
+        "Blog Post",
+        "Design",
+        "Design Systems",
+        "Vue",
+        "Web Components"
+      ]
+    },
+    {
+      "title": "Different Page Transitions For Different Circumstances",
+      "url": "https://frontendmasters.com/blog/different-page-transitions-for-different-circumstances/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-17T01:40:39.000Z",
+      "description": "Exploring how JavaScript can detect view transitions, assign specific types, and trigger CSS to create context-aware visual effects during navigation or state changes.",
+      "categories": [
+        "Blog Post"
+      ]
+    },
+    {
+      "title": "Simon Willison on delivering AI generated code (#note)",
+      "url": "https://www.stefanjudis.com/notes/simon-willison-on-delivering-ai-generated-code/",
+      "author": "Stefan Judis",
+      "pubDate": "2025-12-18T23:00:00.000Z",
+      "description": "Reflecting on the importance of delivering proven, tested code and the fading pride in craftsmanship within the developer community. Highlights concerns over untested PRs, AI shortcuts, and the loss of enthusiasm for mastering skills.",
+      "categories": []
+    },
+    {
+      "title": "🦄 Explainable AI is (often) misleading in chat UX",
+      "url": "https://unicornclub.dev/newsletters/2025-12-17-explainable-ai-is-often-misleading-in-chat-ux/",
+      "author": "Unicorn Club",
+      "pubDate": "2025-12-17T10:00:00.000Z",
+      "description": "When UI fails to clearly indicate limits or verify citations, it silently allows errors to go unnoticed, undermining trust and accuracy in user interactions.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the art of crafting engaging user interfaces as we explore responsive curved animations, dynamic Toon Text titles with SVG, and vibrant gradient styles. Uncover the potential of the new CSS `grid-lanes` property for Pinterest-style layouts, and enhance your workflow with a Raycast extension for CSS-Tricks. Embrace dynamic designs with circular image arrangements, explore the synergy of Design Systems with AI, and learn how JavaScript can create context-aware transitions. Stay updated with the latest in CSS news and Web Platform features, and reflect on the importance of tested, reliable code in fostering trust in user interactions.",
+  "joke": "Why did the developer go broke? Because they kept using margin and padding instead of saving!",
+  "challenge": "Create a mesmerizing interactive particle animation using the HTML Canvas API. The particles should respond to mouse movements, changing colors and directions as they hover over different parts of the canvas. Incorporate native HTML controls to adjust particle size and speed, offering a dynamic and engaging visual experience. Feel free to enhance the interactivity with CSS transitions or JavaScript for a polished touch."
+}
