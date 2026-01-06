@@ -1,0 +1,161 @@
+{
+  "no": 38,
+  "pubDate": "2026-01-04T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Efecto: Building Real-Time ASCII and Dithering Effects with WebGL Shaders",
+      "url": "https://tympanus.net/codrops/2026/01/04/efecto-building-real-time-ascii-and-dithering-effects-with-webgl-shaders/",
+      "author": "Codrops",
+      "pubDate": "2026-01-04T14:13:36.000Z",
+      "description": "Discover how real-time shaders breathe life into classic image algorithms and CRT-inspired visuals on the web, blending nostalgia with modern graphics techniques.",
+      "categories": [
+        "Articles",
+        "ASCII",
+        "Dithering",
+        "shader",
+        "tool",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "Frequency Breathwork: Translating the Invisible Rhythm of Breath into Digital Form",
+      "url": "https://tympanus.net/codrops/2025/12/29/frequency-breathwork-translating-the-invisible-rhythm-of-breath-into-digital-form/",
+      "author": "Codrops",
+      "pubDate": "2025-12-29T13:42:53.000Z",
+      "description": "Explore how concept, motion, sound, and code merge to create a website that not only presents breathwork but embodies the experience itself.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "How To Design For (And With) Deaf People",
+      "url": "https://smashingmagazine.com/2025/12/how-design-for-with-deaf-people/",
+      "author": "Vitaly Friedman",
+      "pubDate": "2025-12-30T10:00:00.000Z",
+      "description": "Essential UX tips for designing inclusive experiences for 466 million people with hearing loss, complemented by friendly video courses on smart interface design patterns.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/how-design-for-with-deaf-people/how-design-for-with-deaf-people.jpg"
+    },
+    {
+      "title": "What’s !important #2: Conditional View Transitions, CSS/SVG Text Effects, the Best of CSS Bluesky, and More",
+      "url": "https://css-tricks.com/whats-important-2/",
+      "author": "CSS-Tricks",
+      "pubDate": "2025-12-31T16:18:23.000Z",
+      "description": "Recap the latest CSS highlights from the past two weeks – conditional view transitions, SVG text effects, CSS Bluesky updates, and more, as we gear up for 2026.",
+      "categories": [
+        "Articles",
+        "news"
+      ]
+    },
+    {
+      "title": "A first look at the Web Install API",
+      "url": "https://frontendmasters.com/blog/a-first-look-at-the-web-install-api/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-02T12:55:23.000Z",
+      "description": "The Web Install API has entered Origin Trial in Chromium, with promising progress in Microsoft Edge beta – an exciting step toward easier web app installation.",
+      "categories": [
+        "The Beat",
+        "PWA",
+        "Web Install API"
+      ]
+    },
+    {
+      "title": "!important and CSS Custom Properties",
+      "url": "https://frontendmasters.com/blog/important-and-css-custom-properties/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-01T16:20:06.000Z",
+      "description": "Clarifying CSS: the `!important` declaration applies to the entire rule, not just the value, ensuring higher specificity for style overrides.",
+      "categories": [
+        "Blog Post",
+        "!important",
+        "CSS",
+        "Custom Properties"
+      ]
+    },
+    {
+      "title": "Preserve State While Moving Elements in the DOM",
+      "url": "https://frontendmasters.com/blog/preserve-state-while-moving-elements-in-the-dom/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-31T23:03:28.000Z",
+      "description": "JavaScript’s `Node.prototype.moveBefore` offers a powerful way to reorder DOM elements without losing their state, keeping event listeners and animations intact.",
+      "categories": [
+        "The Beat",
+        "JavaScript",
+        "moveBefore"
+      ]
+    },
+    {
+      "title": "How I Write Custom Elements with lit-html",
+      "url": "https://frontendmasters.com/blog/custom-elements-with-lit-html/",
+      "author": "Frontend Masters",
+      "pubDate": "2025-12-29T14:11:35.000Z",
+      "description": "Use a subset of Lit to build web components with Light DOM, leveraging core features while maintaining simplicity and flexibility.",
+      "categories": [
+        "Blog Post",
+        "JavaScript",
+        "Lit",
+        "Web Components"
+      ]
+    },
+    {
+      "title": "2026 deserves proactive accessibility governance",
+      "url": "https://cerovac.com/a11y/2025/12/2026-deserves-proactive-accessibility-governance/",
+      "author": "Bogdan Cerovac",
+      "pubDate": "2025-12-31T17:25:13.000Z",
+      "description": "Proper processes and governance are key to preventing regressions, especially in accessibility, where fixing bugs can inadvertently introduce new issues.",
+      "categories": [
+        "Accessibility in organizations",
+        "AI and A11Y",
+        "Future of A11y",
+        "Laws and regulations",
+        "AI",
+        "ATAG",
+        "compliance",
+        "conformance",
+        "Cross-platform mobile development",
+        "EAA",
+        "Flutter",
+        "governance",
+        "LLM",
+        "React Native",
+        "WCAG"
+      ]
+    },
+    {
+      "title": "21 Lessons From 14 Years at Google",
+      "url": "https://addyosmani.com/blog/21-lessons/",
+      "author": "Addy Osmani",
+      "pubDate": "2026-01-03T00:00:00.000Z",
+      "description": "Insights from 14 years at Google reveal what truly matters in engineering – beyond just writing great code, focusing on impactful practices and long-term thinking.",
+      "categories": []
+    },
+    {
+      "title": "The future of agentic coding: conductors to orchestrators",
+      "url": "https://addyosmani.com/blog/future-agentic-coding/",
+      "author": "Addy Osmani",
+      "pubDate": "2026-01-02T00:00:00.000Z",
+      "description": "AI coding assistants are now essential tools for most developers, transforming the way software is built. A new development paradigm is emerging, reshaping coding workflows and collaboration in the software industry.",
+      "categories": []
+    },
+    {
+      "title": "The Efficiency Paradox: Why Making Software Easier to Write Means We'll Write Exponentially More",
+      "url": "https://addyosmani.com/blog/the-efficiency-paradox/",
+      "author": "Addy Osmani",
+      "pubDate": "2025-12-29T00:00:00.000Z",
+      "description": "Making software development easier often leads to exponential growth in output. History shows that increased efficiency uncovers under-invested knowledge work, revealing new opportunities and challenges in managing the expanding scope.",
+      "categories": []
+    },
+    {
+      "title": "A ready-to-use diff component (#note)",
+      "url": "https://www.stefanjudis.com/notes/a-ready-to-use-diff-component/",
+      "author": "Stefan Judis",
+      "pubDate": "2026-01-02T23:00:00.000Z",
+      "description": "Discover @pierre/diffs, an open-source diff and code rendering library built on Shiki. With customizable features, React and Vanilla JS support, and server-side rendering, it’s a promising tool for enhancing code visualization and documentation.",
+      "categories": []
+    }
+  ],
+  "description": "This issue dives into the fusion of nostalgia and modernity with real-time shaders, explores the art of creating immersive web experiences through sound and motion, and highlights essential UX tips for inclusive design. Also featured are CSS updates, the Web Install API's progress, and insights on maintaining code integrity. Discover the power of JavaScript's moveBefore, the simplicity of Lit for web components, and how AI coding assistants are redefining development practices.",
+  "joke": "Why did the JavaScript developer keep running into walls? Because they couldn't handle promises correctly!",
+  "challenge": "Create a dynamic, interactive LED matrix display using HTML, CSS, and JavaScript. The challenge is to allow the user to draw and animate patterns, with the option to save and load their designs. Utilizing the Canvas API, focus on creating smooth animations and an intuitive user interface. Bonus: Implement a feature that allows users to export their animations as GIFs."
+}
