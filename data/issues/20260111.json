@@ -1,0 +1,205 @@
+{
+  "no": 39,
+  "pubDate": "2026-01-11T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "The Spark: Engineering an Immersive, Story-First Web Experience",
+      "url": "https://tympanus.net/codrops/2026/01/09/the-spark-engineering-an-immersive-story-first-web-experience/",
+      "author": "Codrops",
+      "pubDate": "2026-01-09T10:17:23.000Z",
+      "description": "Explore the creation of The Spark – a cinematic, scroll-driven web experience blending storytelling, motion, sound, and performance seamlessly in the browser.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
+      "url": "https://tympanus.net/codrops/2026/01/07/infinite-canvas-building-a-seamless-pan-anywhere-image-space/",
+      "author": "Codrops",
+      "pubDate": "2026-01-07T11:42:54.000Z",
+      "description": "Building an infinite, pannable image canvas with React Three Fiber using chunk-based rendering and performance-focused techniques for smooth exploration.",
+      "categories": [
+        "Tutorials",
+        "canvas",
+        "draggable",
+        "infinite",
+        "React Three Fiber",
+        "scroll",
+        "Three.js",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
+      "url": "https://tympanus.net/codrops/2026/01/05/how-to-create-a-pixel-to-voxel-video-drop-effect-with-three-js-and-rapier/",
+      "author": "Codrops",
+      "pubDate": "2026-01-05T12:00:49.000Z",
+      "description": "Voxelizing video pixels into a 3D physics world with Three.js, shaders, and Rapier – an immersive approach to video manipulation.",
+      "categories": [
+        "Tutorials",
+        "3D",
+        "physics",
+        "rapier",
+        "Three.js",
+        "video",
+        "WebGL"
+      ]
+    },
+    {
+      "title": "4 CSS Features Every Front-End Developer Should Know In 2026",
+      "url": "https://nerdy.dev/4-css-features-every-front-end-developer-should-know-in-2026?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2026-01-07T07:01:00.000Z",
+      "description": "Essential CSS features shipped in 2025, including scroll querying, whitespace trimming, sibling-based staggering, and type-safe attributes – key tools for modern front-end development.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/4-css-features-for-2026.jpg"
+    },
+    {
+      "title": "Future CSS: :drag (and Maybe ::dragged-image?)",
+      "url": "https://css-tricks.com/future-css-drag-and-maybe-dragged-image/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-07T15:16:47.000Z",
+      "description": "Future CSS ideas for styling elements during drag interactions, with insights into potential solutions like :drag and ::dragged-image.",
+      "categories": [
+        "Articles",
+        "csswg",
+        "pseudo classes"
+      ]
+    },
+    {
+      "title": "What's New in WebGPU (Chrome 144)",
+      "url": "https://developer.chrome.com/blog/new-in-webgpu-144?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2026-01-07T08:00:00.000Z",
+      "description": "Updates on WGSL’s subgroup_id and uniform_buffer_standard_layout extensions, plus WebGPU’s progress on Linux.",
+      "categories": []
+    },
+    {
+      "title": "What's new in DevTools, Chrome 144",
+      "url": "https://developer.chrome.com/blog/new-in-devtools-144?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2026-01-06T08:00:00.000Z",
+      "description": "Highlights from Chrome DevTools: MCP server, request throttling, adopted stylesheets, and key 2025 features.",
+      "categories": []
+    },
+    {
+      "title": "We Fixed A 6-Year-Old JavaScript Memory Leak",
+      "url": "https://www.debugbear.com/blog/javascript-memory-leak",
+      "author": "DebugBear",
+      "pubDate": "2026-01-05T00:00:00.000Z",
+      "description": "Diagnosing and fixing a lodash memoize memory leak causing crashes in Google Cloud Functions – an example of troubleshooting performance issues.",
+      "categories": []
+    },
+    {
+      "title": "Web dependencies are broken. Can we fix them?",
+      "url": "https://lea.verou.me/blog/2026/web-deps/",
+      "author": "Lea Verou",
+      "pubDate": "2026-01-07T00:00:00.000Z",
+      "description": "Debunking the npm security rant – celebrating dependencies as vital, reusable building blocks in modern ecosystems, and criticizing the myth of dependency-free code.",
+      "categories": []
+    },
+    {
+      "title": "Beyond the Mouse: Animating with Mobile Accelerometers",
+      "url": "https://frontendmasters.com/blog/beyond-the-mouse-animating-with-mobile-accelerometers/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-09T13:24:47.000Z",
+      "description": "Creating a 3D tilt effect on hover – adapting it for mobile by using the phone’s sensors instead of a cursor for an engaging interaction.",
+      "categories": [
+        "Blog Post",
+        "Accelerometer",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Popover Context Menus with Anchor Positioning",
+      "url": "https://frontendmasters.com/blog/popover-context-menus-with-anchor-positioning/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-08T17:13:43.000Z",
+      "description": "Enhancing context menus with smooth animations and smart positioning to prevent cutoff, creating a more polished user experience.",
+      "categories": [
+        "Blog Post",
+        "Anchor",
+        "CSS",
+        "Menu"
+      ]
+    },
+    {
+      "title": "React has changed, your Hooks should too",
+      "url": "https://frontendmasters.com/blog/react-has-changed-your-hooks-should-too/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-08T01:23:41.000Z",
+      "description": "Exploring common patterns in React Hooks usage, highlighting opportunities to improve code clarity and reduce repetitive practices.",
+      "categories": [
+        "The Beat",
+        "Performance",
+        "React",
+        "React Hooks"
+      ]
+    },
+    {
+      "title": "RSCs",
+      "url": "https://frontendmasters.com/blog/rscs/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-06T22:28:58.000Z",
+      "description": "React Server Components are widely used, especially within Next.js, often without users realizing it – offering benefits in performance and bundle size.",
+      "categories": [
+        "The Beat",
+        "JavaScript",
+        "React",
+        "RSCs"
+      ]
+    },
+    {
+      "title": "How to @scope CSS Now That It’s Baseline",
+      "url": "https://frontendmasters.com/blog/how-to-scope-css-now-that-its-baseline/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-05T17:46:37.000Z",
+      "description": "Discover techniques to declare scoped styles on specific selectors, down to nested elements, or globally – improving CSS modularity and control.",
+      "categories": [
+        "Blog Post",
+        "@scope",
+        "CSS"
+      ]
+    },
+    {
+      "title": "AI writes code faster. Your job is still to prove it works.",
+      "url": "https://addyosmani.com/blog/code-review-ai/",
+      "author": "Addy Osmani",
+      "pubDate": "2026-01-07T00:00:00.000Z",
+      "description": "AI has clarified the code review process by emphasizing evidence-based validation through manual checks and automated tests, enhancing accountability.",
+      "categories": []
+    },
+    {
+      "title": "Death to Scroll Fade!",
+      "url": "https://dbushell.com/2026/01/09/death-to-scroll-fade/",
+      "author": "David Bushell",
+      "pubDate": "2026-01-09T15:00:00.000Z",
+      "description": "Scroll fade effects subtly animate elements as they enter the viewport, adding a touch of elegance to web design with minimal distraction.",
+      "categories": []
+    },
+    {
+      "title": "Firefox DevTools hides unreferenced CSS variables (#note)",
+      "url": "https://www.stefanjudis.com/notes/firefox-devtools-unreferenced-css-variables/",
+      "author": "Stefan Judis",
+      "pubDate": "2026-01-09T23:00:00.000Z",
+      "description": "Firefox DevTools now offers a handy feature to declutter CSS variable inspection, making debugging complex styles more manageable.",
+      "categories": []
+    },
+    {
+      "title": "Web Weekly #179 (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/web-weekly-179/",
+      "author": "Stefan Judis",
+      "pubDate": "2026-01-05T23:00:00.000Z",
+      "description": "A look at upcoming CSS features like masonry syntax, dialog enhancements, and @scope – plus a fresh Web Weekly redesign and a community playlist.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the world of innovative web experiences with cinematic storytelling, cutting-edge CSS features, and immersive 3D video manipulation. Explore the magic of scroll-driven designs, pannable image canvases, and voxelized video physics. Stay updated with essential DevTools features, React Hooks optimizations, and trends in modern frontend development. Discover the artistry of creating elegant scroll effects and context menus that enhance user interactions, while future-proofing your skills with insights into upcoming CSS advancements and WebGPU updates.",
+  "joke": "Why did the JavaScript developer go broke? Because he kept trying to make fetch happen.",
+  "challenge": "Create a scroll-driven web experience that tells a story through motion and sound. Use HTML, CSS, and JavaScript to build a page where elements animate into view as the user scrolls. Incorporate audio that plays in sync with the scrolling, and ensure it performs smoothly across different devices. Optionally, use Canvas or WebGL to add visual depth, and consider experimenting with scroll-triggered animations for an engaging, narrative-driven user experience."
+}
