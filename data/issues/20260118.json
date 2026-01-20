@@ -1,0 +1,219 @@
+{
+  "no": 40,
+  "pubDate": "2026-01-18T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Building a Scroll-Driven Dual-Wave Text Animation with GSAP",
+      "url": "https://tympanus.net/codrops/2026/01/15/building-a-scroll-driven-dual-wave-text-animation-with-gsap/",
+      "author": "Codrops",
+      "pubDate": "2026-01-15T13:19:17.000Z",
+      "description": "Exploring scroll-driven sine wave mathematics to create smooth, opposing wave text animations across dual columns, synchronized with image updates for a dynamic visual effect.",
+      "categories": [
+        "Tutorials",
+        "GSAP",
+        "scroll"
+      ]
+    },
+    {
+      "title": "A Site for Sore Eyes: Combining GSAP and Webflow to Showcase Flim",
+      "url": "https://tympanus.net/codrops/2026/01/14/a-site-for-sore-eyes-combining-gsap-and-webflow-to-showcase-flim/",
+      "author": "Codrops",
+      "pubDate": "2026-01-14T12:38:39.000Z",
+      "description": "Breaking down the technical decisions, animations, and interactions behind Flim, a GSAP-powered experience built in Webflow.",
+      "categories": [
+        "Articles",
+        "case study",
+        "GSAP",
+        "Webflow"
+      ]
+    },
+    {
+      "title": "Obys’ Design Books: Turning a Reading List Into a Tactile Web Library",
+      "url": "https://tympanus.net/codrops/2026/01/12/obys-design-books-turning-a-reading-list-into-a-tactile-web-library/",
+      "author": "Codrops",
+      "pubDate": "2026-01-12T13:30:51.000Z",
+      "description": "A case study on how Obys transformed book recommendations into an engaging, animated web library with tactile interactions.",
+      "categories": [
+        "Articles",
+        "case study"
+      ]
+    },
+    {
+      "title": "Smashing Animations Part 8: Theming Animations Using CSS Relative Colour",
+      "url": "https://smashingmagazine.com/2026/01/smashing-animations-part-8-css-relative-colour/",
+      "author": "Andy Clarke",
+      "pubDate": "2026-01-14T10:00:00.000Z",
+      "description": "Practical techniques for using CSS relative color values to theme and animate SVG graphics, supported widely now, as shared by designer Andy Clarke.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/smashing-animations-part-8-css-relative-colour/smashing-animations-part-8-css-relative-colour.jpg"
+    },
+    {
+      "title": "ASCII characters are not pixels: a deep dive into ASCII rendering",
+      "url": "https://alexharri.com/blog/ascii-rendering",
+      "author": "Alex Harri",
+      "pubDate": "2026-01-17T00:00:00.000Z",
+      "description": "Using shape vectors to achieve sharp, high-quality ASCII art rendering in web graphics.",
+      "categories": []
+    },
+    {
+      "title": "HTTP Archive 2025 Web Almanac",
+      "url": "https://css-tricks.com/http-archive-2025-web-almanac/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-16T17:30:43.000Z",
+      "description": "An overview of the latest Web Almanac from HTTP Archive, offering valuable insights into web performance and trends for 2025.",
+      "categories": [
+        "Links",
+        "research"
+      ]
+    },
+    {
+      "title": "“I Heart CSS” DailyDev Squad",
+      "url": "https://css-tricks.com/i-heart-css-dailydev-squad/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-16T14:46:24.000Z",
+      "description": "A look at various ways to follow new content updates, highlighting the importance of RSS, social feeds, and community platforms for staying in the loop.",
+      "categories": [
+        "Links",
+        "news",
+        "resource"
+      ]
+    },
+    {
+      "title": "What’s !important #3: Popover Context Menus, @scope, New Web Platform Features, and More",
+      "url": "https://css-tricks.com/whats-important-3/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-15T15:08:58.000Z",
+      "description": "Highlights from early 2026: new browser releases, web platform features, and insightful articles shaping the developer community’s start to the year.",
+      "categories": [
+        "Articles",
+        "news"
+      ]
+    },
+    {
+      "title": "Playing With CodePen slideVars",
+      "url": "https://css-tricks.com/playing-with-codepen-slidevars/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-14T14:59:07.000Z",
+      "description": "Introducing CodePen’s new slideVars feature, enabling interactive demos with real-time value adjustments directly within embedded UI panels.",
+      "categories": [
+        "Articles"
+      ]
+    },
+    {
+      "title": "Introducing the <geolocation> HTML element",
+      "url": "https://developer.chrome.com/blog/geolocation-html-element?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2026-01-13T08:00:00.000Z",
+      "description": "A new approach to requesting user location data, streamlining privacy and user experience in web applications.",
+      "categories": []
+    },
+    {
+      "title": "Throttle individual network requests",
+      "url": "https://developer.chrome.com/blog/throttle-individual-network-requests?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2026-01-12T14:32:25.000Z",
+      "description": "Learn how to customize network requests in Chrome with URL blocking and resource-specific throttling, enhancing testing and debugging workflows.",
+      "categories": []
+    },
+    {
+      "title": "FedCM updates in Chrome 143",
+      "url": "https://developer.chrome.com/blog/fedcm-chrome-143-updates?hl=en",
+      "author": "developer.chrome.com",
+      "pubDate": "2026-01-12T08:00:00.000Z",
+      "description": "Chrome 143 updates the FedCM API to improve privacy and developer experience, with some changes not compatible with previous versions.",
+      "categories": []
+    },
+    {
+      "title": "Accessible faux-nested interactive controls",
+      "url": "https://piccalil.li/blog/accessible-faux-nested-interactive-controls/?ref=articles-rss-feed",
+      "author": "Piccalilli",
+      "pubDate": "2026-01-15T11:55:00.000Z",
+      "description": "Nesting interactive controls like buttons and links is a accessibility no-no – causing usability issues. Awareness and education are key to avoiding this common mistake.",
+      "categories": []
+    },
+    {
+      "title": "How to Measure and Optimize React Performance",
+      "url": "https://www.debugbear.com/blog/measuring-react-app-performance",
+      "author": "DebugBear",
+      "pubDate": "2026-01-12T00:00:00.000Z",
+      "description": "Discover strategies to measure React app performance, identify bottlenecks, and optimize your application's speed and responsiveness.",
+      "categories": [
+        "React"
+      ]
+    },
+    {
+      "title": "Workshop: Deep Dive on Accessibility Testing",
+      "url": "https://www.matuzo.at/blog/2026/workshop-deep-dive-on-accessibility-testing",
+      "author": "Manuel Matuzovic",
+      "pubDate": "2026-01-13T13:45:00.000Z",
+      "description": "Join a comprehensive workshop on web accessibility testing, covering tools, manual and automatic testing, screen readers, and testing SPAs for inclusive web experiences.",
+      "categories": []
+    },
+    {
+      "title": "Better defaults for popovers",
+      "url": "https://www.matuzo.at/blog/2026/better-defaults-for-popovers",
+      "author": "Manuel Matuzovic",
+      "pubDate": "2026-01-16T14:00:00.000Z",
+      "description": "A CSS trick for positioning popovers close to their trigger buttons using anchor positioning and feature queries, ensuring better alignment across browsers.",
+      "categories": []
+    },
+    {
+      "title": "Zod + TypeScript: Schema Validation Made Easy",
+      "url": "https://frontendmasters.com/blog/zod-typescript-schema-validation-made-easy/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-16T17:00:35.000Z",
+      "description": "Understand the differences between TypeScript and Zod for type validation, and when to use each – especially considering runtime data validation needs.",
+      "categories": [
+        "The Beat",
+        "JavaScript",
+        "TypeScript",
+        "Zod"
+      ]
+    },
+    {
+      "title": "The Missing Link for Web Components",
+      "url": "https://frontendmasters.com/blog/the-missing-link-for-web-components/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-15T21:30:23.000Z",
+      "description": "Automate the generation of Custom Elements Manifests for your web components to enable better tooling support, like enhanced VS Code integrations.",
+      "categories": [
+        "Blog Post",
+        "Custom Elements Manifest",
+        "JavaScript",
+        "Language Server",
+        "MCP",
+        "Web Components"
+      ]
+    },
+    {
+      "title": "`document.currentScript` is more useful than I thought.",
+      "url": "https://frontendmasters.com/blog/document-currentscript-is-more-useful-than-i-thought/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-13T03:24:50.000Z",
+      "description": "Access the current `<script>` element within your scripts using `document.currentScript`, allowing dynamic configuration via HTML attributes.",
+      "categories": [
+        "The Beat",
+        "JavaScript"
+      ]
+    },
+    {
+      "title": "Web Weekly #180 (#blogPost)",
+      "url": "https://www.stefanjudis.com/blog/web-weekly-180/",
+      "author": "Stefan Judis",
+      "pubDate": "2026-01-12T23:00:00.000Z",
+      "description": "Explore the latest in web tech, from iterator helpers and scroll-triggered CSS animations to the Temporal API, along with insights from the recent HTML survey.",
+      "categories": []
+    },
+    {
+      "title": "ARIA roles can remove their children’s semantics (#tilPost)",
+      "url": "https://www.stefanjudis.com/today-i-learned/aria-roles-can-remove-their-childrens-semantics/",
+      "author": "Stefan Judis",
+      "pubDate": "2026-01-12T23:00:00.000Z",
+      "description": "Exploring ARIA best practices reveals that using native HTML elements is preferable to adding ARIA roles. Misusing roles like role=\"menu\" on navigation lists can cause confusion, as menus are meant for action-triggering overlays, not simple navigation. Proper semantics enhance accessibility and user experience.",
+      "categories": []
+    }
+  ],
+  "description": "Dive into the world of web animations and interactivity with insights into GSAP-powered projects and dynamic SVG theming. Discover the power of CSS relative color values for vibrant graphics, explore the intricacies of web accessibility, and get up to speed with the latest browser features. Uncover new tools and practices for optimizing web performance, enhancing privacy, and streamlining user experiences, alongside updates on modern web development trends and techniques.",
+  "joke": "Why did the JavaScript developer go broke? Because he kept encountering NaN.",
+  "challenge": "Create a dynamic and interactive dual-column layout where text waves smoothly with scroll, synchronized with changing background images. Use HTML, CSS, and JavaScript to achieve this visually captivating effect. Optionally, incorporate native APIs or WebGL for enhanced animations and transitions, ensuring the experience is smooth and responsive across devices."
+}
