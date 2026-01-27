@@ -1,0 +1,147 @@
+{
+  "no": 41,
+  "pubDate": "2026-01-25T23:59:59.999Z",
+  "articles": [
+    {
+      "title": "Animating Responsive Grid Layout Transitions with GSAP Flip",
+      "url": "https://tympanus.net/codrops/2026/01/20/animating-responsive-grid-layout-transitions-with-gsap-flip/",
+      "author": "Codrops",
+      "pubDate": "2026-01-20T11:57:02.000Z",
+      "description": "Using GSAP’s Flip plugin to animate fluid grid layout changes, enabling seamless resizing and rearrangement of grid items with smooth, dynamic transitions.",
+      "categories": [
+        "Tutorials",
+        "grid",
+        "GSAP"
+      ]
+    },
+    {
+      "title": "Rethinking “Pixel Perfect” Web Design",
+      "url": "https://smashingmagazine.com/2026/01/rethinking-pixel-perfect-web-design/",
+      "author": "Amit Sheen",
+      "pubDate": "2026-01-20T10:00:00.000Z",
+      "description": "Examining the flaws of the “Pixel Perfect” mindset, redefining what true visual quality means across multiple devices and fluid layouts in modern web design.",
+      "categories": [],
+      "img": "http://files.smashing.media/articles/rethinking-pixel-perfect-web-design/rethinking-pixel-perfect-web-design.jpg"
+    },
+    {
+      "title": "Anchor Interpolated Morph (AIM)",
+      "url": "https://nerdy.dev/anchor-interpolated-morphing?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2026-01-23T17:04:10.000Z",
+      "description": "Discover CSS techniques for natural animations originating near trigger points, utilizing anchor(), anchor-size(), @starting-style, and interpolate-size for interruptible, contextual transitions without JavaScript.",
+      "categories": [
+        "blog",
+        "css"
+      ],
+      "img": "https://nerdy.dev/media/aim-ditto.jpg"
+    },
+    {
+      "title": "Custom Media",
+      "url": "https://nerdy.dev/custom-media?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2026-01-23T04:46:28.000Z",
+      "description": "Firefox Nightly now supports @custom-media behind a flag, enabling more flexible, readable media queries with syntax like --motionOK and prefers-reduced-motion, thanks to Open Props.",
+      "categories": [
+        "note",
+        "css"
+      ]
+    },
+    {
+      "title": "Overscroll Effects On Nested Scrollers In All Browsers",
+      "url": "https://nerdy.dev/overscroll-effects-on-nested-scrollers-in-all-browsers?utm_source=rss",
+      "author": "Adam Argyle",
+      "pubDate": "2026-01-21T04:20:31.000Z",
+      "description": "Chrome 145 introduces overscroll effects on nested scrollers, providing a smooth, bounce-like UX similar to the main page – eliminating harsh edges and enhancing scroll interactions.",
+      "categories": [
+        "note",
+        "css"
+      ]
+    },
+    {
+      "title": "Responsive Hexagon Grid Using Modern CSS",
+      "url": "https://css-tricks.com/responsive-hexagon-grid-using-modern-css/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-23T14:39:56.000Z",
+      "description": "Temani updates his responsive hexagon grid with modern CSS features, reducing magic numbers and creating a cleaner, more maintainable layout using contemporary techniques.",
+      "categories": [
+        "Articles",
+        "CSS functions",
+        "math",
+        "shapes"
+      ]
+    },
+    {
+      "title": "Open Props @custom-media Recipes",
+      "url": "https://css-tricks.com/open-props-custom-media-recipes/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-23T13:00:00.000Z",
+      "description": "The @custom-media at-rule has landed in Firefox Nightly, offering more dynamic media queries – currently behind a feature flag, but promising for future flexible styling.",
+      "categories": [
+        "Links",
+        "at-rules",
+        "media queries"
+      ]
+    },
+    {
+      "title": "I Learned The First Rule of ARIA the Hard Way",
+      "url": "https://css-tricks.com/i-learned-the-first-rule-of-aria-the-hard-way/",
+      "author": "CSS-Tricks",
+      "pubDate": "2026-01-21T17:51:30.000Z",
+      "description": "Semantic HTML plays a crucial role in accessibility, often overlooked; ARIA should be used thoughtfully, avoiding shortcuts that can lead to confusion or misuse.",
+      "categories": [
+        "Articles",
+        "accessibility",
+        "aria",
+        "semantics"
+      ]
+    },
+    {
+      "title": "Improve React Performance With useMemo And useCallback",
+      "url": "https://www.debugbear.com/blog/react-usememo-usecallback",
+      "author": "DebugBear",
+      "pubDate": "2026-01-23T00:00:00.000Z",
+      "description": "Optimize React performance with useMemo and useCallback by understanding when memoization is effective, avoiding common pitfalls, and applying best practices from real-world guidelines.",
+      "categories": []
+    },
+    {
+      "title": "How To Diagnose Lighthouse Score Discrepancies Between Tools",
+      "url": "https://www.debugbear.com/blog/lighthouse-score-discrepancies",
+      "author": "DebugBear",
+      "pubDate": "2026-01-21T00:00:00.000Z",
+      "description": "Explore why Lighthouse scores vary across tools like PageSpeed Insights and Chrome DevTools, and learn effective strategies to diagnose and resolve these discrepancies.",
+      "categories": []
+    },
+    {
+      "title": "Lowering the specificity of multiple rules at once",
+      "url": "https://www.matuzo.at/blog/2026/lowering-specificity-of-multiple-rules",
+      "author": "Manuel Matuzovic",
+      "pubDate": "2026-01-20T15:00:00.000Z",
+      "description": "Exploring the power of :where() to reduce selector specificity across multiple rules, enhancing CSS consistency. Discover how wrapping selectors in :where() can improve usability, though it may impact readability, and how @layer can offer an alternative approach.",
+      "categories": []
+    },
+    {
+      "title": "View Transitions & Playing Video",
+      "url": "https://frontendmasters.com/blog/view-transitions-playing-video/",
+      "author": "Frontend Masters",
+      "pubDate": "2026-01-20T17:03:38.000Z",
+      "description": "Discover the possibilities and limitations of keeping videos playing seamlessly during view transitions. While mostly feasible, some challenges remain depending on implementation.",
+      "categories": [
+        "Blog Post",
+        "JavaScript",
+        "Video",
+        "View Transitions"
+      ]
+    },
+    {
+      "title": "🏎️ Speed is cheap. Trust gaps cost months",
+      "url": "https://unicornclub.dev/newsletters/2026-01-21-speed-is-cheap-trust-gaps-cost-months/",
+      "author": "Unicorn Club",
+      "pubDate": "2026-01-21T10:00:00.000Z",
+      "description": "Using intent cards to select the optimal AI interface, complemented by a concise audit and risk-focused QA process for smarter AI integration.",
+      "categories": []
+    }
+  ],
+  "description": "Explore the delicate balance between creativity and precision in frontend development. Delve into dynamic animations with GSAP's Flip plugin for fluid grid transitions, and redefine visual quality beyond pixel perfection. Embrace new CSS techniques for natural animations near trigger points, and enhance media queries with @custom-media in Firefox. Discover the smooth scrolling updates in Chrome 145 and refined responsive layouts with modern CSS. Semantic HTML's role in accessibility, optimizing React performance, and understanding Lighthouse score discrepancies also take the spotlight, offering developers a comprehensive toolkit for modern challenges.",
+  "joke": "Why did the JavaScript developer keep running into walls? They didn't know how to handle promises.",
+  "challenge": "Create a dynamic photo gallery that reacts to user interactions. Using HTML, CSS, and JavaScript, implement a grid layout where images can be resized and rearranged fluidly using GSAP's Flip plugin or a similar animation library. Add interactive features such as hover effects and smooth transitions between different view modes (e.g., grid, list, carousel). Optionally, incorporate CSS techniques like @custom-media to ensure responsive design, and test accessibility features with semantic HTML elements to enhance the user experience."
+}
